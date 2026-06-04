@@ -38,7 +38,7 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 3. 📋 Scroll the table below — newest jobs are at the top.
 4. 🛂 Look for the **✅ Sponsors** tag, then hit **Apply**.
 
-<sub>🔄 Last updated: **2026-06-04 01:38 PM ET** • Total roles tracked: **92** • Open now: **91** • 🆕 Added today: **47**</sub>
+<sub>🔄 Last updated: **2026-06-04 02:53 PM ET** • Total roles tracked: **92** • Open now: **91** • 🆕 Added today: **47**</sub>
 
 **Legend:** 🔥 NEW = added in the latest update (older jobs lose this automatically) • ✅ Sponsors = recent H1B filing history • 🔒 = no longer listed • Posted = how long ago the company posted it • Match % = how strong a fit the role is.
 
@@ -105,7 +105,7 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 |  | Affirm | Machine Learning Engineer II (Servicing ML) | Remote US | ✅ Sponsors (High) | **88%** | 3d ago | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/affirm/jobs/7719651003) |
 |  | Lyft | Machine Learning Engineer, Lyft Business | New York, NY | ✅ Sponsors (High) | **88%** | today | June 03, 2026 | Open | [Apply](https://app.careerpuck.com/job-board/lyft/job/8513769002?gh_jid=8513769002) |
 |  | Pinterest | Software Engineer II, Simulation, tvScientific | San Francisco, CA, US | ✅ Sponsors (High) | **84%** | 1d ago | June 03, 2026 | Open | [Apply](https://www.pinterestcareers.com/jobs/?gh_jid=7642265) |
-|  | Robinhood | Software Engineer | Menlo Park, CA | ✅ Sponsors (High) | **76%** | today | June 03, 2026 | Open | [Apply](https://boards.greenhouse.io/robinhood/jobs/7975529?t=gh_src=&gh_jid=7975529) |
+|  | Robinhood | Software Engineer | Menlo Park, CA | ✅ Sponsors (High) | **76%** | today | June 03, 2026 | Open | [Apply](https://boards.greenhouse.io/robinhood/jobs/7975530?t=gh_src=&gh_jid=7975530) |
 |  | Affirm | Analyst I, Full Stack (Core Analytics) | Remote US | ✅ Sponsors (High) | **76%** | 1d ago | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/affirm/jobs/7726627003) |
 |  | Pinterest | Software Engineer I, Backend | Seattle, WA, US | ✅ Sponsors (High) | **76%** | 1d ago | June 03, 2026 | Open | [Apply](https://www.pinterestcareers.com/jobs/?gh_jid=6816337) |
 |  | Datadog | Software Engineer II, Enterprise Engineering | New York, New York, USA | ✅ Sponsors (High) | **76%** | today | June 03, 2026 | Open | [Apply](https://careers.datadoghq.com/detail/7980350/?gh_jid=7980350) |
