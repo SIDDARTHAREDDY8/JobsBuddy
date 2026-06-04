@@ -45,12 +45,21 @@ def scrape_lever(slug, company):
     out = []
     for j in data:
         cats = j.get("categories", {}) or {}
+        # Lever keeps the intro in description, but the REQUIREMENTS /
+        # RESPONSIBILITIES bullets live in `lists` -> must include them,
+        # otherwise we can't see things like "4+ years of experience".
+        parts = [j.get("descriptionPlain", "") or j.get("description", "")]
+        for lst in j.get("lists", []) or []:
+            parts.append(lst.get("text", ""))      # section heading
+            parts.append(lst.get("content", ""))   # the bullets (HTML)
+        parts.append(j.get("additionalPlain", "") or j.get("additional", ""))
+        full = " ".join(p for p in parts if p)
         out.append({
             "company": company,
             "title": j.get("text", ""),
             "location": cats.get("location", ""),
             "url": j.get("hostedUrl", ""),
-            "description": _strip_html(j.get("descriptionPlain", "") or j.get("description", "")),
+            "description": _strip_html(full),
             "posted_at": "",
             "source": "lever",
         })

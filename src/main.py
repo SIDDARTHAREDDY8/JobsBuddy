@@ -109,6 +109,7 @@ def main():
             archive[k]["last_seen"] = today
             archive[k]["url"] = j["url"]
             archive[k]["location"] = j["location"]
+            archive[k]["description"] = j.get("description", "")  # refresh full text
             archive[k]["open"] = True
             archive[k]["age_days"] = j.get("age_days")
             archive[k]["fresh"] = j.get("fresh", False)
