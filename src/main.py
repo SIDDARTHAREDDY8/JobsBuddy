@@ -8,7 +8,10 @@ today's date. Old jobs stay. The README lists everything, newest day on top.
 import json
 import os
 import hashlib
-from datetime import datetime, timezone
+from datetime import datetime
+from zoneinfo import ZoneInfo
+
+ET = ZoneInfo("America/New_York")
 
 from scrape import scrape_all
 from filter import filter_jobs
@@ -77,7 +80,7 @@ def main():
     print(f"   de-duped {before} -> {len(jobs)} unique roles")
 
     print("⑤ Updating the accumulating archive...")
-    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    today = datetime.now(ET).strftime("%Y-%m-%d")
     archive = _load(os.path.join("data", "jobs.json"), {})  # {key: job}
 
     new_count = 0

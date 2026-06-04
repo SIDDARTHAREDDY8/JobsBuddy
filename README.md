@@ -36,7 +36,7 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 3. 📋 Scroll the table below — newest jobs are at the top.
 4. 🛂 Look for the **✅ Sponsors** tag, then hit **Apply**.
 
-<sub>🔄 Last updated: **2026-06-04 16:01 UTC** • Total roles tracked: **220** • Open now: **219** • 🆕 Added today: **220**</sub>
+<sub>🔄 Last updated: **2026-06-04 12:11 PM ET** • Total roles tracked: **220** • Open now: **219** • 🆕 Added today: **220**</sub>
 
 **Legend:** ✅ Sponsors = recent H1B filing history • 🆕 = added today • 🔒 = no longer listed (kept for history) • Match % = how strong a fit the role is.
 

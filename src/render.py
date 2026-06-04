@@ -3,7 +3,10 @@ Station 5: WRITE PAGE  (accumulating archive)
 Lists EVERY job ever found, grouped by the date it was added.
 Newest day on top, older days below. Within a day: sponsors + best match first.
 """
-from datetime import datetime, timezone
+from datetime import datetime
+from zoneinfo import ZoneInfo
+
+ET = ZoneInfo("America/New_York")
 
 BADGE = {"high": "✅ Sponsors (High)", "medium": "✅ Sponsors (Med)", "low": "✅ Sponsors (Low)"}
 
@@ -22,7 +25,7 @@ def _within_day_sort(j):
 
 
 def render_readme(jobs, profile, today):
-    now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    now = datetime.now(ET).strftime("%Y-%m-%d %I:%M %p ET")
     total = len(jobs)
     open_now = sum(1 for j in jobs if j.get("open", True))
     new_today = sum(1 for j in jobs if j.get("first_seen") == today)
