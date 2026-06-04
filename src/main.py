@@ -157,6 +157,18 @@ def main():
     with open(os.path.join(HERE, "index.html"), "w") as f:
         f.write(render_html(snapshot, profile, today))
 
+    # SEO: sitemap + robots so search engines crawl the site
+    site = "https://siddarthareddy8.github.io/JobsBuddy/"
+    with open(os.path.join(HERE, "sitemap.xml"), "w") as f:
+        f.write('<?xml version="1.0" encoding="UTF-8"?>\n'
+                '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+                f'  <url><loc>{site}</loc><lastmod>{today}</lastmod>'
+                '<changefreq>daily</changefreq><priority>1.0</priority></url>\n'
+                '</urlset>\n')
+    with open(os.path.join(HERE, "robots.txt"), "w") as f:
+        f.write("User-agent: *\nAllow: /\n"
+                f"Sitemap: {site}sitemap.xml\n")
+
     with open(os.path.join(HERE, "data", "jobs.json"), "w") as f:
         json.dump(archive, f, indent=2)
 

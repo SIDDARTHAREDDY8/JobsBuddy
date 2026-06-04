@@ -6,8 +6,10 @@ Every "Apply" opens in a NEW TAB (target=_blank), which a README cannot do.
 from datetime import datetime
 from zoneinfo import ZoneInfo
 import html
+import json
 
 ET = ZoneInfo("America/New_York")
+SITE_URL = "https://siddarthareddy8.github.io/JobsBuddy/"
 TIER_LABEL = {"high": "High", "medium": "Med", "low": "Low"}
 
 
@@ -73,7 +75,38 @@ def render_html(jobs, profile, today):
 </tr>""")
 
     return _PAGE.format(now=now, total=total, open_now=open_now,
-                        new_today=new_today, sponsor_n=sponsor_n, rows="\n".join(rows))
+                        new_today=new_today, sponsor_n=sponsor_n, site=SITE_URL,
+                        rows="\n".join(rows), jsonld=_build_jsonld(jobs))
+
+
+def _build_jsonld(jobs):
+    """Structured data so Google can index the listings (Google for Jobs)."""
+    items = []
+    # cap to open, sponsor-friendly jobs to keep the page light
+    listed = [j for j in jobs if j.get("open", True)][:120]
+    for i, j in enumerate(listed, 1):
+        posting = {
+            "@context": "https://schema.org/",
+            "@type": "JobPosting",
+            "title": j.get("title", ""),
+            "description": (f"{j.get('title','')} at {j.get('company','')}. "
+                            f"US-based, visa-sponsor-friendly, early-career role. "
+                            f"{(j.get('description','') or '')[:300]}"),
+            "datePosted": j.get("first_seen", ""),
+            "employmentType": "FULL_TIME",
+            "hiringOrganization": {"@type": "Organization", "name": j.get("company", "")},
+            "jobLocation": {"@type": "Place", "address": {
+                "@type": "PostalAddress",
+                "addressLocality": (j.get("location", "") or "United States").split(",")[0],
+                "addressCountry": "US"}},
+            "directApply": True,
+            "url": j.get("url", ""),
+        }
+        items.append({"@type": "ListItem", "position": i, "item": posting})
+    graph = {"@context": "https://schema.org/", "@type": "ItemList",
+             "name": "OPT-friendly visa-sponsoring tech jobs", "itemListElement": items}
+    return ('<script type="application/ld+json">'
+            + json.dumps(graph, ensure_ascii=False) + '</script>')
 
 
 def _pretty(d):
@@ -88,8 +121,22 @@ _PAGE = """<!DOCTYPE html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>JobsBuddy — Visa-Sponsoring Tech Jobs for International Students</title>
-<meta name="description" content="An auto-updated board of US, OPT-friendly, visa-sponsoring Software, AI & Data jobs for international students. Free and open-source.">
+<title>JobsBuddy — Visa Sponsorship Jobs for International Students (OPT / H-1B) | SWE, AI, Data</title>
+<meta name="description" content="Free, auto-updated job board of US visa-sponsoring tech jobs for international students on OPT. Software Engineer, AI/ML, Full-Stack & Data Engineer roles from companies with H-1B sponsorship history. Updated daily.">
+<meta name="keywords" content="visa sponsorship jobs, H1B jobs, OPT jobs, international student jobs, companies that sponsor H1B, software engineer visa sponsorship, new grad jobs sponsorship, entry level tech jobs sponsor, AI engineer jobs, data engineer jobs, CPT OPT jobs, STEM OPT jobs USA">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="author" content="Siddartha Reddy Chinthala">
+<link rel="canonical" href="{site}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{site}">
+<meta property="og:title" content="JobsBuddy — Visa-Sponsoring Tech Jobs for International Students">
+<meta property="og:description" content="Free, auto-updated board of US visa-sponsoring SWE / AI / Data jobs for international students on OPT. Updated daily.">
+<meta property="og:site_name" content="JobsBuddy">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="JobsBuddy — Visa-Sponsoring Tech Jobs for International Students">
+<meta name="twitter:description" content="Free, auto-updated board of US visa-sponsoring SWE / AI / Data jobs for international students on OPT.">
+<meta name="theme-color" content="#000000">
+{jsonld}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
 <style>

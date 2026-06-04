@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://siddarthareddy8.github.io/JobsBuddy/sitemap.xml
