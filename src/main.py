@@ -14,11 +14,12 @@ from zoneinfo import ZoneInfo
 ET = ZoneInfo("America/New_York")
 
 from scrape import scrape_all
-from filter import filter_jobs
+from filter import filter_jobs, role_ok, experience_ok, needs_clearance, location_ok
 from sponsors import load_sponsors, tag_sponsors
 from match import score_all
 from freshness import tag_freshness
 from render import render_readme
+from render_html import render_html
 
 HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -114,10 +115,27 @@ def main():
 
     print(f"   added {new_count} new • {len(archive)} total in archive • {closed} now closed")
 
-    print("⑥ Writing README.md...")
-    readme = render_readme(list(archive.values()), profile, today)
+    # self-heal: purge any archived job that no longer passes current filters
+    # (e.g. mis-included before a filter fix — like a "4+ years" role)
+    bad = []
+    for k, j in archive.items():
+        blob = f"{j.get('title','')} {j.get('description','')}"
+        if (not role_ok(j.get("title", ""), profile)
+                or not experience_ok(blob, profile)
+                or needs_clearance(blob, profile)
+                or not location_ok(j.get("location", ""), profile)):
+            bad.append(k)
+    for k in bad:
+        del archive[k]
+    if bad:
+        print(f"   🧹 purged {len(bad)} jobs that no longer match the filters")
+
+    print("⑥ Writing README.md + index.html (website)...")
+    snapshot = list(archive.values())
     with open(os.path.join(HERE, "README.md"), "w") as f:
-        f.write(readme)
+        f.write(render_readme(snapshot, profile, today))
+    with open(os.path.join(HERE, "index.html"), "w") as f:
+        f.write(render_html(snapshot, profile, today))
 
     with open(os.path.join(HERE, "data", "jobs.json"), "w") as f:
         json.dump(archive, f, indent=2)

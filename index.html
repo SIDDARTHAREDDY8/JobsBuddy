@@ -1,0 +1,2700 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JobsBuddy — Visa-Sponsoring Tech Jobs for International Students</title>
+<meta name="description" content="An auto-updated board of US, OPT-friendly, visa-sponsoring Software, AI & Data jobs for international students. Free and open-source.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--ink:#0a0a0a;--ink2:#3d3d3d;--mut:#777;--line:#e6e6e6;--line2:#111;--bg:#fff;--soft:#fafafa}
+html{-webkit-font-smoothing:antialiased}
+body{background:var(--bg);color:var(--ink);font-family:Inter,-apple-system,Segoe UI,Roboto,sans-serif;font-size:15px;line-height:1.55}
+.mono{font-family:'JetBrains Mono',ui-monospace,monospace}
+a{color:inherit}
+
+/* top nav */
+header.nav{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.9);backdrop-filter:blur(8px);border-bottom:1px solid var(--line2)}
+.nav-in{max-width:1080px;margin:0 auto;padding:14px 22px;display:flex;align-items:center;justify-content:space-between}
+.brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:17px;letter-spacing:-.01em}
+.mark{width:26px;height:26px;border:1.5px solid var(--ink);border-radius:7px;display:grid;place-items:center;font-size:12px;font-weight:800}
+.nav-links{display:flex;gap:8px;align-items:center}
+.btn{font-size:13px;font-weight:600;padding:8px 14px;border-radius:8px;border:1.5px solid var(--ink);text-decoration:none;white-space:nowrap;transition:.12s}
+.btn-solid{background:var(--ink);color:#fff}.btn-solid:hover{background:#fff;color:var(--ink)}
+.btn-ghost:hover{background:var(--ink);color:#fff}
+
+/* hero */
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px}
+.hero{padding:54px 0 30px;border-bottom:1px solid var(--line)}
+.eyebrow{font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--mut)}
+.hero h1{font-size:46px;line-height:1.05;letter-spacing:-.03em;margin:14px 0 14px;max-width:18ch}
+.hero p{font-size:18px;color:var(--ink2);max-width:60ch}
+.metrics{display:flex;gap:0;margin-top:30px;border:1px solid var(--line2);border-radius:12px;overflow:hidden;width:fit-content;max-width:100%;flex-wrap:wrap}
+.metric{padding:16px 26px;border-right:1px solid var(--line)}
+.metric:last-child{border-right:0}
+.metric b{font-size:26px;font-weight:800;letter-spacing:-.02em;display:block}
+.metric span{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--mut)}
+
+/* why strip */
+.why{padding:26px 0;border-bottom:1px solid var(--line);color:var(--ink2);max-width:78ch}
+.why b{color:var(--ink)}
+
+/* controls */
+.controls{position:sticky;top:57px;background:var(--bg);padding:18px 0 10px;z-index:40}
+.search{width:100%;padding:13px 16px;border:1.5px solid var(--ink);border-radius:10px;font-size:15px;font-family:inherit}
+.search::placeholder{color:var(--mut)}
+.hint{font-size:12.5px;color:var(--mut);margin-top:9px;display:flex;gap:18px;flex-wrap:wrap}
+.hint .k{color:var(--ink);font-weight:600}
+
+/* table */
+table{width:100%;border-collapse:collapse}
+thead th{text-align:left;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--mut);font-weight:600;padding:10px 10px;border-bottom:1.5px solid var(--ink);position:sticky;top:116px;background:var(--bg)}
+tbody td{padding:15px 10px;border-bottom:1px solid var(--line);vertical-align:middle}
+tbody tr:hover{background:var(--soft)}
+tr.daysep td{background:var(--ink);color:#fff;font-weight:700;font-size:13px;letter-spacing:.02em;padding:8px 14px;border:0}
+tr.daysep .daycount{float:right;font-weight:500;color:#cfcfcf;font-size:12px}
+.c-co{white-space:nowrap}
+.co{font-weight:700}
+.role{font-weight:500}
+.loc{font-size:12.5px;color:var(--mut);margin-top:2px}
+
+/* tags / pills */
+.tag{display:inline-block;font-size:10.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:3px 8px;border-radius:999px;border:1.5px solid var(--ink);white-space:nowrap}
+.tag-new{background:var(--ink);color:#fff;margin-left:8px}
+.tag-spon{background:#fff;color:var(--ink)}
+.tag-warn{border-style:dashed;color:var(--ink2)}
+.tag-closed{border-color:var(--mut);color:var(--mut);margin-left:6px}
+.muted{color:var(--mut);font-size:12.5px}
+
+/* match bar */
+.c-match{white-space:nowrap}
+.bar{display:inline-block;width:64px;height:6px;background:#ececec;border-radius:999px;overflow:hidden;vertical-align:middle}
+.bar i{display:block;height:100%;background:var(--ink)}
+.pct{font-family:'JetBrains Mono',monospace;font-size:12.5px;font-weight:600;margin-left:9px;vertical-align:middle}
+.c-posted{font-size:13px;color:var(--mut);white-space:nowrap}
+
+/* apply */
+.apply{display:inline-block;font-size:13px;font-weight:700;padding:8px 18px;border-radius:8px;background:var(--ink);color:#fff;text-decoration:none;border:1.5px solid var(--ink);transition:.12s}
+.apply:hover{background:#fff;color:var(--ink)}
+.apply::after{content:" ↗";font-weight:500}
+
+footer{border-top:1px solid var(--line2);margin-top:40px;padding:26px 0 50px;color:var(--mut);font-size:12.5px}
+footer a{font-weight:600}
+@media(max-width:720px){
+  .hero h1{font-size:34px}
+  .c-match,.c-posted{display:none}
+  thead th.h-match,thead th.h-posted{display:none}
+}
+</style>
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-in">
+    <div class="brand"><span class="mark">JB</span> JobsBuddy</div>
+    <div class="nav-links">
+      <a class="btn btn-ghost" href="https://github.com/SIDDARTHAREDDY8/JobsBuddy/subscription" target="_blank" rel="noopener">Watch</a>
+      <a class="btn btn-solid" href="https://github.com/SIDDARTHAREDDY8/JobsBuddy" target="_blank" rel="noopener">★ Star on GitHub</a>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+  <section class="hero">
+    <div class="eyebrow">For international students · OPT / H-1B</div>
+    <h1>Tech jobs from companies that actually sponsor visas.</h1>
+    <p>An auto-updated board of US-based Software, AI &amp; Data roles — filtered to early-career,
+       no security clearance, and only employers with a real H-1B sponsorship history. Free, forever.</p>
+    <div class="metrics">
+      <div class="metric"><b class="mono">280</b><span>Open roles</span></div>
+      <div class="metric"><b class="mono">26</b><span>Added today</span></div>
+      <div class="metric"><b class="mono">281</b><span>Visa sponsors</span></div>
+      <div class="metric"><b class="mono">$0</b><span>Cost forever</span></div>
+    </div>
+  </section>
+
+  <section class="why">
+    <b>Why this exists.</b> You tailor an application, hit submit, and <i>then</i> find out the company
+    won&apos;t sponsor a visa — with the OPT clock ticking. JobsBuddy scans top tech employers every few
+    hours and keeps <b>only</b> the roles international students can realistically get. If it saves you one
+    wasted application, <b>star the repo</b> so another student finds it too.
+  </section>
+
+  <div class="controls">
+    <input class="search" id="q" placeholder="Search company, role, or location — e.g. “AI”, “remote”, “New York”" onkeyup="filt()">
+    <div class="hint">
+      <span><span class="k">NEW</span> = added in the latest update</span>
+      <span><span class="k">Sponsors</span> = real H-1B filing history</span>
+      <span><span class="k">Apply</span> opens in a new tab</span>
+    </div>
+  </div>
+
+  <table id="tbl">
+    <thead><tr>
+      <th>Company</th><th>Role</th><th>Visa</th>
+      <th class="h-match">Match</th><th class="h-posted">Posted</th><th>Apply</th>
+    </tr></thead>
+    <tbody>
+<tr class="daysep"><td colspan="6">June 04, 2026<span class="daycount">26 roles</span></td></tr>
+<tr>
+<td class="c-co"><span class="co">Browserbase</span><span class="tag tag-new">NEW</span></td>
+<td class="c-role"><div class="role">Software Engineer (Core Infrastructure)</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Low</span></td>
+<td class="c-match"><div class="bar"><i style="width:84%"></i></div><span class="pct">84%</span></td>
+<td class="c-posted">14mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/browserbase/bcbf0fb9-2405-497b-bbc9-e09d8f7a4963" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Decagon</span><span class="tag tag-new">NEW</span></td>
+<td class="c-role"><div class="role">Founder&#x27;s Office, Applied AI</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Low</span></td>
+<td class="c-match"><div class="bar"><i style="width:76%"></i></div><span class="pct">76%</span></td>
+<td class="c-posted">16d ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/decagon/c2ea9bd2-7a20-4fbb-b301-5e587415baeb" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Browserbase</span><span class="tag tag-new">NEW</span></td>
+<td class="c-role"><div class="role">Software Engineer (Agent Platform)</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Low</span></td>
+<td class="c-match"><div class="bar"><i style="width:76%"></i></div><span class="pct">76%</span></td>
+<td class="c-posted">9mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/browserbase/7724fbe3-6a27-4418-9705-2dcc40751a16" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">ElevenLabs</span><span class="tag tag-new">NEW</span></td>
+<td class="c-role"><div class="role">Forward Deployed Engineer - Software Engineer</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:60%"></i></div><span class="pct">60%</span></td>
+<td class="c-posted">4mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/elevenlabs/6c4c57c1-ec72-42ba-af3a-eb7aebbde2e6" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span><span class="tag tag-new">NEW</span></td>
+<td class="c-role"><div class="role">Camera Software Engineer, Consumer Devices</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:60%"></i></div><span class="pct">60%</span></td>
+<td class="c-posted">5mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/1dc05fc7-ceb7-4827-a905-9d1beb77a4a0" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Spotify</span><span class="tag tag-new">NEW</span></td>
+<td class="c-role"><div class="role">Software Engineer - Platform Infrastructure</div>
+<div class="loc">New York, NY</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:52%"></i></div><span class="pct">52%</span></td>
+<td class="c-posted">&mdash;</td>
+<td class="c-apply"><a class="apply" href="https://jobs.lever.co/spotify/3707cd2f-202a-4aec-9de8-bf73a5a6e922" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Veeva</span><span class="tag tag-new">NEW</span></td>
+<td class="c-role"><div class="role">Software Engineer - Full Stack</div>
+<div class="loc">California - San Luis Ob  +1 more</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:52%"></i></div><span class="pct">52%</span></td>
+<td class="c-posted">&mdash;</td>
+<td class="c-apply"><a class="apply" href="https://jobs.lever.co/veeva/20f768d9-4e96-4d09-b829-91507e9c612d" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Veeva</span><span class="tag tag-new">NEW</span></td>
+<td class="c-role"><div class="role">Software Engineer - Java</div>
+<div class="loc">Massachusetts - Boston</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:44%"></i></div><span class="pct">44%</span></td>
+<td class="c-posted">&mdash;</td>
+<td class="c-apply"><a class="apply" href="https://jobs.lever.co/veeva/4d5dd1de-44d2-41ff-a8f2-1113a8e310ff" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Veeva</span><span class="tag tag-new">NEW</span></td>
+<td class="c-role"><div class="role">Associate Software Engineer in Test</div>
+<div class="loc">California - Pleasanton  +1 more</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:36%"></i></div><span class="pct">36%</span></td>
+<td class="c-posted">&mdash;</td>
+<td class="c-apply"><a class="apply" href="https://jobs.lever.co/veeva/452d7860-6d5f-45e0-bc00-6a2e8852698d" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Veeva</span><span class="tag tag-new">NEW</span></td>
+<td class="c-role"><div class="role">Data Engineer</div>
+<div class="loc">Massachusetts - Boston</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:36%"></i></div><span class="pct">36%</span></td>
+<td class="c-posted">&mdash;</td>
+<td class="c-apply"><a class="apply" href="https://jobs.lever.co/veeva/bef9af9f-7189-4bc3-8171-d423da8488f5" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Veeva</span><span class="tag tag-new">NEW</span></td>
+<td class="c-role"><div class="role">Full Stack Web Developer</div>
+<div class="loc">Illinois - Chicago  +2 more</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:36%"></i></div><span class="pct">36%</span></td>
+<td class="c-posted">&mdash;</td>
+<td class="c-apply"><a class="apply" href="https://jobs.lever.co/veeva/055e479c-7649-4fdd-a467-f4077e43c4ef" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Veeva</span><span class="tag tag-new">NEW</span></td>
+<td class="c-role"><div class="role">Software Engineer in Test</div>
+<div class="loc">California - Pleasanton  +1 more</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:36%"></i></div><span class="pct">36%</span></td>
+<td class="c-posted">&mdash;</td>
+<td class="c-apply"><a class="apply" href="https://jobs.lever.co/veeva/29e49eb1-5c80-4465-9103-515c8b16771f" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Spotify</span><span class="tag tag-new">NEW</span></td>
+<td class="c-role"><div class="role">Full Stack Engineer - Podcast</div>
+<div class="loc">New York, NY</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:28%"></i></div><span class="pct">28%</span></td>
+<td class="c-posted">&mdash;</td>
+<td class="c-apply"><a class="apply" href="https://jobs.lever.co/spotify/69524356-88f8-4a8e-b543-0198670e4ceb" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Spotify</span><span class="tag tag-new">NEW</span></td>
+<td class="c-role"><div class="role">Backend Engineer - Music</div>
+<div class="loc">New York, NY</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:24%"></i></div><span class="pct">24%</span></td>
+<td class="c-posted">&mdash;</td>
+<td class="c-apply"><a class="apply" href="https://jobs.lever.co/spotify/0f8f7921-bcb4-444c-8ceb-4d3fa6459493" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Spotify</span><span class="tag tag-new">NEW</span></td>
+<td class="c-role"><div class="role">Backend Engineer, Podcast</div>
+<div class="loc">New York, NY</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:24%"></i></div><span class="pct">24%</span></td>
+<td class="c-posted">&mdash;</td>
+<td class="c-apply"><a class="apply" href="https://jobs.lever.co/spotify/454e6013-78ca-4009-9ad4-7597f2045d0a" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Spotify</span><span class="tag tag-new">NEW</span></td>
+<td class="c-role"><div class="role">Machine Learning Engineer - Personalization</div>
+<div class="loc">New York, NY</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:24%"></i></div><span class="pct">24%</span></td>
+<td class="c-posted">&mdash;</td>
+<td class="c-apply"><a class="apply" href="https://jobs.lever.co/spotify/dfbf550d-b099-4dd9-9228-15d921e46516" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Spotify</span><span class="tag tag-new">NEW</span></td>
+<td class="c-role"><div class="role">Backend Engineer  - Data Infrastructure</div>
+<div class="loc">New York, NY</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:20%"></i></div><span class="pct">20%</span></td>
+<td class="c-posted">&mdash;</td>
+<td class="c-apply"><a class="apply" href="https://jobs.lever.co/spotify/66492688-d5b0-4cf8-b1a4-4a715157edd9" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Veeva</span><span class="tag tag-new">NEW</span></td>
+<td class="c-role"><div class="role">Associate Software Engineer - Seeking 2025 &amp; 2026 Grads</div>
+<div class="loc">California - Pleasanton  +3 more</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:20%"></i></div><span class="pct">20%</span></td>
+<td class="c-posted">&mdash;</td>
+<td class="c-apply"><a class="apply" href="https://jobs.lever.co/veeva/8fe22df0-02b4-453d-919c-c8998cf913f6" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Spotify</span><span class="tag tag-new">NEW</span></td>
+<td class="c-role"><div class="role">Machine Learning Engineer</div>
+<div class="loc">New York, NY</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:16%"></i></div><span class="pct">16%</span></td>
+<td class="c-posted">&mdash;</td>
+<td class="c-apply"><a class="apply" href="https://jobs.lever.co/spotify/e200d025-4cff-4eb8-afa4-6680e31c43a2" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Spotify</span><span class="tag tag-new">NEW</span></td>
+<td class="c-role"><div class="role">Backend Engineer - Podcast</div>
+<div class="loc">New York, NY</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:8%"></i></div><span class="pct">8%</span></td>
+<td class="c-posted">&mdash;</td>
+<td class="c-apply"><a class="apply" href="https://jobs.lever.co/spotify/74253bb3-914d-453f-bb66-8b1eab89e6e6" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Spotify</span><span class="tag tag-new">NEW</span></td>
+<td class="c-role"><div class="role">Backend Engineer, Bonfire, Music</div>
+<div class="loc">New York, NY</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:8%"></i></div><span class="pct">8%</span></td>
+<td class="c-posted">&mdash;</td>
+<td class="c-apply"><a class="apply" href="https://jobs.lever.co/spotify/ee5064af-0116-4ef2-994a-cb8fed580290" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Spotify</span><span class="tag tag-new">NEW</span></td>
+<td class="c-role"><div class="role">Backend Engineer, Oasis, Music</div>
+<div class="loc">New York, NY</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:8%"></i></div><span class="pct">8%</span></td>
+<td class="c-posted">&mdash;</td>
+<td class="c-apply"><a class="apply" href="https://jobs.lever.co/spotify/52fe2b49-3c85-4479-b1db-2c5ab74cbcfc" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Spotify</span><span class="tag tag-new">NEW</span></td>
+<td class="c-role"><div class="role">Frontend Engineer - Music</div>
+<div class="loc">New York, NY</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:8%"></i></div><span class="pct">8%</span></td>
+<td class="c-posted">&mdash;</td>
+<td class="c-apply"><a class="apply" href="https://jobs.lever.co/spotify/a8606ee6-84b9-4677-af2f-b57f1e71fd91" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Spotify</span><span class="tag tag-new">NEW</span></td>
+<td class="c-role"><div class="role">Machine Learning Engineer I, Personalization , Minesweeper</div>
+<div class="loc">New York, NY</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:8%"></i></div><span class="pct">8%</span></td>
+<td class="c-posted">&mdash;</td>
+<td class="c-apply"><a class="apply" href="https://jobs.lever.co/spotify/fd79c3f5-1b2c-47c0-a3c6-4972b559e1c1" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Spotify</span><span class="tag tag-new">NEW</span></td>
+<td class="c-role"><div class="role">Machine Learning Engineer, Personalization, Minesweeper</div>
+<div class="loc">New York, NY</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:8%"></i></div><span class="pct">8%</span></td>
+<td class="c-posted">&mdash;</td>
+<td class="c-apply"><a class="apply" href="https://jobs.lever.co/spotify/de3f6a47-4d75-4512-8351-b362f1d1c32e" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Spotify</span><span class="tag tag-new">NEW</span></td>
+<td class="c-role"><div class="role">Machine Learning Engineer, Personalization, Samba</div>
+<div class="loc">New York, NY</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:8%"></i></div><span class="pct">8%</span></td>
+<td class="c-posted">&mdash;</td>
+<td class="c-apply"><a class="apply" href="https://jobs.lever.co/spotify/7597d3d7-58d2-41b2-9f85-911d95c2c739" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr class="daysep"><td colspan="6">June 03, 2026<span class="daycount">256 roles</span></td></tr>
+<tr>
+<td class="c-co"><span class="co">Robinhood</span></td>
+<td class="c-role"><div class="role">Software Engineer, Agentic AI</div>
+<div class="loc">Bellevue, WA</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:100%"></i></div><span class="pct">100%</span></td>
+<td class="c-posted">today</td>
+<td class="c-apply"><a class="apply" href="https://boards.greenhouse.io/robinhood/jobs/7975477?t=gh_src=&amp;gh_jid=7975477" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">DoorDash</span></td>
+<td class="c-role"><div class="role">Software Engineer, Backend (All Teams)</div>
+<div class="loc">Los Angeles, CA</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:100%"></i></div><span class="pct">100%</span></td>
+<td class="c-posted">6d ago</td>
+<td class="c-apply"><a class="apply" href="https://job-boards.greenhouse.io/doordashusa/jobs/5630445" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">DoorDash</span></td>
+<td class="c-role"><div class="role">Software Engineer II, Data Engineering</div>
+<div class="loc">San Francisco, CA</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:100%"></i></div><span class="pct">100%</span></td>
+<td class="c-posted">6d ago</td>
+<td class="c-apply"><a class="apply" href="https://job-boards.greenhouse.io/doordashusa/jobs/6458514" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">DoorDash</span></td>
+<td class="c-role"><div class="role">Software Engineer, Infrastructure - Autonomy &amp; Robotics</div>
+<div class="loc">San Francisco, CA</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:100%"></i></div><span class="pct">100%</span></td>
+<td class="c-posted">6d ago</td>
+<td class="c-apply"><a class="apply" href="https://job-boards.greenhouse.io/doordashusa/jobs/6367350" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Affirm</span></td>
+<td class="c-role"><div class="role">Software Engineer II, Backend (Merchant Advocacy)</div>
+<div class="loc">Remote US</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:100%"></i></div><span class="pct">100%</span></td>
+<td class="c-posted">26d ago</td>
+<td class="c-apply"><a class="apply" href="https://job-boards.greenhouse.io/affirm/jobs/7708925003" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Block</span></td>
+<td class="c-role"><div class="role">Software Engineer, Finance Applications</div>
+<div class="loc">Bay Area, CA, United Sta</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:100%"></i></div><span class="pct">100%</span></td>
+<td class="c-posted">1mo ago</td>
+<td class="c-apply"><a class="apply" href="http://block.xyz/careers/jobs/4888459008?gh_jid=4888459008" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Figma</span></td>
+<td class="c-role"><div class="role">Software Engineer, Full Stack</div>
+<div class="loc">San Francisco, CA • New </div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:100%"></i></div><span class="pct">100%</span></td>
+<td class="c-posted">30d ago</td>
+<td class="c-apply"><a class="apply" href="https://boards.greenhouse.io/figma/jobs/5691911004?gh_jid=5691911004" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Flexport</span></td>
+<td class="c-role"><div class="role"> Software Engineer II, Autonomous Freight Systems</div>
+<div class="loc">San Francisco, Californi</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:100%"></i></div><span class="pct">100%</span></td>
+<td class="c-posted">1d ago</td>
+<td class="c-apply"><a class="apply" href="https://boards.greenhouse.io/flexport/jobs/7839346?gh_jid=7839346" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Twitch</span></td>
+<td class="c-role"><div class="role">Software Engineer I, Ad Supply Experiences</div>
+<div class="loc">San Francisco, CA</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:100%"></i></div><span class="pct">100%</span></td>
+<td class="c-posted">1mo ago</td>
+<td class="c-apply"><a class="apply" href="https://job-boards.greenhouse.io/twitch/jobs/8519628002" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Reddit</span></td>
+<td class="c-role"><div class="role">Fullstack Software Engineer, Notifications Lifecycle</div>
+<div class="loc">Remote - United States</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:100%"></i></div><span class="pct">100%</span></td>
+<td class="c-posted">13d ago</td>
+<td class="c-apply"><a class="apply" href="https://job-boards.greenhouse.io/reddit/jobs/7895468" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Reddit</span></td>
+<td class="c-role"><div class="role">Software Engineer, Ads</div>
+<div class="loc">Remote - United States</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:100%"></i></div><span class="pct">100%</span></td>
+<td class="c-posted">16d ago</td>
+<td class="c-apply"><a class="apply" href="https://job-boards.greenhouse.io/reddit/jobs/6469397" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">GitLab</span></td>
+<td class="c-role"><div class="role">AI Engineer</div>
+<div class="loc">Remote, US</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:100%"></i></div><span class="pct">100%</span></td>
+<td class="c-posted">6d ago</td>
+<td class="c-apply"><a class="apply" href="https://job-boards.greenhouse.io/gitlab/jobs/8565469002" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Samsara</span></td>
+<td class="c-role"><div class="role">Data Engineer II</div>
+<div class="loc">Remote - US</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:100%"></i></div><span class="pct">100%</span></td>
+<td class="c-posted">today</td>
+<td class="c-apply"><a class="apply" href="https://www.samsara.com/company/careers/roles/7859406?gh_jid=7859406" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Samsara</span></td>
+<td class="c-role"><div class="role">Software Engineer II, AI Platform</div>
+<div class="loc">Remote - CA</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:100%"></i></div><span class="pct">100%</span></td>
+<td class="c-posted">today</td>
+<td class="c-apply"><a class="apply" href="https://www.samsara.com/company/careers/roles/7619925?gh_jid=7619925" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Discord</span></td>
+<td class="c-role"><div class="role">Software Engineer, Data Platform</div>
+<div class="loc">San Francisco Bay Area</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span><span class="tag tag-closed">Closed</span></td>
+<td class="c-match"><div class="bar"><i style="width:100%"></i></div><span class="pct">100%</span></td>
+<td class="c-posted">28d ago</td>
+<td class="c-apply"><a class="apply" href="https://job-boards.greenhouse.io/discord/jobs/8396927002" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Ramp</span></td>
+<td class="c-role"><div class="role">Software Engineer, Data Platform </div>
+<div class="loc">New York, NY (HQ)</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:100%"></i></div><span class="pct">100%</span></td>
+<td class="c-posted">2mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/ramp/bca0346c-b843-4795-96df-6091f51e421b" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Ramp</span></td>
+<td class="c-role"><div class="role">Software Engineer, Core Product</div>
+<div class="loc">New York, NY (HQ)</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:100%"></i></div><span class="pct">100%</span></td>
+<td class="c-posted">4mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/ramp/5fe4c64e-9336-4384-9e6f-ff32eeb3fdae" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Notion</span></td>
+<td class="c-role"><div class="role">Software Engineer, Product Infrastructure</div>
+<div class="loc">San Francisco, Californi</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:100%"></i></div><span class="pct">100%</span></td>
+<td class="c-posted">8mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/notion/d41b635b-c17b-4efd-89fd-fdb2ddb62e9a" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Notion</span></td>
+<td class="c-role"><div class="role">Data Engineer, Go-To-Market</div>
+<div class="loc">San Francisco, Californi</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:100%"></i></div><span class="pct">100%</span></td>
+<td class="c-posted">6mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/notion/655b047b-5e58-4b0c-82f0-8c16b2c03318" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Notion</span></td>
+<td class="c-role"><div class="role">Software Engineer, New Grad</div>
+<div class="loc">San Francisco, Californi</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:100%"></i></div><span class="pct">100%</span></td>
+<td class="c-posted">1mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/notion/a6311f97-4850-4674-a5f3-d9fe5f6f2555" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Notion</span></td>
+<td class="c-role"><div class="role">Software Engineer, New Grad (AI)</div>
+<div class="loc">San Francisco, Californi</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:100%"></i></div><span class="pct">100%</span></td>
+<td class="c-posted">1mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/notion/7e6dc7fe-7ddd-42c1-8928-13f7bddb9ec9" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">MongoDB</span></td>
+<td class="c-role"><div class="role">Software Engineer, Data Migration</div>
+<div class="loc">California</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:100%"></i></div><span class="pct">100%</span></td>
+<td class="c-posted">today</td>
+<td class="c-apply"><a class="apply" href="https://www.mongodb.com/careers/job/?gh_jid=7523834" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Twilio</span></td>
+<td class="c-role"><div class="role">Software Engineer (L2)</div>
+<div class="loc">Remote - US</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:100%"></i></div><span class="pct">100%</span></td>
+<td class="c-posted">1d ago</td>
+<td class="c-apply"><a class="apply" href="https://job-boards.greenhouse.io/twilio/jobs/7188174" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Twilio</span></td>
+<td class="c-role"><div class="role">Software Engineer (L2) Segment Team</div>
+<div class="loc">Remote - US</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:100%"></i></div><span class="pct">100%</span></td>
+<td class="c-posted">1d ago</td>
+<td class="c-apply"><a class="apply" href="https://job-boards.greenhouse.io/twilio/jobs/7767263" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Twilio</span></td>
+<td class="c-role"><div class="role">Software Engineer - Video</div>
+<div class="loc">Remote - US</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:100%"></i></div><span class="pct">100%</span></td>
+<td class="c-posted">1d ago</td>
+<td class="c-apply"><a class="apply" href="https://job-boards.greenhouse.io/twilio/jobs/7661919" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Software Engineer, Security Observability</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:100%"></i></div><span class="pct">100%</span></td>
+<td class="c-posted">1mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/1e4e9985-babf-4bd9-8fe8-a2016250780d" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Software Engineer, Real Time</div>
+<div class="loc">Seattle</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:100%"></i></div><span class="pct">100%</span></td>
+<td class="c-posted">23mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/75420421-5a2a-4d99-8755-9eeff799de95" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Software Engineer, Integrity Foundations</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:100%"></i></div><span class="pct">100%</span></td>
+<td class="c-posted">24mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/991948b7-0305-4125-bb9a-625f5bc24189" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Software Engineer, Fleet Management</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:100%"></i></div><span class="pct">100%</span></td>
+<td class="c-posted">6mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/7809102e-e82a-4678-bf7c-221de8acc0d6" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Software Engineer, Agent Infrastructure</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:100%"></i></div><span class="pct">100%</span></td>
+<td class="c-posted">12mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/c1316397-25bb-4add-9e9d-0e3ea8ba929a" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Software Engineer, Frontier Clusters Infrastructure</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:100%"></i></div><span class="pct">100%</span></td>
+<td class="c-posted">19mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/770d5c3f-4e72-4b49-aec4-d444e8ad7a64" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">IT Controls Data Engineer</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:100%"></i></div><span class="pct">100%</span></td>
+<td class="c-posted">5d ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/5bc79fde-2f1d-4bb2-8186-4a700ecff37c" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Full Stack Engineer, Fleet Scheduling</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:100%"></i></div><span class="pct">100%</span></td>
+<td class="c-posted">16mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/9d11e1d8-af1d-413b-873f-d8fac2bdee99" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Software Engineer, AI Safety</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:100%"></i></div><span class="pct">100%</span></td>
+<td class="c-posted">14mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/b9dee2a0-9bb3-447e-9bce-2b1bed784e5b" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Software Engineer, Privacy Infrastructure</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:100%"></i></div><span class="pct">100%</span></td>
+<td class="c-posted">13mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/07153f7c-7e8b-4283-a879-cb07a224e083" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Software Engineer, Research Developer Productivity</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:100%"></i></div><span class="pct">100%</span></td>
+<td class="c-posted">8mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/e6d5ca02-f30b-4ac5-a69d-c947efb430f9" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Software Engineer, Infrastructure Security</div>
+<div class="loc">Remote - US</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:100%"></i></div><span class="pct">100%</span></td>
+<td class="c-posted">8mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/98ad9beb-4f91-496c-bd16-ac0b2a8d5bb2" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Software Engineer, Delivery / CD</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:100%"></i></div><span class="pct">100%</span></td>
+<td class="c-posted">30d ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/e14fc37c-7ae5-4a6b-ba0d-a36860cf9bb2" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Software Engineer, Localization</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:100%"></i></div><span class="pct">100%</span></td>
+<td class="c-posted">2mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/deff9215-217d-4392-825e-7788cb8205f3" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Software Engineer, Compute Infrastructure</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:100%"></i></div><span class="pct">100%</span></td>
+<td class="c-posted">1mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/ca300a6d-a2a7-4580-aad7-323fbdfee7b1" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Full-Stack Software Engineer, Compute Foundations</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:100%"></i></div><span class="pct">100%</span></td>
+<td class="c-posted">9d ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/1312f55e-ff56-4dab-9bf7-a91e2c157572" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Software Engineer, Enterprise AI Platform </div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:100%"></i></div><span class="pct">100%</span></td>
+<td class="c-posted">15d ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/a6363571-e090-43a7-b758-ee3386a096c1" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Software Engineer, Cyber Frontier</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:100%"></i></div><span class="pct">100%</span></td>
+<td class="c-posted">7d ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/b7f46b2e-dfc7-4b06-8e5e-8468555c102b" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Checkr</span></td>
+<td class="c-role"><div class="role">Software Engineer II</div>
+<div class="loc">San Francisco, Californi</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:100%"></i></div><span class="pct">100%</span></td>
+<td class="c-posted">19d ago</td>
+<td class="c-apply"><a class="apply" href="https://job-boards.greenhouse.io/checkr/jobs/7296759" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Checkr</span></td>
+<td class="c-role"><div class="role">Software Engineer, Reliability</div>
+<div class="loc">Denver, Colorado, United</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:100%"></i></div><span class="pct">100%</span></td>
+<td class="c-posted">7d ago</td>
+<td class="c-apply"><a class="apply" href="https://job-boards.greenhouse.io/checkr/jobs/7705523" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Verkada</span></td>
+<td class="c-role"><div class="role">Full Stack Engineer, Go-to-Market Systems</div>
+<div class="loc">San Mateo, CA United Sta</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:100%"></i></div><span class="pct">100%</span></td>
+<td class="c-posted">1d ago</td>
+<td class="c-apply"><a class="apply" href="https://job-boards.greenhouse.io/verkada/jobs/5101666007" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Verkada</span></td>
+<td class="c-role"><div class="role">Software Engineer - Fleet Management</div>
+<div class="loc">San Mateo, CA United Sta</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:100%"></i></div><span class="pct">100%</span></td>
+<td class="c-posted">17d ago</td>
+<td class="c-apply"><a class="apply" href="https://job-boards.greenhouse.io/verkada/jobs/4135093007" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Verkada</span></td>
+<td class="c-role"><div class="role">Software Engineer, Platform Infrastructure</div>
+<div class="loc">San Mateo, CA United Sta</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:100%"></i></div><span class="pct">100%</span></td>
+<td class="c-posted">17d ago</td>
+<td class="c-apply"><a class="apply" href="https://job-boards.greenhouse.io/verkada/jobs/5029725007" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Anthropic</span></td>
+<td class="c-role"><div class="role">Forward Deployed Engineer, Applied AI</div>
+<div class="loc">Boston, MA</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:100%"></i></div><span class="pct">100%</span></td>
+<td class="c-posted">19d ago</td>
+<td class="c-apply"><a class="apply" href="https://job-boards.greenhouse.io/anthropic/jobs/4985877008" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Anthropic</span></td>
+<td class="c-role"><div class="role">Full-Stack Software Engineer, Reinforcement Learning</div>
+<div class="loc">San Francisco, CA | New </div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:100%"></i></div><span class="pct">100%</span></td>
+<td class="c-posted">1mo ago</td>
+<td class="c-apply"><a class="apply" href="https://job-boards.greenhouse.io/anthropic/jobs/5186067008" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Anthropic</span></td>
+<td class="c-role"><div class="role">Software Engineer, Research Data Platform</div>
+<div class="loc">San Francisco, CA | New </div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:100%"></i></div><span class="pct">100%</span></td>
+<td class="c-posted">1mo ago</td>
+<td class="c-apply"><a class="apply" href="https://job-boards.greenhouse.io/anthropic/jobs/5191226008" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Replit</span></td>
+<td class="c-role"><div class="role">Software Engineer, Growth</div>
+<div class="loc">Foster City, CA</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:100%"></i></div><span class="pct">100%</span></td>
+<td class="c-posted">4mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/replit/447a6e11-b06b-4cc5-9203-cd55883f2af4" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Replit</span></td>
+<td class="c-role"><div class="role">Software Engineer, Enterprise</div>
+<div class="loc">Foster City, CA</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:100%"></i></div><span class="pct">100%</span></td>
+<td class="c-posted">4mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/replit/b7f12834-78d2-424d-bf83-0c942815fbf7" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Replit</span></td>
+<td class="c-role"><div class="role">Software Engineer, Replit Cloud</div>
+<div class="loc">Foster City, CA</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:100%"></i></div><span class="pct">100%</span></td>
+<td class="c-posted">4mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/replit/7fa1826e-d7fd-4837-8485-97de895ba7fc" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Replit</span></td>
+<td class="c-role"><div class="role">Software Engineer, Growth Infrastructure</div>
+<div class="loc">Foster City, CA</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:100%"></i></div><span class="pct">100%</span></td>
+<td class="c-posted">4mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/replit/37f81c18-c742-4f7d-bf81-34c3f5142973" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Harvey</span></td>
+<td class="c-role"><div class="role">Software Engineer</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:100%"></i></div><span class="pct">100%</span></td>
+<td class="c-posted">7d ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/harvey/581cd358-0186-48a6-b76f-c76946c5c7a7" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Snorkel AI</span></td>
+<td class="c-role"><div class="role">Applied AI Engineer - AI Solutions</div>
+<div class="loc">New York City, NY (Hybri</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Low</span></td>
+<td class="c-match"><div class="bar"><i style="width:100%"></i></div><span class="pct">100%</span></td>
+<td class="c-posted">14d ago</td>
+<td class="c-apply"><a class="apply" href="https://job-boards.greenhouse.io/snorkelai/jobs/5709067004" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Snorkel AI</span></td>
+<td class="c-role"><div class="role">Software Engineer - Core Services</div>
+<div class="loc">Redwood City, CA (Hybrid</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Low</span></td>
+<td class="c-match"><div class="bar"><i style="width:100%"></i></div><span class="pct">100%</span></td>
+<td class="c-posted">7d ago</td>
+<td class="c-apply"><a class="apply" href="https://job-boards.greenhouse.io/snorkelai/jobs/5984577004" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Baseten</span></td>
+<td class="c-role"><div class="role">Software Engineer - Voice AI (Inference Runtime)</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Low</span></td>
+<td class="c-match"><div class="bar"><i style="width:100%"></i></div><span class="pct">100%</span></td>
+<td class="c-posted">1mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/baseten/6e396eb7-acb3-436a-89ec-05e755c477f2" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Sierra</span></td>
+<td class="c-role"><div class="role">Software Engineer, Security</div>
+<div class="loc">San Francisco, CA</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Low</span></td>
+<td class="c-match"><div class="bar"><i style="width:100%"></i></div><span class="pct">100%</span></td>
+<td class="c-posted">4mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/sierra/201c6046-acb5-4fd4-a685-e993f34ec0d1" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Robinhood</span></td>
+<td class="c-role"><div class="role">Software Engineer, Backend</div>
+<div class="loc">Menlo Park, CA</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:92%"></i></div><span class="pct">92%</span></td>
+<td class="c-posted">13d ago</td>
+<td class="c-apply"><a class="apply" href="https://boards.greenhouse.io/robinhood/jobs/7263592?t=gh_src=&amp;gh_jid=7263592" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Squarespace</span></td>
+<td class="c-role"><div class="role">Software Engineer - Delivery Platform </div>
+<div class="loc">New York City</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:92%"></i></div><span class="pct">92%</span></td>
+<td class="c-posted">5d ago</td>
+<td class="c-apply"><a class="apply" href="http://www.squarespace.com/about/careers?gh_jid=7789058" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Twitch</span></td>
+<td class="c-role"><div class="role">Software Engineer, Creator Sponsorships</div>
+<div class="loc">San Francisco, CA  +1 more</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:92%"></i></div><span class="pct">92%</span></td>
+<td class="c-posted">13d ago</td>
+<td class="c-apply"><a class="apply" href="https://job-boards.greenhouse.io/twitch/jobs/8561592002" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Twitch</span></td>
+<td class="c-role"><div class="role">Software Engineer I, Commerce Engineering</div>
+<div class="loc">San Francisco, CA  +1 more</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:92%"></i></div><span class="pct">92%</span></td>
+<td class="c-posted">2mo ago</td>
+<td class="c-apply"><a class="apply" href="https://job-boards.greenhouse.io/twitch/jobs/8459320002" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Twitch</span></td>
+<td class="c-role"><div class="role">Software Engineer, Safety</div>
+<div class="loc">San Francisco, CA</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:92%"></i></div><span class="pct">92%</span></td>
+<td class="c-posted">1mo ago</td>
+<td class="c-apply"><a class="apply" href="https://job-boards.greenhouse.io/twitch/jobs/8504990002" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Brex</span></td>
+<td class="c-role"><div class="role">Data Engineer</div>
+<div class="loc">San Francisco, Californi</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:92%"></i></div><span class="pct">92%</span></td>
+<td class="c-posted">9d ago</td>
+<td class="c-apply"><a class="apply" href="https://www.brex.com/careers/8366850002?gh_jid=8366850002" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Ramp</span></td>
+<td class="c-role"><div class="role">Software Engineer, Bill Pay &amp; Procurement</div>
+<div class="loc">New York, NY (HQ)</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:92%"></i></div><span class="pct">92%</span></td>
+<td class="c-posted">7mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/ramp/2a4968ae-220c-471b-b890-a011de570bbb" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Ramp</span></td>
+<td class="c-role"><div class="role">Software Engineer, Production Engineering</div>
+<div class="loc">New York, NY (HQ)</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:92%"></i></div><span class="pct">92%</span></td>
+<td class="c-posted">1mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/ramp/be496b52-cfbf-494e-b862-61fb4a188b24" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Software Engineer, Fleet Infrastructure</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:92%"></i></div><span class="pct">92%</span></td>
+<td class="c-posted">15mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/a58add97-1968-4d5c-b504-ab62bea12df3" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Software Engineer, Reliability </div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:92%"></i></div><span class="pct">92%</span></td>
+<td class="c-posted">7mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/1faee5e7-3b2f-4d8c-9a6f-ff0f2a4a42a7" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Software Engineer, GPU Infrastructure - HPC</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:92%"></i></div><span class="pct">92%</span></td>
+<td class="c-posted">3mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/f58cb1eb-9642-4a4d-a14d-d7a57d583a11" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Software Engineer, Fleet Hardware Health</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:92%"></i></div><span class="pct">92%</span></td>
+<td class="c-posted">10mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/57551641-208c-48d9-bfb8-9a298d7e7510" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Fullstack Engineer, Intelligence Systems</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:92%"></i></div><span class="pct">92%</span></td>
+<td class="c-posted">6mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/52c72cb9-7c44-4cba-b440-e05262a38491" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Software Engineer, Codex Ecosystem &amp; Enterprise</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:92%"></i></div><span class="pct">92%</span></td>
+<td class="c-posted">4mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/89f58eb2-519f-4a36-8be0-2e594724e1bc" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Frontend Software Engineer, Codex App</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:92%"></i></div><span class="pct">92%</span></td>
+<td class="c-posted">3mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/5f6685ad-2fba-4e60-8982-fa142b33e194" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Software Engineer, Codex Core Agents</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:92%"></i></div><span class="pct">92%</span></td>
+<td class="c-posted">2mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/7ade7a12-845c-4e3a-af23-c028420bd181" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Applied AI Engineer, Codex Core Agent</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:92%"></i></div><span class="pct">92%</span></td>
+<td class="c-posted">2mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/577e6673-0a4a-491b-9a0d-facbdd3bdf3c" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Software Engineer, Productivity - Networking</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:92%"></i></div><span class="pct">92%</span></td>
+<td class="c-posted">1mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/17daedbd-b3fb-4e8c-a17c-8bbc9ec1d0b5" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Software Engineer, Productivity - Model Performance</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:92%"></i></div><span class="pct">92%</span></td>
+<td class="c-posted">1mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/6d403ec9-d5d3-4754-9092-8fd5e659562a" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Backend Software Engineer, Applied Foundations</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:92%"></i></div><span class="pct">92%</span></td>
+<td class="c-posted">27d ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/b398e1c6-0c32-4464-bb34-6ccda901b688" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Software Engineer, Productivity - Inference Runtime</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:92%"></i></div><span class="pct">92%</span></td>
+<td class="c-posted">24d ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/9d48e2e6-41a9-4a90-8b3b-6cc960e95c2f" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Checkr</span></td>
+<td class="c-role"><div class="role">Backend Software Engineer II</div>
+<div class="loc">Denver, Colorado, United</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:92%"></i></div><span class="pct">92%</span></td>
+<td class="c-posted">19d ago</td>
+<td class="c-apply"><a class="apply" href="https://job-boards.greenhouse.io/checkr/jobs/7438937" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Replit</span></td>
+<td class="c-role"><div class="role">Software Engineer, Developer Experience</div>
+<div class="loc">Foster City, CA</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:92%"></i></div><span class="pct">92%</span></td>
+<td class="c-posted">1mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/replit/d0e0dd7d-59d1-4de8-afbb-54aea680b51d" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Baseten</span></td>
+<td class="c-role"><div class="role">Software Engineer - Dedicated Inference</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Low</span></td>
+<td class="c-match"><div class="bar"><i style="width:92%"></i></div><span class="pct">92%</span></td>
+<td class="c-posted">23mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/baseten/fc6e5f2e-eb2d-4a6c-8a51-8422e8662bde" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Baseten</span></td>
+<td class="c-role"><div class="role">Software Engineer - Training Infrastructure</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Low</span></td>
+<td class="c-match"><div class="bar"><i style="width:92%"></i></div><span class="pct">92%</span></td>
+<td class="c-posted">9mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/baseten/6f947409-2bc0-491a-81b3-507cdc95df85" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Baseten</span></td>
+<td class="c-role"><div class="role">Software Engineer, Model Performance Systems</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Low</span></td>
+<td class="c-match"><div class="bar"><i style="width:92%"></i></div><span class="pct">92%</span></td>
+<td class="c-posted">4mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/baseten/75d7beac-0298-40fa-b206-2e0c0c08a64f" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Sierra</span></td>
+<td class="c-role"><div class="role">Software Engineer, Agent - Healthcare</div>
+<div class="loc">San Francisco, CA</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Low</span></td>
+<td class="c-match"><div class="bar"><i style="width:92%"></i></div><span class="pct">92%</span></td>
+<td class="c-posted">2mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/sierra/eb3ee157-3d2a-412a-88a2-e2cfc5647a66" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">DoorDash</span></td>
+<td class="c-role"><div class="role">Client Platform Engineer III</div>
+<div class="loc">United States - Remote</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:88%"></i></div><span class="pct">88%</span></td>
+<td class="c-posted">6d ago</td>
+<td class="c-apply"><a class="apply" href="https://job-boards.greenhouse.io/doordashusa/jobs/7842148" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">DoorDash</span></td>
+<td class="c-role"><div class="role">Machine Learning Engineer - ETA Team</div>
+<div class="loc">Sunnyvale, CA</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:88%"></i></div><span class="pct">88%</span></td>
+<td class="c-posted">6d ago</td>
+<td class="c-apply"><a class="apply" href="https://job-boards.greenhouse.io/doordashusa/jobs/5657317" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">DoorDash</span></td>
+<td class="c-role"><div class="role">Machine Learning Engineer, Marketplace Optimization</div>
+<div class="loc">San Francisco, CA</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:88%"></i></div><span class="pct">88%</span></td>
+<td class="c-posted">6d ago</td>
+<td class="c-apply"><a class="apply" href="https://job-boards.greenhouse.io/doordashusa/jobs/7580407" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Affirm</span></td>
+<td class="c-role"><div class="role">Machine Learning Engineer II (Servicing ML)</div>
+<div class="loc">Remote US</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:88%"></i></div><span class="pct">88%</span></td>
+<td class="c-posted">3d ago</td>
+<td class="c-apply"><a class="apply" href="https://job-boards.greenhouse.io/affirm/jobs/7719651003" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Lyft</span></td>
+<td class="c-role"><div class="role">Machine Learning Engineer, Lyft Business</div>
+<div class="loc">New York, NY</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:88%"></i></div><span class="pct">88%</span></td>
+<td class="c-posted">today</td>
+<td class="c-apply"><a class="apply" href="https://app.careerpuck.com/job-board/lyft/job/8513769002?gh_jid=8513769002" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Reddit</span></td>
+<td class="c-role"><div class="role">Frontend Engineer, Ads Growth</div>
+<div class="loc">Remote - United States</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:88%"></i></div><span class="pct">88%</span></td>
+<td class="c-posted">today</td>
+<td class="c-apply"><a class="apply" href="https://job-boards.greenhouse.io/reddit/jobs/7980795" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Frontend Engineer, Dotcom (Marketing)</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:88%"></i></div><span class="pct">88%</span></td>
+<td class="c-posted">4mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/ffc3f648-a39d-4403-ad16-e8d38c88d572" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Verkada</span></td>
+<td class="c-role"><div class="role">Backend Engineer - Alerts and Operations</div>
+<div class="loc">San Mateo, CA United Sta</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:88%"></i></div><span class="pct">88%</span></td>
+<td class="c-posted">17d ago</td>
+<td class="c-apply"><a class="apply" href="https://job-boards.greenhouse.io/verkada/jobs/4128767007" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Verkada</span></td>
+<td class="c-role"><div class="role">Frontend Engineer - Alerts and Operations</div>
+<div class="loc">San Mateo, CA United Sta</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:88%"></i></div><span class="pct">88%</span></td>
+<td class="c-posted">7d ago</td>
+<td class="c-apply"><a class="apply" href="https://job-boards.greenhouse.io/verkada/jobs/4912168007" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Anthropic</span></td>
+<td class="c-role"><div class="role">Research Engineer, Machine Learning (Reinforcement Learning) </div>
+<div class="loc">San Francisco, CA | New </div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:88%"></i></div><span class="pct">88%</span></td>
+<td class="c-posted">2mo ago</td>
+<td class="c-apply"><a class="apply" href="https://job-boards.greenhouse.io/anthropic/jobs/4613568008" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Baseten</span></td>
+<td class="c-role"><div class="role">Cloud Platform Engineer</div>
+<div class="loc">San Francisco Office</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Low</span></td>
+<td class="c-match"><div class="bar"><i style="width:88%"></i></div><span class="pct">88%</span></td>
+<td class="c-posted">7mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/baseten/916e9d62-492a-4562-971f-3e97e3868392" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Stripe</span></td>
+<td class="c-role"><div class="role">Software Engineer IC-02</div>
+<div class="loc">New York, NY  +1 more</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:84%"></i></div><span class="pct">84%</span></td>
+<td class="c-posted">14d ago</td>
+<td class="c-apply"><a class="apply" href="https://stripe.com/jobs/search?gh_jid=7895344" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">DoorDash</span></td>
+<td class="c-role"><div class="role">Software Engineer, Machine Learning - Credit &amp; Refund Optimization</div>
+<div class="loc">San Francisco, CA</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:84%"></i></div><span class="pct">84%</span></td>
+<td class="c-posted">6d ago</td>
+<td class="c-apply"><a class="apply" href="https://job-boards.greenhouse.io/doordashusa/jobs/7932109" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Pinterest</span></td>
+<td class="c-role"><div class="role">Software Engineer II, Backend</div>
+<div class="loc">San Francisco, CA, US</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:84%"></i></div><span class="pct">84%</span></td>
+<td class="c-posted">7d ago</td>
+<td class="c-apply"><a class="apply" href="https://www.pinterestcareers.com/jobs/?gh_jid=4813946" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Pinterest</span></td>
+<td class="c-role"><div class="role">Software Engineer II, Backend, tvScientific</div>
+<div class="loc">San Francisco, CA, US</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:84%"></i></div><span class="pct">84%</span></td>
+<td class="c-posted">21d ago</td>
+<td class="c-apply"><a class="apply" href="https://www.pinterestcareers.com/jobs/?gh_jid=7782552" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Pinterest</span></td>
+<td class="c-role"><div class="role">Software Engineer II, Simulation, tvScientific</div>
+<div class="loc">San Francisco, CA, US</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:84%"></i></div><span class="pct">84%</span></td>
+<td class="c-posted">1d ago</td>
+<td class="c-apply"><a class="apply" href="https://www.pinterestcareers.com/jobs/?gh_jid=7642265" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Figma</span></td>
+<td class="c-role"><div class="role">Sales AI Engineer</div>
+<div class="loc">San Francisco, CA • New </div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:84%"></i></div><span class="pct">84%</span></td>
+<td class="c-posted">22d ago</td>
+<td class="c-apply"><a class="apply" href="https://boards.greenhouse.io/figma/jobs/5991176004?gh_jid=5991176004" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Ramp</span></td>
+<td class="c-role"><div class="role">Software Engineer, Frontend</div>
+<div class="loc">New York, NY (HQ)</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:84%"></i></div><span class="pct">84%</span></td>
+<td class="c-posted">39mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/ramp/4e64ab86-4e30-403b-b1b9-41dc052570ce" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Ramp</span></td>
+<td class="c-role"><div class="role">Software Engineer, Growth Platform</div>
+<div class="loc">New York, NY (HQ)</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:84%"></i></div><span class="pct">84%</span></td>
+<td class="c-posted">8mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/ramp/f5b60cf1-c0ec-42c1-89db-ece853e998ab" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Ramp</span></td>
+<td class="c-role"><div class="role">Software Engineer, Product Growth</div>
+<div class="loc">New York, NY (HQ)</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:84%"></i></div><span class="pct">84%</span></td>
+<td class="c-posted">8mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/ramp/0c9e3e0f-54df-4252-a17b-b506e954225b" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Ramp</span></td>
+<td class="c-role"><div class="role">Software Engineer, Credit</div>
+<div class="loc">New York, NY (HQ)</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:84%"></i></div><span class="pct">84%</span></td>
+<td class="c-posted">21d ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/ramp/5598f7b8-4ae2-4105-a2b4-2d0f55c54c40" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Ramp</span></td>
+<td class="c-role"><div class="role">Software Engineer, Ramp Travel</div>
+<div class="loc">New York, NY (HQ)</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:84%"></i></div><span class="pct">84%</span></td>
+<td class="c-posted">1mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/ramp/4bb1ccd6-cf0d-48a8-90f6-05d61617d0d4" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Ramp</span></td>
+<td class="c-role"><div class="role">Software Engineer, Engineering Platform</div>
+<div class="loc">New York, NY (HQ)</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:84%"></i></div><span class="pct">84%</span></td>
+<td class="c-posted">1mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/ramp/198150d6-789a-4ef8-999f-93a49656d4f1" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">MongoDB</span></td>
+<td class="c-role"><div class="role">Software Engineer, Code Generation</div>
+<div class="loc">British Columbia</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:84%"></i></div><span class="pct">84%</span></td>
+<td class="c-posted">today</td>
+<td class="c-apply"><a class="apply" href="https://www.mongodb.com/careers/job/?gh_jid=7311708" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">MongoDB</span></td>
+<td class="c-role"><div class="role">Software Engineer, Developer Productivity</div>
+<div class="loc">New York City</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:84%"></i></div><span class="pct">84%</span></td>
+<td class="c-posted">today</td>
+<td class="c-apply"><a class="apply" href="https://www.mongodb.com/careers/job/?gh_jid=7851388" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Twilio</span></td>
+<td class="c-role"><div class="role">Software Engineer</div>
+<div class="loc">Remote - US</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:84%"></i></div><span class="pct">84%</span></td>
+<td class="c-posted">1d ago</td>
+<td class="c-apply"><a class="apply" href="https://job-boards.greenhouse.io/twilio/jobs/7605743" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Software Engineer, RL Training Infra</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:84%"></i></div><span class="pct">84%</span></td>
+<td class="c-posted">12d ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/13995549-e8cc-498f-9eaa-1869067ac35b" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Software Engineer, Observability</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:84%"></i></div><span class="pct">84%</span></td>
+<td class="c-posted">3mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/d4dcd344-40cf-44d6-a7dd-172118eb0842" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Research Engineer, Applied AI Engineering</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:84%"></i></div><span class="pct">84%</span></td>
+<td class="c-posted">24mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/d44c9f70-4aef-45a4-a36a-54fb65663ccb" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Software Engineer, Compute - Storage</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:84%"></i></div><span class="pct">84%</span></td>
+<td class="c-posted">18mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/7649205e-20dc-4bb4-9358-69474a851132" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Software Engineer, Identity Infrastructure Engineering</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:84%"></i></div><span class="pct">84%</span></td>
+<td class="c-posted">3mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/551b0d0d-46c2-42fb-bb05-46e2fba8d4db" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Software Engineer, Core Services</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:84%"></i></div><span class="pct">84%</span></td>
+<td class="c-posted">10mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/21bfde35-ffec-42d2-a2c6-8a03dad789d5" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Software Engineer, Quality &amp; Developer Tools | Consumer Devices</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:84%"></i></div><span class="pct">84%</span></td>
+<td class="c-posted">13d ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/1ba666a4-0be2-4bd0-ad51-39ed7164c241" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Software Engineer, Data Infrastructure - Research</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:84%"></i></div><span class="pct">84%</span></td>
+<td class="c-posted">8mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/b7a2e30f-c5f6-4710-b53e-64d64bcce189" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Software Engineer, Productivity - Training Runtime</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:84%"></i></div><span class="pct">84%</span></td>
+<td class="c-posted">4mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/c02b35b2-af37-4740-a702-2ed3b5dc3cf1" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Software Engineer, Hardware</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:84%"></i></div><span class="pct">84%</span></td>
+<td class="c-posted">7mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/778e3a4f-c318-4a79-a745-00e722e5ee47" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Software Engineer, Distributed Data Systems - Robotics</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:84%"></i></div><span class="pct">84%</span></td>
+<td class="c-posted">6mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/da07ba71-81fd-47c7-adb1-2b2d1eaed325" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Software Engineer, ChatGPT Infrastructure </div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:84%"></i></div><span class="pct">84%</span></td>
+<td class="c-posted">1mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/e6981259-c1d0-46de-8376-56bde28cfb10" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Software Engineer, Codex Cloud Apps</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:84%"></i></div><span class="pct">84%</span></td>
+<td class="c-posted">today</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/130a5389-83e1-493f-9205-542d3ff53afb" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Machine Learning Engineer, Distributed Data Systems - Robotics</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:84%"></i></div><span class="pct">84%</span></td>
+<td class="c-posted">3mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/4a13c764-18c3-4076-ac87-29e05491be07" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Software Engineer, Infrastructure - Analytics Platform</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:84%"></i></div><span class="pct">84%</span></td>
+<td class="c-posted">1mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/e44bfa94-0b82-4d0c-b224-02155b76eea9" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Software Engineer, Foundations Search</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:84%"></i></div><span class="pct">84%</span></td>
+<td class="c-posted">1mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/40ed6975-ef61-4807-b748-37c2fa2b76c7" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Software Engineer, Kernel Performance &amp; AI Tooling</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:84%"></i></div><span class="pct">84%</span></td>
+<td class="c-posted">1mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/e9627fa6-ac76-4899-9a93-9251419e61a0" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Software Engineer, Core Network Engineering</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:84%"></i></div><span class="pct">84%</span></td>
+<td class="c-posted">28d ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/1fec5ecd-5b7b-45bc-bc8c-ac7184565551" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Baseten</span></td>
+<td class="c-role"><div class="role">Software Engineer - Infrastructure</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Low</span></td>
+<td class="c-match"><div class="bar"><i style="width:84%"></i></div><span class="pct">84%</span></td>
+<td class="c-posted">15mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/baseten/ae64d1d4-7b0a-4be4-8d77-7f5ce63849a7" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Sierra</span></td>
+<td class="c-role"><div class="role">Software Engineer, Agent</div>
+<div class="loc">San Francisco, CA</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Low</span></td>
+<td class="c-match"><div class="bar"><i style="width:84%"></i></div><span class="pct">84%</span></td>
+<td class="c-posted">13mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/sierra/e9f5fdb6-91ee-4c55-9230-41ec8865650e" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Verkada</span></td>
+<td class="c-role"><div class="role">Backend Engineer - Access Control</div>
+<div class="loc">San Mateo, CA United Sta</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:80%"></i></div><span class="pct">80%</span></td>
+<td class="c-posted">17d ago</td>
+<td class="c-apply"><a class="apply" href="https://job-boards.greenhouse.io/verkada/jobs/4915101007" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Stripe</span></td>
+<td class="c-role"><div class="role">Software Engineer, Balance Abstraction</div>
+<div class="loc">Seattle, WA</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:76%"></i></div><span class="pct">76%</span></td>
+<td class="c-posted">14d ago</td>
+<td class="c-apply"><a class="apply" href="https://stripe.com/jobs/search?gh_jid=7908923" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Databricks</span></td>
+<td class="c-role"><div class="role">Sr Software Engineer- Customer Experience Intelligence (CXI)</div>
+<div class="loc">Mountain View, Californi</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:76%"></i></div><span class="pct">76%</span></td>
+<td class="c-posted">1mo ago</td>
+<td class="c-apply"><a class="apply" href="https://databricks.com/company/careers/open-positions/job?gh_jid=8416951002" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Robinhood</span></td>
+<td class="c-role"><div class="role">Software Engineer</div>
+<div class="loc">Menlo Park, CA</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:76%"></i></div><span class="pct">76%</span></td>
+<td class="c-posted">today</td>
+<td class="c-apply"><a class="apply" href="https://boards.greenhouse.io/robinhood/jobs/7975529?t=gh_src=&amp;gh_jid=7975529" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Affirm</span></td>
+<td class="c-role"><div class="role">Analyst I, Full Stack (Core Analytics)</div>
+<div class="loc">Remote US</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:76%"></i></div><span class="pct">76%</span></td>
+<td class="c-posted">1d ago</td>
+<td class="c-apply"><a class="apply" href="https://job-boards.greenhouse.io/affirm/jobs/7726627003" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Affirm</span></td>
+<td class="c-role"><div class="role">Analyst II, Full Stack (Fraud Analytics)</div>
+<div class="loc">Remote US</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:76%"></i></div><span class="pct">76%</span></td>
+<td class="c-posted">19d ago</td>
+<td class="c-apply"><a class="apply" href="https://job-boards.greenhouse.io/affirm/jobs/7533759003" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Pinterest</span></td>
+<td class="c-role"><div class="role">Software Engineer I, Backend</div>
+<div class="loc">Seattle, WA, US</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:76%"></i></div><span class="pct">76%</span></td>
+<td class="c-posted">1d ago</td>
+<td class="c-apply"><a class="apply" href="https://www.pinterestcareers.com/jobs/?gh_jid=6816337" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Pinterest</span></td>
+<td class="c-role"><div class="role">Software Engineer II, Big Data, tvScientific</div>
+<div class="loc">San Francisco, CA, US</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:76%"></i></div><span class="pct">76%</span></td>
+<td class="c-posted">7d ago</td>
+<td class="c-apply"><a class="apply" href="https://www.pinterestcareers.com/jobs/?gh_jid=7782546" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Pinterest</span></td>
+<td class="c-role"><div class="role">Software Engineer II, ML Platform, tvScientific</div>
+<div class="loc">San Francisco, CA, US</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:76%"></i></div><span class="pct">76%</span></td>
+<td class="c-posted">8d ago</td>
+<td class="c-apply"><a class="apply" href="https://www.pinterestcareers.com/jobs/?gh_jid=7782571" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Datadog</span></td>
+<td class="c-role"><div class="role">Software Engineer II, Enterprise Engineering</div>
+<div class="loc">New York, New York, USA</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:76%"></i></div><span class="pct">76%</span></td>
+<td class="c-posted">today</td>
+<td class="c-apply"><a class="apply" href="https://careers.datadoghq.com/detail/7980350/?gh_jid=7980350" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Figma</span></td>
+<td class="c-role"><div class="role">Data Engineer</div>
+<div class="loc">San Francisco, CA • New </div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:76%"></i></div><span class="pct">76%</span></td>
+<td class="c-posted">1mo ago</td>
+<td class="c-apply"><a class="apply" href="https://boards.greenhouse.io/figma/jobs/5220003004?gh_jid=5220003004" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Ramp</span></td>
+<td class="c-role"><div class="role">Software Engineer, AI Forward Deployed</div>
+<div class="loc">San Francisco, CA</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:76%"></i></div><span class="pct">76%</span></td>
+<td class="c-posted">7mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/ramp/deca582c-a1d0-4705-9975-60aed81ba89f" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Ramp</span></td>
+<td class="c-role"><div class="role">Software Engineer, Accounting</div>
+<div class="loc">New York, NY (HQ)</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:76%"></i></div><span class="pct">76%</span></td>
+<td class="c-posted">4mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/ramp/ed2e9a94-f58e-4ff8-8853-afd977850d43" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">MongoDB</span></td>
+<td class="c-role"><div class="role">Software Engineer 3, Atlas Vector Search</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:76%"></i></div><span class="pct">76%</span></td>
+<td class="c-posted">today</td>
+<td class="c-apply"><a class="apply" href="https://www.mongodb.com/careers/job/?gh_jid=7523911" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Software Engineer, Youth Well-Being</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:76%"></i></div><span class="pct">76%</span></td>
+<td class="c-posted">18mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/f4e8a433-ae96-44ac-a7f9-97070335395f" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Software Engineer, Accelerators</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:76%"></i></div><span class="pct">76%</span></td>
+<td class="c-posted">11mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/f386b209-1259-4b79-bf5a-aa97fc7ce77b" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Software Engineer, Cooperative AI</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:76%"></i></div><span class="pct">76%</span></td>
+<td class="c-posted">4mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/7613aca3-9dd8-41cd-b114-06ef4de967a9" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Software Engineer, Codex App</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:76%"></i></div><span class="pct">76%</span></td>
+<td class="c-posted">3mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/60e52bb7-3418-447c-8767-a6bb8e7dedd8" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Software Engineer, Core Science</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:76%"></i></div><span class="pct">76%</span></td>
+<td class="c-posted">12d ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/1c3951f1-07e3-442f-a4fb-b984e8205bf5" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Verkada</span></td>
+<td class="c-role"><div class="role">Software Engineer - Computer Vision</div>
+<div class="loc">San Mateo, CA United Sta</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:76%"></i></div><span class="pct">76%</span></td>
+<td class="c-posted">17d ago</td>
+<td class="c-apply"><a class="apply" href="https://job-boards.greenhouse.io/verkada/jobs/4128624007" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Verkada</span></td>
+<td class="c-role"><div class="role">Software Engineer - Imaging Systems</div>
+<div class="loc">San Mateo, CA United Sta</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:76%"></i></div><span class="pct">76%</span></td>
+<td class="c-posted">17d ago</td>
+<td class="c-apply"><a class="apply" href="https://job-boards.greenhouse.io/verkada/jobs/4134234007" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Anthropic</span></td>
+<td class="c-role"><div class="role">Software Engineer, Sandboxing (Systems)</div>
+<div class="loc">San Francisco, CA | New </div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:76%"></i></div><span class="pct">76%</span></td>
+<td class="c-posted">2mo ago</td>
+<td class="c-apply"><a class="apply" href="https://job-boards.greenhouse.io/anthropic/jobs/5025591008" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Replit</span></td>
+<td class="c-role"><div class="role">Software Engineer, Compute Platform</div>
+<div class="loc">Foster City, CA</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:76%"></i></div><span class="pct">76%</span></td>
+<td class="c-posted">14mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/replit/659a8e1e-69ba-44c0-a632-96665051a3e8" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Baseten</span></td>
+<td class="c-role"><div class="role">Software Engineer - Model Performance</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Low</span></td>
+<td class="c-match"><div class="bar"><i style="width:76%"></i></div><span class="pct">76%</span></td>
+<td class="c-posted">26mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/baseten/d29e748c-7209-460d-a024-8f77ae0a3d4d" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Baseten</span></td>
+<td class="c-role"><div class="role">Software Engineer - AI Enablement</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Low</span></td>
+<td class="c-match"><div class="bar"><i style="width:76%"></i></div><span class="pct">76%</span></td>
+<td class="c-posted">3mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/baseten/b88a68b7-d2bc-4a30-a79a-3ef292ad7c26" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Baseten</span></td>
+<td class="c-role"><div class="role">Software Engineer — GPU Networking &amp; Distributed Systems</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Low</span></td>
+<td class="c-match"><div class="bar"><i style="width:76%"></i></div><span class="pct">76%</span></td>
+<td class="c-posted">3mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/baseten/1f7d7fda-5540-4205-890b-cdbf774f0814" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Robinhood</span></td>
+<td class="c-role"><div class="role">Machine Learning Engineer</div>
+<div class="loc">Bellevue, WA</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:72%"></i></div><span class="pct">72%</span></td>
+<td class="c-posted">today</td>
+<td class="c-apply"><a class="apply" href="https://boards.greenhouse.io/robinhood/jobs/7960680?t=gh_src=&amp;gh_jid=7960680" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Machine Learning Engineer, Integrity</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:72%"></i></div><span class="pct">72%</span></td>
+<td class="c-posted">2mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/ecf1abec-898c-4acb-a984-42858836a1ff" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Anthropic</span></td>
+<td class="c-role"><div class="role">Machine Learning Systems Engineer, Research Tools</div>
+<div class="loc">San Francisco, CA | New </div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:72%"></i></div><span class="pct">72%</span></td>
+<td class="c-posted">2mo ago</td>
+<td class="c-apply"><a class="apply" href="https://job-boards.greenhouse.io/anthropic/jobs/4952079008" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Robinhood</span></td>
+<td class="c-role"><div class="role">Full Stack Engineer, Credit Cards &amp; Banking</div>
+<div class="loc">Bellevue, WA</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:68%"></i></div><span class="pct">68%</span></td>
+<td class="c-posted">13d ago</td>
+<td class="c-apply"><a class="apply" href="https://boards.greenhouse.io/robinhood/jobs/7490049?t=gh_src=&amp;gh_jid=7490049" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">DoorDash</span></td>
+<td class="c-role"><div class="role">Software Engineer, iOS (All Teams)</div>
+<div class="loc">Sunnyvale, CA</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:68%"></i></div><span class="pct">68%</span></td>
+<td class="c-posted">today</td>
+<td class="c-apply"><a class="apply" href="https://job-boards.greenhouse.io/doordashusa/jobs/5630454" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Palantir</span></td>
+<td class="c-role"><div class="role">Software Engineer - Apollo Systems</div>
+<div class="loc">New York, NY  +1 more</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:68%"></i></div><span class="pct">68%</span></td>
+<td class="c-posted">&mdash;</td>
+<td class="c-apply"><a class="apply" href="https://jobs.lever.co/palantir/832e4652-5088-4e5b-aeac-1e82ec3ebad4" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Squarespace</span></td>
+<td class="c-role"><div class="role">Backend Engineer, Domains Registrar</div>
+<div class="loc">Aveiro</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:68%"></i></div><span class="pct">68%</span></td>
+<td class="c-posted">5d ago</td>
+<td class="c-apply"><a class="apply" href="http://www.squarespace.com/about/careers?gh_jid=7557125" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Discord</span></td>
+<td class="c-role"><div class="role">Data Engineer, Analytics</div>
+<div class="loc">San Francisco Bay Area</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:68%"></i></div><span class="pct">68%</span></td>
+<td class="c-posted">28d ago</td>
+<td class="c-apply"><a class="apply" href="https://job-boards.greenhouse.io/discord/jobs/8371252002" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Ramp</span></td>
+<td class="c-role"><div class="role">Applied AI Engineer</div>
+<div class="loc">New York, NY (HQ)</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:68%"></i></div><span class="pct">68%</span></td>
+<td class="c-posted">4mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/ramp/d204e136-2749-42de-82b4-88a0dd352090" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">MongoDB</span></td>
+<td class="c-role"><div class="role">Software Engineer 3, Atlas Search Systems</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:68%"></i></div><span class="pct">68%</span></td>
+<td class="c-posted">today</td>
+<td class="c-apply"><a class="apply" href="https://www.mongodb.com/careers/job/?gh_jid=7523920" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">MongoDB</span></td>
+<td class="c-role"><div class="role">Software Engineer 3, Search Systems Replication &amp; Routing</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:68%"></i></div><span class="pct">68%</span></td>
+<td class="c-posted">today</td>
+<td class="c-apply"><a class="apply" href="https://www.mongodb.com/careers/job/?gh_jid=7235322" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Software Engineer, Collective Communication</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:68%"></i></div><span class="pct">68%</span></td>
+<td class="c-posted">25mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/340c0c22-8d8f-4232-b17e-f642b64c25c3" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Software Engineer, Inference - Multi Modal</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:68%"></i></div><span class="pct">68%</span></td>
+<td class="c-posted">12mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/4d14449e-5e7f-45d4-b103-8776a6c87086" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Software Engineer, Post-Training Research</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:68%"></i></div><span class="pct">68%</span></td>
+<td class="c-posted">1mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/f381868f-7b0a-4b22-b215-71c7f5c1b498" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Software Engineer, Privacy</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:68%"></i></div><span class="pct">68%</span></td>
+<td class="c-posted">10mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/8a1b804f-b070-4c61-bd3d-cdf39ef9d935" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Full Stack Software Engineer, Growth</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:68%"></i></div><span class="pct">68%</span></td>
+<td class="c-posted">4mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/77bc0b3a-35c1-4ecf-99c7-1b3b19d959ca" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Backend Software Engineer, Growth</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:68%"></i></div><span class="pct">68%</span></td>
+<td class="c-posted">4mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/dd2025b9-4d18-4ad7-a78c-7a643419ecc5" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Software Engineer, Inference – AMD GPU Enablement </div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:68%"></i></div><span class="pct">68%</span></td>
+<td class="c-posted">7mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/9b79406c-89a8-49bd-8a38-e72db80996e9" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Full-Stack Software Engineer, Incubation</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:68%"></i></div><span class="pct">68%</span></td>
+<td class="c-posted">3mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/548fb239-b14d-4ab6-af38-05a84ac0914e" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Software Engineer, Platform Systems</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:68%"></i></div><span class="pct">68%</span></td>
+<td class="c-posted">4mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/5e4ed6d1-2417-4bf5-bae0-905931c488e3" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Full Stack Software Engineer, ChatGPT Partnerships</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:68%"></i></div><span class="pct">68%</span></td>
+<td class="c-posted">3mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/50626871-6bbf-4d8f-a534-176f929f1f37" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Connectivity Software Engineer, Consumer Devices</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:68%"></i></div><span class="pct">68%</span></td>
+<td class="c-posted">7mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/9b2c68f2-5ce8-44f9-a30c-d8016ac66d86" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Host Systems Software Engineer</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:68%"></i></div><span class="pct">68%</span></td>
+<td class="c-posted">1d ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/87e5f8c3-3337-480a-9db2-e4cef5db909b" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Faire</span></td>
+<td class="c-role"><div class="role">Applied AI / ML Scientist - Ads Bidding</div>
+<div class="loc">San Francisco, CA</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:68%"></i></div><span class="pct">68%</span></td>
+<td class="c-posted">1mo ago</td>
+<td class="c-apply"><a class="apply" href="https://boards.greenhouse.io/faire/jobs/8400765002?gh_jid=8400765002" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Anthropic</span></td>
+<td class="c-role"><div class="role">Software Engineer, Human Data Interface</div>
+<div class="loc">San Francisco, CA | New </div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:68%"></i></div><span class="pct">68%</span></td>
+<td class="c-posted">2mo ago</td>
+<td class="c-apply"><a class="apply" href="https://job-boards.greenhouse.io/anthropic/jobs/5109273008" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Harvey</span></td>
+<td class="c-role"><div class="role">Software Engineer, Agents</div>
+<div class="loc">New York  +1 more</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:68%"></i></div><span class="pct">68%</span></td>
+<td class="c-posted">1mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/harvey/0c3ccbfd-25d1-4f66-be9c-e3c680fbe2fc" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Snorkel AI</span></td>
+<td class="c-role"><div class="role">Software Engineer in Test - Infrastructure</div>
+<div class="loc">Redwood City, CA (Hybrid</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Low</span></td>
+<td class="c-match"><div class="bar"><i style="width:68%"></i></div><span class="pct">68%</span></td>
+<td class="c-posted">9d ago</td>
+<td class="c-apply"><a class="apply" href="https://job-boards.greenhouse.io/snorkelai/jobs/5844047004" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Baseten</span></td>
+<td class="c-role"><div class="role">Applied AI Inference Engineer</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Low</span></td>
+<td class="c-match"><div class="bar"><i style="width:68%"></i></div><span class="pct">68%</span></td>
+<td class="c-posted">1mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/baseten/90e9ff4e-1225-4b1b-b0b4-2362e36d9cfa" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Baseten</span></td>
+<td class="c-role"><div class="role">Data Engineer</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Low</span></td>
+<td class="c-match"><div class="bar"><i style="width:68%"></i></div><span class="pct">68%</span></td>
+<td class="c-posted">2mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/baseten/c2ba6c50-d282-4478-98e9-668f94facde8" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Baseten</span></td>
+<td class="c-role"><div class="role">Software Engineer- BIS (Baseten Inference Stack)</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Low</span></td>
+<td class="c-match"><div class="bar"><i style="width:68%"></i></div><span class="pct">68%</span></td>
+<td class="c-posted">2d ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/baseten/c8701794-bdc1-4932-bffa-a444ce57ed73" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">TLM, Machine Learning, Integrity</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:64%"></i></div><span class="pct">64%</span></td>
+<td class="c-posted">15mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/4e60d650-47a7-44fb-8031-02976c7ddc55" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Frontend Engineer, ChatGPT Engineering</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:64%"></i></div><span class="pct">64%</span></td>
+<td class="c-posted">4mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/5bde9af5-df78-460e-ae9c-5c49ac778640" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Research Engineer / Machine Learning Engineer - Applied Voice</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:64%"></i></div><span class="pct">64%</span></td>
+<td class="c-posted">3mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/46cd47bc-d4de-4826-aa2e-8b2e0da3c409" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">PostHog</span></td>
+<td class="c-role"><div class="role">Backend Engineer — Billing</div>
+<div class="loc">Remote</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Low</span></td>
+<td class="c-match"><div class="bar"><i style="width:64%"></i></div><span class="pct">64%</span></td>
+<td class="c-posted">13d ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/posthog/1803b1de-d33b-4542-8e38-b6c4954cb789" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Stripe</span></td>
+<td class="c-role"><div class="role">Software Engineer</div>
+<div class="loc">New York, NY  +1 more</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:60%"></i></div><span class="pct">60%</span></td>
+<td class="c-posted">1d ago</td>
+<td class="c-apply"><a class="apply" href="https://stripe.com/jobs/search?gh_jid=7922832" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Databricks</span></td>
+<td class="c-role"><div class="role">Software Engineer - GenAI inference </div>
+<div class="loc">San Francisco, Californi</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:60%"></i></div><span class="pct">60%</span></td>
+<td class="c-posted">1mo ago</td>
+<td class="c-apply"><a class="apply" href="https://databricks.com/company/careers/open-positions/job?gh_jid=8202670002" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Robinhood</span></td>
+<td class="c-role"><div class="role">Backend Software Engineer, Credit Cards &amp; Banking</div>
+<div class="loc">Bellevue, WA</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:60%"></i></div><span class="pct">60%</span></td>
+<td class="c-posted">13d ago</td>
+<td class="c-apply"><a class="apply" href="https://boards.greenhouse.io/robinhood/jobs/7754143?t=gh_src=&amp;gh_jid=7754143" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Airbnb</span></td>
+<td class="c-role"><div class="role">iOS Software Engineer, Airbnb - New Grad</div>
+<div class="loc">San Francisco, CA, Seatt</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:60%"></i></div><span class="pct">60%</span></td>
+<td class="c-posted">1mo ago</td>
+<td class="c-apply"><a class="apply" href="https://careers.airbnb.com/positions/7859317?gh_jid=7859317" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Dropbox</span></td>
+<td class="c-role"><div class="role">Infrastructure Software Engineer</div>
+<div class="loc">Remote - US: Select loca</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:60%"></i></div><span class="pct">60%</span></td>
+<td class="c-posted">1d ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.dropbox.com/listing/6330390?gh_jid=6330390" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Pinterest</span></td>
+<td class="c-role"><div class="role">Security Software Engineer II, Detection and Response</div>
+<div class="loc">San Francisco, CA, US</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:60%"></i></div><span class="pct">60%</span></td>
+<td class="c-posted">1d ago</td>
+<td class="c-apply"><a class="apply" href="https://www.pinterestcareers.com/jobs/?gh_jid=7770914" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Twitch</span></td>
+<td class="c-role"><div class="role">Software Engineer I</div>
+<div class="loc">San Francisco, CA  +1 more</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:60%"></i></div><span class="pct">60%</span></td>
+<td class="c-posted">19d ago</td>
+<td class="c-apply"><a class="apply" href="https://job-boards.greenhouse.io/twitch/jobs/8367555002" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Ramp</span></td>
+<td class="c-role"><div class="role">Software Engineer, Fraud &amp; Identity</div>
+<div class="loc">New York, NY (HQ)</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:60%"></i></div><span class="pct">60%</span></td>
+<td class="c-posted">2mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/ramp/8fa367de-71ba-409e-befd-175a163acb1b" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">MongoDB</span></td>
+<td class="c-role"><div class="role">Software Engineer 3 - Query Optimization</div>
+<div class="loc">Atlanta</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:60%"></i></div><span class="pct">60%</span></td>
+<td class="c-posted">today</td>
+<td class="c-apply"><a class="apply" href="https://www.mongodb.com/careers/job/?gh_jid=7816135" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Software Engineer, Research - Human Data</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:60%"></i></div><span class="pct">60%</span></td>
+<td class="c-posted">4mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/4d6a5951-9838-434c-830a-22cb938ea228" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">System Software Engineer, Consumer Devices</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:60%"></i></div><span class="pct">60%</span></td>
+<td class="c-posted">5mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/20f525b7-f958-4c95-a055-f914ab3adb95" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Software Engineer, Inference - Performance Optimization</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:60%"></i></div><span class="pct">60%</span></td>
+<td class="c-posted">1mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/85fceac9-fb8a-4d71-a524-a8e5f1e9b01b" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Tokens-as-a-Service (Taas) Software Engineer</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:60%"></i></div><span class="pct">60%</span></td>
+<td class="c-posted">1mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/f3ddd41c-541f-485e-90d6-86c26e018e9f" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Full-Stack Software Engineer, Applied Foundations</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:60%"></i></div><span class="pct">60%</span></td>
+<td class="c-posted">27d ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/f873dd71-46c9-4be1-8580-bc67c56b4cad" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Baseten</span></td>
+<td class="c-role"><div class="role">Software Engineer - Model Products</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Low</span></td>
+<td class="c-match"><div class="bar"><i style="width:60%"></i></div><span class="pct">60%</span></td>
+<td class="c-posted">7mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/baseten/2fdb06a3-ea27-40ee-bf64-0d51e01b8464" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">OpenAI</span></td>
+<td class="c-role"><div class="role">Frontend Engineer, Financial Web Platform</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:56%"></i></div><span class="pct">56%</span></td>
+<td class="c-posted">4mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/openai/192980b8-b874-4493-a8c1-f7d5660f00f3" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Stripe</span></td>
+<td class="c-role"><div class="role">Full Stack Engineer, Web Presence and Platform</div>
+<div class="loc">N/A</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:52%"></i></div><span class="pct">52%</span></td>
+<td class="c-posted">14d ago</td>
+<td class="c-apply"><a class="apply" href="https://stripe.com/jobs/search?gh_jid=7436086" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Robinhood</span></td>
+<td class="c-role"><div class="role">Software Engineer, Cloud Engineering</div>
+<div class="loc">Ljubljana, Slovenia</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:52%"></i></div><span class="pct">52%</span></td>
+<td class="c-posted">13d ago</td>
+<td class="c-apply"><a class="apply" href="https://boards.greenhouse.io/robinhood/jobs/7589432?t=gh_src=&amp;gh_jid=7589432" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Affirm</span></td>
+<td class="c-role"><div class="role">Software Engineer, Early Career</div>
+<div class="loc">San Francisco, Californi</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:52%"></i></div><span class="pct">52%</span></td>
+<td class="c-posted">today</td>
+<td class="c-apply"><a class="apply" href="https://job-boards.greenhouse.io/affirm/jobs/7485068003" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Affirm</span></td>
+<td class="c-role"><div class="role">Software Engineering Apprentice, Full-Stack</div>
+<div class="loc">Remote US</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:52%"></i></div><span class="pct">52%</span></td>
+<td class="c-posted">today</td>
+<td class="c-apply"><a class="apply" href="https://job-boards.greenhouse.io/affirm/jobs/7647925003" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Pinterest</span></td>
+<td class="c-role"><div class="role">Security Software Engineer II, Corporate Security</div>
+<div class="loc">San Francisco, CA, US</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:52%"></i></div><span class="pct">52%</span></td>
+<td class="c-posted">1d ago</td>
+<td class="c-apply"><a class="apply" href="https://www.pinterestcareers.com/jobs/?gh_jid=7494666" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Pinterest</span></td>
+<td class="c-role"><div class="role">Security Software Engineer II, Security Operations</div>
+<div class="loc">Chicago, IL, US</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:52%"></i></div><span class="pct">52%</span></td>
+<td class="c-posted">1d ago</td>
+<td class="c-apply"><a class="apply" href="https://www.pinterestcareers.com/jobs/?gh_jid=7816431" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Pinterest</span></td>
+<td class="c-role"><div class="role">Software Engineer, iOS </div>
+<div class="loc">San Francisco, CA, US</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:52%"></i></div><span class="pct">52%</span></td>
+<td class="c-posted">1d ago</td>
+<td class="c-apply"><a class="apply" href="https://www.pinterestcareers.com/jobs/?gh_jid=5601228" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Palantir</span></td>
+<td class="c-role"><div class="role">Forward Deployed Software Engineer - Japan Forward Deployed</div>
+<div class="loc">Washington, D.C.</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:52%"></i></div><span class="pct">52%</span></td>
+<td class="c-posted">&mdash;</td>
+<td class="c-apply"><a class="apply" href="https://jobs.lever.co/palantir/8aba5995-653d-4805-96e8-24488e6abf37" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Palantir</span></td>
+<td class="c-role"><div class="role">Forward Deployed Software Engineer - Korea Forward Deployed</div>
+<div class="loc">Washington, D.C.</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:52%"></i></div><span class="pct">52%</span></td>
+<td class="c-posted">&mdash;</td>
+<td class="c-apply"><a class="apply" href="https://jobs.lever.co/palantir/a39bf84c-6648-4871-bd07-9b882d401c4c" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Palantir</span></td>
+<td class="c-role"><div class="role">Forward Deployed Software Engineer - US Government - Federal Health and Civilian</div>
+<div class="loc">New York, NY  +1 more</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:52%"></i></div><span class="pct">52%</span></td>
+<td class="c-posted">&mdash;</td>
+<td class="c-apply"><a class="apply" href="https://jobs.lever.co/palantir/be4ab5cb-9caa-4c2a-97b9-c73805fca4fc" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Palantir</span></td>
+<td class="c-role"><div class="role">Software Engineer - Core Interfaces</div>
+<div class="loc">Palo Alto, CA</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:52%"></i></div><span class="pct">52%</span></td>
+<td class="c-posted">&mdash;</td>
+<td class="c-apply"><a class="apply" href="https://jobs.lever.co/palantir/cf76738e-3030-42fa-92ac-a9446df956fc" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Palantir</span></td>
+<td class="c-role"><div class="role">Software Engineer - Defense Applications</div>
+<div class="loc">Washington, D.C.</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:52%"></i></div><span class="pct">52%</span></td>
+<td class="c-posted">&mdash;</td>
+<td class="c-apply"><a class="apply" href="https://jobs.lever.co/palantir/f7dbfdf1-0bb1-4c11-ac15-6a139cee3410" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Palantir</span></td>
+<td class="c-role"><div class="role">Software Engineer - Environment Platform</div>
+<div class="loc">New York, NY  +1 more</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:52%"></i></div><span class="pct">52%</span></td>
+<td class="c-posted">&mdash;</td>
+<td class="c-apply"><a class="apply" href="https://jobs.lever.co/palantir/cd2423c6-da68-430c-8be5-0ae7eea36497" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Discord</span></td>
+<td class="c-role"><div class="role">Software Engineer, Distributed Systems</div>
+<div class="loc">San Francisco Bay Area</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:52%"></i></div><span class="pct">52%</span></td>
+<td class="c-posted">1d ago</td>
+<td class="c-apply"><a class="apply" href="https://job-boards.greenhouse.io/discord/jobs/8545663002" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Pinterest</span></td>
+<td class="c-role"><div class="role">Machine Learning Engineer, Core Engineering</div>
+<div class="loc">San Francisco, CA, US</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:48%"></i></div><span class="pct">48%</span></td>
+<td class="c-posted">21d ago</td>
+<td class="c-apply"><a class="apply" href="https://www.pinterestcareers.com/jobs/?gh_jid=6121450" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Pinterest</span></td>
+<td class="c-role"><div class="role">Machine Learning Engineer, Monetization Engineering</div>
+<div class="loc">San Francisco, CA, US</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:48%"></i></div><span class="pct">48%</span></td>
+<td class="c-posted">21d ago</td>
+<td class="c-apply"><a class="apply" href="https://www.pinterestcareers.com/jobs/?gh_jid=6121543" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Palantir</span></td>
+<td class="c-role"><div class="role">Backend Software Engineer - Infrastructure</div>
+<div class="loc">New York, NY</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:44%"></i></div><span class="pct">44%</span></td>
+<td class="c-posted">&mdash;</td>
+<td class="c-apply"><a class="apply" href="https://jobs.lever.co/palantir/6fe5515f-f677-4d98-8ac2-1775a425f5e7" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Palantir</span></td>
+<td class="c-role"><div class="role">Backend Software Engineer - Infrastructure, Foundations</div>
+<div class="loc">New York, NY</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:44%"></i></div><span class="pct">44%</span></td>
+<td class="c-posted">&mdash;</td>
+<td class="c-apply"><a class="apply" href="https://jobs.lever.co/palantir/fb2d3222-dbd8-4e03-8d39-47b820e9509c" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Palantir</span></td>
+<td class="c-role"><div class="role">Software Engineer - Developer Productivity</div>
+<div class="loc">New York, NY</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:44%"></i></div><span class="pct">44%</span></td>
+<td class="c-posted">&mdash;</td>
+<td class="c-apply"><a class="apply" href="https://jobs.lever.co/palantir/3c84af24-b7aa-483e-b2c3-e1d83494fe15" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Baseten</span></td>
+<td class="c-role"><div class="role">Software Engineer - GPU Kernels</div>
+<div class="loc">San Francisco</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Low</span></td>
+<td class="c-match"><div class="bar"><i style="width:44%"></i></div><span class="pct">44%</span></td>
+<td class="c-posted">10mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/baseten/ddb5bc98-6116-49a2-802e-1c05398663f1" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Anthropic</span></td>
+<td class="c-role"><div class="role">Research Engineer, Machine Learning (RL Velocity)</div>
+<div class="loc">Remote-Friendly (Travel-</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:40%"></i></div><span class="pct">40%</span></td>
+<td class="c-posted">1mo ago</td>
+<td class="c-apply"><a class="apply" href="https://job-boards.greenhouse.io/anthropic/jobs/5198108008" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Harvey</span></td>
+<td class="c-role"><div class="role">Frontend Platform Engineer</div>
+<div class="loc">New York</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · Med</span></td>
+<td class="c-match"><div class="bar"><i style="width:40%"></i></div><span class="pct">40%</span></td>
+<td class="c-posted">1mo ago</td>
+<td class="c-apply"><a class="apply" href="https://jobs.ashbyhq.com/harvey/24f9a3fa-476a-490f-87bf-e8cebb7b3928" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Palantir</span></td>
+<td class="c-role"><div class="role">Backend Software Engineer - Application Development</div>
+<div class="loc">New York, NY</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:36%"></i></div><span class="pct">36%</span></td>
+<td class="c-posted">&mdash;</td>
+<td class="c-apply"><a class="apply" href="https://jobs.lever.co/palantir/ab7e3425-81d5-4705-a7b5-cd60c8a45cdb" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Palantir</span></td>
+<td class="c-role"><div class="role">Backend Software Engineer - Defense</div>
+<div class="loc">New York, NY  +2 more</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:36%"></i></div><span class="pct">36%</span></td>
+<td class="c-posted">&mdash;</td>
+<td class="c-apply"><a class="apply" href="https://jobs.lever.co/palantir/1345438c-ebfc-4fa5-b545-30c1414f317c" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Palantir</span></td>
+<td class="c-role"><div class="role">Forward Deployed AI Engineer</div>
+<div class="loc">New York, NY</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:36%"></i></div><span class="pct">36%</span></td>
+<td class="c-posted">&mdash;</td>
+<td class="c-apply"><a class="apply" href="https://jobs.lever.co/palantir/636fc05c-d348-4a06-be51-597cb9e07488" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Palantir</span></td>
+<td class="c-role"><div class="role">Forward Deployed Software Engineer</div>
+<div class="loc">New York, NY</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:36%"></i></div><span class="pct">36%</span></td>
+<td class="c-posted">&mdash;</td>
+<td class="c-apply"><a class="apply" href="https://jobs.lever.co/palantir/dab396d4-2f14-4796-aac0-0d82883dccf0" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Palantir</span></td>
+<td class="c-role"><div class="role">Forward Deployed Software Engineer - Warp Speed</div>
+<div class="loc">New York, NY</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:36%"></i></div><span class="pct">36%</span></td>
+<td class="c-posted">&mdash;</td>
+<td class="c-apply"><a class="apply" href="https://jobs.lever.co/palantir/13f99633-43b5-4459-8e84-25073f257c18" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Palantir</span></td>
+<td class="c-role"><div class="role">Software Engineer - Hosted Model Infrastructure</div>
+<div class="loc">New York, NY  +2 more</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:36%"></i></div><span class="pct">36%</span></td>
+<td class="c-posted">&mdash;</td>
+<td class="c-apply"><a class="apply" href="https://jobs.lever.co/palantir/4df4cca5-e361-498b-806d-05f21638c93a" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Palantir</span></td>
+<td class="c-role"><div class="role">Forward Deployed Software Engineer - Intel</div>
+<div class="loc">Washington, D.C.</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:28%"></i></div><span class="pct">28%</span></td>
+<td class="c-posted">&mdash;</td>
+<td class="c-apply"><a class="apply" href="https://jobs.lever.co/palantir/34b3a697-6e22-4751-befd-0b7921abbd5f" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Palantir</span></td>
+<td class="c-role"><div class="role">Forward Deployed Software Engineer - US Government</div>
+<div class="loc">Fayetteville, NC  +4 more</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:28%"></i></div><span class="pct">28%</span></td>
+<td class="c-posted">&mdash;</td>
+<td class="c-apply"><a class="apply" href="https://jobs.lever.co/palantir/289ad049-7b4e-41e3-8a39-146fbeb6fb64" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Palantir</span></td>
+<td class="c-role"><div class="role">Full Stack Software Engineer - Application Development</div>
+<div class="loc">New York, NY</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:28%"></i></div><span class="pct">28%</span></td>
+<td class="c-posted">&mdash;</td>
+<td class="c-apply"><a class="apply" href="https://jobs.lever.co/palantir/2da4be12-bc7a-4950-87db-e9d68d955ff7" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Palantir</span></td>
+<td class="c-role"><div class="role">Software Engineer - Apollo Platform</div>
+<div class="loc">New York, NY  +1 more</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:28%"></i></div><span class="pct">28%</span></td>
+<td class="c-posted">&mdash;</td>
+<td class="c-apply"><a class="apply" href="https://jobs.lever.co/palantir/8f308f3e-43d2-49c9-accd-cc7af0f1565c" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Palantir</span></td>
+<td class="c-role"><div class="role">Software Engineer - Edge</div>
+<div class="loc">Washington, D.C.</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:28%"></i></div><span class="pct">28%</span></td>
+<td class="c-posted">&mdash;</td>
+<td class="c-apply"><a class="apply" href="https://jobs.lever.co/palantir/397fb983-47b7-4a53-a7df-f080f43f7720" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Palantir</span></td>
+<td class="c-role"><div class="role">Software Engineer - Frontend Developer Productivity</div>
+<div class="loc">New York, NY</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:28%"></i></div><span class="pct">28%</span></td>
+<td class="c-posted">&mdash;</td>
+<td class="c-apply"><a class="apply" href="https://jobs.lever.co/palantir/71ed917e-850a-484b-9454-fa66bdf24540" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Adobe</span></td>
+<td class="c-role"><div class="role">React/Full Stack UI Engineer</div>
+<div class="loc">Noida</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:28%"></i></div><span class="pct">28%</span></td>
+<td class="c-posted">13d ago</td>
+<td class="c-apply"><a class="apply" href="https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/Noida/React-Full-Stack-UI-Engineer_R167409-1" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Palantir</span></td>
+<td class="c-role"><div class="role">Forward Deployed Software Engineer  - Edge Autonomous Systems</div>
+<div class="loc">Washington, D.C.</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:20%"></i></div><span class="pct">20%</span></td>
+<td class="c-posted">&mdash;</td>
+<td class="c-apply"><a class="apply" href="https://jobs.lever.co/palantir/27bf5707-96fa-460e-8a5b-53bc192ca87b" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Palantir</span></td>
+<td class="c-role"><div class="role">Forward Deployed Software Engineer - Autonomous Systems C2</div>
+<div class="loc">Palo Alto, CA  +1 more</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:20%"></i></div><span class="pct">20%</span></td>
+<td class="c-posted">&mdash;</td>
+<td class="c-apply"><a class="apply" href="https://jobs.lever.co/palantir/0edf7365-49f0-4263-818a-19409ec4f430" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Palantir</span></td>
+<td class="c-role"><div class="role">Forward Deployed Software Engineer - Tactical Edge</div>
+<div class="loc">Washington, D.C.</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:20%"></i></div><span class="pct">20%</span></td>
+<td class="c-posted">&mdash;</td>
+<td class="c-apply"><a class="apply" href="https://jobs.lever.co/palantir/3d0d9d92-0321-4459-a17d-fa1a76636a43" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Nvidia</span></td>
+<td class="c-role"><div class="role">Software Engineer, DGX Cloud AI Infrastructure</div>
+<div class="loc">5 Locations</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:20%"></i></div><span class="pct">20%</span></td>
+<td class="c-posted">1d ago</td>
+<td class="c-apply"><a class="apply" href="https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--DGX-Cloud-AI-Infrastructure_JR2019248" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Nvidia</span></td>
+<td class="c-role"><div class="role">Software Engineer, GPU Performance Tools</div>
+<div class="loc">3 Locations</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:20%"></i></div><span class="pct">20%</span></td>
+<td class="c-posted">1d ago</td>
+<td class="c-apply"><a class="apply" href="https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--GPU-Performance-Tools_JR2017424" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Salesforce</span></td>
+<td class="c-role"><div class="role">Software Engineering MTS</div>
+<div class="loc">2 Locations</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:20%"></i></div><span class="pct">20%</span></td>
+<td class="c-posted">today</td>
+<td class="c-apply"><a class="apply" href="https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Bangalore/Software-Engineering-MTS_JR338172-1" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Salesforce</span></td>
+<td class="c-role"><div class="role">Software Engineering-LMTS-SDET</div>
+<div class="loc">2 Locations</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:20%"></i></div><span class="pct">20%</span></td>
+<td class="c-posted">today</td>
+<td class="c-apply"><a class="apply" href="https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Hyderabad/Software-Engineering-SDET_JR312798" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Workday</span></td>
+<td class="c-role"><div class="role">Analytics Sr Software Engineer (US Federal)</div>
+<div class="loc">USA.VA.Reston</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:20%"></i></div><span class="pct">20%</span></td>
+<td class="c-posted">1d ago</td>
+<td class="c-apply"><a class="apply" href="https://workday.wd5.myworkdayjobs.com/en-US/Workday/job/USAVAReston/Analytics-Sr-Software-Engineer--US-Federal-_JR-0105489-1" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Workday</span></td>
+<td class="c-role"><div class="role">Software Development Engineer (Full Stack) - Evisort AI</div>
+<div class="loc">2 Locations</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span><span class="tag tag-closed">Closed</span></td>
+<td class="c-match"><div class="bar"><i style="width:20%"></i></div><span class="pct">20%</span></td>
+<td class="c-posted">2d ago</td>
+<td class="c-apply"><a class="apply" href="https://workday.wd5.myworkdayjobs.com/en-US/Workday/job/Canada-BC-Vancouver/Software-Development-Engineer--Full-Stack----Evisort-AI_JR-0103885-1" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Stripe</span></td>
+<td class="c-role"><div class="role">Backend Engineer, Payments Experiences</div>
+<div class="loc">N/A</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:16%"></i></div><span class="pct">16%</span></td>
+<td class="c-posted">8d ago</td>
+<td class="c-apply"><a class="apply" href="https://stripe.com/jobs/search?gh_jid=7895287" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Autodesk</span></td>
+<td class="c-role"><div class="role">Graduate Software Engineer</div>
+<div class="loc">Birmingham, GBR</div></td>
+<td class="c-visa"><span class="muted">Unknown</span></td>
+<td class="c-match"><div class="bar"><i style="width:12%"></i></div><span class="pct">12%</span></td>
+<td class="c-posted">today</td>
+<td class="c-apply"><a class="apply" href="https://autodesk.wd1.myworkdayjobs.com/en-US/Ext/job/Birmingham-GBR/Graduate-Software-Engineer_25WD90555-1" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+<tr>
+<td class="c-co"><span class="co">Adobe</span></td>
+<td class="c-role"><div class="role">Machine Learning Engineer 5</div>
+<div class="loc">San Jose</div></td>
+<td class="c-visa"><span class="tag tag-spon">Sponsors · High</span></td>
+<td class="c-match"><div class="bar"><i style="width:8%"></i></div><span class="pct">8%</span></td>
+<td class="c-posted">9d ago</td>
+<td class="c-apply"><a class="apply" href="https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/San-Jose/Machine-Learning-Engineer-5_R169103" target="_blank" rel="noopener noreferrer">Apply</a></td>
+</tr>
+    </tbody>
+  </table>
+
+  <footer>
+    Last updated Jun 04, 2026 · 01:12 PM ET. Built with a free Python scraper + GitHub Actions — no paid APIs.<br>
+    Sourced from public ATS feeds (Greenhouse, Lever, Ashby, Workday). Sponsorship tiers are indicative — always verify on the posting.
+    &nbsp;·&nbsp; <a href="https://github.com/SIDDARTHAREDDY8/JobsBuddy" target="_blank" rel="noopener">View source on GitHub</a>
+  </footer>
+</div>
+
+<script>
+function filt(){
+  var q=document.getElementById('q').value.toLowerCase();
+  document.querySelectorAll('#tbl tbody tr').forEach(function(r){
+    if(r.classList.contains('daysep')){r.style.display='';return;}
+    r.style.display = r.innerText.toLowerCase().indexOf(q)>-1 ? '' : 'none';
+  });
+}
+</script>
+</body>
+</html>

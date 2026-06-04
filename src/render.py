@@ -54,6 +54,9 @@ def render_readme(jobs, profile, today):
     L.append("> ### 🛂 Every job here is at a company with a **real H1B visa-sponsorship history.**")
     L.append("> No more applying to 500 jobs only to hear *“sorry, we don’t sponsor.”*")
     L.append("")
+    L.append("### 👉 **[Open the live job board ↗](https://siddarthareddy8.github.io/JobsBuddy/)** "
+             "— cleaner UI, search bar, and **Apply opens in a new tab.**")
+    L.append("")
     L.append("---")
     L.append("")
     L.append("## 💭 Why I built this")

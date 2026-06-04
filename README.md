@@ -3,12 +3,14 @@
 <p align="center">
 <a href="https://github.com/SIDDARTHAREDDY8/JobsBuddy/stargazers"><img src="https://img.shields.io/github/stars/SIDDARTHAREDDY8/JobsBuddy?style=for-the-badge&logo=github&color=gold" alt="Stars"></a>
 <img src="https://img.shields.io/badge/updated-every%206%20hours-brightgreen?style=for-the-badge" alt="Auto-updated">
-<img src="https://img.shields.io/badge/open%20jobs-320-blue?style=for-the-badge" alt="Open jobs">
+<img src="https://img.shields.io/badge/open%20jobs-280-blue?style=for-the-badge" alt="Open jobs">
 <img src="https://img.shields.io/badge/cost-%240%20forever-success?style=for-the-badge" alt="Free">
 </p>
 
 > ### 🛂 Every job here is at a company with a **real H1B visa-sponsorship history.**
 > No more applying to 500 jobs only to hear *“sorry, we don’t sponsor.”*
+
+### 👉 **[Open the live job board ↗](https://siddarthareddy8.github.io/JobsBuddy/)** — cleaner UI, search bar, and **Apply opens in a new tab.**
 
 ---
 
@@ -36,13 +38,13 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 3. 📋 Scroll the table below — newest jobs are at the top.
 4. 🛂 Look for the **✅ Sponsors** tag, then hit **Apply**.
 
-<sub>🔄 Last updated: **2026-06-04 12:50 PM ET** • Total roles tracked: **325** • Open now: **320** • 🆕 Added today: **25**</sub>
+<sub>🔄 Last updated: **2026-06-04 01:12 PM ET** • Total roles tracked: **282** • Open now: **280** • 🆕 Added today: **26**</sub>
 
 **Legend:** 🔥 NEW = added in the latest update (older jobs lose this automatically) • ✅ Sponsors = recent H1B filing history • 🔒 = no longer listed • Posted = how long ago the company posted it • Match % = how strong a fit the role is.
 
 ---
 
-## 🗓️ June 04, 2026 — 25 jobs
+## 🗓️ June 04, 2026 — 26 jobs
 
 | | Company | Role | Location | Visa | Match | Posted | Added | Status | Apply |
 |--|--|--|--|--|--|--|--|--|--|
@@ -68,16 +70,16 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 | 🔥 NEW | Spotify | Machine Learning Engineer, Personalization, Minesweeper | New York, NY | ✅ Sponsors (High) | **8%** | — | June 04, 2026 | Open | [Apply](https://jobs.lever.co/spotify/de3f6a47-4d75-4512-8351-b362f1d1c32e) |
 | 🔥 NEW | Spotify | Machine Learning Engineer, Personalization, Samba | New York, NY | ✅ Sponsors (High) | **8%** | — | June 04, 2026 | Open | [Apply](https://jobs.lever.co/spotify/7597d3d7-58d2-41b2-9f85-911d95c2c739) |
 | 🔥 NEW | ElevenLabs | Forward Deployed Engineer - Software Engineer | San Francisco | ✅ Sponsors (Med) | **60%** | 4mo ago | June 04, 2026 | Open | [Apply](https://jobs.ashbyhq.com/elevenlabs/6c4c57c1-ec72-42ba-af3a-eb7aebbde2e6) |
+| 🔥 NEW | OpenAI | Camera Software Engineer, Consumer Devices | San Francisco | ✅ Sponsors (Med) | **60%** | 5mo ago | June 04, 2026 | Open | [Apply](https://jobs.ashbyhq.com/openai/1dc05fc7-ceb7-4827-a905-9d1beb77a4a0) |
 | 🔥 NEW | Browserbase | Software Engineer (Core Infrastructure) | San Francisco | ✅ Sponsors (Low) | **84%** | 14mo ago | June 04, 2026 | Open | [Apply](https://jobs.ashbyhq.com/browserbase/bcbf0fb9-2405-497b-bbc9-e09d8f7a4963) |
 | 🔥 NEW | Decagon | Founder's Office, Applied AI | San Francisco | ✅ Sponsors (Low) | **76%** | 16d ago | June 04, 2026 | Open | [Apply](https://jobs.ashbyhq.com/decagon/c2ea9bd2-7a20-4fbb-b301-5e587415baeb) |
 | 🔥 NEW | Browserbase | Software Engineer (Agent Platform) | San Francisco | ✅ Sponsors (Low) | **76%** | 9mo ago | June 04, 2026 | Open | [Apply](https://jobs.ashbyhq.com/browserbase/7724fbe3-6a27-4418-9705-2dcc40751a16) |
 
-## 🗓️ June 03, 2026 — 300 jobs
+## 🗓️ June 03, 2026 — 256 jobs
 
 | | Company | Role | Location | Visa | Match | Posted | Added | Status | Apply |
 |--|--|--|--|--|--|--|--|--|--|
 |  | Robinhood | Software Engineer, Agentic AI | Bellevue, WA | ✅ Sponsors (High) | **100%** | today | June 03, 2026 | Open | [Apply](https://boards.greenhouse.io/robinhood/jobs/7975477?t=gh_src=&gh_jid=7975477) |
-|  | DoorDash | Applications Engineer, Full Stack - People  | Seattle, WA | ✅ Sponsors (High) | **100%** | 6d ago | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/doordashusa/jobs/7733002) |
 |  | DoorDash | Software Engineer, Backend (All Teams) | Los Angeles, CA | ✅ Sponsors (High) | **100%** | 6d ago | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/doordashusa/jobs/5630445) |
 |  | DoorDash | Software Engineer II, Data Engineering | San Francisco, CA | ✅ Sponsors (High) | **100%** | 6d ago | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/doordashusa/jobs/6458514) |
 |  | DoorDash | Software Engineer, Infrastructure - Autonomy & Robotics | San Francisco, CA | ✅ Sponsors (High) | **100%** | 6d ago | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/doordashusa/jobs/6367350) |
@@ -85,13 +87,12 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 |  | Block | Software Engineer, Finance Applications | Bay Area, CA, United Sta | ✅ Sponsors (High) | **100%** | 1mo ago | June 03, 2026 | Open | [Apply](http://block.xyz/careers/jobs/4888459008?gh_jid=4888459008) |
 |  | Figma | Software Engineer, Full Stack | San Francisco, CA • New  | ✅ Sponsors (High) | **100%** | 30d ago | June 03, 2026 | Open | [Apply](https://boards.greenhouse.io/figma/jobs/5691911004?gh_jid=5691911004) |
 |  | Flexport |  Software Engineer II, Autonomous Freight Systems | San Francisco, Californi | ✅ Sponsors (High) | **100%** | 1d ago | June 03, 2026 | Open | [Apply](https://boards.greenhouse.io/flexport/jobs/7839346?gh_jid=7839346) |
-|  | Twitch | Software Engineer I, Ad Supply Experiences | San Francisco, CA | ✅ Sponsors (High) | **100%** | 1mo ago | June 03, 2026 | 🔒 Closed | [Apply](https://job-boards.greenhouse.io/twitch/jobs/8519628002) |
+|  | Twitch | Software Engineer I, Ad Supply Experiences | San Francisco, CA | ✅ Sponsors (High) | **100%** | 1mo ago | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/twitch/jobs/8519628002) |
 |  | Robinhood | Software Engineer, Backend | Menlo Park, CA | ✅ Sponsors (High) | **92%** | 13d ago | June 03, 2026 | Open | [Apply](https://boards.greenhouse.io/robinhood/jobs/7263592?t=gh_src=&gh_jid=7263592) |
-|  | Figma | Software Engineer, Growth & Monetization | San Francisco, CA • New  | ✅ Sponsors (High) | **92%** | 1mo ago | June 03, 2026 | Open | [Apply](https://boards.greenhouse.io/figma/jobs/5552560004?gh_jid=5552560004) |
 |  | Squarespace | Software Engineer - Delivery Platform  | New York City | ✅ Sponsors (High) | **92%** | 5d ago | June 03, 2026 | Open | [Apply](http://www.squarespace.com/about/careers?gh_jid=7789058) |
-|  | Twitch | Software Engineer, Creator Sponsorships | San Francisco, CA  +1 more | ✅ Sponsors (High) | **92%** | 13d ago | June 03, 2026 | 🔒 Closed | [Apply](https://job-boards.greenhouse.io/twitch/jobs/8561592002) |
-|  | Twitch | Software Engineer I, Commerce Engineering | San Francisco, CA  +1 more | ✅ Sponsors (High) | **92%** | 2mo ago | June 03, 2026 | 🔒 Closed | [Apply](https://job-boards.greenhouse.io/twitch/jobs/8459320002) |
-|  | Twitch | Software Engineer, Safety | San Francisco, CA | ✅ Sponsors (High) | **92%** | 1mo ago | June 03, 2026 | 🔒 Closed | [Apply](https://job-boards.greenhouse.io/twitch/jobs/8504990002) |
+|  | Twitch | Software Engineer, Creator Sponsorships | San Francisco, CA  +1 more | ✅ Sponsors (High) | **92%** | 13d ago | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/twitch/jobs/8561592002) |
+|  | Twitch | Software Engineer I, Commerce Engineering | San Francisco, CA  +1 more | ✅ Sponsors (High) | **92%** | 2mo ago | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/twitch/jobs/8459320002) |
+|  | Twitch | Software Engineer, Safety | San Francisco, CA | ✅ Sponsors (High) | **92%** | 1mo ago | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/twitch/jobs/8504990002) |
 |  | DoorDash | Client Platform Engineer III | United States - Remote | ✅ Sponsors (High) | **88%** | 6d ago | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/doordashusa/jobs/7842148) |
 |  | DoorDash | Machine Learning Engineer - ETA Team | Sunnyvale, CA | ✅ Sponsors (High) | **88%** | 6d ago | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/doordashusa/jobs/5657317) |
 |  | DoorDash | Machine Learning Engineer, Marketplace Optimization | San Francisco, CA | ✅ Sponsors (High) | **88%** | 6d ago | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/doordashusa/jobs/7580407) |
@@ -103,10 +104,9 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 |  | Pinterest | Software Engineer II, Backend, tvScientific | San Francisco, CA, US | ✅ Sponsors (High) | **84%** | 21d ago | June 03, 2026 | Open | [Apply](https://www.pinterestcareers.com/jobs/?gh_jid=7782552) |
 |  | Pinterest | Software Engineer II, Simulation, tvScientific | San Francisco, CA, US | ✅ Sponsors (High) | **84%** | 1d ago | June 03, 2026 | Open | [Apply](https://www.pinterestcareers.com/jobs/?gh_jid=7642265) |
 |  | Figma | Sales AI Engineer | San Francisco, CA • New  | ✅ Sponsors (High) | **84%** | 22d ago | June 03, 2026 | Open | [Apply](https://boards.greenhouse.io/figma/jobs/5991176004?gh_jid=5991176004) |
-|  | Figma | Software Engineer, C++ | San Francisco, CA • New  | ✅ Sponsors (High) | **84%** | 1mo ago | June 03, 2026 | Open | [Apply](https://boards.greenhouse.io/figma/jobs/5552530004?gh_jid=5552530004) |
 |  | Stripe | Software Engineer, Balance Abstraction | Seattle, WA | ✅ Sponsors (High) | **76%** | 14d ago | June 03, 2026 | Open | [Apply](https://stripe.com/jobs/search?gh_jid=7908923) |
 |  | Databricks | Sr Software Engineer- Customer Experience Intelligence (CXI) | Mountain View, Californi | ✅ Sponsors (High) | **76%** | 1mo ago | June 03, 2026 | Open | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=8416951002) |
-|  | Robinhood | Software Engineer | Menlo Park, CA | ✅ Sponsors (High) | **76%** | today | June 03, 2026 | Open | [Apply](https://boards.greenhouse.io/robinhood/jobs/7975516?t=gh_src=&gh_jid=7975516) |
+|  | Robinhood | Software Engineer | Menlo Park, CA | ✅ Sponsors (High) | **76%** | today | June 03, 2026 | Open | [Apply](https://boards.greenhouse.io/robinhood/jobs/7975529?t=gh_src=&gh_jid=7975529) |
 |  | Affirm | Analyst I, Full Stack (Core Analytics) | Remote US | ✅ Sponsors (High) | **76%** | 1d ago | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/affirm/jobs/7726627003) |
 |  | Affirm | Analyst II, Full Stack (Fraud Analytics) | Remote US | ✅ Sponsors (High) | **76%** | 19d ago | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/affirm/jobs/7533759003) |
 |  | Pinterest | Software Engineer I, Backend | Seattle, WA, US | ✅ Sponsors (High) | **76%** | 1d ago | June 03, 2026 | Open | [Apply](https://www.pinterestcareers.com/jobs/?gh_jid=6816337) |
@@ -114,24 +114,18 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 |  | Pinterest | Software Engineer II, ML Platform, tvScientific | San Francisco, CA, US | ✅ Sponsors (High) | **76%** | 8d ago | June 03, 2026 | Open | [Apply](https://www.pinterestcareers.com/jobs/?gh_jid=7782571) |
 |  | Datadog | Software Engineer II, Enterprise Engineering | New York, New York, USA | ✅ Sponsors (High) | **76%** | today | June 03, 2026 | Open | [Apply](https://careers.datadoghq.com/detail/7980350/?gh_jid=7980350) |
 |  | Figma | Data Engineer | San Francisco, CA • New  | ✅ Sponsors (High) | **76%** | 1mo ago | June 03, 2026 | Open | [Apply](https://boards.greenhouse.io/figma/jobs/5220003004?gh_jid=5220003004) |
-|  | Airtable | Software Engineer, Infrastructure (4-8 YOE) | San Francisco, CA | ✅ Sponsors (High) | **76%** | 1mo ago | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/airtable/jobs/8400373002) |
-|  | Airtable | Software Engineer, Infrastructure (8+ YOE) | San Francisco, CA | ✅ Sponsors (High) | **76%** | 8d ago | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/airtable/jobs/8400388002) |
-|  | Stripe | Backend Engineer, Core Technology | US-Remote, Chicago | ✅ Sponsors (High) | **72%** | 14d ago | June 03, 2026 | Open | [Apply](https://stripe.com/jobs/search?gh_jid=6042172) |
-|  | Stripe | Backend Engineer, Payments and Risk | US | ✅ Sponsors (High) | **72%** | 14d ago | June 03, 2026 | Open | [Apply](https://stripe.com/jobs/search?gh_jid=6163230) |
 |  | Robinhood | Machine Learning Engineer | Bellevue, WA | ✅ Sponsors (High) | **72%** | today | June 03, 2026 | Open | [Apply](https://boards.greenhouse.io/robinhood/jobs/7960680?t=gh_src=&gh_jid=7960680) |
 |  | Robinhood | Full Stack Engineer, Credit Cards & Banking | Bellevue, WA | ✅ Sponsors (High) | **68%** | 13d ago | June 03, 2026 | Open | [Apply](https://boards.greenhouse.io/robinhood/jobs/7490049?t=gh_src=&gh_jid=7490049) |
 |  | DoorDash | Software Engineer, iOS (All Teams) | Sunnyvale, CA | ✅ Sponsors (High) | **68%** | today | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/doordashusa/jobs/5630454) |
 |  | Palantir | Software Engineer - Apollo Systems | New York, NY  +1 more | ✅ Sponsors (High) | **68%** | — | June 03, 2026 | Open | [Apply](https://jobs.lever.co/palantir/832e4652-5088-4e5b-aeac-1e82ec3ebad4) |
 |  | Squarespace | Backend Engineer, Domains Registrar | Aveiro | ✅ Sponsors (High) | **68%** | 5d ago | June 03, 2026 | Open | [Apply](http://www.squarespace.com/about/careers?gh_jid=7557125) |
-|  | Stripe | Software Engineer | New York, NY  +2 more | ✅ Sponsors (High) | **60%** | 1d ago | June 03, 2026 | Open | [Apply](https://stripe.com/jobs/search?gh_jid=7922832) |
+|  | Stripe | Software Engineer | New York, NY  +1 more | ✅ Sponsors (High) | **60%** | 1d ago | June 03, 2026 | Open | [Apply](https://stripe.com/jobs/search?gh_jid=7922832) |
 |  | Databricks | Software Engineer - GenAI inference  | San Francisco, Californi | ✅ Sponsors (High) | **60%** | 1mo ago | June 03, 2026 | Open | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=8202670002) |
 |  | Robinhood | Backend Software Engineer, Credit Cards & Banking | Bellevue, WA | ✅ Sponsors (High) | **60%** | 13d ago | June 03, 2026 | Open | [Apply](https://boards.greenhouse.io/robinhood/jobs/7754143?t=gh_src=&gh_jid=7754143) |
 |  | Airbnb | iOS Software Engineer, Airbnb - New Grad | San Francisco, CA, Seatt | ✅ Sponsors (High) | **60%** | 1mo ago | June 03, 2026 | Open | [Apply](https://careers.airbnb.com/positions/7859317?gh_jid=7859317) |
 |  | Dropbox | Infrastructure Software Engineer | Remote - US: Select loca | ✅ Sponsors (High) | **60%** | 1d ago | June 03, 2026 | Open | [Apply](https://jobs.dropbox.com/listing/6330390?gh_jid=6330390) |
 |  | Pinterest | Security Software Engineer II, Detection and Response | San Francisco, CA, US | ✅ Sponsors (High) | **60%** | 1d ago | June 03, 2026 | Open | [Apply](https://www.pinterestcareers.com/jobs/?gh_jid=7770914) |
-|  | Twitch | Software Engineer I | San Francisco, CA  +1 more | ✅ Sponsors (High) | **60%** | 19d ago | June 03, 2026 | 🔒 Closed | [Apply](https://job-boards.greenhouse.io/twitch/jobs/8367555002) |
-|  | Stripe | Full Stack Engineer, Developer Experience & Product Platform | N/A | ✅ Sponsors (High) | **52%** | 14d ago | June 03, 2026 | Open | [Apply](https://stripe.com/jobs/search?gh_jid=6567104) |
-|  | Stripe | Full Stack Engineer, Money as a Service | N/A | ✅ Sponsors (High) | **52%** | 6d ago | June 03, 2026 | Open | [Apply](https://stripe.com/jobs/search?gh_jid=7325118) |
+|  | Twitch | Software Engineer I | San Francisco, CA  +1 more | ✅ Sponsors (High) | **60%** | 19d ago | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/twitch/jobs/8367555002) |
 |  | Stripe | Full Stack Engineer, Web Presence and Platform | N/A | ✅ Sponsors (High) | **52%** | 14d ago | June 03, 2026 | Open | [Apply](https://stripe.com/jobs/search?gh_jid=7436086) |
 |  | Robinhood | Software Engineer, Cloud Engineering | Ljubljana, Slovenia | ✅ Sponsors (High) | **52%** | 13d ago | June 03, 2026 | Open | [Apply](https://boards.greenhouse.io/robinhood/jobs/7589432?t=gh_src=&gh_jid=7589432) |
 |  | Affirm | Software Engineer, Early Career | San Francisco, Californi | ✅ Sponsors (High) | **52%** | today | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/affirm/jobs/7485068003) |
@@ -145,7 +139,6 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 |  | Palantir | Software Engineer - Core Interfaces | Palo Alto, CA | ✅ Sponsors (High) | **52%** | — | June 03, 2026 | Open | [Apply](https://jobs.lever.co/palantir/cf76738e-3030-42fa-92ac-a9446df956fc) |
 |  | Palantir | Software Engineer - Defense Applications | Washington, D.C. | ✅ Sponsors (High) | **52%** | — | June 03, 2026 | Open | [Apply](https://jobs.lever.co/palantir/f7dbfdf1-0bb1-4c11-ac15-6a139cee3410) |
 |  | Palantir | Software Engineer - Environment Platform | New York, NY  +1 more | ✅ Sponsors (High) | **52%** | — | June 03, 2026 | Open | [Apply](https://jobs.lever.co/palantir/cd2423c6-da68-430c-8be5-0ae7eea36497) |
-|  | Stripe | Backend Engineer, Billing/Tax | N/A | ✅ Sponsors (High) | **48%** | 14d ago | June 03, 2026 | Open | [Apply](https://stripe.com/jobs/search?gh_jid=7217048) |
 |  | Pinterest | Machine Learning Engineer, Core Engineering | San Francisco, CA, US | ✅ Sponsors (High) | **48%** | 21d ago | June 03, 2026 | Open | [Apply](https://www.pinterestcareers.com/jobs/?gh_jid=6121450) |
 |  | Pinterest | Machine Learning Engineer, Monetization Engineering | San Francisco, CA, US | ✅ Sponsors (High) | **48%** | 21d ago | June 03, 2026 | Open | [Apply](https://www.pinterestcareers.com/jobs/?gh_jid=6121543) |
 |  | Palantir | Backend Software Engineer - Infrastructure | New York, NY | ✅ Sponsors (High) | **44%** | — | June 03, 2026 | Open | [Apply](https://jobs.lever.co/palantir/6fe5515f-f677-4d98-8ac2-1775a425f5e7) |
@@ -172,7 +165,7 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 |  | Salesforce | Software Engineering MTS | 2 Locations | ✅ Sponsors (High) | **20%** | today | June 03, 2026 | Open | [Apply](https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Bangalore/Software-Engineering-MTS_JR338172-1) |
 |  | Salesforce | Software Engineering-LMTS-SDET | 2 Locations | ✅ Sponsors (High) | **20%** | today | June 03, 2026 | Open | [Apply](https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Hyderabad/Software-Engineering-SDET_JR312798) |
 |  | Workday | Analytics Sr Software Engineer (US Federal) | USA.VA.Reston | ✅ Sponsors (High) | **20%** | 1d ago | June 03, 2026 | Open | [Apply](https://workday.wd5.myworkdayjobs.com/en-US/Workday/job/USAVAReston/Analytics-Sr-Software-Engineer--US-Federal-_JR-0105489-1) |
-|  | Workday | Software Development Engineer (Full Stack) - Evisort AI | 2 Locations | ✅ Sponsors (High) | **20%** | 2d ago | June 03, 2026 | Open | [Apply](https://workday.wd5.myworkdayjobs.com/en-US/Workday/job/Canada-BC-Vancouver/Software-Development-Engineer--Full-Stack----Evisort-AI_JR-0103885-1) |
+|  | Workday | Software Development Engineer (Full Stack) - Evisort AI | 2 Locations | ✅ Sponsors (High) | **20%** | 2d ago | June 03, 2026 | 🔒 Closed | [Apply](https://workday.wd5.myworkdayjobs.com/en-US/Workday/job/Canada-BC-Vancouver/Software-Development-Engineer--Full-Stack----Evisort-AI_JR-0103885-1) |
 |  | Stripe | Backend Engineer, Payments Experiences | N/A | ✅ Sponsors (High) | **16%** | 8d ago | June 03, 2026 | Open | [Apply](https://stripe.com/jobs/search?gh_jid=7895287) |
 |  | Adobe | Machine Learning Engineer 5 | San Jose | ✅ Sponsors (High) | **8%** | 9d ago | June 03, 2026 | Open | [Apply](https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/San-Jose/Machine-Learning-Engineer-5_R169103) |
 |  | Reddit | Fullstack Software Engineer, Notifications Lifecycle | Remote - United States | ✅ Sponsors (Med) | **100%** | 13d ago | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/reddit/jobs/7895468) |
@@ -180,17 +173,13 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 |  | GitLab | AI Engineer | Remote, US | ✅ Sponsors (Med) | **100%** | 6d ago | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/gitlab/jobs/8565469002) |
 |  | Samsara | Data Engineer II | Remote - US | ✅ Sponsors (Med) | **100%** | today | June 03, 2026 | Open | [Apply](https://www.samsara.com/company/careers/roles/7859406?gh_jid=7859406) |
 |  | Samsara | Software Engineer II, AI Platform | Remote - CA | ✅ Sponsors (Med) | **100%** | today | June 03, 2026 | Open | [Apply](https://www.samsara.com/company/careers/roles/7619925?gh_jid=7619925) |
-|  | Discord | Software Engineer, Data Platform | San Francisco Bay Area | ✅ Sponsors (Med) | **100%** | 28d ago | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/discord/jobs/8396927002) |
+|  | Discord | Software Engineer, Data Platform | San Francisco Bay Area | ✅ Sponsors (Med) | **100%** | 28d ago | June 03, 2026 | 🔒 Closed | [Apply](https://job-boards.greenhouse.io/discord/jobs/8396927002) |
 |  | Ramp | Software Engineer, Data Platform  | New York, NY (HQ) | ✅ Sponsors (Med) | **100%** | 2mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/ramp/bca0346c-b843-4795-96df-6091f51e421b) |
-|  | Ramp | Software Engineer, Stablecoin | New York, NY (HQ) | ✅ Sponsors (Med) | **100%** | 21d ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/ramp/d1183b00-6590-4fe4-a585-28d84e578fe3) |
 |  | Ramp | Software Engineer, Core Product | New York, NY (HQ) | ✅ Sponsors (Med) | **100%** | 4mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/ramp/5fe4c64e-9336-4384-9e6f-ff32eeb3fdae) |
-|  | Ramp | Software Engineer, Guest Travel | New York, NY (HQ) | ✅ Sponsors (Med) | **100%** | 2mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/ramp/f2d10bdf-0906-47eb-96fb-0efe6f81d8a3) |
 |  | Notion | Software Engineer, Product Infrastructure | San Francisco, Californi | ✅ Sponsors (Med) | **100%** | 8mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/notion/d41b635b-c17b-4efd-89fd-fdb2ddb62e9a) |
 |  | Notion | Data Engineer, Go-To-Market | San Francisco, Californi | ✅ Sponsors (Med) | **100%** | 6mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/notion/655b047b-5e58-4b0c-82f0-8c16b2c03318) |
 |  | Notion | Software Engineer, New Grad | San Francisco, Californi | ✅ Sponsors (Med) | **100%** | 1mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/notion/a6311f97-4850-4674-a5f3-d9fe5f6f2555) |
 |  | Notion | Software Engineer, New Grad (AI) | San Francisco, Californi | ✅ Sponsors (Med) | **100%** | 1mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/notion/7e6dc7fe-7ddd-42c1-8928-13f7bddb9ec9) |
-|  | Notion | Software Engineer, Trust | San Francisco, Californi | ✅ Sponsors (Med) | **100%** | 28d ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/notion/66236b7e-2905-4a93-84a5-ed036a1a6581) |
-|  | MongoDB | Software Engineer 3 | Gurugram | ✅ Sponsors (Med) | **100%** | today | June 03, 2026 | Open | [Apply](https://www.mongodb.com/careers/job/?gh_jid=7908785) |
 |  | MongoDB | Software Engineer, Data Migration | California | ✅ Sponsors (Med) | **100%** | today | June 03, 2026 | Open | [Apply](https://www.mongodb.com/careers/job/?gh_jid=7523834) |
 |  | Twilio | Software Engineer (L2) | Remote - US | ✅ Sponsors (Med) | **100%** | 1d ago | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/twilio/jobs/7188174) |
 |  | Twilio | Software Engineer (L2) Segment Team | Remote - US | ✅ Sponsors (Med) | **100%** | 1d ago | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/twilio/jobs/7767263) |
@@ -199,23 +188,14 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 |  | OpenAI | Software Engineer, Real Time | Seattle | ✅ Sponsors (Med) | **100%** | 23mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/openai/75420421-5a2a-4d99-8755-9eeff799de95) |
 |  | OpenAI | Software Engineer, Integrity Foundations | San Francisco | ✅ Sponsors (Med) | **100%** | 24mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/openai/991948b7-0305-4125-bb9a-625f5bc24189) |
 |  | OpenAI | Software Engineer, Fleet Management | San Francisco | ✅ Sponsors (Med) | **100%** | 6mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/openai/7809102e-e82a-4678-bf7c-221de8acc0d6) |
-|  | OpenAI | Software Engineer, Full Stack (People Innovation) | Remote - US | ✅ Sponsors (Med) | **100%** | 10mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/openai/d4780eac-03ad-4dae-861f-99af22b4287e) |
 |  | OpenAI | Software Engineer, Agent Infrastructure | San Francisco | ✅ Sponsors (Med) | **100%** | 12mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/openai/c1316397-25bb-4add-9e9d-0e3ea8ba929a) |
-|  | OpenAI | Full-Stack SWE, Data Acquisition (Foundations) | San Francisco | ✅ Sponsors (Med) | **100%** | 15mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/openai/a886ff48-b8a1-4e28-b468-296713a5ad78) |
 |  | OpenAI | Software Engineer, Frontier Clusters Infrastructure | San Francisco | ✅ Sponsors (Med) | **100%** | 19mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/openai/770d5c3f-4e72-4b49-aec4-d444e8ad7a64) |
 |  | OpenAI | IT Controls Data Engineer | San Francisco | ✅ Sponsors (Med) | **100%** | 5d ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/openai/5bc79fde-2f1d-4bb2-8186-4a700ecff37c) |
 |  | OpenAI | Full Stack Engineer, Fleet Scheduling | San Francisco | ✅ Sponsors (Med) | **100%** | 16mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/openai/9d11e1d8-af1d-413b-873f-d8fac2bdee99) |
-|  | OpenAI | Software Engineer, Backend (Cooperative AI) | San Francisco | ✅ Sponsors (Med) | **100%** | 3mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/openai/bd190cad-99ec-4fe7-8f8f-de96b5aa5969) |
 |  | OpenAI | Software Engineer, AI Safety | San Francisco | ✅ Sponsors (Med) | **100%** | 14mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/openai/b9dee2a0-9bb3-447e-9bce-2b1bed784e5b) |
 |  | OpenAI | Software Engineer, Privacy Infrastructure | San Francisco | ✅ Sponsors (Med) | **100%** | 13mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/openai/07153f7c-7e8b-4283-a879-cb07a224e083) |
-|  | OpenAI | Backend Software Engineer, GTM Innovation  | San Francisco | ✅ Sponsors (Med) | **100%** | 4mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/openai/43174eb6-0ffe-4744-9323-c7969e7ea2e1) |
-|  | OpenAI | Software Engineer, Database Systems | San Francisco | ✅ Sponsors (Med) | **100%** | 10mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/openai/2b5e8e15-7952-4170-a927-2ad68e318ed6) |
-|  | OpenAI | Software Engineer, Infrastructure Reliability | San Francisco | ✅ Sponsors (Med) | **100%** | 2mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/openai/621bb104-9daa-4c9e-949a-03d5730334e8) |
 |  | OpenAI | Software Engineer, Research Developer Productivity | San Francisco | ✅ Sponsors (Med) | **100%** | 8mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/openai/e6d5ca02-f30b-4ac5-a69d-c947efb430f9) |
-|  | OpenAI | Backend Software Engineer (Evals)  | San Francisco | ✅ Sponsors (Med) | **100%** | 5mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/openai/3d064454-c0c3-4225-bc2c-6d8c0f8735b2) |
-|  | OpenAI | Full Stack Software Engineer, GTM Innovation  | San Francisco | ✅ Sponsors (Med) | **100%** | 4mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/openai/a2c9f105-b41a-41db-afd8-e70a54b3f21c) |
 |  | OpenAI | Software Engineer, Infrastructure Security | Remote - US | ✅ Sponsors (Med) | **100%** | 8mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/openai/98ad9beb-4f91-496c-bd16-ac0b2a8d5bb2) |
-|  | OpenAI | Software Engineer, Marketing Innovation | San Francisco | ✅ Sponsors (Med) | **100%** | 3mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/openai/1bb1f351-41a2-43a5-bac1-259859886cb3) |
 |  | OpenAI | Software Engineer, Delivery / CD | San Francisco | ✅ Sponsors (Med) | **100%** | 30d ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/openai/e14fc37c-7ae5-4a6b-ba0d-a36860cf9bb2) |
 |  | OpenAI | Software Engineer, Localization | San Francisco | ✅ Sponsors (Med) | **100%** | 2mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/openai/deff9215-217d-4392-825e-7788cb8205f3) |
 |  | OpenAI | Software Engineer, Compute Infrastructure | San Francisco | ✅ Sponsors (Med) | **100%** | 1mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/openai/ca300a6d-a2a7-4580-aad7-323fbdfee7b1) |
@@ -227,7 +207,6 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 |  | Verkada | Full Stack Engineer, Go-to-Market Systems | San Mateo, CA United Sta | ✅ Sponsors (Med) | **100%** | 1d ago | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/verkada/jobs/5101666007) |
 |  | Verkada | Software Engineer - Fleet Management | San Mateo, CA United Sta | ✅ Sponsors (Med) | **100%** | 17d ago | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/verkada/jobs/4135093007) |
 |  | Verkada | Software Engineer, Platform Infrastructure | San Mateo, CA United Sta | ✅ Sponsors (Med) | **100%** | 17d ago | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/verkada/jobs/5029725007) |
-|  | Anthropic | Applied AI Engineer, Enterprise Tech | San Francisco, CA / New  | ✅ Sponsors (Med) | **100%** | 1mo ago | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5057647008) |
 |  | Anthropic | Forward Deployed Engineer, Applied AI | Boston, MA | ✅ Sponsors (Med) | **100%** | 19d ago | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/4985877008) |
 |  | Anthropic | Full-Stack Software Engineer, Reinforcement Learning | San Francisco, CA / New  | ✅ Sponsors (Med) | **100%** | 1mo ago | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5186067008) |
 |  | Anthropic | Software Engineer, Research Data Platform | San Francisco, CA / New  | ✅ Sponsors (Med) | **100%** | 1mo ago | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5191226008) |
@@ -235,14 +214,10 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 |  | Replit | Software Engineer, Enterprise | Foster City, CA | ✅ Sponsors (Med) | **100%** | 4mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/replit/b7f12834-78d2-424d-bf83-0c942815fbf7) |
 |  | Replit | Software Engineer, Replit Cloud | Foster City, CA | ✅ Sponsors (Med) | **100%** | 4mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/replit/7fa1826e-d7fd-4837-8485-97de895ba7fc) |
 |  | Replit | Software Engineer, Growth Infrastructure | Foster City, CA | ✅ Sponsors (Med) | **100%** | 4mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/replit/37f81c18-c742-4f7d-bf81-34c3f5142973) |
-|  | Replit | Software Engineer, Enterprise Platform | Foster City, CA | ✅ Sponsors (Med) | **100%** | 4mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/replit/7b4bc2fe-5860-4f56-8746-aabb852cf0e1) |
 |  | Harvey | Software Engineer | San Francisco | ✅ Sponsors (Med) | **100%** | 7d ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/harvey/581cd358-0186-48a6-b76f-c76946c5c7a7) |
 |  | Brex | Data Engineer | San Francisco, Californi | ✅ Sponsors (Med) | **92%** | 9d ago | June 03, 2026 | Open | [Apply](https://www.brex.com/careers/8366850002?gh_jid=8366850002) |
-|  | Brex | Software Engineer, Forward Deployed Agent Builder | New York, New York, Unit  +2 | ✅ Sponsors (Med) | **92%** | 9d ago | June 03, 2026 | Open | [Apply](https://www.brex.com/careers/8523177002?gh_jid=8523177002) |
-|  | Discord | Software Engineer- Database Infrastructure | San Francisco Bay Area | ✅ Sponsors (Med) | **92%** | 28d ago | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/discord/jobs/8487457002) |
 |  | Ramp | Software Engineer, Bill Pay & Procurement | New York, NY (HQ) | ✅ Sponsors (Med) | **92%** | 7mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/ramp/2a4968ae-220c-471b-b890-a011de570bbb) |
 |  | Ramp | Software Engineer, Production Engineering | New York, NY (HQ) | ✅ Sponsors (Med) | **92%** | 1mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/ramp/be496b52-cfbf-494e-b862-61fb4a188b24) |
-|  | OpenAI | Software Engineer, Data Infrastructure | San Francisco | ✅ Sponsors (Med) | **92%** | 23mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/openai/f763c6b3-5167-4a67-b691-4c3fa2c44156) |
 |  | OpenAI | Software Engineer, Fleet Infrastructure | San Francisco | ✅ Sponsors (Med) | **92%** | 15mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/openai/a58add97-1968-4d5c-b504-ab62bea12df3) |
 |  | OpenAI | Software Engineer, Reliability  | San Francisco | ✅ Sponsors (Med) | **92%** | 7mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/openai/1faee5e7-3b2f-4d8c-9a6f-ff0f2a4a42a7) |
 |  | OpenAI | Software Engineer, GPU Infrastructure - HPC | San Francisco | ✅ Sponsors (Med) | **92%** | 3mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/openai/f58cb1eb-9642-4a4d-a14d-d7a57d583a11) |
@@ -260,7 +235,6 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 |  | Replit | Software Engineer, Developer Experience | Foster City, CA | ✅ Sponsors (Med) | **92%** | 1mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/replit/d0e0dd7d-59d1-4de8-afbb-54aea680b51d) |
 |  | Reddit | Frontend Engineer, Ads Growth | Remote - United States | ✅ Sponsors (Med) | **88%** | today | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/reddit/jobs/7980795) |
 |  | OpenAI | Frontend Engineer, Dotcom (Marketing) | San Francisco | ✅ Sponsors (Med) | **88%** | 4mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/openai/ffc3f648-a39d-4403-ad16-e8d38c88d572) |
-|  | Checkr | Machine Learning Engineer | San Francisco, Californi | ✅ Sponsors (Med) | **88%** | 6d ago | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/checkr/jobs/7966920) |
 |  | Verkada | Backend Engineer - Alerts and Operations | San Mateo, CA United Sta | ✅ Sponsors (Med) | **88%** | 17d ago | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/verkada/jobs/4128767007) |
 |  | Verkada | Frontend Engineer - Alerts and Operations | San Mateo, CA United Sta | ✅ Sponsors (Med) | **88%** | 7d ago | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/verkada/jobs/4912168007) |
 |  | Anthropic | Research Engineer, Machine Learning (Reinforcement Learning)  | San Francisco, CA / New  | ✅ Sponsors (Med) | **88%** | 2mo ago | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/4613568008) |
@@ -274,7 +248,6 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 |  | MongoDB | Software Engineer, Developer Productivity | New York City | ✅ Sponsors (Med) | **84%** | today | June 03, 2026 | Open | [Apply](https://www.mongodb.com/careers/job/?gh_jid=7851388) |
 |  | Twilio | Software Engineer | Remote - US | ✅ Sponsors (Med) | **84%** | 1d ago | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/twilio/jobs/7605743) |
 |  | OpenAI | Software Engineer, RL Training Infra | San Francisco | ✅ Sponsors (Med) | **84%** | 12d ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/openai/13995549-e8cc-498f-9eaa-1869067ac35b) |
-|  | OpenAI | Software Engineer, Data Acquisition  | San Francisco | ✅ Sponsors (Med) | **84%** | 32mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/openai/41d9d129-2e58-4ad3-be81-2e5096f4da4d) |
 |  | OpenAI | Software Engineer, Observability | San Francisco | ✅ Sponsors (Med) | **84%** | 3mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/openai/d4dcd344-40cf-44d6-a7dd-172118eb0842) |
 |  | OpenAI | Research Engineer, Applied AI Engineering | San Francisco | ✅ Sponsors (Med) | **84%** | 24mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/openai/d44c9f70-4aef-45a4-a36a-54fb65663ccb) |
 |  | OpenAI | Software Engineer, Compute - Storage | San Francisco | ✅ Sponsors (Med) | **84%** | 18mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/openai/7649205e-20dc-4bb4-9358-69474a851132) |
@@ -292,8 +265,6 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 |  | OpenAI | Software Engineer, Foundations Search | San Francisco | ✅ Sponsors (Med) | **84%** | 1mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/openai/40ed6975-ef61-4807-b748-37c2fa2b76c7) |
 |  | OpenAI | Software Engineer, Kernel Performance & AI Tooling | San Francisco | ✅ Sponsors (Med) | **84%** | 1mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/openai/e9627fa6-ac76-4899-9a93-9251419e61a0) |
 |  | OpenAI | Software Engineer, Core Network Engineering | San Francisco | ✅ Sponsors (Med) | **84%** | 28d ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/openai/1fec5ecd-5b7b-45bc-bc8c-ac7184565551) |
-|  | Anthropic | Applied AI Engineer, Beneficial Deployments | San Francisco, CA / New  | ✅ Sponsors (Med) | **84%** | 14d ago | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5068226008) |
-|  | Anthropic | Applied AI Engineer, Life Sciences (Beneficial Deployments) | San Francisco, CA / New  | ✅ Sponsors (Med) | **84%** | 2mo ago | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5111942008) |
 |  | Verkada | Backend Engineer - Access Control | San Mateo, CA United Sta | ✅ Sponsors (Med) | **80%** | 17d ago | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/verkada/jobs/4915101007) |
 |  | Ramp | Software Engineer, AI Forward Deployed | San Francisco, CA | ✅ Sponsors (Med) | **76%** | 7mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/ramp/deca582c-a1d0-4705-9975-60aed81ba89f) |
 |  | Ramp | Software Engineer, Accounting | New York, NY (HQ) | ✅ Sponsors (Med) | **76%** | 4mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/ramp/ed2e9a94-f58e-4ff8-8853-afd977850d43) |
@@ -309,7 +280,6 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 |  | Replit | Software Engineer, Compute Platform | Foster City, CA | ✅ Sponsors (Med) | **76%** | 14mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/replit/659a8e1e-69ba-44c0-a632-96665051a3e8) |
 |  | OpenAI | Machine Learning Engineer, Integrity | San Francisco | ✅ Sponsors (Med) | **72%** | 2mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/openai/ecf1abec-898c-4acb-a984-42858836a1ff) |
 |  | Anthropic | Machine Learning Systems Engineer, Research Tools | San Francisco, CA / New  | ✅ Sponsors (Med) | **72%** | 2mo ago | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/4952079008) |
-|  | Anthropic | Machine Learning Systems Engineer, RL Engineering | San Francisco, CA / New  | ✅ Sponsors (Med) | **72%** | 2mo ago | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/4952051008) |
 |  | Discord | Data Engineer, Analytics | San Francisco Bay Area | ✅ Sponsors (Med) | **68%** | 28d ago | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/discord/jobs/8371252002) |
 |  | Ramp | Applied AI Engineer | New York, NY (HQ) | ✅ Sponsors (Med) | **68%** | 4mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/ramp/d204e136-2749-42de-82b4-88a0dd352090) |
 |  | MongoDB | Software Engineer 3, Atlas Search Systems | San Francisco | ✅ Sponsors (Med) | **68%** | today | June 03, 2026 | Open | [Apply](https://www.mongodb.com/careers/job/?gh_jid=7523920) |
@@ -325,7 +295,7 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 |  | OpenAI | Software Engineer, Platform Systems | San Francisco | ✅ Sponsors (Med) | **68%** | 4mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/openai/5e4ed6d1-2417-4bf5-bae0-905931c488e3) |
 |  | OpenAI | Full Stack Software Engineer, ChatGPT Partnerships | San Francisco | ✅ Sponsors (Med) | **68%** | 3mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/openai/50626871-6bbf-4d8f-a534-176f929f1f37) |
 |  | OpenAI | Connectivity Software Engineer, Consumer Devices | San Francisco | ✅ Sponsors (Med) | **68%** | 7mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/openai/9b2c68f2-5ce8-44f9-a30c-d8016ac66d86) |
-|  | OpenAI | Host Systems Software Engineer | San Francisco | ✅ Sponsors (Med) | **68%** | today | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/openai/87e5f8c3-3337-480a-9db2-e4cef5db909b) |
+|  | OpenAI | Host Systems Software Engineer | San Francisco | ✅ Sponsors (Med) | **68%** | 1d ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/openai/87e5f8c3-3337-480a-9db2-e4cef5db909b) |
 |  | Faire | Applied AI / ML Scientist - Ads Bidding | San Francisco, CA | ✅ Sponsors (Med) | **68%** | 1mo ago | June 03, 2026 | Open | [Apply](https://boards.greenhouse.io/faire/jobs/8400765002?gh_jid=8400765002) |
 |  | Anthropic | Software Engineer, Human Data Interface | San Francisco, CA / New  | ✅ Sponsors (Med) | **68%** | 2mo ago | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5109273008) |
 |  | Harvey | Software Engineer, Agents | New York  +1 more | ✅ Sponsors (Med) | **68%** | 1mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/harvey/0c3ccbfd-25d1-4f66-be9c-e3c680fbe2fc) |
@@ -340,40 +310,29 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 |  | OpenAI | Tokens-as-a-Service (Taas) Software Engineer | San Francisco | ✅ Sponsors (Med) | **60%** | 1mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/openai/f3ddd41c-541f-485e-90d6-86c26e018e9f) |
 |  | OpenAI | Full-Stack Software Engineer, Applied Foundations | San Francisco | ✅ Sponsors (Med) | **60%** | 27d ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/openai/f873dd71-46c9-4be1-8580-bc67c56b4cad) |
 |  | OpenAI | Frontend Engineer, Financial Web Platform | San Francisco | ✅ Sponsors (Med) | **56%** | 4mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/openai/192980b8-b874-4493-a8c1-f7d5660f00f3) |
-|  | Brex | Software Engineer II, Backend | New York, New York, Unit  +1 | ✅ Sponsors (Med) | **52%** | 5d ago | June 03, 2026 | Open | [Apply](https://www.brex.com/careers/8459783002?gh_jid=8459783002) |
 |  | Discord | Software Engineer, Distributed Systems | San Francisco Bay Area | ✅ Sponsors (Med) | **52%** | 1d ago | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/discord/jobs/8545663002) |
 |  | Anthropic | Research Engineer, Machine Learning (RL Velocity) | Remote-Friendly (Travel- | ✅ Sponsors (Med) | **40%** | 1mo ago | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5198108008) |
 |  | Harvey | Frontend Platform Engineer | New York | ✅ Sponsors (Med) | **40%** | 1mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/harvey/24f9a3fa-476a-490f-87bf-e8cebb7b3928) |
 |  | Snorkel AI | Applied AI Engineer - AI Solutions | New York City, NY (Hybri | ✅ Sponsors (Low) | **100%** | 14d ago | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/snorkelai/jobs/5709067004) |
 |  | Snorkel AI | Software Engineer - Core Services | Redwood City, CA (Hybrid | ✅ Sponsors (Low) | **100%** | 7d ago | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/snorkelai/jobs/5984577004) |
-|  | Supabase | Software Engineer (Go) - Auth | Remote | ✅ Sponsors (Low) | **100%** | 1mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/supabase/77439e1c-e4eb-483c-aa8e-7686913886e3) |
 |  | Baseten | Software Engineer - Voice AI (Inference Runtime) | San Francisco | ✅ Sponsors (Low) | **100%** | 1mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/baseten/6e396eb7-acb3-436a-89ec-05e755c477f2) |
 |  | Sierra | Software Engineer, Security | San Francisco, CA | ✅ Sponsors (Low) | **100%** | 4mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/sierra/201c6046-acb5-4fd4-a685-e993f34ec0d1) |
 |  | Baseten | Software Engineer - Dedicated Inference | San Francisco | ✅ Sponsors (Low) | **92%** | 23mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/baseten/fc6e5f2e-eb2d-4a6c-8a51-8422e8662bde) |
 |  | Baseten | Software Engineer - Training Infrastructure | San Francisco | ✅ Sponsors (Low) | **92%** | 9mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/baseten/6f947409-2bc0-491a-81b3-507cdc95df85) |
 |  | Baseten | Software Engineer, Model Performance Systems | San Francisco | ✅ Sponsors (Low) | **92%** | 4mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/baseten/75d7beac-0298-40fa-b206-2e0c0c08a64f) |
-|  | Baseten | Software Engineer - Baseten for Labs | San Francisco | ✅ Sponsors (Low) | **92%** | 3mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/baseten/2d659508-14c0-42bd-8e8e-6f7990b0c64a) |
 |  | Sierra | Software Engineer, Agent - Healthcare | San Francisco, CA | ✅ Sponsors (Low) | **92%** | 2mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/sierra/eb3ee157-3d2a-412a-88a2-e2cfc5647a66) |
-|  | Watershed | Software engineer, full-stack | Denver | ✅ Sponsors (Low) | **92%** | 3mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/watershed/33d540af-97cb-48cb-9267-8bf921b44d18) |
 |  | Baseten | Cloud Platform Engineer | San Francisco Office | ✅ Sponsors (Low) | **88%** | 7mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/baseten/916e9d62-492a-4562-971f-3e97e3868392) |
 |  | Baseten | Software Engineer - Infrastructure | San Francisco | ✅ Sponsors (Low) | **84%** | 15mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/baseten/ae64d1d4-7b0a-4be4-8d77-7f5ce63849a7) |
-|  | Sierra | Software Engineer, Product | San Francisco, CA | ✅ Sponsors (Low) | **84%** | 2mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/sierra/b16462e4-ce32-4ce9-b788-0a8f0f096361) |
 |  | Sierra | Software Engineer, Agent | San Francisco, CA | ✅ Sponsors (Low) | **84%** | 13mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/sierra/e9f5fdb6-91ee-4c55-9230-41ec8865650e) |
 |  | Baseten | Software Engineer - Model Performance | San Francisco | ✅ Sponsors (Low) | **76%** | 26mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/baseten/d29e748c-7209-460d-a024-8f77ae0a3d4d) |
 |  | Baseten | Software Engineer - AI Enablement | San Francisco | ✅ Sponsors (Low) | **76%** | 3mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/baseten/b88a68b7-d2bc-4a30-a79a-3ef292ad7c26) |
 |  | Baseten | Software Engineer — GPU Networking & Distributed Systems | San Francisco | ✅ Sponsors (Low) | **76%** | 3mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/baseten/1f7d7fda-5540-4205-890b-cdbf774f0814) |
-|  | Sierra | Software Engineer, Voice | San Francisco, CA | ✅ Sponsors (Low) | **76%** | 6mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/sierra/1bd9c1e7-a2aa-428d-9a31-1a4eed26391f) |
-|  | Sierra | Software Engineer, Agent Builder | San Francisco, CA | ✅ Sponsors (Low) | **76%** | 4mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/sierra/2fdb200f-c5cf-420c-9997-5e5cea6e1e20) |
 |  | Snorkel AI | Software Engineer in Test - Infrastructure | Redwood City, CA (Hybrid | ✅ Sponsors (Low) | **68%** | 9d ago | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/snorkelai/jobs/5844047004) |
 |  | Baseten | Applied AI Inference Engineer | San Francisco | ✅ Sponsors (Low) | **68%** | 1mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/baseten/90e9ff4e-1225-4b1b-b0b4-2362e36d9cfa) |
 |  | Baseten | Data Engineer | San Francisco | ✅ Sponsors (Low) | **68%** | 2mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/baseten/c2ba6c50-d282-4478-98e9-668f94facde8) |
 |  | Baseten | Software Engineer- BIS (Baseten Inference Stack) | San Francisco | ✅ Sponsors (Low) | **68%** | 2d ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/baseten/c8701794-bdc1-4932-bffa-a444ce57ed73) |
-|  | Sierra | Software Engineer, Insights | San Francisco, CA | ✅ Sponsors (Low) | **68%** | 6mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/sierra/5ed4bbfa-1c27-4242-be7f-b8dc4ce8c25f) |
 |  | PostHog | Backend Engineer — Billing | Remote | ✅ Sponsors (Low) | **64%** | 13d ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/posthog/1803b1de-d33b-4542-8e38-b6c4954cb789) |
 |  | Baseten | Software Engineer - Model Products | San Francisco | ✅ Sponsors (Low) | **60%** | 7mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/baseten/2fdb06a3-ea27-40ee-bf64-0d51e01b8464) |
-|  | Sierra | Software Engineer, Platform | San Francisco, CA | ✅ Sponsors (Low) | **60%** | 21mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/sierra/d77487f9-bab3-44c6-be18-744e7125c8b3) |
-|  | Sierra | Software Engineer, Intelligence | San Francisco, CA | ✅ Sponsors (Low) | **60%** | 2mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/sierra/f4319197-e898-4756-a7f2-af884fe1e0c7) |
-|  | Sierra | Software Engineer, Identity & Enterprise Platform | San Francisco, CA | ✅ Sponsors (Low) | **60%** | 3mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/sierra/fc6eaada-479c-4ff6-be79-7e267b9ed2b4) |
 |  | Baseten | Software Engineer - GPU Kernels | San Francisco | ✅ Sponsors (Low) | **44%** | 10mo ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/baseten/ddb5bc98-6116-49a2-802e-1c05398663f1) |
 |  | Autodesk | Graduate Software Engineer | Birmingham, GBR | — unknown | **12%** | today | June 03, 2026 | Open | [Apply](https://autodesk.wd1.myworkdayjobs.com/en-US/Ext/job/Birmingham-GBR/Graduate-Software-Engineer_25WD90555-1) |
 

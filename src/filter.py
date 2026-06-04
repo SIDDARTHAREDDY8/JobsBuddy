@@ -2,9 +2,23 @@
 Station 2: FILTER
 Keeps only jobs that match Siddartha's resume profile:
   - role is SWE / AI / Data / Full-stack (roles_include) and not senior (roles_exclude)
-  - experience 0-3 years (drops 5+ year postings)
+  - experience 0-3 years (drops postings that require 4+ years)
   - flags jobs that look citizen-only / no-sponsorship
 """
+import re
+
+MAX_YEARS = 3   # keep roles requiring up to this many years; drop 4+
+
+# Patterns that capture the REQUIRED years number, in any common phrasing:
+#   "4+ years", "4 - 6 years", "minimum of 4 years", "at least 4 years",
+#   "4 years of experience", "4 yrs experience"
+_YEARS_PATTERNS = [
+    re.compile(r"(\d{1,2})\s*\+\s*years?"),                                  # 4+ years
+    re.compile(r"(\d{1,2})\s*(?:-|–|to)\s*\d{1,2}\s*years?"),                # 4-6 years (take min)
+    re.compile(r"(?:minimum|min\.?|at least|at min)[^\d]{0,12}(\d{1,2})\s*years?"),
+    re.compile(r"(\d{1,2})\s*(?:\+)?\s*years?\s+of\s+(?:industry\s+|professional\s+|relevant\s+|software\s+)?experience"),
+    re.compile(r"(\d{1,2})\s*yrs?\b"),                                       # 4 yrs
+]
 
 
 def _has_any(text, needles):
@@ -19,8 +33,21 @@ def role_ok(title, profile):
 
 
 def experience_ok(text, profile):
-    # drop postings that demand 5+ years
-    return not _has_any(text.lower(), profile["exp_exclude_patterns"])
+    t = text.lower()
+    # 1) keep the old explicit-phrase safety net
+    if _has_any(t, profile.get("exp_exclude_patterns", [])):
+        return False
+    # 2) robust: read the actual required-years number from any phrasing
+    max_allowed = profile.get("experience_years_max", MAX_YEARS)
+    for pat in _YEARS_PATTERNS:
+        for m in pat.finditer(t):
+            try:
+                yrs = int(m.group(1))
+            except (ValueError, IndexError):
+                continue
+            if yrs > max_allowed:      # e.g. requires 4+ when max is 3 -> drop
+                return False
+    return True
 
 
 def sponsorship_friendly(text, profile):
