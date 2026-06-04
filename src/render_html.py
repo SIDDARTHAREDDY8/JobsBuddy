@@ -23,7 +23,7 @@ def _within_day_sort(j):
 def _posted(j):
     age = j.get("age_days")
     if age is None:
-        return "&mdash;"
+        return '<span class="muted">date unknown</span>'
     if age <= 0:
         return "today"
     if age <= 30:

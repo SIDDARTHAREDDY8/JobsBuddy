@@ -133,7 +133,7 @@ def _posted_cell(j):
     # with the 🔥 NEW marker which means "added to this board in the latest update")
     age = j.get("age_days")
     if age is None:
-        return "—"
+        return "date unknown"
     if age <= 0:
         return "today"
     if age <= 30:
