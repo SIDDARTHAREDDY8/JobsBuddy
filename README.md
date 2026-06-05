@@ -38,11 +38,17 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 3. 📋 Scroll the table below — newest jobs are at the top.
 4. 🛂 Look for the **✅ Sponsors** tag, then hit **Apply**.
 
-<sub>🔄 Last updated: **2026-06-05 03:37 AM ET** • Total roles tracked: **132** • Open now: **102** • 🆕 Added today: **0**</sub>
+<sub>🔄 Last updated: **2026-06-05 09:10 AM ET** • Total roles tracked: **133** • Open now: **102** • 🆕 Added today: **1**</sub>
 
 **Legend:** 🔥 NEW = added in the latest update (older jobs lose this automatically) • ✅ Sponsors = recent H1B filing history • 🔒 = no longer listed • Posted = how long ago the company posted it • Match % = how strong a fit the role is.
 
 ---
+
+## 🗓️ June 05, 2026 — 1 jobs
+
+| | Company | Role | Location | Visa | Match | Posted | Added | Status | Apply |
+|--|--|--|--|--|--|--|--|--|--|
+| 🔥 NEW | Adobe | Machine Learning Engineer 4 | 2 Locations | ✅ Sponsors (High) | **8%** | today | June 05, 2026 | Open | [Apply](https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/Bangalore/Machine-Learning-Engineer-4_R168142-1) |
 
 ## 🗓️ June 04, 2026 — 87 jobs
 
@@ -107,7 +113,7 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 |  | Palantir | Forward Deployed Software Engineer - Tactical Edge | Washington, D.C. | ✅ Sponsors (High) | **20%** | date unknown | June 04, 2026 | 🔒 Closed | [Apply](https://jobs.lever.co/palantir/3d0d9d92-0321-4459-a17d-fa1a76636a43) |
 |  | Spotify | Backend Engineer  - Data Infrastructure | New York, NY | ✅ Sponsors (High) | **20%** | date unknown | June 04, 2026 | Open | [Apply](https://jobs.lever.co/spotify/66492688-d5b0-4cf8-b1a4-4a715157edd9) |
 |  | Veeva | Associate Software Engineer - Seeking 2025 & 2026 Grads | California - Pleasanton  +3  | ✅ Sponsors (High) | **20%** | date unknown | June 04, 2026 | Open | [Apply](https://jobs.lever.co/veeva/8fe22df0-02b4-453d-919c-c8998cf913f6) |
-|  | Nvidia | Software Engineer, CAD Automation | US, CA, Santa Clara | ✅ Sponsors (High) | **20%** | 1d ago | June 04, 2026 | Open | [Apply](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--CAD-Automation_JR2019252) |
+|  | Nvidia | Software Engineer, CAD Automation | US, CA, Santa Clara | ✅ Sponsors (High) | **20%** | 1d ago | June 04, 2026 | 🔒 Closed | [Apply](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--CAD-Automation_JR2019252) |
 |  | Nvidia | Applied AI Researcher - World Reconstruction and Generation | 4 Locations | ✅ Sponsors (High) | **20%** | today | June 04, 2026 | Open | [Apply](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/Germany-Remote/Applied-AI-Researcher---World-Reconstruction-and-Generation_JR2019212) |
 |  | Spotify | Machine Learning Engineer | New York, NY | ✅ Sponsors (High) | **16%** | date unknown | June 04, 2026 | Open | [Apply](https://jobs.lever.co/spotify/e200d025-4cff-4eb8-afa4-6680e31c43a2) |
 |  | Spotify | Backend Engineer - Podcast | New York, NY | ✅ Sponsors (High) | **8%** | date unknown | June 04, 2026 | Open | [Apply](https://jobs.lever.co/spotify/74253bb3-914d-453f-bb66-8b1eab89e6e6) |
@@ -119,7 +125,7 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 |  | Spotify | Machine Learning Engineer, Personalization, Samba | New York, NY | ✅ Sponsors (High) | **8%** | date unknown | June 04, 2026 | 🔒 Closed | [Apply](https://jobs.lever.co/spotify/7597d3d7-58d2-41b2-9f85-911d95c2c739) |
 |  | Checkr | Software Engineer II | San Francisco, Californi | ✅ Sponsors (Med) | **100%** | today | June 04, 2026 | Open | [Apply](https://job-boards.greenhouse.io/checkr/jobs/7296759) |
 |  | Checkr | Software Engineer, Reliability | Denver, Colorado, United | ✅ Sponsors (Med) | **100%** | today | June 04, 2026 | Open | [Apply](https://job-boards.greenhouse.io/checkr/jobs/7705523) |
-|  | GitLab | AI Engineer | Remote, US | ✅ Sponsors (Med) | **100%** | 6d ago | June 04, 2026 | Open | [Apply](https://job-boards.greenhouse.io/gitlab/jobs/8565469002) |
+|  | GitLab | AI Engineer | Remote, US | ✅ Sponsors (Med) | **100%** | 7d ago | June 04, 2026 | Open | [Apply](https://job-boards.greenhouse.io/gitlab/jobs/8565469002) |
 |  | OpenAI | IT Controls Data Engineer | San Francisco | ✅ Sponsors (Med) | **100%** | 6d ago | June 04, 2026 | Open | [Apply](https://jobs.ashbyhq.com/openai/5bc79fde-2f1d-4bb2-8186-4a700ecff37c) |
 |  | Vercel | Software Engineer, Backend | Remote - United States | ✅ Sponsors (Med) | **100%** | 3d ago | June 04, 2026 | Open | [Apply](https://job-boards.greenhouse.io/vercel/jobs/5430088004) |
 |  | Brex | Data Engineer | San Francisco, Californi | ✅ Sponsors (Med) | **92%** | today | June 04, 2026 | Open | [Apply](https://www.brex.com/careers/8366850002?gh_jid=8366850002) |
@@ -142,10 +148,10 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 |--|--|--|--|--|--|--|--|--|--|
 |  | Robinhood | Software Engineer, Agentic AI | Bellevue, WA | ✅ Sponsors (High) | **100%** | today | June 03, 2026 | Open | [Apply](https://boards.greenhouse.io/robinhood/jobs/7975477?t=gh_src=&gh_jid=7975477) |
 |  | Flexport |  Software Engineer II, Autonomous Freight Systems | San Francisco, Californi | ✅ Sponsors (High) | **100%** | 2d ago | June 03, 2026 | Open | [Apply](https://boards.greenhouse.io/flexport/jobs/7839346?gh_jid=7839346) |
-|  | Affirm | Machine Learning Engineer II (Servicing ML) | Remote US | ✅ Sponsors (High) | **88%** | 3d ago | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/affirm/jobs/7719651003) |
-|  | Lyft | Machine Learning Engineer, Lyft Business | New York, NY | ✅ Sponsors (High) | **88%** | today | June 03, 2026 | Open | [Apply](https://app.careerpuck.com/job-board/lyft/job/8513769002?gh_jid=8513769002) |
+|  | Affirm | Machine Learning Engineer II (Servicing ML) | Remote US | ✅ Sponsors (High) | **88%** | today | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/affirm/jobs/7719651003) |
+|  | Lyft | Machine Learning Engineer, Lyft Business | New York, NY | ✅ Sponsors (High) | **88%** | 1d ago | June 03, 2026 | Open | [Apply](https://app.careerpuck.com/job-board/lyft/job/8513769002?gh_jid=8513769002) |
 |  | Pinterest | Software Engineer II, Simulation, tvScientific | San Francisco, CA, US | ✅ Sponsors (High) | **84%** | today | June 03, 2026 | Open | [Apply](https://www.pinterestcareers.com/jobs/?gh_jid=7642265) |
-|  | Robinhood | Software Engineer | Menlo Park, CA | ✅ Sponsors (High) | **76%** | today | June 03, 2026 | Open | [Apply](https://boards.greenhouse.io/robinhood/jobs/7975507?t=gh_src=&gh_jid=7975507) |
+|  | Robinhood | Software Engineer | Menlo Park, CA | ✅ Sponsors (High) | **76%** | today | June 03, 2026 | Open | [Apply](https://boards.greenhouse.io/robinhood/jobs/7975530?t=gh_src=&gh_jid=7975530) |
 |  | Affirm | Analyst I, Full Stack (Core Analytics) | Remote US | ✅ Sponsors (High) | **76%** | today | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/affirm/jobs/7726627003) |
 |  | Pinterest | Software Engineer I, Backend | Seattle, WA, US | ✅ Sponsors (High) | **76%** | today | June 03, 2026 | Open | [Apply](https://www.pinterestcareers.com/jobs/?gh_jid=6816337) |
 |  | Datadog | Software Engineer II, Enterprise Engineering | New York, New York, USA | ✅ Sponsors (High) | **76%** | today | June 03, 2026 | 🔒 Closed | [Apply](https://careers.datadoghq.com/detail/7980350/?gh_jid=7980350) |
