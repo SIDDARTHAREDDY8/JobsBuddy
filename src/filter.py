@@ -87,7 +87,7 @@ def filter_jobs(jobs, profile):
             continue
         if needs_clearance(blob, profile):
             continue   # drop security-clearance roles entirely
-        if not location_ok(j.get("location", ""), profile):
+        if not location_ok(f"{j.get('location','')} {j.get('url','')}", profile):
             continue
         j["opt_friendly"] = sponsorship_friendly(blob, profile)
         kept.append(j)

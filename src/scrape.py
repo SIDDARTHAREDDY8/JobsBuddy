@@ -6,6 +6,7 @@ Every adapter returns a list of normalized dicts:
   { company, title, location, url, description, posted_at, source }
 """
 import json
+import html as _html
 import urllib.request
 import urllib.error
 
@@ -85,10 +86,12 @@ def scrape_ashby(slug, company):
 
 
 # ---------- Workday ----------
-def scrape_workday(slug, company):
+def scrape_workday(slug, company, fetch_detail=True, max_detail=80):
     # slug format: "tenant|dc|site"  e.g. "nvidia|wd5|NVIDIAExternalCareerSite"
     tenant, dc, site = slug.split("|")
     base = f"https://{tenant}.{dc}.myworkdayjobs.com/wday/cxs/{tenant}/{site}/jobs"
+    cxs = f"https://{tenant}.{dc}.myworkdayjobs.com/wday/cxs/{tenant}/{site}"
+    host = f"https://{tenant}.{dc}.myworkdayjobs.com/en-US/{site}"
     out, offset = [], 0
     for _ in range(5):  # up to 5 pages (100 jobs) per company
         body = json.dumps({"limit": 20, "offset": offset, "searchText": ""}).encode()
@@ -100,16 +103,25 @@ def scrape_workday(slug, company):
         postings = data.get("jobPostings", [])
         if not postings:
             break
-        host = f"https://{tenant}.{dc}.myworkdayjobs.com/en-US/{site}"
         for j in postings:
             path = j.get("externalPath", "")
+            desc = j.get("title", "")
+            loc = j.get("locationsText", "")
+            posted = j.get("postedOn", "")
+            # fetch the full job detail (real location + description + experience reqs)
+            if fetch_detail and len(out) < max_detail and path:
+                info = _workday_detail(cxs + path)
+                if info:
+                    desc = info.get("description", desc)
+                    loc = info.get("location", loc) or loc
+                    posted = info.get("posted", posted) or posted
             out.append({
                 "company": company,
                 "title": j.get("title", ""),
-                "location": j.get("locationsText", ""),
+                "location": loc,
                 "url": host + path,
-                "description": j.get("title", ""),  # Workday list view has no full text
-                "posted_at": j.get("postedOn", ""),
+                "description": desc,
+                "posted_at": posted,
                 "source": "workday",
             })
         offset += 20
@@ -118,13 +130,29 @@ def scrape_workday(slug, company):
     return out
 
 
+def _workday_detail(url):
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/json"})
+        with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
+            info = json.loads(r.read().decode("utf-8", "replace")).get("jobPostingInfo", {})
+        # gather all locations (primary + additional) so foreign ones are visible
+        locs = [info.get("location", "")]
+        locs += info.get("additionalLocations", []) or []
+        return {
+            "description": _strip_html(info.get("jobDescription", "")),
+            "location": "; ".join(l for l in locs if l),
+            "posted": info.get("startDate", "") or info.get("postedOn", ""),
+        }
+    except Exception:
+        return None
+
+
 def _strip_html(s):
     if not s:
         return ""
     import re
     s = re.sub(r"<[^>]+>", " ", s)
-    s = (s.replace("&amp;", "&").replace("&lt;", "<").replace("&gt;", ">")
-           .replace("&#39;", "'").replace("&quot;", '"').replace("&nbsp;", " "))
+    s = _html.unescape(s)          # decode ALL entities incl. numeric (&#43; -> +)
     return re.sub(r"\s+", " ", s).strip()
 
 

@@ -143,7 +143,7 @@ def main():
                 or not role_ok(j.get("title", ""), profile)
                 or not experience_ok(blob, profile)
                 or needs_clearance(blob, profile)
-                or not location_ok(j.get("location", ""), profile)):
+                or not location_ok(f"{j.get('location','')} {j.get('url','')}", profile)):
             bad.append(k)
     for k in bad:
         del archive[k]
