@@ -301,7 +301,7 @@
       "rds",
       "rag"
     ],
-    "age_days": 0,
+    "age_days": 1,
     "fresh": true,
     "first_seen": "2026-06-03",
     "last_seen": "2026-06-05",
@@ -652,7 +652,7 @@
       "aws",
       "rag"
     ],
-    "age_days": 0,
+    "age_days": 1,
     "fresh": true,
     "first_seen": "2026-06-03",
     "last_seen": "2026-06-05",
@@ -678,7 +678,7 @@
       "mongodb",
       "aws"
     ],
-    "age_days": 0,
+    "age_days": 1,
     "fresh": true,
     "first_seen": "2026-06-03",
     "last_seen": "2026-06-05",
@@ -703,7 +703,7 @@
       "aws",
       "rag"
     ],
-    "age_days": 0,
+    "age_days": 1,
     "fresh": true,
     "first_seen": "2026-06-03",
     "last_seen": "2026-06-05",
@@ -729,7 +729,7 @@
       "aws",
       "rag"
     ],
-    "age_days": 0,
+    "age_days": 1,
     "fresh": true,
     "first_seen": "2026-06-03",
     "last_seen": "2026-06-05",
@@ -755,7 +755,7 @@
       "llm",
       "rag"
     ],
-    "age_days": 0,
+    "age_days": 1,
     "fresh": true,
     "first_seen": "2026-06-03",
     "last_seen": "2026-06-05",
@@ -781,7 +781,7 @@
       "sql",
       "go"
     ],
-    "age_days": 0,
+    "age_days": 1,
     "fresh": true,
     "first_seen": "2026-06-03",
     "last_seen": "2026-06-05",

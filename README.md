@@ -38,7 +38,7 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 3. 📋 Scroll the table below — newest jobs are at the top.
 4. 🛂 Look for the **✅ Sponsors** tag, then hit **Apply**.
 
-<sub>🔄 Last updated: **2026-06-05 02:27 PM ET** • Total roles tracked: **129** • Open now: **101** • 🆕 Added today: **6**</sub>
+<sub>🔄 Last updated: **2026-06-05 02:32 PM ET** • Total roles tracked: **129** • Open now: **101** • 🆕 Added today: **6**</sub>
 
 **Legend:** 🔥 NEW = added in the latest update (older jobs lose this automatically) • ✅ Sponsors = recent H1B filing history • 🔒 = no longer listed • Posted = how long ago the company posted it • Match % = how strong a fit the role is.
 
@@ -159,7 +159,7 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 |  | Stripe | Software Engineer | New York, NY  +2 more | ✅ Sponsors (High) | **60%** | today | June 03, 2026 | Open | [Apply](https://stripe.com/jobs/search?gh_jid=7926587) |
 |  | Dropbox | Infrastructure Software Engineer | Remote - US: Select loca | ✅ Sponsors (High) | **60%** | today | June 03, 2026 | Open | [Apply](https://jobs.dropbox.com/listing/6330390?gh_jid=6330390) |
 |  | Pinterest | Security Software Engineer II, Detection and Response | San Francisco, CA, US | ✅ Sponsors (High) | **60%** | today | June 03, 2026 | Open | [Apply](https://www.pinterestcareers.com/jobs/?gh_jid=7770914) |
-|  | Affirm | Software Engineer, Early Career | San Francisco, Californi | ✅ Sponsors (High) | **52%** | today | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/affirm/jobs/7485068003) |
+|  | Affirm | Software Engineer, Early Career | San Francisco, Californi | ✅ Sponsors (High) | **52%** | 1d ago | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/affirm/jobs/7485068003) |
 |  | Affirm | Software Engineering Apprentice, Full-Stack | Remote US | ✅ Sponsors (High) | **52%** | 1d ago | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/affirm/jobs/7647925003) |
 |  | Pinterest | Security Software Engineer II, Corporate Security | San Francisco, CA, US | ✅ Sponsors (High) | **52%** | today | June 03, 2026 | Open | [Apply](https://www.pinterestcareers.com/jobs/?gh_jid=7494666) |
 |  | Pinterest | Security Software Engineer II, Security Operations | Chicago, IL, US | ✅ Sponsors (High) | **52%** | today | June 03, 2026 | Open | [Apply](https://www.pinterestcareers.com/jobs/?gh_jid=7816431) |
@@ -169,21 +169,21 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 |  | Workday | Analytics Sr Software Engineer (US Federal) | USA.VA.Reston | ✅ Sponsors (High) | **20%** | 1d ago | June 03, 2026 | 🔒 Closed | [Apply](https://workday.wd5.myworkdayjobs.com/en-US/Workday/job/USAVAReston/Analytics-Sr-Software-Engineer--US-Federal-_JR-0105489-1) |
 |  | Samsara | Data Engineer II | Remote - US | ✅ Sponsors (Med) | **100%** | 1d ago | June 03, 2026 | Open | [Apply](https://www.samsara.com/company/careers/roles/7859406?gh_jid=7859406) |
 |  | Samsara | Software Engineer II, AI Platform | Remote - CA | ✅ Sponsors (Med) | **100%** | 1d ago | June 03, 2026 | Open | [Apply](https://www.samsara.com/company/careers/roles/7619925?gh_jid=7619925) |
-|  | MongoDB | Software Engineer, Data Migration | California | ✅ Sponsors (Med) | **100%** | today | June 03, 2026 | Open | [Apply](https://www.mongodb.com/careers/job/?gh_jid=7523834) |
+|  | MongoDB | Software Engineer, Data Migration | California | ✅ Sponsors (Med) | **100%** | 1d ago | June 03, 2026 | Open | [Apply](https://www.mongodb.com/careers/job/?gh_jid=7523834) |
 |  | Twilio | Software Engineer (L2) | Remote - US | ✅ Sponsors (Med) | **100%** | today | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/twilio/jobs/7188174) |
 |  | Twilio | Software Engineer (L2) Segment Team | Remote - US | ✅ Sponsors (Med) | **100%** | today | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/twilio/jobs/7767263) |
 |  | Twilio | Software Engineer - Video | Remote - US | ✅ Sponsors (Med) | **100%** | today | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/twilio/jobs/7661919) |
 |  | Verkada | Full Stack Engineer, Go-to-Market Systems | San Mateo, CA United Sta | ✅ Sponsors (Med) | **100%** | 2d ago | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/verkada/jobs/5101666007) |
 |  | Reddit | Frontend Engineer, Ads Growth | Remote - United States | ✅ Sponsors (Med) | **88%** | today | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/reddit/jobs/7980795) |
-|  | MongoDB | Software Engineer, Code Generation | British Columbia | ✅ Sponsors (Med) | **84%** | today | June 03, 2026 | Open | [Apply](https://www.mongodb.com/careers/job/?gh_jid=7311708) |
+|  | MongoDB | Software Engineer, Code Generation | British Columbia | ✅ Sponsors (Med) | **84%** | 1d ago | June 03, 2026 | Open | [Apply](https://www.mongodb.com/careers/job/?gh_jid=7311708) |
 |  | MongoDB | Software Engineer, Developer Productivity | New York City | ✅ Sponsors (Med) | **84%** | today | June 03, 2026 | Open | [Apply](https://www.mongodb.com/careers/job/?gh_jid=7851388) |
 |  | Twilio | Software Engineer | Remote - US | ✅ Sponsors (Med) | **84%** | today | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/twilio/jobs/7605743) |
 |  | OpenAI | Software Engineer, Codex Cloud Apps | San Francisco | ✅ Sponsors (Med) | **84%** | 1d ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/openai/130a5389-83e1-493f-9205-542d3ff53afb) |
-|  | MongoDB | Software Engineer 3, Atlas Vector Search | San Francisco | ✅ Sponsors (Med) | **76%** | today | June 03, 2026 | Open | [Apply](https://www.mongodb.com/careers/job/?gh_jid=7523911) |
-|  | MongoDB | Software Engineer 3, Atlas Search Systems | San Francisco | ✅ Sponsors (Med) | **68%** | today | June 03, 2026 | Open | [Apply](https://www.mongodb.com/careers/job/?gh_jid=7523920) |
-|  | MongoDB | Software Engineer 3, Search Systems Replication & Routing | San Francisco | ✅ Sponsors (Med) | **68%** | today | June 03, 2026 | Open | [Apply](https://www.mongodb.com/careers/job/?gh_jid=7235322) |
+|  | MongoDB | Software Engineer 3, Atlas Vector Search | San Francisco | ✅ Sponsors (Med) | **76%** | 1d ago | June 03, 2026 | Open | [Apply](https://www.mongodb.com/careers/job/?gh_jid=7523911) |
+|  | MongoDB | Software Engineer 3, Atlas Search Systems | San Francisco | ✅ Sponsors (Med) | **68%** | 1d ago | June 03, 2026 | Open | [Apply](https://www.mongodb.com/careers/job/?gh_jid=7523920) |
+|  | MongoDB | Software Engineer 3, Search Systems Replication & Routing | San Francisco | ✅ Sponsors (Med) | **68%** | 1d ago | June 03, 2026 | Open | [Apply](https://www.mongodb.com/careers/job/?gh_jid=7235322) |
 |  | OpenAI | Host Systems Software Engineer | San Francisco | ✅ Sponsors (Med) | **68%** | 2d ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/openai/87e5f8c3-3337-480a-9db2-e4cef5db909b) |
-|  | MongoDB | Software Engineer 3 - Query Optimization | Atlanta | ✅ Sponsors (Med) | **60%** | today | June 03, 2026 | Open | [Apply](https://www.mongodb.com/careers/job/?gh_jid=7816135) |
+|  | MongoDB | Software Engineer 3 - Query Optimization | Atlanta | ✅ Sponsors (Med) | **60%** | 1d ago | June 03, 2026 | Open | [Apply](https://www.mongodb.com/careers/job/?gh_jid=7816135) |
 |  | Discord | Software Engineer, Distributed Systems | San Francisco Bay Area | ✅ Sponsors (Med) | **52%** | 2d ago | June 03, 2026 | Open | [Apply](https://job-boards.greenhouse.io/discord/jobs/8545663002) |
 |  | Baseten | Software Engineer- BIS (Baseten Inference Stack) | San Francisco | ✅ Sponsors (Low) | **68%** | 3d ago | June 03, 2026 | Open | [Apply](https://jobs.ashbyhq.com/baseten/c8701794-bdc1-4932-bffa-a444ce57ed73) |
 |  | Autodesk | Graduate Software Engineer | Birmingham, GBR | — unknown | **12%** | 1d ago | June 03, 2026 | Open | [Apply](https://autodesk.wd1.myworkdayjobs.com/en-US/Ext/job/Birmingham-GBR/Graduate-Software-Engineer_25WD90555-1) |
