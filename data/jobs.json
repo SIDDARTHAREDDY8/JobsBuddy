@@ -21,7 +21,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-03",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "1e344572c84b": {
@@ -47,15 +47,15 @@
     "age_days": 0,
     "fresh": true,
     "first_seen": "2026-06-03",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "4fa8eb6b850c": {
     "company": "Robinhood",
     "title": "Software Engineer",
     "location": "Menlo Park, CA",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/7975558?t=gh_src=&gh_jid=7975558",
-    "description": "<div class=\"content-intro\"><h2>Join us in building the future of finance.</h2> <p>Our mission is to democratize finance for all. <a href=\"https://www.cerulli.com/press-releases/cerulli-anticipates-124-trillion-in-wealth-will-transfer-through-2048\" target=\"_blank\">An estimated $124 trillion of assets</a> will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you\u2019re ready to be at the epicenter of this historic cultural and financial shift, keep reading.</p></div><h2><strong>About the team + role</strong></h2> <p>We are building an elite team, applying frontier technologies to the world\u2019s biggest financial problems. We\u2019re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn\u2019t a place for complacency, it\u2019s where ambitious people do the best work of their careers. We\u2019re a high-performing, fast-moving team with ethics at the center of everything we do. Expectations are high, and so are the rewards. We're looking for an exceptional Software Engineer to help shape the future of our core platforms, products, and customer experiences. FinTech is one of the most complex and rapidly evolving spaces in technology, and the challenges we're tackling require deep innovation, critical thinking, and scale that don't always have strong precedents. </p> <p>You'll take on a highly influential role shaping vision and execution across key strategic initiatives. You'll partner with cross-functional leaders, contribute to high-impact decisions, guide complex projects from concept to completion, and mentor others on the team. This is a role for someone who leverages modern tools and cutting-edge methodologies as a core part of how they solve problems, and raises the bar for everyone around them.</p> <p>This role is based in our Menlo Park, CA, with in-person attendance expected at least three days per week. </p> <p>At Robinhood, we believe in the power of in-person work to accelerate progress, spark innovation, and strengthen community. Our office experience is intentional, energizing, and designed to fully support high-performing teams. </p> <h2><strong>What you'll do</strong></h2> <p>Build, test, and release product-facing features with stringent correctness and scalability requirements. Design, develop, and maintain machine learning models and AI-powered services that support product features and decision-making systems. Implement end-to-end ML pipelines, including data ingestion, feature engineering, model training, evaluation, and deployment. Collaborate with product, data, and engineering teams to translate business problems into machine learning solutions. Own ML components throughout their full lifecycle, including experimentation, implementation, deployment, production monitoring, and iteration. Improve model performance, reliability, and scalability through experimentation, validation, and optimization. Integrate ML models into production systems, ensuring low-latency inference and reliable service operation. Monitor model performance and data quality in production, and participate in debugging, incident response, and remediation efforts. Apply software engineering best practices to ML codebases, including testing, code reviews, documentation, and version control. Ensure ML systems adhere to security, privacy, and compliance requirements when handling sensitive data. Document model designs, assumptions, evaluation results,<br>and operational considerations to support maintainability and knowledge sharing. Telecommuting permitted.</p> <h2><strong>What you bring</strong></h2> <ul> <li>Master\u2019s degree in Computer Science, Computer Engineering, Software Engineer or a related field (or foreign equivalent) and 1 year of experience in the job offered or related occupation.</li> <li>Education and/or experience must include:</li> <ul> <li>Python, Java, Scala, or GoLang;</li> <li>Machine learning frameworks;</li> <li>Data processing frameworks;</li> <li>Feature engineering tools;</li> <li>Supervised and unsupervised learning techniques;</li> <li>ML pipeline and deployment tools; and</li> <li>Model monitoring tools.</li> </ul> <li>Background checks required</li> </ul> <h2><strong>What we offer</strong></h2> <ul> <li>Challenging, high-impact work to grow your career</li> <li>Performance driven compensation with multipliers for outsized impact, bonus programs, equity ownership, and 401(k) matching</li> <li>Best in class benefits to fuel your work, including 100% paid health insurance for employees with 90% coverage for dependents</li> <li>Lifestyle wallet - a highly flexible benefits spending account for wellness, learning, and more</li> <li>Employer-paid life &amp; disability insurance, fertility benefits, and mental health benefits</li> <li>Time off to recharge including company holidays, paid time off, sick time, parental leave, and more!</li> <li>Exceptional office experience with catered meals, events, and comfortable workspaces.</li> </ul> <p>In addition to the base pay range listed below, this role is also eligible for bonus opportunities + equity + benefits.</p> <p>Base pay for the successful applicant will depend on a variety of job-related factors, which may include education, training, experience, location, business needs, or market demands. The expected base pay range for this role is based on the location where the work will be performed and is aligned to the corresponding compensation zone. </p> <p>Base Pay Range:</p> <p>$161,637 - $200,000 per year</p> <p>To Apply: Apply by clicking APPLY NOW. Indicate job code AIML4BMPI4 in your application.</p><div class=\"content-conclusion\"><p>Click <a href=\"https://careers.robinhood.com/benefits\" target=\"_blank\">here</a> to learn more about our Total Rewards, which vary by region and entity.</p> <p>If our mission energizes you and you\u2019re ready to build the future of finance, we look forward to seeing your application.</p> <p>Robinhood provides equal opportunity for all applicants, offers reasonable accommodations upon request, and complies with applicable equal employment and privacy laws. Inclusion is built into how we hire and work\u2014welcoming different backgrounds, perspectives, and experiences so everyone can do their best. Please review the <a href=\"https://careers.robinhood.com/applicantprivacypolicy\" target=\"_blank\">Privacy Policy</a> for your country of application.</p></div>",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/7975507?t=gh_src=&gh_jid=7975507",
+    "description": "<div class=\"content-intro\"><h2>Join us in building the future of finance.</h2> <p>Our mission is to democratize finance for all. <a href=\"https://www.cerulli.com/press-releases/cerulli-anticipates-124-trillion-in-wealth-will-transfer-through-2048\" target=\"_blank\">An estimated $124 trillion of assets</a> will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you\u2019re ready to be at the epicenter of this historic cultural and financial shift, keep reading.</p></div><h2><strong>About the team + role</strong></h2> <p>We are building an elite team, applying frontier technologies to the world\u2019s biggest financial problems. We\u2019re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn\u2019t a place for complacency, it\u2019s where ambitious people do the best work of their careers. We\u2019re a high-performing, fast-moving team with ethics at the center of everything we do. Expectations are high, and so are the rewards. We're looking for an exceptional Software Engineer to help shape the future of our core platforms, products, and customer experiences. FinTech is one of the most complex and rapidly evolving spaces in technology, and the challenges we're tackling require deep innovation, critical thinking, and scale that don't always have strong precedents. </p> <p>You'll take on a highly influential role shaping vision and execution across key strategic initiatives. You'll partner with cross-functional leaders, contribute to high-impact decisions, guide complex projects from concept to completion, and mentor others on the team. This is a role for someone who leverages modern tools and cutting-edge methodologies as a core part of how they solve problems, and raises the bar for everyone around them.</p> <p>This role is based in our Menlo Park, CA, with in-person attendance expected at least three days per week. </p> <p>At Robinhood, we believe in the power of in-person work to accelerate progress, spark innovation, and strengthen community. Our office experience is intentional, energizing, and designed to fully support high-performing teams. </p> <h2><strong>What you'll do</strong></h2> <p>Build, test, and release product-facing features with stringent correctness and scalability requirements. Design, develop, and maintain backend services, APIs, and data models that power core product functionality. Build and evolve distributed systems that support business-critical workflows, transactions, and integrations. Own backend components throughout their full lifecycle, including requirements definition, design, implementation, testing, deployment, production support, and continuous improvement. Collaborate with cross-functional engineering teams to deliver end-to-end product features and integrate with internal and external systems. Improve system reliability, performance, and scalability by identifying bottlenecks, optimizing service interactions, and applying distributed systems best practices. Write high-quality, well-tested code and participate in code reviews, design reviews, and technical discussions to maintain engineering excellence. Participate in on-call rotations, incident response, root cause analysis, and remediation efforts to ensure backend service stability and availability. Monitor and debug production systems using logs, metrics, and traces to validate system health and meet service-level objectives. Ensure backend systems meet security, privacy, and compliance requirements through secure design and implementation. Document system designs, APIs, data schemas, and operational considerations to support maintainability and knowledge sharing. Telecommuting permitted.</p> <h2><strong>What you bring</strong></h2> <ul> <li>Master\u2019s degree in Computer Science, Computer Engineering, Software Engineering or a related field (or foreign equivalent) and 1 year of experience in the job offered or related occupation.</li> <li>Education and/or experience must include:</li> <ul> <li>Java, Kotlin, GoLang, Python, or Scala;</li> <li>Backend service frameworks;</li> <li>RESTful APIs;</li> <li>PostgreSQL, MySQL, Redis, or DynamoDB;</li> <li>Distributed systems;</li> <li>Logging and monitoring tools; and</li> <li>Automated testing frameworks.</li> </ul> <li>Background checks required.</li> </ul> <h2><strong>What we offer</strong></h2> <ul> <li>Challenging, high-impact work to grow your career</li> <li>Performance driven compensation with multipliers for outsized impact, bonus programs, equity ownership, and 401(k) matching</li> <li>Best in class benefits to fuel your work, including 100% paid health insurance for employees with 90% coverage for dependents</li> <li>Lifestyle wallet - a highly flexible benefits spending account for wellness, learning, and more</li> <li>Employer-paid life &amp; disability insurance, fertility benefits, and mental health benefits</li> <li>Time off to recharge including company holidays, paid time off, sick time, parental leave, and more!</li> <li>Exceptional office experience with catered meals, events, and comfortable workspaces.</li> </ul> <p>In addition to the base pay range listed below, this role is also eligible for bonus opportunities + equity + benefits.</p> <p>Base pay for the successful applicant will depend on a variety of job-related factors, which may include education, training, experience, location, business needs, or market demands. The expected base pay range for this role is based on the location where the work will be performed and is aligned to the corresponding compensation zone. </p> <p>Base Pay Range:</p> <p>$161,637 - $195,000 per year</p> <p>To Apply: Apply by clicking APPLY NOW. Indicate job code SWEB4BMPI4 in your application.</p> <p> </p><div class=\"content-conclusion\"><p>Click <a href=\"https://careers.robinhood.com/benefits\" target=\"_blank\">here</a> to learn more about our Total Rewards, which vary by region and entity.</p> <p>If our mission energizes you and you\u2019re ready to build the future of finance, we look forward to seeing your application.</p> <p>Robinhood provides equal opportunity for all applicants, offers reasonable accommodations upon request, and complies with applicable equal employment and privacy laws. Inclusion is built into how we hire and work\u2014welcoming different backgrounds, perspectives, and experiences so everyone can do their best. Please review the <a href=\"https://careers.robinhood.com/applicantprivacypolicy\" target=\"_blank\">Privacy Policy</a> for your country of application.</p></div>",
     "posted_at": "2026-06-04T12:43:16-04:00",
     "source": "greenhouse",
     "opt_friendly": true,
@@ -73,7 +73,7 @@
     "age_days": 0,
     "fresh": true,
     "first_seen": "2026-06-03",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "9233264bdc8b": {
@@ -99,7 +99,7 @@
     "age_days": 0,
     "fresh": true,
     "first_seen": "2026-06-03",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "1e22f99086ad": {
@@ -125,7 +125,7 @@
     "age_days": 0,
     "fresh": true,
     "first_seen": "2026-06-03",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "a9c65d1059d9": {
@@ -151,7 +151,7 @@
     "age_days": 0,
     "fresh": true,
     "first_seen": "2026-06-03",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "f711a602cff2": {
@@ -176,7 +176,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-03",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "b6646babc226": {
@@ -202,7 +202,7 @@
     "age_days": 0,
     "fresh": true,
     "first_seen": "2026-06-03",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "f9935ce33f79": {
@@ -228,7 +228,7 @@
     "age_days": 0,
     "fresh": true,
     "first_seen": "2026-06-03",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "a69e9ef0b457": {
@@ -254,7 +254,7 @@
     "age_days": 0,
     "fresh": true,
     "first_seen": "2026-06-03",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "66c5f8df57ac": {
@@ -280,7 +280,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-06-03",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "3fe7a4038558": {
@@ -304,7 +304,7 @@
     "age_days": 0,
     "fresh": true,
     "first_seen": "2026-06-03",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "0c6d3fea90f4": {
@@ -328,7 +328,7 @@
     "age_days": 1,
     "fresh": true,
     "first_seen": "2026-06-03",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "837ddd7a0489": {
@@ -352,7 +352,7 @@
     "age_days": 1,
     "fresh": true,
     "first_seen": "2026-06-03",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "5f50394a1ad8": {
@@ -376,7 +376,7 @@
     "age_days": 0,
     "fresh": true,
     "first_seen": "2026-06-03",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "9ee57128e2f7": {
@@ -401,7 +401,7 @@
     "age_days": 0,
     "fresh": true,
     "first_seen": "2026-06-03",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "561cf6e741b1": {
@@ -425,7 +425,7 @@
     "age_days": 0,
     "fresh": true,
     "first_seen": "2026-06-03",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "1e41a65360a9": {
@@ -451,7 +451,7 @@
     "age_days": 0,
     "fresh": true,
     "first_seen": "2026-06-03",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "41cc2f30e4bd": {
@@ -477,7 +477,7 @@
     "age_days": 0,
     "fresh": true,
     "first_seen": "2026-06-03",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "d64b4bd34e5c": {
@@ -501,7 +501,7 @@
     "age_days": 0,
     "fresh": true,
     "first_seen": "2026-06-03",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "a12e25e762aa": {
@@ -527,7 +527,7 @@
     "age_days": 0,
     "fresh": true,
     "first_seen": "2026-06-03",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "2847d702ec54": {
@@ -585,7 +585,7 @@
     "fresh": true,
     "first_seen": "2026-06-03",
     "last_seen": "2026-06-04",
-    "open": true
+    "open": false
   },
   "b7a5be866a6b": {
     "company": "Salesforce",
@@ -619,10 +619,10 @@
     "sponsors_visa": false,
     "match_score": 12,
     "matched_skills": [],
-    "age_days": 0,
+    "age_days": 1,
     "fresh": true,
     "first_seen": "2026-06-03",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "0d41cfc27fac": {
@@ -642,7 +642,7 @@
     "fresh": true,
     "first_seen": "2026-06-03",
     "last_seen": "2026-06-04",
-    "open": true
+    "open": false
   },
   "2967111de589": {
     "company": "Workday",
@@ -712,7 +712,7 @@
     "age_days": 0,
     "fresh": true,
     "first_seen": "2026-06-03",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "fc029fa38766": {
@@ -738,7 +738,7 @@
     "age_days": 0,
     "fresh": true,
     "first_seen": "2026-06-03",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "b9f28dcc0315": {
@@ -763,7 +763,7 @@
     "age_days": 0,
     "fresh": true,
     "first_seen": "2026-06-03",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "eafed43412f2": {
@@ -789,7 +789,7 @@
     "age_days": 0,
     "fresh": true,
     "first_seen": "2026-06-03",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "a93519f9005b": {
@@ -815,7 +815,7 @@
     "age_days": 0,
     "fresh": true,
     "first_seen": "2026-06-03",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "066b194aa613": {
@@ -841,7 +841,7 @@
     "age_days": 0,
     "fresh": true,
     "first_seen": "2026-06-03",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "725e9e0018f2": {
@@ -867,7 +867,7 @@
     "age_days": 0,
     "fresh": true,
     "first_seen": "2026-06-03",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "b8ee454a3827": {
@@ -893,7 +893,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-03",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "b59d9499594a": {
@@ -919,7 +919,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-03",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "f9e4814a4cf6": {
@@ -945,7 +945,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-03",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "f6883535e595": {
@@ -971,7 +971,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-03",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "9ff359a46d77": {
@@ -997,7 +997,7 @@
     "age_days": 1,
     "fresh": true,
     "first_seen": "2026-06-03",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "3718bbe0282a": {
@@ -1023,7 +1023,7 @@
     "age_days": 1,
     "fresh": true,
     "first_seen": "2026-06-03",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "f49c83f2a16b": {
@@ -1049,7 +1049,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-03",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "44b7e3d83fc6": {
@@ -1075,7 +1075,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-03",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "1e9a2ffe0d01": {
@@ -1101,7 +1101,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-06-03",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "9b053bc5a937": {
@@ -1127,7 +1127,7 @@
     "age_days": 0,
     "fresh": true,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "24a9aa95a4f1": {
@@ -1239,7 +1239,7 @@
     "age_days": null,
     "fresh": false,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "b809ad9c451d": {
@@ -1261,7 +1261,7 @@
     "age_days": null,
     "fresh": false,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "a44f7991e818": {
@@ -1454,7 +1454,7 @@
     "age_days": null,
     "fresh": false,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "da8547c48811": {
@@ -1496,7 +1496,7 @@
     "age_days": null,
     "fresh": false,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "14f37797f21e": {
@@ -1638,7 +1638,7 @@
     "age_days": null,
     "fresh": false,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "432a4155c5d8": {
@@ -1659,7 +1659,7 @@
     "age_days": null,
     "fresh": false,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "1ccfce0a5706": {
@@ -1700,7 +1700,7 @@
     "age_days": null,
     "fresh": false,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "e77cd1bdb9cf": {
@@ -1722,7 +1722,7 @@
     "age_days": null,
     "fresh": false,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "21abab24a41d": {
@@ -1741,7 +1741,7 @@
     "age_days": null,
     "fresh": false,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "0fa97592b768": {
@@ -1760,7 +1760,7 @@
     "age_days": null,
     "fresh": false,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "ac9b05e521f4": {
@@ -1779,7 +1779,7 @@
     "age_days": null,
     "fresh": false,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "73f6f2947fe2": {
@@ -1801,7 +1801,7 @@
     "age_days": null,
     "fresh": false,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "a77fcece53fa": {
@@ -1820,7 +1820,7 @@
     "age_days": null,
     "fresh": false,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "10e398f8e762": {
@@ -1841,7 +1841,7 @@
     "age_days": null,
     "fresh": false,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "9ddc0bcec62b": {
@@ -1862,7 +1862,7 @@
     "age_days": null,
     "fresh": false,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "a7f2f928c8a4": {
@@ -1884,7 +1884,7 @@
     "age_days": null,
     "fresh": false,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "3785506c546d": {
@@ -1903,7 +1903,7 @@
     "age_days": null,
     "fresh": false,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "6f188a6205b8": {
@@ -1922,7 +1922,7 @@
     "age_days": null,
     "fresh": false,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "ab75c1b520ac": {
@@ -1965,7 +1965,7 @@
     "age_days": null,
     "fresh": false,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "5d95665f767b": {
@@ -1984,7 +1984,7 @@
     "age_days": null,
     "fresh": false,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "0bd50febc9a3": {
@@ -2006,7 +2006,7 @@
     "age_days": null,
     "fresh": false,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "b9f33df7d504": {
@@ -2097,7 +2097,7 @@
     "age_days": null,
     "fresh": false,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "7e514ec42b63": {
@@ -2119,7 +2119,7 @@
     "age_days": null,
     "fresh": false,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "8e2aa3b1d487": {
@@ -2145,7 +2145,7 @@
     "age_days": 0,
     "fresh": true,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "d19472b7cd3f": {
@@ -2171,7 +2171,7 @@
     "age_days": 0,
     "fresh": true,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "f0ed094b5c35": {
@@ -2197,7 +2197,7 @@
     "age_days": 0,
     "fresh": true,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "5e0e2079d06b": {
@@ -2222,7 +2222,7 @@
     "age_days": 0,
     "fresh": true,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "20591b81f4a8": {
@@ -2247,7 +2247,7 @@
     "age_days": 0,
     "fresh": true,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "0bf42988d2b5": {
@@ -2273,7 +2273,7 @@
     "age_days": 0,
     "fresh": true,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "aed07ed2a954": {
@@ -2299,7 +2299,7 @@
     "age_days": 0,
     "fresh": true,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "d1f48a586ecf": {
@@ -2325,7 +2325,7 @@
     "age_days": 0,
     "fresh": true,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "e10bb48b5019": {
@@ -2351,7 +2351,7 @@
     "age_days": 0,
     "fresh": true,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "a9f33b640fd1": {
@@ -2367,10 +2367,10 @@
     "sponsors_visa": true,
     "match_score": 20,
     "matched_skills": [],
-    "age_days": 0,
+    "age_days": 1,
     "fresh": true,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "77f523495fbe": {
@@ -2396,7 +2396,7 @@
     "age_days": 0,
     "fresh": true,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "22bfe1fd6f47": {
@@ -2422,7 +2422,7 @@
     "age_days": 0,
     "fresh": true,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "6cd92f04ccad": {
@@ -2448,7 +2448,7 @@
     "age_days": 0,
     "fresh": true,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "46bbf5586271": {
@@ -2474,7 +2474,7 @@
     "age_days": 0,
     "fresh": true,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "7ba8ade84256": {
@@ -2500,7 +2500,7 @@
     "age_days": 7,
     "fresh": false,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "c66a39c517c6": {
@@ -2526,7 +2526,7 @@
     "age_days": 7,
     "fresh": false,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "de562964f266": {
@@ -2552,7 +2552,7 @@
     "age_days": 7,
     "fresh": false,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "09d5f24db563": {
@@ -2578,7 +2578,7 @@
     "age_days": 7,
     "fresh": false,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "57424f218e4a": {
@@ -2604,7 +2604,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "65dac2b41dd5": {
@@ -2630,7 +2630,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "9be56e054487": {
@@ -2656,7 +2656,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "af63da9f299b": {
@@ -2682,7 +2682,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "e1df84b6c920": {
@@ -2708,7 +2708,7 @@
     "age_days": 7,
     "fresh": false,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "d4dbb5658886": {
@@ -2734,7 +2734,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "e6e8bead91e4": {
@@ -2760,7 +2760,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "e0053d42c259": {
@@ -2786,7 +2786,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "e30ea78defb9": {
@@ -2812,7 +2812,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "41e18e24be65": {
@@ -2837,7 +2837,7 @@
     "age_days": 1,
     "fresh": true,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "5113fa86d1fd": {
@@ -2863,7 +2863,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "ba5c54625ca6": {
@@ -2889,7 +2889,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "85b9065119e6": {
@@ -2915,7 +2915,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "fa7dd7b6bdb6": {
@@ -2941,7 +2941,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "c051656d3867": {
@@ -2967,7 +2967,7 @@
     "age_days": 0,
     "fresh": true,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "345e58b9e9b8": {
@@ -2993,7 +2993,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "947bce5d91ac": {
@@ -3019,7 +3019,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "8b30f67945dc": {
@@ -3045,7 +3045,7 @@
     "age_days": 0,
     "fresh": true,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "cf186eefb1c2": {
@@ -3071,7 +3071,7 @@
     "age_days": 0,
     "fresh": true,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "a404b7e94fc0": {
@@ -3095,7 +3095,7 @@
     "age_days": 0,
     "fresh": true,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "9e1e8f4c30b9": {
@@ -3121,7 +3121,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   },
   "451b23c6b7c4": {
@@ -3140,7 +3140,7 @@
     "age_days": 0,
     "fresh": true,
     "first_seen": "2026-06-04",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "open": true
   }
 }
