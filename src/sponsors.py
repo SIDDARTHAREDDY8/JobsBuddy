@@ -21,6 +21,14 @@ def load_sponsors():
         return json.load(f)["sponsors"]
 
 
+def load_stats():
+    p = os.path.join(_HERE, "data", "sponsor_stats.json")
+    if os.path.exists(p):
+        with open(p) as f:
+            return {_norm(k): v for k, v in json.load(f).items()}
+    return {}
+
+
 def _norm(name):
     name = name.lower()
     name = re.sub(r"\b(inc|llc|corp|corporation|co|ltd|technologies|technology|labs|the)\b", "", name)
@@ -29,15 +37,18 @@ def _norm(name):
 
 def tag_sponsors(jobs, sponsors):
     norm_map = {_norm(k): v for k, v in sponsors.items()}
+    stats = load_stats()
     for j in jobs:
-        tier = norm_map.get(_norm(j["company"]))
-        # also try a loose contains-match (e.g. "Block, Inc" vs "block")
-        if tier is None:
-            cn = _norm(j["company"])
+        cn = _norm(j["company"])
+        tier = norm_map.get(cn)
+        if tier is None:  # loose contains-match (e.g. "Block, Inc" vs "block")
             for k, v in norm_map.items():
                 if k and (k in cn or cn in k):
                     tier = v
                     break
         j["sponsor_tier"] = tier            # "high" | "medium" | "low" | None
         j["sponsors_visa"] = tier is not None
+        st = stats.get(cn)                   # REAL DOL filing data, if we have it
+        j["sponsor_cases"] = st["cases"] if st else None
+        j["sponsor_cert"] = st["cert"] if st else None
     return jobs

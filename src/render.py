@@ -13,7 +13,11 @@ BADGE = {"high": "✅ Sponsors (High)", "medium": "✅ Sponsors (Med)", "low": "
 
 def _visa_cell(job):
     if job.get("sponsors_visa"):
-        return BADGE.get(job.get("sponsor_tier"), "✅ Sponsors")
+        base = BADGE.get(job.get("sponsor_tier"), "✅ Sponsors")
+        cases = job.get("sponsor_cases")
+        if cases:
+            return f"{base} · {cases} H1B filings"
+        return base
     if not job.get("opt_friendly", True):
         return "⚠️ May not sponsor"
     return "— unknown"

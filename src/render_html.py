@@ -57,7 +57,9 @@ def render_html(jobs, profile, today):
             new_badge = '<span class="tag tag-new">NEW</span>' if is_new else ""
             tier = j.get("sponsor_tier")
             if j.get("sponsors_visa"):
-                visa = f'<span class="tag tag-spon">Sponsors · {TIER_LABEL.get(tier,"")}</span>'
+                cases = j.get("sponsor_cases")
+                extra = f' · {cases} filings' if cases else ''
+                visa = f'<span class="tag tag-spon">Sponsors · {TIER_LABEL.get(tier,"")}{extra}</span>'
             elif not j.get("opt_friendly", True):
                 visa = '<span class="tag tag-warn">May not sponsor</span>'
             else:

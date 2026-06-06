@@ -1,0 +1,650 @@
+{
+ "stripe": {
+  "cases": 53,
+  "cert": 98.1
+ },
+ "databricks": {
+  "cases": 67,
+  "cert": 100.0
+ },
+ "coinbase": {
+  "cases": 27,
+  "cert": 100.0
+ },
+ "robinhood": {
+  "cases": 68,
+  "cert": 97.1
+ },
+ "airbnb": {
+  "cases": 48,
+  "cert": 97.9
+ },
+ "doordash": {
+  "cases": 104,
+  "cert": 100.0
+ },
+ "reddit": {
+  "cases": 27,
+  "cert": 96.3
+ },
+ "dropbox": {
+  "cases": 14,
+  "cert": 42.9
+ },
+ "cloudflare": {
+  "cases": 26,
+  "cert": 92.3
+ },
+ "samsara": {
+  "cases": 13,
+  "cert": 100.0
+ },
+ "affirm": {
+  "cases": 15,
+  "cert": 100.0
+ },
+ "discord": {
+  "cases": 15,
+  "cert": 40.0
+ },
+ "pinterest": {
+  "cases": 77,
+  "cert": 85.7
+ },
+ "block": {
+  "cases": 30,
+  "cert": 100.0
+ },
+ "lyft": {
+  "cases": 25,
+  "cert": 100.0
+ },
+ "ramp": {
+  "cases": 10,
+  "cert": 60.0
+ },
+ "notion": {
+  "cases": 10,
+  "cert": 80.0
+ },
+ "netflix": {
+  "cases": 80,
+  "cert": 100.0
+ },
+ "palantir": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "nvidia": {
+  "cases": 460,
+  "cert": 99.6
+ },
+ "salesforce": {
+  "cases": 442,
+  "cert": 85.3
+ },
+ "adobe": {
+  "cases": 134,
+  "cert": 100.0
+ },
+ "autodesk": {
+  "cases": 32,
+  "cert": 100.0
+ },
+ "workday": {
+  "cases": 53,
+  "cert": 100.0
+ },
+ "datadog": {
+  "cases": 25,
+  "cert": 100.0
+ },
+ "mongodb": {
+  "cases": 44,
+  "cert": 81.8
+ },
+ "twilio": {
+  "cases": 35,
+  "cert": 91.4
+ },
+ "openai": {
+  "cases": 23,
+  "cert": 95.7
+ },
+ "verkada": {
+  "cases": 14,
+  "cert": 85.7
+ },
+ "twitch": {
+  "cases": 14,
+  "cert": 100.0
+ },
+ "gemini": {
+  "cases": 13,
+  "cert": 100.0
+ },
+ "anthropic": {
+  "cases": 48,
+  "cert": 100.0
+ },
+ "spotify": {
+  "cases": 11,
+  "cert": 100.0
+ },
+ "veeva": {
+  "cases": 32,
+  "cert": 100.0
+ },
+ "roblox": {
+  "cases": 49,
+  "cert": 100.0
+ },
+ "chime": {
+  "cases": 31,
+  "cert": 100.0
+ },
+ "sigma computing": {
+  "cases": 12,
+  "cert": 75.0
+ },
+ "roku": {
+  "cases": 10,
+  "cert": 100.0
+ },
+ "deel": {
+  "cases": 13,
+  "cert": 92.3
+ },
+ "visa": {
+  "cases": 101,
+  "cert": 98.0
+ },
+ "servicetitan": {
+  "cases": 10,
+  "cert": 90.0
+ },
+ "scale ai": {
+  "cases": 11,
+  "cert": 72.7
+ },
+ "valon": {
+  "cases": 16,
+  "cert": 87.5
+ },
+ "appian": {
+  "cases": 15,
+  "cert": 80.0
+ },
+ "torc robotics": {
+  "cases": 16,
+  "cert": 100.0
+ },
+ "citizen health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "solace health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "axon": {
+  "cases": 39,
+  "cert": 84.6
+ },
+ "trend health partners": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "equip health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "accenture": {
+  "cases": 592,
+  "cert": 99.2
+ },
+ "path robotics": {
+  "cases": 16,
+  "cert": 100.0
+ },
+ "garner health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "bridgewater associates": {
+  "cases": 14,
+  "cert": 78.6
+ },
+ "lumin digital": {
+  "cases": 15,
+  "cert": 100.0
+ },
+ "point72": {
+  "cases": 18,
+  "cert": 61.1
+ },
+ "jane street": {
+  "cases": 10,
+  "cert": 100.0
+ },
+ "weave": {
+  "cases": 19,
+  "cert": 100.0
+ },
+ "astera labs": {
+  "cases": 14,
+  "cert": 100.0
+ },
+ "assort health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "zoox": {
+  "cases": 17,
+  "cert": 94.1
+ },
+ "silna health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "tenstorrent": {
+  "cases": 11,
+  "cert": 100.0
+ },
+ "anaplan": {
+  "cases": 10,
+  "cert": 90.0
+ },
+ "cobalt robotics": {
+  "cases": 16,
+  "cert": 100.0
+ },
+ "box": {
+  "cases": 29,
+  "cert": 100.0
+ },
+ "alten technology": {
+  "cases": 14,
+  "cert": 92.9
+ },
+ "schonfeld": {
+  "cases": 11,
+  "cert": 90.9
+ },
+ "lucid": {
+  "cases": 143,
+  "cert": 96.5
+ },
+ "amae health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "visual concepts": {
+  "cases": 10,
+  "cert": 100.0
+ },
+ "the allen institute for ai": {
+  "cases": 12,
+  "cert": 75.0
+ },
+ "sony interactive entertainment": {
+  "cases": 40,
+  "cert": 65.0
+ },
+ "confluent": {
+  "cases": 34,
+  "cert": 97.1
+ },
+ "shields health solutions": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "link": {
+  "cases": 16,
+  "cert": 62.5
+ },
+ "lucid motors": {
+  "cases": 143,
+  "cert": 96.5
+ },
+ "matic": {
+  "cases": 11,
+  "cert": 45.5
+ },
+ "tinder": {
+  "cases": 22,
+  "cert": 86.4
+ },
+ "crusoe": {
+  "cases": 14,
+  "cert": 100.0
+ },
+ "heidi health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "american institutes for research": {
+  "cases": 18,
+  "cert": 100.0
+ },
+ "redwood materials": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "good american": {
+  "cases": 18,
+  "cert": 100.0
+ },
+ "mca connect": {
+  "cases": 10,
+  "cert": 100.0
+ },
+ "starpath robotics": {
+  "cases": 16,
+  "cert": 100.0
+ },
+ "remodel health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "archer": {
+  "cases": 18,
+  "cert": 94.4
+ },
+ "collaborative robotics": {
+  "cases": 16,
+  "cert": 100.0
+ },
+ "saviynt": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "snowflake": {
+  "cases": 107,
+  "cert": 88.8
+ },
+ "planet": {
+  "cases": 17,
+  "cert": 100.0
+ },
+ "dyna robotics": {
+  "cases": 16,
+  "cert": 100.0
+ },
+ "neon health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "astro mechanica": {
+  "cases": 10,
+  "cert": 100.0
+ },
+ "open farm pet": {
+  "cases": 44,
+  "cert": 95.5
+ },
+ "pure storage": {
+  "cases": 37,
+  "cert": 89.2
+ },
+ "iwoca": {
+  "cases": 10,
+  "cert": 100.0
+ },
+ "diligent robotics": {
+  "cases": 16,
+  "cert": 100.0
+ },
+ "upgrade": {
+  "cases": 13,
+  "cert": 76.9
+ },
+ "angle health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "titan": {
+  "cases": 10,
+  "cert": 90.0
+ },
+ "agwest farm credit": {
+  "cases": 44,
+  "cert": 95.5
+ },
+ "clipboard health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "smartsheet": {
+  "cases": 11,
+  "cert": 100.0
+ },
+ "omnicom health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "the trade desk": {
+  "cases": 14,
+  "cert": 85.7
+ },
+ "galileo financial technologies": {
+  "cases": 11,
+  "cert": 100.0
+ },
+ "butternut box": {
+  "cases": 29,
+  "cert": 100.0
+ },
+ "moss": {
+  "cases": 13,
+  "cert": 100.0
+ },
+ "resolve": {
+  "cases": 18,
+  "cert": 100.0
+ },
+ "conversica": {
+  "cases": 10,
+  "cert": 100.0
+ },
+ "omada health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "sophos": {
+  "cases": 13,
+  "cert": 92.3
+ },
+ "icon": {
+  "cases": 14,
+  "cert": 71.4
+ },
+ "kodiak robotics": {
+  "cases": 16,
+  "cert": 100.0
+ },
+ "pearl health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "trackforce": {
+  "cases": 175,
+  "cert": 100.0
+ },
+ "maybell quantum industries": {
+  "cases": 11,
+  "cert": 100.0
+ },
+ "salvo health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "woven": {
+  "cases": 10,
+  "cert": 100.0
+ },
+ "avidxchange": {
+  "cases": 14,
+  "cert": 100.0
+ },
+ "civitech": {
+  "cases": 15,
+  "cert": 80.0
+ },
+ "interwell health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "samsung": {
+  "cases": 40,
+  "cert": 92.5
+ },
+ "hone health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "motive": {
+  "cases": 40,
+  "cert": 72.5
+ },
+ "zus health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "wayve": {
+  "cases": 14,
+  "cert": 100.0
+ },
+ "paretohealth": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "hp iq": {
+  "cases": 24,
+  "cert": 100.0
+ },
+ "zscaler": {
+  "cases": 24,
+  "cert": 100.0
+ },
+ "courier health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "istari digital": {
+  "cases": 15,
+  "cert": 100.0
+ },
+ "capital technology group": {
+  "cases": 150,
+  "cert": 100.0
+ },
+ "mcg health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "10x genomics": {
+  "cases": 18,
+  "cert": 33.3
+ },
+ "uber freight": {
+  "cases": 36,
+  "cert": 100.0
+ },
+ "thinkingbox": {
+  "cases": 29,
+  "cert": 100.0
+ },
+ "eli health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "leland": {
+  "cases": 124,
+  "cert": 95.2
+ },
+ "rugged robotics": {
+  "cases": 16,
+  "cert": 100.0
+ },
+ "ivx health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "charge robotics": {
+  "cases": 16,
+  "cert": 100.0
+ },
+ "amp robotics": {
+  "cases": 16,
+  "cert": 100.0
+ },
+ "lucid bots": {
+  "cases": 143,
+  "cert": 96.5
+ },
+ "phia": {
+  "cases": 46,
+  "cert": 84.8
+ },
+ "daniels health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "seamless.ai": {
+  "cases": 10,
+  "cert": 90.0
+ },
+ "locus robotics": {
+  "cases": 16,
+  "cert": 100.0
+ },
+ "the health management academy": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "parachute health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "gecko robotics": {
+  "cases": 16,
+  "cert": 100.0
+ },
+ "layer health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "labelbox": {
+  "cases": 29,
+  "cert": 100.0
+ },
+ "xebia": {
+  "cases": 26,
+  "cert": 84.6
+ },
+ "super": {
+  "cases": 18,
+  "cert": 100.0
+ },
+ "astera": {
+  "cases": 14,
+  "cert": 100.0
+ },
+ "plusai": {
+  "cases": 10,
+  "cert": 90.0
+ },
+ "cohere health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "nium": {
+  "cases": 25,
+  "cert": 68.0
+ },
+ "candid health": {
+  "cases": 12,
+  "cert": 100.0
+ }
+}

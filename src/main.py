@@ -153,6 +153,7 @@ def main():
 
     print("⑥ Writing README.md + index.html (website)...")
     snapshot = list(archive.values())
+    tag_sponsors(snapshot, load_sponsors())   # refresh sponsor tiers + real counts on all
     with open(os.path.join(HERE, "README.md"), "w") as f:
         f.write(render_readme(snapshot, profile, today))
     with open(os.path.join(HERE, "index.html"), "w") as f:
