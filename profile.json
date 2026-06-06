@@ -53,6 +53,19 @@
     "architect", "head of", "vp", "vice president", "intern", "internship",
     "phd", "research scientist", "fellow", "president"
   ],
+  "roles_domain_exclude": [
+    "mechanical", "electrical", "civil", "chemical", "biomedical", "biochemical",
+    "aerospace", "structural", "optical", "industrial", "manufacturing", "materials",
+    "thermal", "hardware", "radio frequency", "analog ", "power systems",
+    "process engineer", "quality engineer", "validation engineer", "controls engineer",
+    "packaging", "hvac", "nuclear", "metallurg", "drilling", "piping", "facilities",
+    "calibration", "instrumentation", "geotechnical", "petroleum", "mining",
+    "automotive", "environmental", "sales engineer", "solutions engineer",
+    "solutions architect", "sales ", "pre-sales", "presales", "customer success",
+    "customer engineer", "support engineer", "field engineer", "field service",
+    "account executive", "account manager", "marketing", "recruiter", "recruiting",
+    "supplier quality", "test technician", "lab technician", "biology", "chemist"
+  ],
   "exp_exclude_patterns": [
     "5+ years", "6+ years", "7+ years", "8+ years", "10+ years",
     "minimum of 5", "minimum of 6", "minimum of 7", "minimum of 8",
