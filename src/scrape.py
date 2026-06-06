@@ -239,18 +239,32 @@ ADAPTERS = {
 }
 
 
-def scrape_all(companies):
-    jobs = []
-    for c in companies:
-        fn = ADAPTERS.get(c["ats"])
-        if not fn:
-            continue
-        try:
-            got = fn(c["slug"], c["company"])
-            jobs.extend(got)
-            print(f"  [ok]   {c['company']:<14} ({c['ats']}) -> {len(got)} jobs")
-        except urllib.error.HTTPError as e:
-            print(f"  [skip] {c['company']:<14} ({c['ats']}) HTTP {e.code}")
-        except Exception as e:
-            print(f"  [skip] {c['company']:<14} ({c['ats']}) {type(e).__name__}")
+def _scrape_one(c):
+    fn = ADAPTERS.get(c["ats"])
+    if not fn:
+        return (c, [], "no-adapter")
+    try:
+        return (c, fn(c["slug"], c["company"]), "ok")
+    except urllib.error.HTTPError as e:
+        return (c, [], f"HTTP{e.code}")
+    except Exception as e:
+        return (c, [], type(e).__name__)
+
+
+def scrape_all(companies, workers=12):
+    """Scrape all companies concurrently (fast at 1000+ companies)."""
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+    jobs, ok, failed = [], 0, 0
+    with ThreadPoolExecutor(max_workers=workers) as ex:
+        futs = [ex.submit(_scrape_one, c) for c in companies]
+        for i, f in enumerate(as_completed(futs), 1):
+            c, got, status = f.result()
+            if got:
+                jobs.extend(got)
+                ok += 1
+            elif status != "ok":
+                failed += 1
+            if i % 100 == 0:
+                print(f"  ...scraped {i}/{len(companies)} companies, {len(jobs)} raw jobs so far")
+    print(f"  scrape complete: {ok} companies returned jobs, {failed} failed/empty, {len(jobs)} raw jobs")
     return jobs
