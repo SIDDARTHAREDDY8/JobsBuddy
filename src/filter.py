@@ -130,24 +130,35 @@ FOREIGN_CC = {
 
 
 def location_ok(location, profile):
+    """US-REQUIRED logic: a job is kept only if its location shows a clear US
+    signal (or is remote / genuinely unknown). Anything with a location that
+    has no US signal is treated as foreign and dropped — this catches foreign
+    cities we've never explicitly listed (the root of repeated India leaks)."""
     if not profile.get("us_only"):
         return True
-    loc = (location or "").lower()
-    if not loc:
-        return True  # unknown location -> keep, don't over-filter
-    # trailing 2-letter country code (e.g. "Hà Nội, vn") -> foreign.
-    # take the location's last comma-segment, first whitespace token (a URL may
-    # be appended after the location, so strip anything after the first token)
-    seg = loc.split("http")[0].replace(";", ",").split(",")[-1].strip()
-    last = seg.split()[0] if seg.split() else ""
-    if last in FOREIGN_CC and not _has_any(loc, STRONG_US):
+    full = (location or "").lower()          # may be "location url"
+    loc_text = full.split("http")[0].strip()  # location portion only (drop URL)
+
+    strong_us = _has_any(full, STRONG_US)
+
+    # 1) explicit foreign signal (known country/city, anywhere incl. URL path) -> drop
+    if _has_word(full, profile.get("us_location_block", [])) and not strong_us:
         return False
-    # block-list wins decisively, UNLESS the posting explicitly says US too.
-    # match country/city names at WORD BOUNDARIES so "india" != "indianapolis"
-    if _has_word(loc, profile.get("us_location_block", [])):
-        return _has_any(loc, STRONG_US)
-    # not a known foreign location -> keep (US hint, remote, or unclear)
-    return True
+    # 2) trailing 2-letter country code ("Hà Nội, vn") -> drop
+    seg = loc_text.replace(";", ",").split(",")[-1].strip()
+    last = seg.split()[0] if seg.split() else ""
+    if last in FOREIGN_CC and not strong_us:
+        return False
+
+    # 3) US-REQUIRED: must have a positive US signal to pass
+    if not loc_text:
+        return True            # truly no location given -> keep (rare, don't over-drop)
+    if "remote" in loc_text:
+        return True            # remote (US-leaning for US-based employers)
+    if strong_us or _has_any(loc_text, profile.get("us_location_hints", [])):
+        return True            # US state / city / "United States" / ", CA" etc.
+    # has a location, but no US signal at all -> foreign or unknown -> DROP
+    return False
 
 
 def _has_word(text, terms):
