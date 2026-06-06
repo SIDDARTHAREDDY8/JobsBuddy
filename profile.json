@@ -53,6 +53,22 @@
     "architect", "head of", "vp", "vice president", "intern", "internship",
     "phd", "research scientist", "fellow", "president"
   ],
+  "companies_exclude": [
+    "tata consultancy", "tcs", "infosys", "wipro", "cognizant", "hcl",
+    "tech mahindra", "ltimindtree", "mindtree", "mphasis", "larsen & toubro",
+    "l&t infotech", "hexaware", "birlasoft", "coforge", "persistent systems",
+    "cyient", "zensar", "ntt data", "genpact", "exl services", "virtusa",
+    "ust global", "sonata software", "kpit", "happiest minds", "tata elxsi",
+    "itc infotech", "brillio", "nagarro", "globallogic", "mastech", "collabera",
+    "synechron", "movate", "igate", "syntel", "photon interactive", "net2source",
+    "diverse lynx", "vdart", "dexian", "compunnel", "artech", "eteam", "judge group",
+    "deloitte", "capgemini", "accenture", "pricewaterhouse", "pwc", "ernst & young",
+    "kpmg", "mckinsey", "boston consulting", "bain & company", "dxc technology",
+    "atos", "unisys", "infogain", "slalom", "epam", "endava", "grid dynamics",
+    "insight global", "teksystems", "robert half", "apex systems", "randstad",
+    "kforce", "cybertec", "intellisoft", "stefanini", "harman connected",
+    " valuelabs", "sutherland", "concentrix", "teleperformance"
+  ],
   "roles_domain_exclude": [
     "mechanical", "electrical", "civil", "chemical", "biomedical", "biochemical",
     "aerospace", "structural", "optical", "industrial", "manufacturing", "materials",

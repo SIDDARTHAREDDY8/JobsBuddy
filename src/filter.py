@@ -107,6 +107,11 @@ def blocks_visa(text, profile):
     return any(p.search(t) for p in _VISA_BLOCK_RE)
 
 
+def company_blocked(company, profile):
+    # True for IT-services / consulting / staffing body shops we don't want
+    return _has_any(f" {company.lower()} ", profile.get("companies_exclude", []))
+
+
 STRONG_US = ["united states", "usa", "u.s.", ", us", "- us", "remote us",
              "remote - us", "us-remote", "remote, us"]
 
@@ -155,6 +160,8 @@ def filter_jobs(jobs, profile):
     kept = []
     for j in jobs:
         blob = f"{j['title']} {j['description']}"
+        if company_blocked(j.get("company", ""), profile):
+            continue   # drop IT-services / consulting / staffing companies
         if not role_ok(j["title"], profile):
             continue
         if not experience_ok(blob, profile):

@@ -3,7 +3,7 @@
 <p align="center">
 <a href="https://github.com/SIDDARTHAREDDY8/JobsBuddy/stargazers"><img src="https://img.shields.io/github/stars/SIDDARTHAREDDY8/JobsBuddy?style=for-the-badge&logo=github&color=gold" alt="Stars"></a>
 <img src="https://img.shields.io/badge/updated-every%206%20hours-brightgreen?style=for-the-badge" alt="Auto-updated">
-<img src="https://img.shields.io/badge/open%20jobs-822-blue?style=for-the-badge" alt="Open jobs">
+<img src="https://img.shields.io/badge/open%20jobs-821-blue?style=for-the-badge" alt="Open jobs">
 <img src="https://img.shields.io/badge/cost-%240%20forever-success?style=for-the-badge" alt="Free">
 </p>
 
@@ -38,13 +38,13 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 3. 📋 Scroll the table below — newest jobs are at the top.
 4. 🛂 Look for the **✅ Sponsors** tag, then hit **Apply**.
 
-<sub>🔄 Last updated: **2026-06-06 11:52 AM ET** • Total roles tracked: **1703** • Open now: **822** • 🆕 Added today: **1578**</sub>
+<sub>🔄 Last updated: **2026-06-06 12:02 PM ET** • Total roles tracked: **1698** • Open now: **821** • 🆕 Added today: **1573**</sub>
 
 **Legend:** 🔥 NEW = added in the latest update (older jobs lose this automatically) • ✅ Sponsors = recent H1B filing history • 🔒 = no longer listed • Posted = how long ago the company posted it • Match % = how strong a fit the role is.
 
 ---
 
-## 🗓️ June 06, 2026 — 1578 jobs
+## 🗓️ June 06, 2026 — 1573 jobs
 
 | | Company | Role | Location | Visa | Match | Posted | Added | Status | Apply |
 |--|--|--|--|--|--|--|--|--|--|
@@ -54,16 +54,13 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 | 🔥 NEW | RELX | Backend API’s and Integrations Software Engineer III | Philadelphia, PA | ✅ Sponsors (High) · 52 H1B filings | **100%** | 1d ago | June 06, 2026 | 🔒 Closed | [Apply](https://relx.wd3.myworkdayjobs.com/en-US/relx/job/Philadelphia-PA/Backend-API-s-and-Integrations-Software-Engineer-III_R109342-1) |
 | 🔥 NEW | Micron Technology | New College Grad - Software Engineer, Full Stack | Boise, ID - Main Site | ✅ Sponsors (High) · 80 H1B filings | **100%** | 1d ago | June 06, 2026 | 🔒 Closed | [Apply](https://micron.wd1.myworkdayjobs.com/en-US/External/job/Boise-ID---Main-Site/Software-Engineer---Full-Stack_JR102227) |
 | 🔥 NEW | Cadence | Agentic AI Engineer | CARY | ✅ Sponsors (High) · 54 H1B filings | **100%** | 3d ago | June 06, 2026 | 🔒 Closed | [Apply](https://cadence.wd1.myworkdayjobs.com/en-US/External_Careers/job/CARY/Agentic-AI-Engineer_R55029) |
-| 🔥 NEW | Accenture | Full Stack Developer | Washington, DC | ✅ Sponsors (High) · 592 H1B filings | **92%** | 3d ago | June 06, 2026 | 🔒 Closed | [Apply](https://boards.greenhouse.io/accenturefederalservices/jobs/4651080006?gh_jid=4651080006) |
 | 🔥 NEW | Robinhood | Data Scientist, ML (Agentic, CX) | Menlo Park, CA | ✅ Sponsors (High) · 68 H1B filings | **92%** | 4d ago | June 06, 2026 | 🔒 Closed | [Apply](https://boards.greenhouse.io/robinhood/jobs/7489476?t=gh_src=&gh_jid=7489476) |
 | 🔥 NEW | Toshiba Global Commerce | AI-Driven UI/UX Developer  | Durham, NC | ✅ Sponsors (High) | **92%** | 3d ago | June 06, 2026 | 🔒 Closed | [Apply](https://job-boards.greenhouse.io/toshibaglobalcommercesolutions/jobs/5036797007) |
-| 🔥 NEW | Accenture | Data engineer | Riga | ✅ Sponsors (High) · 592 H1B filings | **92%** | 1d ago | June 06, 2026 | Open | [Apply](https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Riga/Data-engineer_R00218756) |
 | 🔥 NEW | Arizona State University | Application Developer II | Scottsdale, AZ | ✅ Sponsors (High) · 59 H1B filings | **88%** | 2d ago | June 06, 2026 | 🔒 Closed | [Apply](https://asuep.wd5.myworkdayjobs.com/en-US/ASUEP/job/Scottsdale-AZ/Application-Developer-II_R1403) |
 | 🔥 NEW | Capital Group | Machine Learning Engineer II | Seattle | ✅ Sponsors (High) · 150 H1B filings | **88%** | 1d ago | June 06, 2026 | 🔒 Closed | [Apply](https://capgroup.wd1.myworkdayjobs.com/en-US/capitalgroupcareers/job/Seattle/Machine-Learning-Engineer-II_JR6608) |
 | 🔥 NEW | ServiceNow | Software Engineer, Developer Experience — Moveworks | Mountain View, Californi | ✅ Sponsors (High) · 116 H1B filings | **84%** | 2d ago | June 06, 2026 | Open | [Apply](https://jobs.smartrecruiters.com/ServiceNow/744000130098534) |
 | 🔥 NEW | OakNorth Bank | Platform Engineer- Developer experience | Gurugram | ✅ Sponsors (High) | **80%** | date unknown | June 06, 2026 | Open | [Apply](https://jobs.lever.co/oaknorth.ai/848e7b65-db96-4596-b52a-40d50829fafe) |
 | 🔥 NEW | RELX | Quality Test Engineer III | Philadelphia, PA | ✅ Sponsors (High) · 52 H1B filings | **80%** | 1d ago | June 06, 2026 | 🔒 Closed | [Apply](https://relx.wd3.myworkdayjobs.com/en-US/relx/job/Philadelphia-PA/Quality-Test-Engineer-III_R108901-1) |
-| 🔥 NEW | Accenture | Data Science Practitioner | Arlington, VA | ✅ Sponsors (High) · 592 H1B filings | **76%** | 1d ago | June 06, 2026 | 🔒 Closed | [Apply](https://boards.greenhouse.io/accenturefederalservices/jobs/4684348006?gh_jid=4684348006) |
 | 🔥 NEW | State Street | Software Engineer, Officer | Burlington Massachusetts | ✅ Sponsors (High) · 98 H1B filings | **76%** | 1d ago | June 06, 2026 | 🔒 Closed | [Apply](https://statestreet.wd1.myworkdayjobs.com/en-US/Global/job/Burlington-Massachusetts/Software-Engineer--Officer_R-791743) |
 | 🔥 NEW | Stripe | Cloud Security Engineer | Seattle | ✅ Sponsors (High) · 53 H1B filings | **72%** | today | June 06, 2026 | 🔒 Closed | [Apply](https://stripe.com/jobs/search?gh_jid=7867389) |
 | 🔥 NEW | Stripe | Security Engineer | Seattle, WA | ✅ Sponsors (High) · 53 H1B filings | **72%** | 3d ago | June 06, 2026 | Open | [Apply](https://stripe.com/jobs/search?gh_jid=7923209) |
@@ -82,7 +79,6 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 | 🔥 NEW | Capital Group | Security Engineer ~ Data Loss Prevention | Charlotte | ✅ Sponsors (High) · 150 H1B filings | **60%** | 3d ago | June 06, 2026 | 🔒 Closed | [Apply](https://capgroup.wd1.myworkdayjobs.com/en-US/capitalgroupcareers/job/Charlotte/Data-Loss-Prevention-Engineer-III_JR5938) |
 | 🔥 NEW | Robinhood | Android Engineer | New York, NY | ✅ Sponsors (High) · 68 H1B filings | **56%** | 1d ago | June 06, 2026 | 🔒 Closed | [Apply](https://boards.greenhouse.io/robinhood/jobs/6669758?t=gh_src=&gh_jid=6669758) |
 | 🔥 NEW | Toast | Business Development Representative (Enterprise) - Mid Market | Remote | ✅ Sponsors (High) | **56%** | 3d ago | June 06, 2026 | Open | [Apply](https://careers.toasttab.com/jobs?gh_jid=7976728) |
-| 🔥 NEW | Accenture | DevOps Engineer | Washington, DC | ✅ Sponsors (High) · 592 H1B filings | **56%** | 4d ago | June 06, 2026 | 🔒 Closed | [Apply](https://boards.greenhouse.io/accenturefederalservices/jobs/4612949006?gh_jid=4612949006) |
 | 🔥 NEW | E-Space | Board Reliability Simulation Engineer | Saratoga, CA | ✅ Sponsors (High) | **56%** | date unknown | June 06, 2026 | 🔒 Closed | [Apply](https://jobs.lever.co/espace/59bcdc19-b61c-4b3d-825a-8262289d1169) |
 | 🔥 NEW | E-Space | Spacecraft Radiation Effects Engineer | Saratoga, CA | ✅ Sponsors (High) | **56%** | date unknown | June 06, 2026 | Open | [Apply](https://jobs.lever.co/espace/b089c61f-633e-4363-a106-9460e9e26c91) |
 | 🔥 NEW | The Home Depot | Cybersecurity Engineer / Application Security (Remote) | GEORGIA - VIRTUAL - GA01 | ✅ Sponsors (High) · 70 H1B filings | **56%** | 1d ago | June 06, 2026 | 🔒 Closed | [Apply](https://homedepot.wd5.myworkdayjobs.com/en-US/careerdepot/job/GEORGIA---VIRTUAL---GA01/Cybersecurity-Engineer---Application-Security--Remote-_Req178365-1) |
@@ -115,7 +111,6 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 | 🔥 NEW | ServiceNow | Agentic Search Infrastructure Engineer - Moveworks | Mountain View, CALIFORNI | ✅ Sponsors (High) · 116 H1B filings | **40%** | today | June 06, 2026 | Open | [Apply](https://jobs.smartrecruiters.com/ServiceNow/744000130592199) |
 | 🔥 NEW | Harvard University | Development Officer | Cambridge, MA, United States | ✅ Sponsors (High) · 84 H1B filings | **40%** | 2d ago | June 06, 2026 | Open | [Apply](https://jobs.smartrecruiters.com/HarvardUniversity/3743990013445866) |
 | 🔥 NEW | DiDi Global | Machine Learning Engineer, VLA | San Jose | ✅ Sponsors (High) | **32%** | 4d ago | June 06, 2026 | Open | [Apply](https://job-boards.greenhouse.io/didi/jobs/7975368) |
-| 🔥 NEW | Accenture | SAP Process Integration (PI) Developer (BTP/Cloud Integration) | Washington, DC | ✅ Sponsors (High) · 592 H1B filings | **32%** | 1d ago | June 06, 2026 | 🔒 Closed | [Apply](https://boards.greenhouse.io/accenturefederalservices/jobs/4623400006?gh_jid=4623400006) |
 | 🔥 NEW | E-Space | FPGA / VLSI Engineer | Saratoga, CA | ✅ Sponsors (High) | **32%** | date unknown | June 06, 2026 | 🔒 Closed | [Apply](https://jobs.lever.co/espace/141b4e0e-4d36-424c-ab44-1e32c3d691c0) |
 | 🔥 NEW | E-Space | FPGA SoC Embedded Engineer (RTOS, Xilinx/Intel) | Saratoga, CA | ✅ Sponsors (High) | **32%** | date unknown | June 06, 2026 | 🔒 Closed | [Apply](https://jobs.lever.co/espace/eb0da06a-838b-461d-a2c8-02a260de5488) |
 | 🔥 NEW | Humana | Identity and Access Management Engineer 1 | Louisville, KY | ✅ Sponsors (High) · 80 H1B filings | **32%** | 1d ago | June 06, 2026 | 🔒 Closed | [Apply](https://humana.wd5.myworkdayjobs.com/en-US/humana_external_career_site/job/Louisville-KY/Identity-and-Access-Management-Engineer-1_R-417477) |
