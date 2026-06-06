@@ -147,6 +147,78 @@ def _workday_detail(url):
         return None
 
 
+# ---------- SmartRecruiters ----------
+def scrape_smartrecruiters(slug, company, max_detail=60):
+    base = f"https://api.smartrecruiters.com/v1/companies/{slug}/postings"
+    out, offset = [], 0
+    for _ in range(3):
+        data = _get_json(f"{base}?limit=100&offset={offset}")
+        content = data.get("content", [])
+        if not content:
+            break
+        for p in content:
+            loc = p.get("location", {}) or {}
+            locstr = ", ".join(x for x in [loc.get("city", ""), loc.get("region", ""),
+                                           loc.get("country", "")] if x)
+            desc = p.get("name", "")
+            if len(out) < max_detail:
+                try:
+                    d = _get_json(f"{base}/{p.get('id','')}")
+                    secs = (d.get("jobAd", {}) or {}).get("sections", {}) or {}
+                    desc = " ".join(_strip_html((secs.get(k, {}) or {}).get("text", ""))
+                                    for k in ("jobDescription", "qualifications", "responsibilities"))
+                except Exception:
+                    pass
+            out.append({
+                "company": company, "title": p.get("name", ""),
+                "location": locstr,
+                "url": f"https://jobs.smartrecruiters.com/{slug}/{p.get('id','')}",
+                "description": desc, "posted_at": p.get("releasedDate", ""),
+                "source": "smartrecruiters",
+            })
+        offset += 100
+        if offset >= data.get("totalFound", 0):
+            break
+    return out
+
+
+# ---------- Workable ----------
+def scrape_workable(slug, company):
+    url = f"https://apply.workable.com/api/v1/widget/accounts/{slug}?details=true"
+    data = _get_json(url)
+    out = []
+    for j in data.get("jobs", []):
+        locstr = ", ".join(x for x in [j.get("city", ""), j.get("state", ""),
+                                       j.get("country", "")] if x)
+        out.append({
+            "company": company, "title": j.get("title", ""),
+            "location": locstr,
+            "url": j.get("url", "") or j.get("application_url", ""),
+            "description": _strip_html(j.get("description", "") + " " + j.get("requirements", "")),
+            "posted_at": j.get("published_on", "") or j.get("created_at", ""),
+            "source": "workable",
+        })
+    return out
+
+
+# ---------- Recruitee ----------
+def scrape_recruitee(slug, company):
+    url = f"https://{slug}.recruitee.com/api/offers/"
+    data = _get_json(url)
+    out = []
+    for o in data.get("offers", []):
+        locstr = ", ".join(x for x in [o.get("city", ""), o.get("country_code", "")] if x)
+        out.append({
+            "company": company, "title": o.get("title", ""),
+            "location": o.get("location", "") or locstr,
+            "url": o.get("careers_url", "") or o.get("careers_apply_url", ""),
+            "description": _strip_html(o.get("description", "") + " " + o.get("requirements", "")),
+            "posted_at": o.get("published_at", ""),
+            "source": "recruitee",
+        })
+    return out
+
+
 def _strip_html(s):
     if not s:
         return ""
@@ -161,6 +233,9 @@ ADAPTERS = {
     "lever": scrape_lever,
     "ashby": scrape_ashby,
     "workday": scrape_workday,
+    "smartrecruiters": scrape_smartrecruiters,
+    "workable": scrape_workable,
+    "recruitee": scrape_recruitee,
 }
 
 

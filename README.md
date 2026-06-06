@@ -3,7 +3,7 @@
 <p align="center">
 <a href="https://github.com/SIDDARTHAREDDY8/JobsBuddy/stargazers"><img src="https://img.shields.io/github/stars/SIDDARTHAREDDY8/JobsBuddy?style=for-the-badge&logo=github&color=gold" alt="Stars"></a>
 <img src="https://img.shields.io/badge/updated-every%206%20hours-brightgreen?style=for-the-badge" alt="Auto-updated">
-<img src="https://img.shields.io/badge/open%20jobs-106-blue?style=for-the-badge" alt="Open jobs">
+<img src="https://img.shields.io/badge/open%20jobs-113-blue?style=for-the-badge" alt="Open jobs">
 <img src="https://img.shields.io/badge/cost-%240%20forever-success?style=for-the-badge" alt="Free">
 </p>
 
@@ -38,27 +38,39 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 3. 📋 Scroll the table below — newest jobs are at the top.
 4. 🛂 Look for the **✅ Sponsors** tag, then hit **Apply**.
 
-<sub>🔄 Last updated: **2026-06-05 09:12 PM ET** • Total roles tracked: **134** • Open now: **106** • 🆕 Added today: **11**</sub>
+<sub>🔄 Last updated: **2026-06-06 12:11 AM ET** • Total roles tracked: **141** • Open now: **113** • 🆕 Added today: **7**</sub>
 
 **Legend:** 🔥 NEW = added in the latest update (older jobs lose this automatically) • ✅ Sponsors = recent H1B filing history • 🔒 = no longer listed • Posted = how long ago the company posted it • Match % = how strong a fit the role is.
 
 ---
 
+## 🗓️ June 06, 2026 — 7 jobs
+
+| | Company | Role | Location | Visa | Match | Posted | Added | Status | Apply |
+|--|--|--|--|--|--|--|--|--|--|
+| 🔥 NEW | Bosch | Data Engineer Associate | Roseville, CA, us | ✅ Sponsors (Med) | **84%** | today | June 06, 2026 | Open | [Apply](https://jobs.smartrecruiters.com/BoschGroup/744000130569649) |
+| 🔥 NEW | Anduril | 2026 Early Career Software Engineer | Atlanta, Georgia, United | ✅ Sponsors (Med) | **68%** | today | June 06, 2026 | Open | [Apply](https://boards.greenhouse.io/andurilindustries/jobs/4802146007?gh_jid=4802146007) |
+| 🔥 NEW | Anduril | Software Engineer, Warfighter Systems - SkillBridge | Bellevue, Washington, Un | ✅ Sponsors (Med) | **52%** | today | June 06, 2026 | Open | [Apply](https://boards.greenhouse.io/andurilindustries/jobs/5117558007?gh_jid=5117558007) |
+| 🔥 NEW | Bosch | Sr Software Engineer (Multiple Positions) (REF288137E) | Plymouth, MI, us | ✅ Sponsors (Med) | **20%** | 1d ago | June 06, 2026 | Open | [Apply](https://jobs.smartrecruiters.com/BoschGroup/744000130274958) |
+| 🔥 NEW | Bosch | Backend Developer Junior | Timișoara, TM, ro | ✅ Sponsors (Med) | **8%** | 1d ago | June 06, 2026 | Open | [Apply](https://jobs.smartrecruiters.com/BoschGroup/744000130153335) |
+| 🔥 NEW | Bosch | Backend Developer Intermediate | Timișoara, TM, ro | ✅ Sponsors (Med) | **8%** | 1d ago | June 06, 2026 | Open | [Apply](https://jobs.smartrecruiters.com/BoschGroup/744000130152200) |
+| 🔥 NEW | Mercor | Machine Learning Engineer, Marketplace  | San Francisco | ✅ Sponsors (Low) | **72%** | 7d ago | June 06, 2026 | Open | [Apply](https://jobs.ashbyhq.com/mercor/73a9f1c6-3c62-4c49-b65d-e5f6a3549d95) |
+
 ## 🗓️ June 05, 2026 — 11 jobs
 
 | | Company | Role | Location | Visa | Match | Posted | Added | Status | Apply |
 |--|--|--|--|--|--|--|--|--|--|
-| 🔥 NEW | Stripe | Software Engineer, Balance Abstraction | Seattle, WA | ✅ Sponsors (High) | **76%** | today | June 05, 2026 | Open | [Apply](https://stripe.com/jobs/search?gh_jid=7908923) |
-| 🔥 NEW | Stripe | Backend Engineer, Payments and Risk | US | ✅ Sponsors (High) | **72%** | today | June 05, 2026 | Open | [Apply](https://stripe.com/jobs/search?gh_jid=7232592) |
-| 🔥 NEW | Airbnb | Machine Learning Engineer, Customer Support Engineering | Remote-USA | ✅ Sponsors (High) | **56%** | today | June 05, 2026 | Open | [Apply](https://careers.airbnb.com/positions/7826337?gh_jid=7826337) |
-| 🔥 NEW | Stripe | Full Stack Engineer, Web Presence and Platform | N/A | ✅ Sponsors (High) | **52%** | today | June 05, 2026 | Open | [Apply](https://stripe.com/jobs/search?gh_jid=7436086) |
-| 🔥 NEW | Stripe | Full Stack Engineer, Payments Experiences | N/A | ✅ Sponsors (High) | **28%** | today | June 05, 2026 | Open | [Apply](https://stripe.com/jobs/search?gh_jid=7895284) |
-| 🔥 NEW | Nextdoor | Software Engineer - iOS | US Remote | ✅ Sponsors (Med) | **68%** | today | June 05, 2026 | Open | [Apply](https://about.nextdoor.com/careers-list/?gh_jid=7540015) |
-| 🔥 NEW | Chime | Software Engineer, Instant Loans | San Francisco, CA, USA | ✅ Sponsors (Med) | **60%** | today | June 05, 2026 | Open | [Apply](https://boards.greenhouse.io/chime/jobs/8433840002?gh_jid=8433840002) |
-| 🔥 NEW | Chime | Software Engineer, MyPay | San Francisco, CA, USA | ✅ Sponsors (Med) | **60%** | today | June 05, 2026 | Open | [Apply](https://boards.greenhouse.io/chime/jobs/8499450002?gh_jid=8499450002) |
-| 🔥 NEW | Chime | Full-Stack Engineer, Multiplayer | San Francisco, CA, USA | ✅ Sponsors (Med) | **56%** | today | June 05, 2026 | Open | [Apply](https://boards.greenhouse.io/chime/jobs/8457578002?gh_jid=8457578002) |
-| 🔥 NEW | Watershed | Software engineer, developer tooling | San Francisco | ✅ Sponsors (Low) | **92%** | today | June 05, 2026 | Open | [Apply](https://jobs.ashbyhq.com/watershed/f0f5ca5c-fcf0-44ef-9566-1a46ca4a8a75) |
-| 🔥 NEW | Decagon | Platform Engineer, Security | San Francisco | ✅ Sponsors (Low) | **48%** | today | June 05, 2026 | Open | [Apply](https://jobs.ashbyhq.com/decagon/3a68de82-c874-4cd2-b639-17948748e212) |
+|  | Stripe | Software Engineer, Balance Abstraction | Seattle, WA | ✅ Sponsors (High) | **76%** | today | June 05, 2026 | Open | [Apply](https://stripe.com/jobs/search?gh_jid=7908923) |
+|  | Stripe | Backend Engineer, Payments and Risk | US | ✅ Sponsors (High) | **72%** | today | June 05, 2026 | Open | [Apply](https://stripe.com/jobs/search?gh_jid=7232592) |
+|  | Airbnb | Machine Learning Engineer, Customer Support Engineering | Remote-USA | ✅ Sponsors (High) | **56%** | today | June 05, 2026 | Open | [Apply](https://careers.airbnb.com/positions/7826337?gh_jid=7826337) |
+|  | Stripe | Full Stack Engineer, Web Presence and Platform | N/A | ✅ Sponsors (High) | **52%** | today | June 05, 2026 | Open | [Apply](https://stripe.com/jobs/search?gh_jid=7436086) |
+|  | Stripe | Full Stack Engineer, Payments Experiences | N/A | ✅ Sponsors (High) | **28%** | today | June 05, 2026 | Open | [Apply](https://stripe.com/jobs/search?gh_jid=7895284) |
+|  | Nextdoor | Software Engineer - iOS | US Remote | ✅ Sponsors (Med) | **68%** | today | June 05, 2026 | Open | [Apply](https://about.nextdoor.com/careers-list/?gh_jid=7540015) |
+|  | Chime | Software Engineer, Instant Loans | San Francisco, CA, USA | ✅ Sponsors (Med) | **60%** | today | June 05, 2026 | Open | [Apply](https://boards.greenhouse.io/chime/jobs/8433840002?gh_jid=8433840002) |
+|  | Chime | Software Engineer, MyPay | San Francisco, CA, USA | ✅ Sponsors (Med) | **60%** | today | June 05, 2026 | Open | [Apply](https://boards.greenhouse.io/chime/jobs/8499450002?gh_jid=8499450002) |
+|  | Chime | Full-Stack Engineer, Multiplayer | San Francisco, CA, USA | ✅ Sponsors (Med) | **56%** | today | June 05, 2026 | Open | [Apply](https://boards.greenhouse.io/chime/jobs/8457578002?gh_jid=8457578002) |
+|  | Watershed | Software engineer, developer tooling | San Francisco | ✅ Sponsors (Low) | **92%** | today | June 05, 2026 | Open | [Apply](https://jobs.ashbyhq.com/watershed/f0f5ca5c-fcf0-44ef-9566-1a46ca4a8a75) |
+|  | Decagon | Platform Engineer, Security | San Francisco | ✅ Sponsors (Low) | **48%** | today | June 05, 2026 | Open | [Apply](https://jobs.ashbyhq.com/decagon/3a68de82-c874-4cd2-b639-17948748e212) |
 
 ## 🗓️ June 04, 2026 — 81 jobs
 
@@ -67,9 +79,9 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 |  | Roku | Software Engineer, Embedded UI | San Jose, California | ✅ Sponsors (High) | **100%** | today | June 04, 2026 | Open | [Apply](https://www.weareroku.com/jobs/7527300?gh_jid=7527300) |
 |  | Squarespace | Software Engineer - Delivery Platform  | New York City | ✅ Sponsors (High) | **92%** | 7d ago | June 04, 2026 | Open | [Apply](http://www.squarespace.com/about/careers?gh_jid=7789058) |
 |  | Roblox | Software Engineer, User Sharing | San Mateo, CA, United St | ✅ Sponsors (High) | **92%** | 7d ago | June 04, 2026 | Open | [Apply](https://careers.roblox.com/jobs/7767204?gh_jid=7767204) |
-|  | DoorDash | Machine Learning Engineer - ETA Team | Sunnyvale, CA | ✅ Sponsors (High) | **88%** | today | June 04, 2026 | Open | [Apply](https://job-boards.greenhouse.io/doordashusa/jobs/5657317) |
-|  | DoorDash | Machine Learning Engineer, Marketplace Optimization | San Francisco, CA | ✅ Sponsors (High) | **88%** | today | June 04, 2026 | Open | [Apply](https://job-boards.greenhouse.io/doordashusa/jobs/7580407) |
-|  | DoorDash | Software Engineer, Machine Learning - Credit & Refund Optimization | San Francisco, CA | ✅ Sponsors (High) | **84%** | today | June 04, 2026 | Open | [Apply](https://job-boards.greenhouse.io/doordashusa/jobs/7932109) |
+|  | DoorDash | Machine Learning Engineer - ETA Team | Sunnyvale, CA | ✅ Sponsors (High) | **88%** | 1d ago | June 04, 2026 | Open | [Apply](https://job-boards.greenhouse.io/doordashusa/jobs/5657317) |
+|  | DoorDash | Machine Learning Engineer, Marketplace Optimization | San Francisco, CA | ✅ Sponsors (High) | **88%** | 1d ago | June 04, 2026 | Open | [Apply](https://job-boards.greenhouse.io/doordashusa/jobs/7580407) |
+|  | DoorDash | Software Engineer, Machine Learning - Credit & Refund Optimization | San Francisco, CA | ✅ Sponsors (High) | **84%** | 1d ago | June 04, 2026 | Open | [Apply](https://job-boards.greenhouse.io/doordashusa/jobs/7932109) |
 |  | Pinterest | Software Engineer II, Backend | San Francisco, CA, US | ✅ Sponsors (High) | **84%** | 1d ago | June 04, 2026 | Open | [Apply](https://www.pinterestcareers.com/jobs/?gh_jid=4813946) |
 |  | Pinterest | Software Engineer II, Backend, tvScientific | San Francisco, CA, US | ✅ Sponsors (High) | **84%** | 1d ago | June 04, 2026 | Open | [Apply](https://www.pinterestcareers.com/jobs/?gh_jid=7782552) |
 |  | Roblox | Software Engineer, User Co-Experience | San Mateo, CA, United St | ✅ Sponsors (High) | **84%** | 7d ago | June 04, 2026 | Open | [Apply](https://careers.roblox.com/jobs/7711780?gh_jid=7711780) |

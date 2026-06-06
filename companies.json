@@ -96,5 +96,18 @@
   { "company": "Abridge",       "ats": "ashby",      "slug": "abridge" },
   { "company": "Writer",        "ats": "ashby",      "slug": "writer" },
   { "company": "Pika",          "ats": "ashby",      "slug": "pika" },
-  { "company": "Cartesia",      "ats": "ashby",      "slug": "cartesia" }
+  { "company": "Cartesia",      "ats": "ashby",      "slug": "cartesia" },
+  { "company": "Visa",          "ats": "smartrecruiters", "slug": "Visa" },
+  { "company": "Bosch",         "ats": "smartrecruiters", "slug": "BoschGroup" },
+  { "company": "ServiceTitan",  "ats": "smartrecruiters", "slug": "ServiceTitan" },
+  { "company": "Anduril",       "ats": "greenhouse", "slug": "andurilindustries" },
+  { "company": "Scale AI",      "ats": "greenhouse", "slug": "scaleai" },
+  { "company": "Alloy",         "ats": "greenhouse", "slug": "alloy" },
+  { "company": "Found",         "ats": "greenhouse", "slug": "found" },
+  { "company": "Shield AI",     "ats": "lever",      "slug": "shieldai" },
+  { "company": "Mercor",        "ats": "ashby",      "slug": "mercor" },
+  { "company": "Cognition",     "ats": "ashby",      "slug": "cognition" },
+  { "company": "Suno",          "ats": "ashby",      "slug": "suno" },
+  { "company": "Distyl",        "ats": "ashby",      "slug": "distyl" },
+  { "company": "Speak",         "ats": "ashby",      "slug": "speak" }
 ]

@@ -117,6 +117,19 @@
     "abridge": "low",
     "writer": "low",
     "pika": "low",
-    "cartesia": "low"
+    "cartesia": "low",
+    "visa": "high",
+    "bosch": "medium",
+    "servicetitan": "medium",
+    "anduril": "medium",
+    "scale ai": "medium",
+    "alloy": "low",
+    "found": "low",
+    "shield ai": "low",
+    "mercor": "low",
+    "cognition": "medium",
+    "suno": "low",
+    "distyl": "low",
+    "speak": "low"
   }
 }
