@@ -3,7 +3,7 @@
 <p align="center">
 <a href="https://github.com/SIDDARTHAREDDY8/JobsBuddy/stargazers"><img src="https://img.shields.io/github/stars/SIDDARTHAREDDY8/JobsBuddy?style=for-the-badge&logo=github&color=gold" alt="Stars"></a>
 <img src="https://img.shields.io/badge/updated-every%206%20hours-brightgreen?style=for-the-badge" alt="Auto-updated">
-<img src="https://img.shields.io/badge/open%20jobs-878-blue?style=for-the-badge" alt="Open jobs">
+<img src="https://img.shields.io/badge/open%20jobs-881-blue?style=for-the-badge" alt="Open jobs">
 <img src="https://img.shields.io/badge/cost-%240%20forever-success?style=for-the-badge" alt="Free">
 </p>
 
@@ -38,7 +38,7 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 3. 📋 Scroll the table below — newest jobs are at the top.
 4. 🛂 Look for the **✅ Sponsors** tag, then hit **Apply**.
 
-<sub>🔄 Last updated: **2026-06-06 02:23 AM ET** • Total roles tracked: **1775** • Open now: **878** • 🆕 Added today: **1649**</sub>
+<sub>🔄 Last updated: **2026-06-06 03:13 AM ET** • Total roles tracked: **1775** • Open now: **881** • 🆕 Added today: **1649**</sub>
 
 **Legend:** 🔥 NEW = added in the latest update (older jobs lose this automatically) • ✅ Sponsors = recent H1B filing history • 🔒 = no longer listed • Posted = how long ago the company posted it • Match % = how strong a fit the role is.
 
@@ -136,8 +136,8 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 | 🔥 NEW | Texas A&M University - Corpus Christi | Job Developer | Corpus Christi, TX | ✅ Sponsors (High) · 76 H1B filings | **24%** | 4d ago | June 06, 2026 | 🔒 Closed | [Apply](https://tamus.wd1.myworkdayjobs.com/en-US/TAMUCC_External/job/Corpus-Christi-TX/Job-Developer_R-093487-1) |
 | 🔥 NEW | Intuitive Surgical | Engineering Technician 1 | Peachtree Corners, GA, u | ✅ Sponsors (High) · 59 H1B filings | **24%** | today | June 06, 2026 | Open | [Apply](https://jobs.smartrecruiters.com/Intuitive/744000130626199) |
 | 🔥 NEW | Western Digital | Engineer, Product Design Engineering - PCBA | Petaling Jaya, Selangor, | ✅ Sponsors (High) · 76 H1B filings | **24%** | 1d ago | June 06, 2026 | Open | [Apply](https://jobs.smartrecruiters.com/WesternDigital/744000130173307) |
-| 🔥 NEW | Expedia Group | Software Development Engineer III - AI Engineer | Austin Domain 11 - HomeA | ✅ Sponsors (High) · 96 H1B filings | **20%** | 3d ago | June 06, 2026 | Open | [Apply](https://expedia.wd108.myworkdayjobs.com/en-US/search/job/Austin-Domain-11---HomeAway/Software-Development-Engineer-III---AI-Engineer_R-102785-1) |
-| 🔥 NEW | Expedia Group | Software Development Engineer II - Expedia Global Payments | Washington - Seattle Cam | ✅ Sponsors (High) · 96 H1B filings | **20%** | 3d ago | June 06, 2026 | Open | [Apply](https://expedia.wd108.myworkdayjobs.com/en-US/search/job/Washington---Seattle-Campus/Software-Development-Engineer-II---Expedia-Global-Payments_R-102732-1) |
+| 🔥 NEW | Expedia Group | Software Development Engineer III - AI Engineer | Austin Domain 11 - HomeA | ✅ Sponsors (High) · 96 H1B filings | **20%** | 4d ago | June 06, 2026 | Open | [Apply](https://expedia.wd108.myworkdayjobs.com/en-US/search/job/Austin-Domain-11---HomeAway/Software-Development-Engineer-III---AI-Engineer_R-102785-1) |
+| 🔥 NEW | Expedia Group | Software Development Engineer II - Expedia Global Payments | Washington - Seattle Cam | ✅ Sponsors (High) · 96 H1B filings | **20%** | 4d ago | June 06, 2026 | Open | [Apply](https://expedia.wd108.myworkdayjobs.com/en-US/search/job/Washington---Seattle-Campus/Software-Development-Engineer-II---Expedia-Global-Payments_R-102732-1) |
 | 🔥 NEW | Micron Technology | Firmware Engineer Data Center Solid State Drives | Arzano (NA), Italy | ✅ Sponsors (High) · 80 H1B filings | **20%** | today | June 06, 2026 | 🔒 Closed | [Apply](https://micron.wd1.myworkdayjobs.com/en-US/External/job/Arzano-NA-Italy/Firmware-Engineer-Data-Center-Solid-State-Drives_JR103662-1) |
 | 🔥 NEW | Yale University | Training and Development Specialist | Whitney Grove Square | ✅ Sponsors (High) · 80 H1B filings | **20%** | 3d ago | June 06, 2026 | 🔒 Closed | [Apply](https://yale.wd1.myworkdayjobs.com/en-US/terminated_layoff_external_career_site/job/Whitney-Grove-Square/Training-and-Development-Specialist_135566WD-1) |
 | 🔥 NEW | Western Digital | Wafer Failure Analysis Engineer | Fremont, CA, us | ✅ Sponsors (High) · 76 H1B filings | **20%** | 2d ago | June 06, 2026 | Open | [Apply](https://jobs.smartrecruiters.com/WesternDigital/744000130097379) |
@@ -449,7 +449,7 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 | 🔥 NEW | Lyft | Firmware Test Engineer | San Francisco, CA | ✅ Sponsors (Med) · 25 H1B filings | **32%** | 1d ago | June 06, 2026 | 🔒 Closed | [Apply](https://app.careerpuck.com/job-board/lyft/job/8559583002?gh_jid=8559583002) |
 | 🔥 NEW | Roblox | Developer Engagement Representative - Indonesia (Part-Time Contract)    | Remote | ✅ Sponsors (Med) · 49 H1B filings | **32%** | 7d ago | June 06, 2026 | 🔒 Closed | [Apply](https://careers.roblox.com/jobs/7841812?gh_jid=7841812) |
 | 🔥 NEW | Roblox | Developer Engagement Representative - LATAM (Part-Time Contract) | Remote | ✅ Sponsors (Med) · 49 H1B filings | **32%** | 7d ago | June 06, 2026 | 🔒 Closed | [Apply](https://careers.roblox.com/jobs/7705949?gh_jid=7705949) |
-| 🔥 NEW | Roblox | Developer Engagement Representative - Malaysia  (Part-Time Contract) | Remote | ✅ Sponsors (Med) · 49 H1B filings | **32%** | today | June 06, 2026 | Open | [Apply](https://careers.roblox.com/jobs/7978940?gh_jid=7978940) |
+| 🔥 NEW | Roblox | Developer Engagement Representative - Malaysia  (Part-Time Contract) | Remote | ✅ Sponsors (Med) · 49 H1B filings | **32%** | 1d ago | June 06, 2026 | Open | [Apply](https://careers.roblox.com/jobs/7978940?gh_jid=7978940) |
 | 🔥 NEW | Roku | Security Engineer | Austin, Texas | ✅ Sponsors (Med) · 10 H1B filings | **32%** | today | June 06, 2026 | 🔒 Closed | [Apply](https://www.weareroku.com/jobs/7634294?gh_jid=7634294) |
 | 🔥 NEW | Perplexity | Member of Technical Staff (ML Engineer, Recommendations & User Modeling) | San Francisco | ✅ Sponsors (Med) | **32%** | today | June 06, 2026 | Open | [Apply](https://jobs.ashbyhq.com/perplexity/affd3040-91e4-4e0c-bd2f-4b022c613f91) |
 | 🔥 NEW | Anduril | Propulsion Test Infrastructure Engineer | Santa Ana, California, U | ✅ Sponsors (Med) | **32%** | today | June 06, 2026 | 🔒 Closed | [Apply](https://boards.greenhouse.io/andurilindustries/jobs/5030310007?gh_jid=5030310007) |
@@ -598,15 +598,15 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 | 🔥 NEW | AbbVie | Engineer, Quality Assurance CAPA III | Heredia, Heredia Provinc | ✅ Sponsors (Med) · 26 H1B filings | **16%** | today | June 06, 2026 | Open | [Apply](https://jobs.smartrecruiters.com/AbbVie/3743990013500086) |
 | 🔥 NEW | Point72 | Software Engineer, Investor and Fund Administration Technology | United States | ✅ Sponsors (Med) · 18 H1B filings | **12%** | 1d ago | June 06, 2026 | 🔒 Closed | [Apply](https://boards.greenhouse.io/point72/jobs/8372893002?gh_jid=8372893002) |
 | 🔥 NEW | Daniels Health | Facility Maintenance Engineer | Stow, OH | ✅ Sponsors (Med) · 12 H1B filings | **12%** | date unknown | June 06, 2026 | Open | [Apply](https://jobs.lever.co/daniels-sharpsmart/66b250ca-b218-4003-94f8-63982c44f2ff) |
-| 🔥 NEW | Bosch | Backend Developer Junior | Timișoara, TM, ro | ✅ Sponsors (Med) | **8%** | 1d ago | June 06, 2026 | Open | [Apply](https://jobs.smartrecruiters.com/BoschGroup/744000130153335) |
-| 🔥 NEW | Bosch | Backend Developer Intermediate | Timișoara, TM, ro | ✅ Sponsors (Med) | **8%** | 1d ago | June 06, 2026 | Open | [Apply](https://jobs.smartrecruiters.com/BoschGroup/744000130152200) |
+| 🔥 NEW | Bosch | Backend Developer Junior | Timișoara, TM, ro | ✅ Sponsors (Med) | **8%** | 2d ago | June 06, 2026 | Open | [Apply](https://jobs.smartrecruiters.com/BoschGroup/744000130153335) |
+| 🔥 NEW | Bosch | Backend Developer Intermediate | Timișoara, TM, ro | ✅ Sponsors (Med) | **8%** | 2d ago | June 06, 2026 | Open | [Apply](https://jobs.smartrecruiters.com/BoschGroup/744000130152200) |
 | 🔥 NEW | Neros Technologies | Autonomy Simulation Engineer (Unreal) | Torrance, California, Un | ✅ Sponsors (Med) | **8%** | today | June 06, 2026 | 🔒 Closed | [Apply](https://job-boards.greenhouse.io/nerostechnologies/jobs/5057244007) |
 | 🔥 NEW | Zoox | Systems Engineer | Foster City, CA | ✅ Sponsors (Med) · 17 H1B filings | **8%** | date unknown | June 06, 2026 | Open | [Apply](https://jobs.lever.co/zoox/8adb704c-e1bc-4b23-a511-c0c7c5de2923) |
 | 🔥 NEW | ALTEN Technology | Project Engineer | Swiftwater, Pennsylvania | ✅ Sponsors (Med) · 14 H1B filings | **8%** | 3d ago | June 06, 2026 | 🔒 Closed | [Apply](https://job-boards.greenhouse.io/altentechnologyusa/jobs/5145546007) |
 | 🔥 NEW | Link | Reverse Engineer Level 2, BS+5 or MS+3 (CCA allowed) | Ft Meade, MD | ✅ Sponsors (Med) · 16 H1B filings | **8%** | date unknown | June 06, 2026 | Open | [Apply](https://jobs.lever.co/linkllc/a447ee53-4a83-44a2-a381-b0a93a552dc4) |
 | 🔥 NEW | Link | SDR, RF Systems Engineer, BS+6 or HS+10 | Ft Meade, MD | ✅ Sponsors (Med) · 16 H1B filings | **8%** | date unknown | June 06, 2026 | Open | [Apply](https://jobs.lever.co/linkllc/efaa71db-420e-4a56-8210-aac9c12e8944) |
 | 🔥 NEW | Bosch | Development Engineer for MEMS Wafer Technology - Espoo | Espoo, Uusimaa, fi | ✅ Sponsors (Med) | **8%** | today | June 06, 2026 | Open | [Apply](https://jobs.smartrecruiters.com/BoschGroup/744000130375550) |
-| 🔥 NEW | Bosch | SoC Middleware/BSP SW Engineer_PS | Wuxi, Jiangsu, cn | ✅ Sponsors (Med) | **8%** | today | June 06, 2026 | Open | [Apply](https://jobs.smartrecruiters.com/BoschGroup/744000130367085) |
+| 🔥 NEW | Bosch | SoC Middleware/BSP SW Engineer_PS | Wuxi, Jiangsu, cn | ✅ Sponsors (Med) | **8%** | 1d ago | June 06, 2026 | Open | [Apply](https://jobs.smartrecruiters.com/BoschGroup/744000130367085) |
 | 🔥 NEW | Bosch | Team Leader - Engineering (Multiple Positions) (REF288138P) | Charleston, SC, us | ✅ Sponsors (Med) | **8%** | 1d ago | June 06, 2026 | Open | [Apply](https://jobs.smartrecruiters.com/BoschGroup/744000130274508) |
 | 🔥 NEW | Bosch | Rotational Development Program – Finance – Mobility Company | Farmington Hills, MI, us | ✅ Sponsors (Med) | **8%** | 1d ago | June 06, 2026 | Open | [Apply](https://jobs.smartrecruiters.com/BoschGroup/744000130254059) |
 | 🔥 NEW | Bosch | ASSESSMENT CENTRE - Engineering and Economics (June 2026) | Torino, Piemonte, it | ✅ Sponsors (Med) | **8%** | 1d ago | June 06, 2026 | Open | [Apply](https://jobs.smartrecruiters.com/BoschGroup/744000130245995) |
@@ -708,7 +708,7 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 | 🔥 NEW | AHEAD | GenAI Engineer | Gurugram, Haryana | — unknown | **92%** | date unknown | June 06, 2026 | Open | [Apply](https://jobs.lever.co/thinkahead/900abec7-3a73-40d2-8cf1-e5bf64f4b941) |
 | 🔥 NEW | Lumafield | Backend Software Engineer | San Francisco, CA | ⚠️ May not sponsor | **92%** | date unknown | June 06, 2026 | 🔒 Closed | [Apply](https://jobs.lever.co/lumafield/a162ca4e-4beb-4f6f-94ac-44e327e481b0) |
 | 🔥 NEW | Cottingham & Butler | Software Engineer | Dubuque, Iowa, United St | — unknown | **92%** | 3d ago | June 06, 2026 | 🔒 Closed | [Apply](https://boards.greenhouse.io/cottinghambutlerinsuranceservicesinc/jobs/5077114008?gh_jid=5077114008) |
-| 🔥 NEW | AppDirect | Software Developer - Frontend | Montreal | — unknown | **92%** | 4d ago | June 06, 2026 | Open | [Apply](https://job-boards.greenhouse.io/appdirect/jobs/8567013002) |
+| 🔥 NEW | AppDirect | Software Developer - Frontend | Montreal | — unknown | **92%** | 5d ago | June 06, 2026 | Open | [Apply](https://job-boards.greenhouse.io/appdirect/jobs/8567013002) |
 | 🔥 NEW | Capital Rx | Data Engineer II | Remote | — unknown | **92%** | today | June 06, 2026 | 🔒 Closed | [Apply](https://job-boards.greenhouse.io/capitalrx/jobs/5134977008) |
 | 🔥 NEW | hhaexchange | Data Engineer | United States | — unknown | **92%** | date unknown | June 06, 2026 | Open | [Apply](https://jobs.lever.co/hhaexchange/69ae059d-ea86-47fb-af08-d7823766525c) |
 | 🔥 NEW | IntraFi | Software Engineer (Sweep) | Arlington, VA | — unknown | **92%** | date unknown | June 06, 2026 | Open | [Apply](https://jobs.lever.co/intrafi/eeae9603-9abb-4815-8a67-a2ffa00e9aca) |
@@ -806,7 +806,7 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 | 🔥 NEW | Revefi | Backend Engineer - Seattle | Seattle, WA | — unknown | **80%** | date unknown | June 06, 2026 | Open | [Apply](https://jobs.lever.co/revefi/6eddfb74-7ad4-4fcb-bcfa-6ebb435dc9ab) |
 | 🔥 NEW | UntilLabs | Machine Learning Engineer / Scientist | Bay Area | — unknown | **80%** | date unknown | June 06, 2026 | Open | [Apply](https://jobs.lever.co/until/b953a7f9-3024-43c2-abed-45cf5a91ddd3) |
 | 🔥 NEW | Filevine | Machine Learning Engineer | Bratislava | — unknown | **80%** | date unknown | June 06, 2026 | Open | [Apply](https://jobs.lever.co/filevine/0b9c0def-77e7-4e0b-a04f-bdd6811c530d) |
-| 🔥 NEW | Drivetrain | Backend Engineer | United States | — unknown | **80%** | date unknown | June 06, 2026 | 🔒 Closed | [Apply](https://jobs.lever.co/drivetrain/f0d0eb73-6a2f-4ebf-9864-7891539f4668) |
+| 🔥 NEW | Drivetrain | Backend Engineer | United States | — unknown | **80%** | date unknown | June 06, 2026 | Open | [Apply](https://jobs.lever.co/drivetrain/f0d0eb73-6a2f-4ebf-9864-7891539f4668) |
 | 🔥 NEW | Larian Studios | Backend Developer | Warsaw | — unknown | **80%** | date unknown | June 06, 2026 | Open | [Apply](https://jobs.lever.co/larian/6347ebf8-bf9f-4367-ab3c-ac03cce3c28d) |
 | 🔥 NEW | Aledade | Full-Stack Analytics Engineer II | Washington DC | — unknown | **80%** | date unknown | June 06, 2026 | Open | [Apply](https://jobs.lever.co/aledade/d5042db4-37cf-40d4-846b-c16a5c36d403) |
 | 🔥 NEW | Capco | Front-end Developer | Italy - Milan | — unknown | **80%** | today | June 06, 2026 | 🔒 Closed | [Apply](https://job-boards.greenhouse.io/capco/jobs/5886767) |
@@ -860,6 +860,7 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 | 🔥 NEW | MLabs | DevOps / Infrastructure Engineer | United States | — unknown | **80%** | 5d ago | June 06, 2026 | Open | [Apply](https://apply.workable.com/j/D12F9E3EDA) |
 | 🔥 NEW | MLabs | SRE (Terminal) | New York, New York, Unit | — unknown | **80%** | 3d ago | June 06, 2026 | Open | [Apply](https://apply.workable.com/j/0FDEEF1AAC) |
 | 🔥 NEW | Innovaccer | 4210-Forward Deployed Engineer | San Francisco, Californi | — unknown | **80%** | 4d ago | June 06, 2026 | Open | [Apply](https://apply.workable.com/j/6B9F1CC4CD) |
+| 🔥 NEW | InMobi | SDE 2 | Lucknow | — unknown | **80%** | today | June 06, 2026 | Open | [Apply](https://job-boards.greenhouse.io/inmobi/jobs/7956882) |
 | 🔥 NEW | Zip | Software Engineer, Forward Deployed (All Levels) | San Francisco | — unknown | **76%** | today | June 06, 2026 | Open | [Apply](https://jobs.ashbyhq.com/zip/3b54f98b-c0a7-4c6b-8a8b-b34a224db0ad) |
 | 🔥 NEW | Makpar | Software Engineer II (.Net Developer) | Washington D.C. | ⚠️ May not sponsor | **76%** | date unknown | June 06, 2026 | 🔒 Closed | [Apply](https://jobs.lever.co/makpar/f3082a68-b16f-42c9-add0-f538b9a6e6e5) |
 | 🔥 NEW | Hive | Software Engineer - Frontend | San Francisco  +1 more | — unknown | **76%** | date unknown | June 06, 2026 | Open | [Apply](https://jobs.lever.co/hive/00c84379-62f1-45c9-9ec6-f882a1a7549b) |
@@ -977,7 +978,7 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 | 🔥 NEW | OptionMetrics | Software Test Engineer (Contract Role) | United States | — unknown | **68%** | date unknown | June 06, 2026 | Open | [Apply](https://jobs.lever.co/optionmetrics/ee1f0756-11ee-418e-86a3-c724d62dbf7c) |
 | 🔥 NEW | Anchorage | Member of Technical Staff, Banking Solutions (Fullstack Engineer) | New York | — unknown | **68%** | date unknown | June 06, 2026 | Open | [Apply](https://jobs.lever.co/anchorage/5086b236-7a04-42dd-8235-029b906290cd) |
 | 🔥 NEW | Kikoff | Data Scientist Operations | San Francisco | — unknown | **68%** | 2d ago | June 06, 2026 | 🔒 Closed | [Apply](https://job-boards.greenhouse.io/kikoff/jobs/4231306009) |
-| 🔥 NEW | Drivetrain | Frontend Engineer | United States | — unknown | **64%** | date unknown | June 06, 2026 | 🔒 Closed | [Apply](https://jobs.lever.co/drivetrain/5ebd7e09-3f2b-4c53-a0be-0649bdd84842) |
+| 🔥 NEW | Drivetrain | Frontend Engineer | United States | — unknown | **64%** | date unknown | June 06, 2026 | Open | [Apply](https://jobs.lever.co/drivetrain/5ebd7e09-3f2b-4c53-a0be-0649bdd84842) |
 | 🔥 NEW | Octopus Energy | Backend Engineer | Ascoli Piceno (IT) | — unknown | **64%** | date unknown | June 06, 2026 | Open | [Apply](https://jobs.lever.co/octoenergy/f8b78b18-1d20-45a8-aa49-ec9e07fa8b8b) |
 | 🔥 NEW | AHEAD | Managed Services Cloud Engineer - FinOps | United States | — unknown | **64%** | date unknown | June 06, 2026 | Open | [Apply](https://jobs.lever.co/thinkahead/9b4d6190-c78a-4776-8a2a-66de64ac1cb5) |
 | 🔥 NEW | PDI Technologies | SE III ( Mobile Developer ) | Chennai | — unknown | **64%** | date unknown | June 06, 2026 | Open | [Apply](https://jobs.lever.co/pditechnologies/ca95397b-d48c-458f-84d1-fdce3acf436d) |
@@ -1163,7 +1164,6 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 | 🔥 NEW | Zip | Solution Engineer (Pre-Sales) | Remote - West Coast | — unknown | **40%** | 1d ago | June 06, 2026 | Open | [Apply](https://jobs.ashbyhq.com/zip/92c2b94a-3963-4c1e-8e5a-b83f548f8f0d) |
 | 🔥 NEW | Whoop | Android Engineer | Boston, MA | — unknown | **40%** | date unknown | June 06, 2026 | Open | [Apply](https://jobs.lever.co/whoop/c1ee90e7-697b-49c2-b805-fa2c1ee20e4f) |
 | 🔥 NEW | Trace3 | Jira Platform & Identity Automation Engineer - (W2PE) | Broomfield, Colorado, Un | — unknown | **40%** | 3d ago | June 06, 2026 | 🔒 Closed | [Apply](https://job-boards.greenhouse.io/trace3/jobs/7875343) |
-| 🔥 NEW | Charles River Associates (CRA) | Human Capital Coordinator/Learning & Talent Development | Boston, MA, United State | — unknown | **40%** | 7d ago | June 06, 2026 | 🔒 Closed | [Apply](https://job-boards.greenhouse.io/charlesriverassociates/jobs/3998596) |
 | 🔥 NEW | Agile Defense | CyberSecurity Engineer | Hampton, VA | — unknown | **40%** | date unknown | June 06, 2026 | Open | [Apply](https://jobs.lever.co/agile-defense/24e14c59-7b7f-486f-bf3b-6d23b9e6a431) |
 | 🔥 NEW | Agile Defense | Java Automation Engineer | Annapolis Junction, MD | — unknown | **40%** | date unknown | June 06, 2026 | Open | [Apply](https://jobs.lever.co/agile-defense/b85c4189-4467-4804-8cd5-18dc310c9536) |
 | 🔥 NEW | Agile Defense | Junior Red Hat Linux Engineer | Quantico, VA | — unknown | **40%** | date unknown | June 06, 2026 | Open | [Apply](https://jobs.lever.co/agile-defense/6e78413c-adc0-402a-ba04-c5a57cfd48bc) |
@@ -1695,7 +1695,7 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 | 🔥 NEW | BGE | HOUSTON - Site Development, New Grad | 10777 Westheimer Road, S | — unknown | **0%** | 2d ago | June 06, 2026 | 🔒 Closed | [Apply](https://job-boards.greenhouse.io/bgeinccampus/jobs/5068887008) |
 | 🔥 NEW | TSMG | Research Participant – Smart Glasses Development for People with Hearing Loss | New Jersey  +1 more | — unknown | **0%** | date unknown | June 06, 2026 | Open | [Apply](https://jobs.lever.co/tsmg/5e810ae3-483b-4fe4-96ac-f8eb7fbab5dc) |
 | 🔥 NEW | Apex Companies | Water/Wastewater Engineer | Fort Myers, FL | — unknown | **0%** | 1d ago | June 06, 2026 | 🔒 Closed | [Apply](https://job-boards.greenhouse.io/apexcompanies/jobs/5206531008) |
-| 🔥 NEW | Texas Capital Bank | Corporate Development & Investor Relations Analyst | Dallas, TX | — unknown | **0%** | 2d ago | June 06, 2026 | Open | [Apply](https://texascapitalbank.wd12.myworkdayjobs.com/en-US/Careers/job/Dallas-TX/Corporate-Development---Investor-Relations-Analyst_JR105553) |
+| 🔥 NEW | Texas Capital Bank | Corporate Development & Investor Relations Analyst | Dallas, TX | — unknown | **0%** | 3d ago | June 06, 2026 | Open | [Apply](https://texascapitalbank.wd12.myworkdayjobs.com/en-US/Careers/job/Dallas-TX/Corporate-Development---Investor-Relations-Analyst_JR105553) |
 | 🔥 NEW | City of Largo | Development Services System Coordinator | Largo City Hall | — unknown | **0%** | 3d ago | June 06, 2026 | 🔒 Closed | [Apply](https://largo.wd1.myworkdayjobs.com/en-US/external/job/Largo-City-Hall/Development-Services-System-Coordinator_R-2305) |
 
 ## 🗓️ June 05, 2026 — 10 jobs
