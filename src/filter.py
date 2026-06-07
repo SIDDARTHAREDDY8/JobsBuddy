@@ -110,7 +110,9 @@ def blocks_visa(text, profile):
 def company_blocked(company, profile):
     # True for IT-services / consulting / staffing body shops we don't want.
     # word-boundary match so "kforce" != "Trackforce", "atos" != "Atossa", etc.
-    return _has_word(company.lower(), profile.get("companies_exclude", []))
+    c = company.lower()
+    return (_has_word(c, profile.get("companies_exclude", []))
+            or _has_word(c, profile.get("defense_exclude", [])))
 
 
 STRONG_US = ["united states", "usa", "u.s.", ", us", "- us", "remote us",

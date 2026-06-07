@@ -350,6 +350,15 @@
     "president"
   ],
   "companies_exclude": [],
+  "defense_exclude": [
+    "anduril", "shield ai", "vannevar", "palantir", "lockheed martin", "lockheed",
+    "raytheon", "rtx", "northrop grumman", "northrop", "general dynamics",
+    "general atomics", "bae systems", "l3harris", "l3 harris", "leidos",
+    "booz allen", "saic", "caci", "mantech", "peraton", "sierra nevada corporation",
+    "rocket lab", "relativity space", "epirus", "saronic", "rebellion defense",
+    "hawkeye 360", "govini", "aerovironment", "kratos defense", "the mitre",
+    "draper", "applied intuition", "skydio", "firestorm", "castelion"
+  ],
   "roles_domain_exclude": [
     "mechanical",
     "electrical",
