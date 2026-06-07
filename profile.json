@@ -498,7 +498,9 @@
     "applied intuition",
     "skydio",
     "firestorm",
-    "castelion"
+    "castelion",
+    "hermeus",
+    "e-space"
   ],
   "roles_domain_exclude": [
     "mechanical",
@@ -561,7 +563,17 @@
     "business development",
     "sales development",
     "bdr",
-    "sdr"
+    "sdr",
+    "technician",
+    "solution engineer",
+    "pre sales",
+    "tutor",
+    "aerodynamics",
+    "avionics",
+    "propulsion",
+    "flight software",
+    "modem",
+    "data labeling"
   ],
   "exp_exclude_patterns": [
     "5+ years",
@@ -605,7 +617,9 @@
     "government clearance",
     "clearance required",
     "clearable",
-    "fed ramp clearance"
+    "fed ramp clearance",
+    "dhs clearance",
+    "public trust"
   ],
   "visa_block_phrases": [
     "citizenship is required",

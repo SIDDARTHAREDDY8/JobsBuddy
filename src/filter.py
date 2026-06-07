@@ -29,8 +29,9 @@ def _has_any(text, needles):
 # core software/AI/data role indicators (the FAMILY, not one specific name).
 # NOTE: use "developer" not "development" — "development" matches sales roles like
 # "Business Development" / "Sales Development Representative".
+# NOTE: dropped "coder" — it matched "Nurse Coder" / "Medical Coder" (non-software)
 _ROLE_CORE = re.compile(r"\b(engineer|engineering|developer|programmer|"
-                        r"sde|swe|sre|sdet|coder|dba)\b")
+                        r"sde|swe|sre|sdet|dba)\b")
 _ROLE_CORE_PHRASES = ["data scientist", "applied scientist", "machine learning",
                       "data science", "site reliability", "data analyst",
                       "database administrator", "analytics engineer"]
@@ -99,6 +100,10 @@ _VISA_BLOCK_RE = [
     re.compile(r"\bwithout\b[^.!?]{0,20}\bsponsor"),
     re.compile(r"\bno\b[^.!?]{0,18}\b(?:visa|immigration|employment|work|h-?1b)\b[^.!?]{0,18}\bsponsor"),
     re.compile(r"\bsponsor\w*\b[^.!?]{0,20}\b(?:is|are|will)\s+not\b"),  # "sponsorship is not available"
+    # citizenship-required in any phrasing ("citizenship is a requirement", "must be a citizen")
+    re.compile(r"\bcitizenship\b[^.!?]{0,25}\b(?:require|required|requirement|mandatory|necessary|must)\b"),
+    re.compile(r"\b(?:require|requires|required|must\s+be|must\s+have|need)\b[^.!?]{0,25}\bcitizen"),
+    re.compile(r"\bu\.?s\.?\s*citizen\w*\b[^.!?]{0,25}\b(?:require|required|requirement|only|mandatory)\b"),
 ]
 
 
