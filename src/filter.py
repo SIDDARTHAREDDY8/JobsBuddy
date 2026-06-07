@@ -30,9 +30,10 @@ def _has_any(text, needles):
 # NOTE: use "developer" not "development" — "development" matches sales roles like
 # "Business Development" / "Sales Development Representative".
 _ROLE_CORE = re.compile(r"\b(engineer|engineering|developer|programmer|"
-                        r"sde|swe|sre|coder)\b")
+                        r"sde|swe|sre|sdet|coder|dba)\b")
 _ROLE_CORE_PHRASES = ["data scientist", "applied scientist", "machine learning",
-                      "data science", "site reliability"]
+                      "data science", "site reliability", "data analyst",
+                      "database administrator", "analytics engineer"]
 # seniority — drop these
 _SENIOR = re.compile(r"\b(senior|sr|staff|principal|lead|leads|manager|director|"
                      r"head|vp|vice president|president|distinguished|architect|"
