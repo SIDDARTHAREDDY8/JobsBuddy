@@ -5,8 +5,21 @@ Newest day on top, older days below. Within a day: sponsors + best match first.
 """
 from datetime import datetime
 from zoneinfo import ZoneInfo
+from freshness import age_in_days
 
 ET = ZoneInfo("America/New_York")
+
+
+def _age_bucket(j):
+    """Group jobs by how long ago they were POSTED (freshest first)."""
+    a = age_in_days(j.get("posted_at"))
+    if a is None:
+        return (99, "🗓️ Posted: date unknown")
+    if a <= 0:
+        return (0, "🔥 Posted Today")
+    if a == 1:
+        return (1, "🔥 Posted Yesterday")
+    return (a, f"🗓️ Posted {a} days ago")
 
 BADGE = {"high": "✅ Sponsors (High)", "medium": "✅ Sponsors (Med)", "low": "✅ Sponsors (Low)"}
 
@@ -34,11 +47,13 @@ def render_readme(jobs, profile, today):
     open_now = sum(1 for j in jobs if j.get("open", True))
     new_today = sum(1 for j in jobs if j.get("first_seen") == today)
 
-    # group by the date a job was first added
-    by_day = {}
+    # group by POSTING freshness (freshest first) so brand-new jobs are on top,
+    # not by when we happened to discover them
+    by_age = {}
     for j in jobs:
-        by_day.setdefault(j.get("first_seen", "unknown"), []).append(j)
-    days = sorted(by_day.keys(), reverse=True)   # newest day first
+        rank, label = _age_bucket(j)
+        by_age.setdefault((rank, label), []).append(j)
+    buckets = sorted(by_age.keys())   # rank ascending = freshest first, unknown last
 
     L = []
     L.append("# 🌍 JobsBuddy — Visa-Sponsoring Tech Jobs for International Students")
@@ -105,23 +120,19 @@ def render_readme(jobs, profile, today):
     L.append("---")
     L.append("")
 
-    for day in days:
-        group = sorted(by_day[day], key=_within_day_sort, reverse=True)
-        nice = _pretty_date(day)
-        L.append(f"## 🗓️ {nice} — {len(group)} jobs")
+    for rank, label in buckets:
+        group = sorted(by_age[(rank, label)], key=_within_day_sort, reverse=True)
+        L.append(f"## {label} — {len(group)} jobs")
         L.append("")
-        L.append("| | Company | Role | Location | Visa | Match | Posted | Added | Status | Apply |")
-        L.append("|--|--|--|--|--|--|--|--|--|--|")
+        L.append("| | Company | Role | Location | Visa | Match | Posted | Apply |")
+        L.append("|--|--|--|--|--|--|--|--|")
         for j in group:
-            # 🔥 ONLY on jobs added in the latest update; older ones lose it automatically
-            flags = "🔥 NEW" if j.get("first_seen") == today else ""
+            flags = "🔥" if rank <= 1 else ""   # fire on Today/Yesterday postings
             title = (j.get("title", "")).replace("|", "/")
             loc = (j.get("location") or "—").replace("|", "/")[:28]
-            status = "Open" if j.get("open", True) else "🔒 Closed"
-            added = _pretty_date(j.get("first_seen", "")) if j.get("first_seen") else "—"
             L.append(f"| {flags} | {j.get('company','')} | {title} | {loc} | "
                      f"{_visa_cell(j)} | **{j.get('match_score', 0)}%** | {_posted_cell(j)} | "
-                     f"{added} | {status} | [Apply]({j.get('url','')}) |")
+                     f"[Apply]({j.get('url','')}) |")
         L.append("")
 
     L.append("<sub>Built with a free Python scraper + GitHub Actions — no paid APIs. "

@@ -5,11 +5,23 @@ Every "Apply" opens in a NEW TAB (target=_blank), which a README cannot do.
 """
 from datetime import datetime
 from zoneinfo import ZoneInfo
+from freshness import age_in_days
 import html
 import json
 
 ET = ZoneInfo("America/New_York")
 SITE_URL = "https://siddarthareddy8.github.io/JobsBuddy/"
+
+
+def _age_bucket(j):
+    a = age_in_days(j.get("posted_at"))
+    if a is None:
+        return (99, "Posted: date unknown")
+    if a <= 0:
+        return (0, "🔥 Posted Today")
+    if a == 1:
+        return (1, "🔥 Posted Yesterday")
+    return (a, f"Posted {a} days ago")
 TIER_LABEL = {"high": "High", "medium": "Med", "low": "Low"}
 
 
@@ -41,19 +53,20 @@ def render_html(jobs, profile, today):
     new_today = sum(1 for j in jobs if j.get("first_seen") == today)
     sponsor_n = sum(1 for j in jobs if j.get("sponsors_visa"))
 
-    by_day = {}
+    # group by POSTING freshness (freshest first), not discovery date
+    by_age = {}
     for j in jobs:
-        by_day.setdefault(j.get("first_seen", "unknown"), []).append(j)
-    days = sorted(by_day.keys(), reverse=True)
+        by_age.setdefault(_age_bucket(j), []).append(j)
+    buckets = sorted(by_age.keys())
 
     rows = []
-    for day in days:
-        group = sorted(by_day[day], key=_within_day_sort, reverse=True)
+    for rank, label in buckets:
+        group = sorted(by_age[(rank, label)], key=_within_day_sort, reverse=True)
         rows.append(
-            f'<tr class="daysep"><td colspan="6">{_pretty(day)}'
+            f'<tr class="daysep"><td colspan="6">{label}'
             f'<span class="daycount">{len(group)} roles</span></td></tr>')
         for j in group:
-            is_new = j.get("first_seen") == today
+            is_new = rank <= 1
             new_badge = '<span class="tag tag-new">NEW</span>' if is_new else ""
             tier = j.get("sponsor_tier")
             if j.get("sponsors_visa"):
