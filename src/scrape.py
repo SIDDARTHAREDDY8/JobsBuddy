@@ -161,6 +161,13 @@ def scrape_workday(slug, company, fetch_detail=True, max_detail=70):
                 seen.add(path)
                 desc = j.get("title", "")
                 loc = j.get("locationsText", "")
+                # Workday URL path embeds the location: /job/{Location}/{Title}_{ReqID}
+                # Use it when locationsText is empty or vague ("2 Locations"), so the
+                # location filter can see foreign jobs (Taguig, São Paulo, etc.)
+                if not loc or _re.match(r"^\d+\s+locations?$", loc.strip(), _re.I):
+                    segs = path.strip("/").split("/")
+                    if len(segs) >= 2 and segs[0] == "job":
+                        loc = segs[1].replace("---", ", ").replace("--", " ").replace("-", " ").strip()
                 posted = j.get("postedOn", "")
                 relevant = _WD_TITLE_HINT.search(j.get("title", "").lower())
                 if fetch_detail and relevant and detail_count < max_detail:
