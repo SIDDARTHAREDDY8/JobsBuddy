@@ -121,10 +121,12 @@ import re as _re
 _WD_TITLE_HINT = _re.compile(r"engineer|developer|programmer|software|\bsde\b|\bswe\b|"
                              r"data |machine learning|\bml\b|\bai\b|scientist|full stack|"
                              r"front.?end|back.?end|devops|sre|cloud|platform")
-# search terms to surface relevant roles in large Workday job boards
-_WD_SEARCH_TERMS = ["software engineer", "software developer", "data engineer",
-                    "machine learning", "ai engineer", "full stack developer",
-                    "backend", "frontend"]
+# search terms to surface relevant roles in large Workday job boards.
+# Workday search is fuzzy (returns broad relevance-ranked results), so a few
+# angles paginated DEEP beat many overlapping terms paginated shallow.
+_WD_SEARCH_TERMS = ["software engineer", "developer", "data scientist", "machine learning"]
+_WD_PAGES = 4   # balance: deeper than before to reach some junior roles, but
+                # banks are ~95% senior so deep pagination has diminishing returns
 
 
 # ---------- Workday ----------
@@ -141,7 +143,7 @@ def scrape_workday(slug, company, fetch_detail=True, max_detail=70):
     out, seen, detail_count = [], set(), 0
     for term in _WD_SEARCH_TERMS:
         offset = 0
-        for _ in range(2):  # up to 40 results per search term
+        for _ in range(_WD_PAGES):  # paginate deep to reach buried junior roles
             body = json.dumps({"limit": 20, "offset": offset, "searchText": term}).encode()
             try:
                 req = urllib.request.Request(base, data=body,
