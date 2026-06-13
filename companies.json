@@ -9898,5 +9898,75 @@
     "company": "Nasdaq",
     "ats": "workday",
     "slug": "nasdaq|wd1|Global_External_Site"
+  },
+  {
+    "company": "Knowles Corporation",
+    "ats": "pinpoint",
+    "slug": "knowles"
+  },
+  {
+    "company": "Interact Software",
+    "ats": "pinpoint",
+    "slug": "interactsoftware"
+  },
+  {
+    "company": "ONYX Insight",
+    "ats": "breezy",
+    "slug": "onyx-insight"
+  },
+  {
+    "company": "Vantage Point Solutions",
+    "ats": "breezy",
+    "slug": "vantage-point-solutions-inc"
+  },
+  {
+    "company": "Wyld",
+    "ats": "pinpoint",
+    "slug": "wyld"
+  },
+  {
+    "company": "The New York Public Library",
+    "ats": "pinpoint",
+    "slug": "nypl"
+  },
+  {
+    "company": "North Wind Group",
+    "ats": "breezy",
+    "slug": "north-wind-group"
+  },
+  {
+    "company": "JND",
+    "ats": "breezy",
+    "slug": "jnd-inc"
+  },
+  {
+    "company": "Franklin Electric",
+    "ats": "pinpoint",
+    "slug": "franklin-electric"
+  },
+  {
+    "company": "NucleusTeq",
+    "ats": "breezy",
+    "slug": "nucleusteq"
+  },
+  {
+    "company": "Impulse Space",
+    "ats": "pinpoint",
+    "slug": "impulsespace"
+  },
+  {
+    "company": "Confluence Technologies",
+    "ats": "pinpoint",
+    "slug": "confluence"
+  },
+  {
+    "company": "OTTO",
+    "ats": "breezy",
+    "slug": "otto-engineering-inc"
+  },
+  {
+    "company": "Wavetronix",
+    "ats": "breezy",
+    "slug": "wavetronix"
   }
 ]

@@ -214,6 +214,60 @@ def _workday_detail(url):
         return None
 
 
+# ---------- Breezy HR ----------
+def scrape_breezy(slug, company):
+    data = _get_json(f"https://{slug}.breezy.hr/json")
+    out = []
+    for j in data:
+        loc = j.get("location") or {}
+        locstr = loc.get("name", "") if isinstance(loc, dict) else str(loc)
+        out.append({
+            "company": company, "title": j.get("name", ""),
+            "location": locstr, "url": j.get("url", ""),
+            "description": "",   # list view has no body; title-level filtering only
+            "posted_at": j.get("published_date", ""),
+            "source": "breezy",
+        })
+    return out
+
+
+# ---------- Pinpoint ----------
+def scrape_pinpoint(slug, company):
+    data = _get_json(f"https://{slug}.pinpointhq.com/postings.json")
+    out = []
+    for j in data.get("data", []):
+        loc = j.get("location") or {}
+        if isinstance(loc, dict):
+            locstr = ", ".join(x for x in [loc.get("city", ""), loc.get("region", ""),
+                                           loc.get("country", "")] if x) or loc.get("name", "")
+        else:
+            locstr = str(loc)
+        out.append({
+            "company": company, "title": j.get("title", ""),
+            "location": locstr, "url": j.get("url", ""),
+            "description": _strip_html(j.get("description", "") + " " +
+                                       (j.get("key_responsibilities", "") or "")),
+            "posted_at": j.get("created_at", "") or j.get("published_at", "") or j.get("updated_at", ""),
+            "source": "pinpoint",
+        })
+    return out
+
+
+# ---------- Rippling ----------
+def scrape_rippling(slug, company):
+    data = _get_json(f"https://api.rippling.com/platform/api/ats/v1/board/{slug}/jobs")
+    out = []
+    for j in (data if isinstance(data, list) else data.get("items", [])):
+        wl = j.get("workLocation") or {}
+        loc = wl.get("label", "") if isinstance(wl, dict) else str(wl)
+        out.append({
+            "company": company, "title": j.get("name", ""),
+            "location": loc, "url": j.get("url", ""),
+            "description": "", "posted_at": "", "source": "rippling",
+        })
+    return out
+
+
 # ---------- The Muse (aggregator: reaches companies NOT on the ATS we scrape) ----------
 def scrape_themuse(max_pages=40):
     """The Muse aggregates jobs from thousands of employers incl. ones on
@@ -337,6 +391,9 @@ ADAPTERS = {
     "smartrecruiters": scrape_smartrecruiters,
     "workable": scrape_workable,
     "recruitee": scrape_recruitee,
+    "breezy": scrape_breezy,
+    "pinpoint": scrape_pinpoint,
+    "rippling": scrape_rippling,
 }
 
 
