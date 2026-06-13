@@ -5,7 +5,11 @@
 <img src="https://img.shields.io/badge/updated-every%206%20hours-brightgreen?style=for-the-badge" alt="Auto-updated">
 <img src="https://img.shields.io/badge/open%20jobs-330-blue?style=for-the-badge" alt="Open jobs">
 <img src="https://img.shields.io/badge/cost-%240%20forever-success?style=for-the-badge" alt="Free">
+<img src="https://img.shields.io/badge/companies-1994-blueviolet?style=for-the-badge" alt="Companies">
+<img src="https://img.shields.io/badge/ATS%20systems-8-orange?style=for-the-badge" alt="ATS systems">
 </p>
+
+📡 **Scanning 1,994 companies** across **8 ATS systems** (Greenhouse, Lever, Ashby, Workday, SmartRecruiters, Workable, Pinpoint, Breezy) + The Muse aggregator — re-scraped **every 6 hours.**
 
 > ### 🛂 Every job here is at a company with a **real H1B visa-sponsorship history.**
 > No more applying to 500 jobs only to hear *“sorry, we don’t sponsor.”*
@@ -38,13 +42,13 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 3. 📋 Scroll the table below — newest jobs are at the top.
 4. 🛂 Look for the **✅ Sponsors** tag, then hit **Apply**.
 
-<sub>🔄 Last updated: **2026-06-13 12:37 AM ET** • Total roles tracked: **584** • Open now: **330** • 🆕 Added today: **142**</sub>
+<sub>🔄 Last updated: **2026-06-13 12:54 AM ET** • Total roles tracked: **584** • Open now: **330** • 🆕 Added today: **142**</sub>
 
 **Legend:** 🔥 NEW = added in the latest update (older jobs lose this automatically) • ✅ Sponsors = recent H1B filing history • 🔒 = no longer listed • Posted = how long ago the company posted it • Match % = how strong a fit the role is.
 
 ---
 
-## 🔥 Posted Today — 40 jobs
+## 🔥 Posted Today — 39 jobs
 
 | | Company | Role | Location | Visa | Match | Posted | Apply |
 |--|--|--|--|--|--|--|--|
@@ -58,7 +62,6 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 | 🔥 | Civitech | Software Engineer, Geospatial Data | Austin, TX or Remote | ✅ Sponsors (Med) · 15 H1B filings | **100%** | today | [Apply](https://jobs.lever.co/civitech/15ab6999-436f-468c-bfe1-bfb1d20000f9) |
 | 🔥 | Chime | Software Engineer, Infrastructure | Remote, USA | ✅ Sponsors (Med) · 31 H1B filings | **92%** | today | [Apply](https://boards.greenhouse.io/chime/jobs/8573625002?gh_jid=8573625002) |
 | 🔥 | Replit | Product Engineer, Product Platform (Frontend) | Foster City, CA | ✅ Sponsors (Med) | **88%** | today | [Apply](https://jobs.ashbyhq.com/replit/657a90d2-23cc-4c86-b9ed-a21900efee0d) |
-| 🔥 | Perplexity | Member of Technical Staff (AI Software Engineer, Agents) | San Francisco | ✅ Sponsors (Med) | **76%** | today | [Apply](https://jobs.ashbyhq.com/perplexity/4ab39122-1d15-4874-8ab7-c6a241472743) |
 | 🔥 | Reddit | Software Engineer - Data Movement Platform | Remote - United States | ✅ Sponsors (Med) · 27 H1B filings | **76%** | today | [Apply](https://job-boards.greenhouse.io/reddit/jobs/7997866) |
 | 🔥 | OpenAI | Software Engineer, Computer Use & Frontier Interfaces | San Francisco | ✅ Sponsors (Med) · 23 H1B filings | **60%** | today | [Apply](https://jobs.ashbyhq.com/openai/39a709f3-6e9e-45e9-94eb-43a1c2aaaeaf) |
 | 🔥 | Pure Storage | Test Development Engineer | Santa Clara, California | ✅ Sponsors (Med) · 37 H1B filings | **56%** | today | [Apply](https://job-boards.greenhouse.io/purestorage/jobs/7991109) |
@@ -89,7 +92,7 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 | 🔥 | Audax Group | Salesforce Developer | Boston, MA | — unknown | **32%** | today | [Apply](https://job-boards.greenhouse.io/audaxgroup/jobs/4701617005) |
 | 🔥 | Critical Mass | Associate Creative Engineer | San Jose | — unknown | **24%** | today | [Apply](https://job-boards.greenhouse.io/criticalmass/jobs/7994214) |
 
-## 🔥 Posted Yesterday — 65 jobs
+## 🔥 Posted Yesterday — 66 jobs
 
 | | Company | Role | Location | Visa | Match | Posted | Apply |
 |--|--|--|--|--|--|--|--|
@@ -117,6 +120,7 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 | 🔥 | Corteva | Forward Deployed Engineer | Des Moines, Iowa, United | ✅ Sponsors (Med) · 10 H1B filings | **88%** | 1d ago | [Apply](https://corteva.wd5.myworkdayjobs.com/en-US/ctp/job/Des-Moines-Iowa-United-States/Forward-Deployed-Engineer_247127W-1) |
 | 🔥 | Anthropic | Research Engineer, Code RL (Reinforcement Learning) | San Francisco, CA / New  | ✅ Sponsors (Med) · 48 H1B filings | **88%** | 1d ago | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5254364008) |
 | 🔥 | Ensemble Health Partners | Software Engineer | Remote - Nationwide | ✅ Sponsors (Med) · 12 H1B filings | **84%** | 1d ago | [Apply](https://ensemblehp.wd5.myworkdayjobs.com/en-US/ensemblehealthpartnerscareers/job/Remote---Nationwide/Engineer-Software_R041565) |
+| 🔥 | Perplexity | Member of Technical Staff (AI Software Engineer, Agents) | San Francisco | ✅ Sponsors (Med) | **76%** | today | [Apply](https://jobs.ashbyhq.com/perplexity/4ab39122-1d15-4874-8ab7-c6a241472743) |
 | 🔥 | OpenAI | Full Stack Software Engineer, Codex | San Francisco | ✅ Sponsors (Med) · 23 H1B filings | **76%** | 1d ago | [Apply](https://jobs.ashbyhq.com/openai/5ebd5f66-75db-4a96-8d39-babc14f1c582) |
 | 🔥 | Cockroach Labs | Member of Technical Staff (Disaster Recovery) | New York, NY | ✅ Sponsors (Med) | **72%** | 1d ago | [Apply](https://www.cockroachlabs.com/careers/job/?gh_jid=7775008) |
 | 🔥 | LexisNexis Risk Solutions | Software Engineer I | Colorado | ✅ Sponsors (Med) · 17 H1B filings | **60%** | 1d ago | [Apply](https://relx.wd3.myworkdayjobs.com/en-US/RiskSolutions/job/Colorado/Software-Engineer-I_R114780) |
@@ -260,7 +264,7 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 |  | Phoenix Contact | International Fellowship Program - Engineering | Middletown, Pennsylvania | — unknown | **8%** | 2d ago | [Apply](https://job-boards.greenhouse.io/phoenixcontact/jobs/7767142003) |
 |  | Sustainable Talent | QA Engineer – PC & Cloud Gaming | Redmond, WA | — unknown | **0%** | today | [Apply](https://job-boards.greenhouse.io/sustainabletalent/jobs/4704775005) |
 
-## 🗓️ Posted 3 days ago — 101 jobs
+## 🗓️ Posted 3 days ago — 100 jobs
 
 | | Company | Role | Location | Visa | Match | Posted | Apply |
 |--|--|--|--|--|--|--|--|
@@ -316,7 +320,6 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 |  | KLA | HPC Product Development Engineer | Milpitas, CA | ✅ Sponsors (Med) · 42 H1B filings | **40%** | 3d ago | [Apply](https://kla.wd1.myworkdayjobs.com/en-US/UR/job/Milpitas-CA/HPC-Product-Development-Engineer_2636257-1) |
 |  | Corteva | Protein Engineering Scientist | Des Moines, Iowa, United | ✅ Sponsors (Med) · 10 H1B filings | **40%** | 3d ago | [Apply](https://corteva.wd5.myworkdayjobs.com/en-US/ctp/job/Des-Moines-Iowa-United-States/Protein-Engineering-Scientist_247342W-1) |
 |  | KLA Corporation | HPC Product Development Engineer | Milpitas, CA | ✅ Sponsors (Med) · 42 H1B filings | **40%** | 3d ago | [Apply](https://kla.wd1.myworkdayjobs.com/en-US/search/job/Milpitas-CA/HPC-Product-Development-Engineer_2636257-2) |
-|  | Bosch | AI Research Engineer – Agentic AI | Sunnyvale, CA, United St | ✅ Sponsors (Med) | **36%** | 1d ago | [Apply](https://jobs.smartrecruiters.com/BoschGroup/744000131039795) |
 |  | Stanley Black & Decker | Project Engineer, Embedded Software | Towson, MD, United State | ✅ Sponsors (Med) · 11 H1B filings | **36%** | 3d ago | [Apply](https://sbdinc.wd1.myworkdayjobs.com/en-US/Stanley_Black_Decker_Career_Site/job/Towson-MD-United-States/Engineer-III--Embedded-Software_REQ-1000047065) |
 |  | Johnson Controls | Security Systems Applications Engineer, Strategic Accounts - Remote | Birmingham-Alabama-Unite | ✅ Sponsors (Med) · 16 H1B filings | **32%** | 3d ago | [Apply](https://jci.wd5.myworkdayjobs.com/en-US/JCI/job/Birmingham-Alabama-United-States-of-America/Security-Systems-Applications-Engineer--Strategic-Accounts---Remote_WD30268364) |
 |  | Titan | Foward Deployed Engineer - Enterprise | San Francisco | ✅ Sponsors (Med) · 10 H1B filings | **32%** | 3d ago | [Apply](https://jobs.ashbyhq.com/titan-msp/06d6e730-0379-40d7-a470-beb21f3b36ce) |
@@ -366,7 +369,7 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 |  | Apex | Spacecraft Systems Integration and Test Responsible Engineer (Early) | Los Angeles | — unknown | **0%** | 3d ago | [Apply](https://jobs.ashbyhq.com/apex-technology-inc/a9db4ffa-3e36-495e-b413-92097800e0f0) |
 |  | Apex | Spacecraft Systems Integration Engineer | Los Angeles | — unknown | **0%** | 3d ago | [Apply](https://jobs.ashbyhq.com/apex-technology-inc/ab6b7b22-4264-418b-8145-232c6589e7a0) |
 
-## 🗓️ Posted 4 days ago — 68 jobs
+## 🗓️ Posted 4 days ago — 69 jobs
 
 | | Company | Role | Location | Visa | Match | Posted | Apply |
 |--|--|--|--|--|--|--|--|
@@ -409,6 +412,7 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 |  | SpaceX | Factory Software Engineer (Starlink) | Bastrop, TX | ✅ Sponsors (Med) | **52%** | 4d ago | [Apply](https://boards.greenhouse.io/spacex/jobs/8574053002?gh_jid=8574053002) |
 |  | SharkNinja | Compliance Engineer | Needham, MA, United Stat | ✅ Sponsors (Med) | **48%** | 4d ago | [Apply](https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4686996006) |
 |  | Microchip Technology | FAE - Field Applications Engineer | CA - San Jose - Holger | ✅ Sponsors (Med) · 18 H1B filings | **48%** | 4d ago | [Apply](https://microchiphr.wd5.myworkdayjobs.com/en-US/external/job/CA---San-Jose---Holger/FAE---Field-Applications-Engineer_R2497-26) |
+|  | Bosch | AI Research Engineer – Agentic AI | Sunnyvale, CA, United St | ✅ Sponsors (Med) | **36%** | 1d ago | [Apply](https://jobs.smartrecruiters.com/BoschGroup/744000131039795) |
 |  | ASML | NXE First Line Support Production Engineer - Reticle Handler (CWW N2) | Wilton, CT, USA | ✅ Sponsors (Med) · 10 H1B filings | **24%** | 1d ago | [Apply](https://asml.wd3.myworkdayjobs.com/en-US/asmlext1/job/Wilton-CT-USA/NXE-First-Line-Support-Production-Engineer---Reticle-Handler--CWW-N2-_J-00337890) |
 |  | Atrium Health | HTM Clinical Engineer Associate | AAO Milwaukee - 750 W Vi | ✅ Sponsors (Med) · 12 H1B filings | **24%** | 4d ago | [Apply](https://aah.wd5.myworkdayjobs.com/en-US/External/job/AAO-Milwaukee---750-W-Virginia-St/HTM-Clinical-Engineer-Associate_R248263) |
 |  | MiTek | Design Engineer I | Roseville, CA, USA | ✅ Sponsors (Med) · 19 H1B filings | **24%** | 4d ago | [Apply](https://mii.wd5.myworkdayjobs.com/en-US/MiTek/job/Roseville-CA-USA/Design-Engineer-I_R06373) |
@@ -530,7 +534,7 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 |  | Broadcom Limited | Signal Integrity Engineer | USA-CA San Jose Innovati | ✅ Sponsors (Med) · 22 H1B filings | **8%** | 6d ago | [Apply](https://broadcom.wd1.myworkdayjobs.com/en-US/External_Career/job/USA-CA-San-Jose-Innovation-Drive/Signal-Integrity-Engineer_R024359-1) |
 |  | Broadcom Limited | Package Design Engineer | USA CA San Jose Innovation D | ✅ Sponsors (Med) · 22 H1B filings | **8%** | 6d ago | [Apply](https://broadcom.wd1.myworkdayjobs.com/en-US/External_Career/job/USA-CA-San-Jose-Innovation-Drive/Package-Design-Engineer_R024439-4) |
 
-## 🗓️ Posted 7 days ago — 133 jobs
+## 🗓️ Posted 7 days ago — 110 jobs
 
 | | Company | Role | Location | Visa | Match | Posted | Apply |
 |--|--|--|--|--|--|--|--|
@@ -591,31 +595,8 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 |  | LogicGate | Enterprise Systems Engineer | Chicago | — unknown | **80%** | 7d ago | [Apply](https://job-boards.greenhouse.io/logicgate/jobs/4703645005) |
 |  | Zip | Software Engineer, Forward Deployed (All Levels) | San Francisco | — unknown | **76%** | 7d ago | [Apply](https://jobs.ashbyhq.com/zip/3b54f98b-c0a7-4c6b-8a8b-b34a224db0ad) |
 |  | 10a Labs | Data Engineer, Web Scraping | Washington D.C. | — unknown | **76%** | today | [Apply](https://job-boards.greenhouse.io/10alabs/jobs/4203151009) |
-|  | Speechify | Software Engineer, Platform - Albuquerque, NM, USA | Albuquerque, NM, USA | — unknown | **76%** | 1d ago | [Apply](https://job-boards.greenhouse.io/speechify/jobs/5974185004) |
-|  | Speechify | Software Engineer, Platform - Ann Arbor, MI, USA | Ann Arbor, MI, USA | — unknown | **76%** | 1d ago | [Apply](https://job-boards.greenhouse.io/speechify/jobs/5974189004) |
-|  | Speechify | Software Engineer, Platform - Burlington, VT, USA | Burlington, VT, USA | — unknown | **76%** | 1d ago | [Apply](https://job-boards.greenhouse.io/speechify/jobs/5974206004) |
-|  | Speechify | Software Engineer, Platform - Charlotte, NC, USA | Charlotte, NC, USA | — unknown | **76%** | 1d ago | [Apply](https://job-boards.greenhouse.io/speechify/jobs/5974233004) |
-|  | Speechify | Software Engineer, Platform - College Station, TX, USA | College Station, TX, USA | — unknown | **76%** | 1d ago | [Apply](https://job-boards.greenhouse.io/speechify/jobs/5974163004) |
-|  | Speechify | Software Engineer, Platform - Culver City, CA, USA | Culver City, CA, USA | — unknown | **76%** | 1d ago | [Apply](https://job-boards.greenhouse.io/speechify/jobs/5974135004) |
 |  | Speechify | Software Engineer, Platform - Dallas, TX, USA | Dallas, TX, USA | — unknown | **76%** | today | [Apply](https://job-boards.greenhouse.io/speechify/jobs/5976203004) |
-|  | Speechify | Software Engineer, Platform - Denver, CO, USA | Denver, CO, USA | — unknown | **76%** | 1d ago | [Apply](https://job-boards.greenhouse.io/speechify/jobs/5974172004) |
-|  | Speechify | Software Engineer, Platform - Frisco, TX, USA | Frisco, TX, USA | — unknown | **76%** | 1d ago | [Apply](https://job-boards.greenhouse.io/speechify/jobs/5974155004) |
-|  | Speechify | Software Engineer, Platform - Greensboro, NC, USA | Greensboro, NC, USA | — unknown | **76%** | 1d ago | [Apply](https://job-boards.greenhouse.io/speechify/jobs/5974244004) |
-|  | Speechify | Software Engineer, Platform - Ithaca, NY, USA | Ithaca, NY, USA | — unknown | **76%** | 1d ago | [Apply](https://job-boards.greenhouse.io/speechify/jobs/5974194004) |
-|  | Speechify | Software Engineer, Platform - Knoxville, TN, USA | Knoxville, TN, USA | — unknown | **76%** | 1d ago | [Apply](https://job-boards.greenhouse.io/speechify/jobs/5974255004) |
-|  | Speechify | Software Engineer, Platform - Las Vegas, NV, USA | Las Vegas, NV, USA | — unknown | **76%** | 1d ago | [Apply](https://job-boards.greenhouse.io/speechify/jobs/5974180004) |
-|  | Speechify | Software Engineer, Platform - Lausanne, Switzerland | Lausanne, Switzerland | — unknown | **76%** | 1d ago | [Apply](https://job-boards.greenhouse.io/speechify/jobs/5974286004) |
-|  | Speechify | Software Engineer, Platform - Los Angeles, CA, USA | Los Angeles, CA, USA | — unknown | **76%** | 1d ago | [Apply](https://job-boards.greenhouse.io/speechify/jobs/5974133004) |
-|  | Speechify | Software Engineer, Platform - Naperville, IL, USA | Naperville, IL, USA | — unknown | **76%** | 1d ago | [Apply](https://job-boards.greenhouse.io/speechify/jobs/5974171004) |
-|  | Speechify | Software Engineer, Platform - New Haven, CT, USA | New Haven, CT, USA | — unknown | **76%** | 1d ago | [Apply](https://job-boards.greenhouse.io/speechify/jobs/5974202004) |
 |  | Speechify | Software Engineer, Platform - New York, NY, USA | New York, NY, USA | — unknown | **76%** | today | [Apply](https://job-boards.greenhouse.io/speechify/jobs/5976197004) |
-|  | Speechify | Software Engineer, Platform - Reston, VA, USA | Reston, VA, USA | — unknown | **76%** | 1d ago | [Apply](https://job-boards.greenhouse.io/speechify/jobs/5974214004) |
-|  | Speechify | Software Engineer, Platform - San Jose, CA, USA | San Jose, CA, USA | — unknown | **76%** | 1d ago | [Apply](https://job-boards.greenhouse.io/speechify/jobs/5974120004) |
-|  | Speechify | Software Engineer, Platform - Savannah, GA, USA | Savannah, GA, USA | — unknown | **76%** | 1d ago | [Apply](https://job-boards.greenhouse.io/speechify/jobs/5974230004) |
-|  | Speechify | Software Engineer, Platform - Scottsdale, AZ, USA | Scottsdale, AZ, USA | — unknown | **76%** | 1d ago | [Apply](https://job-boards.greenhouse.io/speechify/jobs/5974141004) |
-|  | Speechify | Software Engineer, Platform - Silver Spring, MD, USA | Silver Spring, MD, USA | — unknown | **76%** | 1d ago | [Apply](https://job-boards.greenhouse.io/speechify/jobs/5974225004) |
-|  | Speechify | Software Engineer, Platform - Sunnyvale, CA, USA | Sunnyvale, CA, USA | — unknown | **76%** | 1d ago | [Apply](https://job-boards.greenhouse.io/speechify/jobs/5974127004) |
-|  | Speechify | Software Engineer, Platform - Tucson, AZ, USA | Tucson, AZ, USA | — unknown | **76%** | 1d ago | [Apply](https://job-boards.greenhouse.io/speechify/jobs/5974145004) |
 |  | May Mobility | Machine Learning Engineer II - Autonomous Driving Training Infrastructure | Remote, USA | — unknown | **68%** | 7d ago | [Apply](https://job-boards.greenhouse.io/maymobility/jobs/8580411002) |
 |  | Adyen | Member of Technical Staff | San Francisco | — unknown | **64%** | today | [Apply](https://job-boards.greenhouse.io/adyen/jobs/7687317) |
 |  | Giga AI | Forward Deployed Engineer | San Francisco | — unknown | **64%** | 7d ago | [Apply](https://jobs.ashbyhq.com/gigaml/cbe0ddad-a47c-420b-bf77-73721959d4fa) |
@@ -667,5 +648,33 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 |  | CompassX Group | Cloud Contact Center Engineer - Webex ( 6 Month Contract) | Louisville, KY | — unknown | **16%** | 7d ago | [Apply](https://jobs.lever.co/compassx/e47d5a4d-7c03-4c9e-a3a0-c10b09eae91d) |
 |  | Skild AI | Research Robotics/Computer Vision Engineer | San Mateo | — unknown | **16%** | 7d ago | [Apply](https://job-boards.greenhouse.io/skildai-careers/jobs/5248733008) |
 |  | IEM | Switchgear Engineer - Low Voltage / Medium Voltage | Franklin, Tennessee, Uni | — unknown | **8%** | today | [Apply](https://job-boards.greenhouse.io/industrialelectricmanufacturing/jobs/4033541009) |
+
+## 🗓️ Posted 8 days ago — 23 jobs
+
+| | Company | Role | Location | Visa | Match | Posted | Apply |
+|--|--|--|--|--|--|--|--|
+|  | Speechify | Software Engineer, Platform - Albuquerque, NM, USA | Albuquerque, NM, USA | — unknown | **76%** | 1d ago | [Apply](https://job-boards.greenhouse.io/speechify/jobs/5974185004) |
+|  | Speechify | Software Engineer, Platform - Ann Arbor, MI, USA | Ann Arbor, MI, USA | — unknown | **76%** | 1d ago | [Apply](https://job-boards.greenhouse.io/speechify/jobs/5974189004) |
+|  | Speechify | Software Engineer, Platform - Burlington, VT, USA | Burlington, VT, USA | — unknown | **76%** | 1d ago | [Apply](https://job-boards.greenhouse.io/speechify/jobs/5974206004) |
+|  | Speechify | Software Engineer, Platform - Charlotte, NC, USA | Charlotte, NC, USA | — unknown | **76%** | 1d ago | [Apply](https://job-boards.greenhouse.io/speechify/jobs/5974233004) |
+|  | Speechify | Software Engineer, Platform - College Station, TX, USA | College Station, TX, USA | — unknown | **76%** | 1d ago | [Apply](https://job-boards.greenhouse.io/speechify/jobs/5974163004) |
+|  | Speechify | Software Engineer, Platform - Culver City, CA, USA | Culver City, CA, USA | — unknown | **76%** | 1d ago | [Apply](https://job-boards.greenhouse.io/speechify/jobs/5974135004) |
+|  | Speechify | Software Engineer, Platform - Denver, CO, USA | Denver, CO, USA | — unknown | **76%** | 1d ago | [Apply](https://job-boards.greenhouse.io/speechify/jobs/5974172004) |
+|  | Speechify | Software Engineer, Platform - Frisco, TX, USA | Frisco, TX, USA | — unknown | **76%** | 1d ago | [Apply](https://job-boards.greenhouse.io/speechify/jobs/5974155004) |
+|  | Speechify | Software Engineer, Platform - Greensboro, NC, USA | Greensboro, NC, USA | — unknown | **76%** | 1d ago | [Apply](https://job-boards.greenhouse.io/speechify/jobs/5974244004) |
+|  | Speechify | Software Engineer, Platform - Ithaca, NY, USA | Ithaca, NY, USA | — unknown | **76%** | 1d ago | [Apply](https://job-boards.greenhouse.io/speechify/jobs/5974194004) |
+|  | Speechify | Software Engineer, Platform - Knoxville, TN, USA | Knoxville, TN, USA | — unknown | **76%** | 1d ago | [Apply](https://job-boards.greenhouse.io/speechify/jobs/5974255004) |
+|  | Speechify | Software Engineer, Platform - Las Vegas, NV, USA | Las Vegas, NV, USA | — unknown | **76%** | 1d ago | [Apply](https://job-boards.greenhouse.io/speechify/jobs/5974180004) |
+|  | Speechify | Software Engineer, Platform - Lausanne, Switzerland | Lausanne, Switzerland | — unknown | **76%** | 1d ago | [Apply](https://job-boards.greenhouse.io/speechify/jobs/5974286004) |
+|  | Speechify | Software Engineer, Platform - Los Angeles, CA, USA | Los Angeles, CA, USA | — unknown | **76%** | 1d ago | [Apply](https://job-boards.greenhouse.io/speechify/jobs/5974133004) |
+|  | Speechify | Software Engineer, Platform - Naperville, IL, USA | Naperville, IL, USA | — unknown | **76%** | 1d ago | [Apply](https://job-boards.greenhouse.io/speechify/jobs/5974171004) |
+|  | Speechify | Software Engineer, Platform - New Haven, CT, USA | New Haven, CT, USA | — unknown | **76%** | 1d ago | [Apply](https://job-boards.greenhouse.io/speechify/jobs/5974202004) |
+|  | Speechify | Software Engineer, Platform - Reston, VA, USA | Reston, VA, USA | — unknown | **76%** | 1d ago | [Apply](https://job-boards.greenhouse.io/speechify/jobs/5974214004) |
+|  | Speechify | Software Engineer, Platform - San Jose, CA, USA | San Jose, CA, USA | — unknown | **76%** | 1d ago | [Apply](https://job-boards.greenhouse.io/speechify/jobs/5974120004) |
+|  | Speechify | Software Engineer, Platform - Savannah, GA, USA | Savannah, GA, USA | — unknown | **76%** | 1d ago | [Apply](https://job-boards.greenhouse.io/speechify/jobs/5974230004) |
+|  | Speechify | Software Engineer, Platform - Scottsdale, AZ, USA | Scottsdale, AZ, USA | — unknown | **76%** | 1d ago | [Apply](https://job-boards.greenhouse.io/speechify/jobs/5974141004) |
+|  | Speechify | Software Engineer, Platform - Silver Spring, MD, USA | Silver Spring, MD, USA | — unknown | **76%** | 1d ago | [Apply](https://job-boards.greenhouse.io/speechify/jobs/5974225004) |
+|  | Speechify | Software Engineer, Platform - Sunnyvale, CA, USA | Sunnyvale, CA, USA | — unknown | **76%** | 1d ago | [Apply](https://job-boards.greenhouse.io/speechify/jobs/5974127004) |
+|  | Speechify | Software Engineer, Platform - Tucson, AZ, USA | Tucson, AZ, USA | — unknown | **76%** | 1d ago | [Apply](https://job-boards.greenhouse.io/speechify/jobs/5974145004) |
 
 <sub>Built with a free Python scraper + GitHub Actions — no paid APIs. Sponsorship tiers are indicative; verify on the posting. Closed roles are kept for history. Data from public ATS feeds (Greenhouse, Lever, Ashby, Workday).</sub>

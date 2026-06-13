@@ -6,11 +6,22 @@ Every "Apply" opens in a NEW TAB (target=_blank), which a README cannot do.
 from datetime import datetime
 from zoneinfo import ZoneInfo
 from freshness import age_in_days
+import os
 import html
 import json
 
 ET = ZoneInfo("America/New_York")
 SITE_URL = "https://siddarthareddy8.github.io/JobsBuddy/"
+
+
+def _coverage():
+    try:
+        p = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+                         "companies.json")
+        c = json.load(open(p))
+        return len(c), len(set(x["ats"] for x in c))
+    except Exception:
+        return 0, 0
 
 
 def _age_bucket(j):
@@ -90,7 +101,9 @@ def render_html(jobs, profile, today):
 <td class="c-apply"><a class="apply" href="{url}" target="_blank" rel="noopener noreferrer">Apply</a></td>
 </tr>""")
 
+    n_companies, n_ats = _coverage()
     return _PAGE.format(now=now, total=total, open_now=open_now,
+                        n_companies=n_companies, n_ats=n_ats,
                         new_today=new_today, sponsor_n=sponsor_n, site=SITE_URL,
                         rows="\n".join(rows), jsonld=_build_jsonld(jobs))
 
@@ -259,7 +272,8 @@ footer a{{font-weight:600}}
       <div class="metric"><b class="mono">{open_now}</b><span>Open roles</span></div>
       <div class="metric"><b class="mono">{new_today}</b><span>Added today</span></div>
       <div class="metric"><b class="mono">{sponsor_n}</b><span>Visa sponsors</span></div>
-      <div class="metric"><b class="mono">$0</b><span>Cost forever</span></div>
+      <div class="metric"><b class="mono">{n_companies}</b><span>Companies scanned</span></div>
+      <div class="metric"><b class="mono">{n_ats}</b><span>ATS systems</span></div>
     </div>
   </section>
 

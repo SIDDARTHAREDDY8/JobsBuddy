@@ -6,8 +6,21 @@ Newest day on top, older days below. Within a day: sponsors + best match first.
 from datetime import datetime
 from zoneinfo import ZoneInfo
 from freshness import age_in_days
+import os
+import json as _json
 
 ET = ZoneInfo("America/New_York")
+
+
+def _coverage():
+    """How many companies + ATS systems we scrape (read from companies.json)."""
+    try:
+        p = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+                         "companies.json")
+        c = _json.load(open(p))
+        return len(c), len(set(x["ats"] for x in c))
+    except Exception:
+        return 0, 0
 
 
 def _age_bucket(j):
@@ -68,7 +81,16 @@ def render_readme(jobs, profile, today):
              "style=for-the-badge\" alt=\"Open jobs\">")
     L.append("<img src=\"https://img.shields.io/badge/cost-%240%20forever-success?"
              "style=for-the-badge\" alt=\"Free\">")
+    n_companies, n_ats = _coverage()
+    L.append(f"<img src=\"https://img.shields.io/badge/companies-{n_companies}-blueviolet?"
+             "style=for-the-badge\" alt=\"Companies\">")
+    L.append(f"<img src=\"https://img.shields.io/badge/ATS%20systems-{n_ats}-orange?"
+             "style=for-the-badge\" alt=\"ATS systems\">")
     L.append("</p>")
+    L.append("")
+    L.append(f"📡 **Scanning {n_companies:,} companies** across **{n_ats} ATS systems** "
+             "(Greenhouse, Lever, Ashby, Workday, SmartRecruiters, Workable, Pinpoint, Breezy) "
+             "+ The Muse aggregator — re-scraped **every 6 hours.**")
     L.append("")
     L.append("> ### 🛂 Every job here is at a company with a **real H1B visa-sponsorship history.**")
     L.append("> No more applying to 500 jobs only to hear *“sorry, we don’t sponsor.”*")
