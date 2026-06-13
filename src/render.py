@@ -90,7 +90,7 @@ def render_readme(jobs, profile, today):
     L.append("")
     L.append(f"📡 **Scanning {n_companies:,} companies** across **{n_ats} ATS systems** "
              "(Greenhouse, Lever, Ashby, Workday, SmartRecruiters, Workable, Pinpoint, Breezy) "
-             "+ The Muse aggregator — re-scraped **every 6 hours.**")
+             "— re-scraped **every 6 hours**, real posting dates only.")
     L.append("")
     L.append("> ### 🛂 Every job here is at a company with a **real H1B visa-sponsorship history.**")
     L.append("> No more applying to 500 jobs only to hear *“sorry, we don’t sponsor.”*")

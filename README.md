@@ -3,13 +3,13 @@
 <p align="center">
 <a href="https://github.com/SIDDARTHAREDDY8/JobsBuddy/stargazers"><img src="https://img.shields.io/github/stars/SIDDARTHAREDDY8/JobsBuddy?style=for-the-badge&logo=github&color=gold" alt="Stars"></a>
 <img src="https://img.shields.io/badge/updated-every%206%20hours-brightgreen?style=for-the-badge" alt="Auto-updated">
-<img src="https://img.shields.io/badge/open%20jobs-330-blue?style=for-the-badge" alt="Open jobs">
+<img src="https://img.shields.io/badge/open%20jobs-326-blue?style=for-the-badge" alt="Open jobs">
 <img src="https://img.shields.io/badge/cost-%240%20forever-success?style=for-the-badge" alt="Free">
 <img src="https://img.shields.io/badge/companies-1994-blueviolet?style=for-the-badge" alt="Companies">
 <img src="https://img.shields.io/badge/ATS%20systems-8-orange?style=for-the-badge" alt="ATS systems">
 </p>
 
-📡 **Scanning 1,994 companies** across **8 ATS systems** (Greenhouse, Lever, Ashby, Workday, SmartRecruiters, Workable, Pinpoint, Breezy) + The Muse aggregator — re-scraped **every 6 hours.**
+📡 **Scanning 1,994 companies** across **8 ATS systems** (Greenhouse, Lever, Ashby, Workday, SmartRecruiters, Workable, Pinpoint, Breezy) — re-scraped **every 6 hours**, real posting dates only.
 
 > ### 🛂 Every job here is at a company with a **real H1B visa-sponsorship history.**
 > No more applying to 500 jobs only to hear *“sorry, we don’t sponsor.”*
@@ -42,22 +42,19 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 3. 📋 Scroll the table below — newest jobs are at the top.
 4. 🛂 Look for the **✅ Sponsors** tag, then hit **Apply**.
 
-<sub>🔄 Last updated: **2026-06-13 12:54 AM ET** • Total roles tracked: **584** • Open now: **330** • 🆕 Added today: **142**</sub>
+<sub>🔄 Last updated: **2026-06-13 01:02 AM ET** • Total roles tracked: **580** • Open now: **326** • 🆕 Added today: **138**</sub>
 
 **Legend:** 🔥 NEW = added in the latest update (older jobs lose this automatically) • ✅ Sponsors = recent H1B filing history • 🔒 = no longer listed • Posted = how long ago the company posted it • Match % = how strong a fit the role is.
 
 ---
 
-## 🔥 Posted Today — 39 jobs
+## 🔥 Posted Today — 36 jobs
 
 | | Company | Role | Location | Visa | Match | Posted | Apply |
 |--|--|--|--|--|--|--|--|
 | 🔥 | U.S. Bank | Software Engineer 2 (DevOps Engineer) | Irving TX | ✅ Sponsors (High) · 59 H1B filings | **100%** | today | [Apply](https://usbank.wd1.myworkdayjobs.com/en-US/US_Bank_Careers/job/Irving-TX/Software-Engineer-2--DevOps-Engineer-_2026-0015012) |
 | 🔥 | Toast | Data Scientist II | Boston, MA | ✅ Sponsors (High) | **100%** | today | [Apply](https://careers.toasttab.com/jobs?gh_jid=7984730) |
-| 🔥 | Apple | System Infrastructure Developer | Austin, TX | ✅ Sponsors (High) | **88%** | today | [Apply](https://www.themuse.com/jobs/apple/system-infrastructure-developer-7c8f6d) |
 | 🔥 | Figma | Data Scientist, Finance | San Francisco, CA • New  | ✅ Sponsors (High) | **84%** | today | [Apply](https://boards.greenhouse.io/figma/jobs/6013304004?gh_jid=6013304004) |
-| 🔥 | Apple | Software Development Engineer - Test, Accessibility, Apple Services Engineering | Cupertino, CA | ✅ Sponsors (High) | **52%** | today | [Apply](https://www.themuse.com/jobs/apple/software-development-engineer-test-accessibility-apple-services-engineering) |
-| 🔥 | Apple | Machine Learning Engineer, Platform Architecture | Cupertino, CA | ✅ Sponsors (High) | **48%** | today | [Apply](https://www.themuse.com/jobs/apple/machine-learning-engineer-platform-architecture-ea11d8) |
 | 🔥 | Micron Technology | (New College Grad) Engineer - Shift Process | Boise, ID - Main Site | ✅ Sponsors (High) · 80 H1B filings | **8%** | today | [Apply](https://micron.wd1.myworkdayjobs.com/en-US/External/job/Boise-ID---Main-Site/XMLNAME--New-College-Grad--Engineer---Shift-Process_JR103341) |
 | 🔥 | Civitech | Software Engineer, Geospatial Data | Austin, TX or Remote | ✅ Sponsors (Med) · 15 H1B filings | **100%** | today | [Apply](https://jobs.lever.co/civitech/15ab6999-436f-468c-bfe1-bfb1d20000f9) |
 | 🔥 | Chime | Software Engineer, Infrastructure | Remote, USA | ✅ Sponsors (Med) · 31 H1B filings | **92%** | today | [Apply](https://boards.greenhouse.io/chime/jobs/8573625002?gh_jid=8573625002) |
@@ -163,7 +160,7 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 | 🔥 | Tokai Rika Group | Quality Resident Engineer | Plano, TX | — unknown | **0%** | 1d ago | [Apply](https://jobs.lever.co/tramgroup/7179e3b3-afb9-4c4b-bb41-49e9804cfaf2) |
 | 🔥 | Xsolla | Xsolla School – Student Application (Engineering) | Raleigh, United States | — unknown | **0%** | 1d ago | [Apply](https://jobs.lever.co/xsolla/e4d9543a-af24-4caa-97ab-78cff02e3037) |
 
-## 🗓️ Posted 2 days ago — 96 jobs
+## 🗓️ Posted 2 days ago — 95 jobs
 
 | | Company | Role | Location | Visa | Match | Posted | Apply |
 |--|--|--|--|--|--|--|--|
@@ -177,7 +174,6 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 |  | Salesforce | Software Engineering LMTS | California - Palo Alto  +1 m | ✅ Sponsors (High) · 442 H1B filings | **92%** | 2d ago | [Apply](https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/Washington---Bellevue/Software-Engineering-LMTS_JR345586) |
 |  | State Street | Python Developer , Officer | Quincy, Massachusetts | ✅ Sponsors (High) · 98 H1B filings | **88%** | 2d ago | [Apply](https://statestreet.wd1.myworkdayjobs.com/en-US/Global/job/Quincy-Massachusetts/Python-Developer---Officer_R-781782) |
 |  | Bank of America | Platform Engineer | Charlotte | ✅ Sponsors (High) · 136 H1B filings | **72%** | 2d ago | [Apply](https://ghr.wd1.myworkdayjobs.com/en-US/us-emplsv/job/Charlotte/Platform-Engineer_26019040) |
-|  | Uber | Software Engineer II- Grocery & Retail | Sunnyvale, CA | ✅ Sponsors (High) | **68%** | 2d ago | [Apply](https://www.themuse.com/jobs/uber/software-engineer-ii-grocery-retail) |
 |  | Micron Technology | Product Development Engineer | Boise, ID - Main Site | ✅ Sponsors (High) · 80 H1B filings | **64%** | 2d ago | [Apply](https://micron.wd1.myworkdayjobs.com/en-US/External/job/Boise-ID---Main-Site/Product-Development-Engineer_JR103405) |
 |  | RELX | Data Scientist | Philadelphia, PA | ✅ Sponsors (High) · 52 H1B filings | **60%** | 2d ago | [Apply](https://relx.wd3.myworkdayjobs.com/en-US/relx/job/Philadelphia-PA/Data-Scientist_R114709-1) |
 |  | Bank of America | Software Engineer II | Charlotte | ✅ Sponsors (High) · 136 H1B filings | **52%** | 2d ago | [Apply](https://ghr.wd1.myworkdayjobs.com/en-US/us-emplsv/job/Charlotte/TA084-Software-Engineer-II_26018213) |
