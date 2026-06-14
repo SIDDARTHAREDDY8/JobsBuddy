@@ -19,7 +19,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-06-06",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true,
     "sponsor_cases": null,
     "sponsor_cert": null
@@ -44,7 +44,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-06-06",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true,
     "sponsor_cases": null,
     "sponsor_cert": null
@@ -69,7 +69,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-06-06",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true,
     "sponsor_cases": null,
     "sponsor_cert": null
@@ -97,57 +97,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-06",
-    "last_seen": "2026-06-13",
-    "open": true,
-    "sponsor_cases": null,
-    "sponsor_cert": null
-  },
-  "450f389875c9": {
-    "company": "Roku",
-    "title": "Security Engineer",
-    "location": "Austin, Texas",
-    "url": "https://www.weareroku.com/jobs/7634294?gh_jid=7634294",
-    "description": "<div class=\"content-intro\"><h2 style=\"font-family: GothamBold,Helvetica,Arial,sans-serif; color: #662d91;\">Teamwork makes the stream work.</h2> <p>&nbsp;</p> <h3 style=\"font-family: GothamBold,Helvetica,Arial,sans-serif;\"><strong>Roku is changing how the world watches TV</strong></h3> <p>Roku is the #1 TV streaming platform in the U.S., Canada, and Mexico, and we've set our sights on powering every television in the world. Roku pioneered streaming to the TV. Our mission is to be the TV streaming platform that connects the entire TV ecosystem. We connect consumers to the content they love, enable content publishers to build and monetize large audiences, and provide advertisers unique capabilities to engage consumers.</p> <p>From your first day at Roku, you'll make a valuable - and valued - contribution. We're a fast-growing public company where no one is a bystander. We offer you the opportunity to delight millions of TV streamers around the world while gaining meaningful experience across a variety of disciplines.</p> <p>&nbsp;</p></div><h3><span data-contrast=\"auto\">About the Team&nbsp;</span><span data-ccp-props=\"{}\">&nbsp;</span></h3> <p><span data-contrast=\"auto\">The Roku trust engineering team is a close-knit group of professionals passionate about information security. </span><span data-contrast=\"auto\">Our mission is to protect our customers, partners, devices, services, infrastructure, and data. We work collaboratively, sharing insights and expertise to stay ahead of the curve. </span><span data-contrast=\"auto\">Join us, and you\u2019ll be part of a dynamic team that thrives on challenges and celebrates victories together.</span></p> <p>&nbsp;</p> <h3><span data-contrast=\"auto\">About the Role&nbsp;</span><span data-ccp-props=\"{}\">&nbsp;</span></h3> <p><span data-contrast=\"auto\">As a Security Engineer on the Trust engineering team, you will support the design, implementation, and management of Roku\u2019s end-to-end security systems and controls that impact a global user base. </span><span data-contrast=\"auto\">Key responsibilities will include supporting the development of security controls, managing and maintaining SIEM/SOAR tooling and threat intelligence platforms, conducting technical incident response, managing vulnerability and risk assessments, and mentoring more junior analysts. You will collaborate with teams within Trust engineering and across the wider organization to support, develop, and influence strong security practices and postures.</span></p> <p>&nbsp;</p> <h3><span data-contrast=\"auto\">What you will be doing</span></h3> <ul> <li><span data-contrast=\"auto\">Trust Information Security Operations, s</span><span data-contrast=\"auto\">upporting the design and implementation of information security systems&nbsp; and frameworks, including threat prevention, detection and mitigation tools</span></li> <li>Manage, maintain and optimize security information and event management (SIEM) platforms and associated security infrastructure</li> <li>Det",
-    "posted_at": "2026-06-06T00:05:25-04:00",
-    "source": "greenhouse",
-    "opt_friendly": true,
-    "sponsor_tier": "medium",
-    "sponsors_visa": true,
-    "match_score": 32,
-    "matched_skills": [
-      "go",
-      "aws",
-      "rag"
-    ],
-    "age_days": 0,
-    "fresh": true,
-    "first_seen": "2026-06-06",
-    "last_seen": "2026-06-06",
-    "open": false,
-    "sponsor_cases": 10,
-    "sponsor_cert": 100.0
-  },
-  "43e49427804a": {
-    "company": "Perplexity",
-    "title": "Member of Technical Staff (AI Software Engineer, Multimodal)",
-    "location": "San Francisco",
-    "url": "https://jobs.ashbyhq.com/perplexity/6e328b72-9f57-49e0-a1a8-4428abf8ff81",
-    "description": "Perplexity is hiring builders to join our Multimodal AI group, an industry-leading team defining the next generation of human-AI interaction. Our team is creating experiences that move beyond the touch interface, allowing people to communicate with AI through the form factors that best meet their needs. These include through voice, images, video, or new modalities we have yet to invent. As an engineer on the Multimodal AI team, you will work across the stack to build the product experiences and platform systems that make this possible across our applications. Our stack spans immersive UIs, realtime audio processing, evaluation systems, backend infrastructure, and supporting libraries and SDKs. We\u2019ll work with you to match your strengths and interests to the areas where you can drive the most impact, while collaborating as a team to turn ambiguous, bleeding-edge problems into reliable experiences for users. WHY PERPLEXITY IS DIFFERENT - Craftsmanship. We build high quality, tasteful products targeting both AI native and AI curious users. - Ownership. You identify the problem, design the solution and ship it. - Entrepreneurship. We think like founders, act with urgency, and hustle to deliver for each other and our users. - Scholarship. Work among highly talented peers, pursuing knowledge and truth, upleveling ourselves, our teams, and our products. - Partnership. We amplify each others\u2019 strengths, break down silos, and give selflessly to help our colleagues deliver excellence. WHAT YOU'LL DO - Design, build, and own product and multimodal platform systems for Perplexity. - Lead features, projects and products end-to-end, from problem definition to technical design, implementation, and launch. - Hill climb on hard problems, continuously iterating to improve for ourselves and customers. - Partner closely with engineers, product managers, designers, data scientists, and go-to-market teams. - Build systems that take into account the nuances of multimodal AI. - Work closely with client verticals to integrate new features into their stack. WHAT WE'RE LOOKING FOR - Experience building and operating production systems at a meaningful scale. - Ability to work up and down the stack, from deep systems primitives to getting the pixels and prompts just right. - Strong product judgment and the ability to translate user problems into simple, effective technical solutions. - Genuine interest and adoption of multimodal AI products and willingness to learn quickly. - Ability to think through novel problems and implement companion long-term solutions that scale. NICE TO HAVE - Background including work with realtime audio or video processing. - Experience with audio stack technologies including audio processing modules (APMs), echo cancellation, noise reduction/cancellation, automatic-gain control (AGC), etc. - Experience with immersive UIs integrating with realtime data. - Some experience or familiarity with Rust or C++ OUR MISSION Perplexity\u2019s mission is to power c",
-    "posted_at": "2026-06-06T03:28:15.522+00:00",
-    "source": "ashby",
-    "opt_friendly": true,
-    "sponsor_tier": "medium",
-    "sponsors_visa": true,
-    "match_score": 44,
-    "matched_skills": [
-      "go",
-      "rest",
-      "agent"
-    ],
-    "age_days": 7,
-    "fresh": false,
-    "first_seen": "2026-06-06",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true,
     "sponsor_cases": null,
     "sponsor_cert": null
@@ -172,35 +122,10 @@
       "rag",
       "agent"
     ],
-    "age_days": 1,
+    "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-06",
-    "last_seen": "2026-06-13",
-    "open": true,
-    "sponsor_cases": null,
-    "sponsor_cert": null
-  },
-  "7cbac22f0071": {
-    "company": "Perplexity",
-    "title": "Member of Technical Staff (ML Engineer, Recommendations & User Modeling)",
-    "location": "San Francisco",
-    "url": "https://jobs.ashbyhq.com/perplexity/affd3040-91e4-4e0c-bd2f-4b022c613f91",
-    "description": "Perplexity is seeking experienced ML engineers to design, build, and optimize the recommendation systems that power core experiences on Perplexity. Perplexity builds AI for those who expect more. Our products are designed to help people find answers, make their most consequential decisions, and complete increasingly ambitious work. Across these use cases, the Perplexity experience must feel deeply personal. Great recommendations and user understanding are central to delighting and delivering for each user. To do this, we are reimagining recommendation systems for the LLM era. Our goal is to combine the intelligence of frontier LLMs, the personalization context that comes from real product usage, and the continual learning capabilities of modern recommendation systems. We build systems that draw on past context and connected data sources to deeply understand each user's needs and recommend the actions that help them get the most out of Perplexity. WHY PERPLEXITY IS DIFFERENT - Craftsmanship. We build high quality, tasteful products targeting both AI native and AI curious users. - Ownership. You identify the problem, design the solution and ship it. - Entrepreneurship. We think like founders, act with urgency, and hustle to deliver for each other and our users. - Scholarship. Work among highly talented peers, pursuing knowledge and truth, upleveling ourselves, our teams, and our products. - Partnership. We amplify each others\u2019 strengths, break down silos, and give selflessly to help our colleagues deliver excellence. WHAT YOU'LL DO - Own the personalization and ranking behind key product surfaces to make Perplexity more useful and drive impact on core user and business metrics. - Build user modeling that captures intent, preference, and propensity, and powers more relevant, more personalized experiences. - Design the decision layer that balances competing objectives to produce the best overall experience for the user. - Build the data and evaluation foundations that let these systems learn and improve with usage. - Help shape the technical direction of ranking, recommendations, and personalization at Perplexity. WHAT WE'RE LOOKING FOR - Deep, hands-on experience building production recommendation, ranking, or personalization systems at scale. - Strong ML fundamentals, covering areas such as engagement modeling, model calibration, offline and online metrics, and online experimentation. - Experience integrating LLMs into ranking, retrieval, or personalization pipelines. - Taste and judgment for how personalization should work in an LLM-native product, and curiosity about reimagining it from first principles. - For tech leadership roles, we will also look for prior experience setting technical direction for recommendation/ranking projects. NICE TO HAVE - Experience with large-scale ranking and training infrastructure (multi-stage retrieval and ranking, feature stores, real-time serving). - Background in user understanding, feed ranking, notifications,",
-    "posted_at": "2026-06-06T04:33:07.452+00:00",
-    "source": "ashby",
-    "opt_friendly": true,
-    "sponsor_tier": "medium",
-    "sponsors_visa": true,
-    "match_score": 32,
-    "matched_skills": [
-      "go",
-      "llm",
-      "agent"
-    ],
-    "age_days": 7,
-    "fresh": false,
-    "first_seen": "2026-06-06",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true,
     "sponsor_cases": null,
     "sponsor_cert": null
@@ -228,7 +153,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-06-06",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true,
     "sponsor_cases": null,
     "sponsor_cert": null
@@ -256,7 +181,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-06-06",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true,
     "sponsor_cases": null,
     "sponsor_cert": null
@@ -283,7 +208,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-06-06",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true,
     "sponsor_cases": null,
     "sponsor_cert": null
@@ -310,7 +235,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-06-06",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true,
     "sponsor_cases": null,
     "sponsor_cert": null
@@ -340,7 +265,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-06-06",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "6be4a6efc852": {
@@ -550,7 +475,7 @@
     "location": "Ann Arbor, MI",
     "url": "https://kla.wd1.myworkdayjobs.com/en-US/AnnArbor/job/Ann-Arbor-MI/HPC-Systems-Engineer_2635350",
     "description": "HPC Systems Engineer",
-    "posted_at": "Posted 3 Days Ago",
+    "posted_at": "Posted 4 Days Ago",
     "source": "workday",
     "opt_friendly": true,
     "sponsor_tier": "medium",
@@ -564,10 +489,10 @@
       "rds",
       "rag"
     ],
-    "age_days": 3,
+    "age_days": 4,
     "fresh": false,
     "first_seen": "2026-06-06",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "445fcfb05495": {
@@ -785,7 +710,7 @@
     "fresh": false,
     "first_seen": "2026-06-06",
     "last_seen": "2026-06-13",
-    "open": true
+    "open": false
   },
   "315ab2589cb9": {
     "company": "Broadcom Limited",
@@ -959,7 +884,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-06-07",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "81afe3949ec2": {
@@ -1043,7 +968,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-06-07",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "f20f31bb1069": {
@@ -1325,7 +1250,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-07",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "6e0bb7318eb3": {
@@ -1353,7 +1278,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-06-07",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "dbf04c4a6929": {
@@ -2156,7 +2081,7 @@
     "location": "Charlotte",
     "url": "https://ghr.wd1.myworkdayjobs.com/en-US/us-emplsv/job/Charlotte/Platform-Engineer_26019040",
     "description": "Platform Engineer",
-    "posted_at": "Posted 2 Days Ago",
+    "posted_at": "Posted 3 Days Ago",
     "source": "workday",
     "opt_friendly": true,
     "sponsor_tier": "high",
@@ -2172,10 +2097,10 @@
       "gcp",
       "kubernetes"
     ],
-    "age_days": 2,
-    "fresh": true,
+    "age_days": 3,
+    "fresh": false,
     "first_seen": "2026-06-07",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "fb4dbcc601eb": {
@@ -2200,11 +2125,11 @@
       "aws",
       "rds"
     ],
-    "age_days": 3,
+    "age_days": 4,
     "fresh": false,
     "first_seen": "2026-06-07",
-    "last_seen": "2026-06-13",
-    "open": false
+    "last_seen": "2026-06-14",
+    "open": true
   },
   "15ac99a20f54": {
     "company": "F5",
@@ -2759,7 +2684,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "85cb8c5d497d": {
@@ -2787,7 +2712,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "32567b20012f": {
@@ -2812,10 +2737,10 @@
       "rds",
       "rag"
     ],
-    "age_days": 4,
+    "age_days": 5,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "97eebfe64536": {
@@ -2843,7 +2768,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "dbed1d1c67c8": {
@@ -2871,7 +2796,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "27b81f42a28a": {
@@ -2899,7 +2824,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "0902f7c75595": {
@@ -2927,7 +2852,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "320c9241c55c": {
@@ -2954,7 +2879,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "e7b511583c0a": {
@@ -2982,7 +2907,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "84968c8ca8f7": {
@@ -3010,7 +2935,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "900dda428d48": {
@@ -3038,7 +2963,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "4839793c12bb": {
@@ -3066,7 +2991,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "70b6cba6b5a9": {
@@ -3094,7 +3019,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "91e0cb8b70f2": {
@@ -3118,10 +3043,10 @@
       "rds",
       "agent"
     ],
-    "age_days": 5,
+    "age_days": 6,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "8488d3b92399": {
@@ -3149,7 +3074,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "f9b078f04e18": {
@@ -3177,7 +3102,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "adc0866e70d7": {
@@ -3201,10 +3126,10 @@
       "aws",
       "gcp"
     ],
-    "age_days": 3,
+    "age_days": 4,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "10c05ad9105d": {
@@ -3229,7 +3154,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "c1f53ab3cd7c": {
@@ -3256,7 +3181,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "76901b99e015": {
@@ -3282,7 +3207,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "2ccbfef2b3d7": {
@@ -3309,7 +3234,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "2236a7e755d4": {
@@ -3336,7 +3261,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "ca3c3752178b": {
@@ -3364,7 +3289,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "717f97c37df1": {
@@ -3388,7 +3313,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "76296f4f48c7": {
@@ -3416,7 +3341,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "31e7e3db39aa": {
@@ -3439,7 +3364,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "7a43a21ee632": {
@@ -3464,7 +3389,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "9d64dd766626": {
@@ -3489,7 +3414,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "133adac6b7c1": {
@@ -3515,7 +3440,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "0d094f358c38": {
@@ -3539,7 +3464,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "996ff81885aa": {
@@ -3567,7 +3492,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "de22f976b77d": {
@@ -3595,7 +3520,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "4d6a5616f66e": {
@@ -3618,7 +3543,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "874585171d08": {
@@ -3646,7 +3571,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "5b311c06f7d8": {
@@ -3669,7 +3594,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "365710524488": {
@@ -3697,7 +3622,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "2e1b9f3db392": {
@@ -3769,7 +3694,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "eb92cc090ce4": {
@@ -3797,7 +3722,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "13ba66568ee6": {
@@ -3853,7 +3778,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "201ad1d87661": {
@@ -3881,7 +3806,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "0ceaee1893db": {
@@ -3909,7 +3834,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "d0c044298942": {
@@ -3934,7 +3859,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "f576d090135b": {
@@ -3959,7 +3884,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "c471313b4bad": {
@@ -4065,7 +3990,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "f02ef58e4503": {
@@ -4093,7 +4018,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "3289bbff2d89": {
@@ -4165,7 +4090,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "ce012d35e36a": {
@@ -4193,7 +4118,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "619748c47fa7": {
@@ -4248,7 +4173,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "ac49b6bb6f79": {
@@ -4273,7 +4198,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "1d6cb8dd4a64": {
@@ -4299,7 +4224,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "88095e1567bb": {
@@ -4326,7 +4251,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "e7f8a5bb3bec": {
@@ -4354,7 +4279,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "d9d389c06769": {
@@ -4382,7 +4307,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "b6bbd42c5bbe": {
@@ -4406,7 +4331,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "6a28e4f9c867": {
@@ -4434,7 +4359,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "317449b407e6": {
@@ -4461,7 +4386,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "21a420f44465": {
@@ -4517,7 +4442,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "30063a4a4d7a": {
@@ -4545,7 +4470,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "13b1ee3d9917": {
@@ -4573,7 +4498,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "15f33ebbbdc6": {
@@ -4596,7 +4521,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "5124b242e368": {
@@ -4617,7 +4542,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "f4522f0a0a23": {
@@ -4638,7 +4563,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "75648bfafc78": {
@@ -4665,7 +4590,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "c65ffffb2868": {
@@ -4691,7 +4616,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "4191ddff998a": {
@@ -4717,7 +4642,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "dc66eade1376": {
@@ -4745,7 +4670,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "db470fe96bb1": {
@@ -4772,7 +4697,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "bf4b8e0d64ff": {
@@ -4799,7 +4724,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "a65c695d3a75": {
@@ -4824,7 +4749,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "eb1d84e756c7": {
@@ -4852,7 +4777,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "63724d651a2b": {
@@ -4924,7 +4849,7 @@
     "location": "Washington, Bellevue",
     "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/Washington---Bellevue/Member-of-Technical-Staff--MTS---Software-Engineer--Identity---Access-Management_JR344942",
     "description": "Member of Technical Staff (MTS), Software Engineer, Identity & Access Management",
-    "posted_at": "Posted 3 Days Ago",
+    "posted_at": "Posted 4 Days Ago",
     "source": "workday",
     "opt_friendly": true,
     "sponsor_tier": "high",
@@ -4940,10 +4865,10 @@
       "golang",
       "rest"
     ],
-    "age_days": 3,
+    "age_days": 4,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "caa170a8f77f": {
@@ -4992,7 +4917,7 @@
     "age_days": 7,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "81a9ba56b92c": {
@@ -5097,7 +5022,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "f5f3e187c6c2": {
@@ -5124,7 +5049,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "34de82e49394": {
@@ -5247,7 +5172,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "b75a1c2e824b": {
@@ -5275,7 +5200,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "bde2ab1c96fb": {
@@ -5324,7 +5249,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "6ddd3d0016dc": {
@@ -5436,7 +5361,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "86b271cdf252": {
@@ -5464,7 +5389,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "6f428b7011a2": {
@@ -5489,7 +5414,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "ffaf67c8ca39": {
@@ -5545,7 +5470,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "79fafab273e8": {
@@ -5570,7 +5495,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "a157effecc2c": {
@@ -5598,7 +5523,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "d642e315e815": {
@@ -5607,7 +5532,7 @@
     "location": "Ann Arbor, MI",
     "url": "https://kla.wd1.myworkdayjobs.com/en-US/AnnArbor/job/Ann-Arbor-MI/HPC-Storage-Engineer_2635352",
     "description": "HPC Storage Engineer",
-    "posted_at": "Posted 3 Days Ago",
+    "posted_at": "Posted 4 Days Ago",
     "source": "workday",
     "opt_friendly": true,
     "sponsor_tier": "medium",
@@ -5619,10 +5544,10 @@
       "rds",
       "rag"
     ],
-    "age_days": 3,
+    "age_days": 4,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "a1d1333c799e": {
@@ -5705,7 +5630,7 @@
     "location": "Burlington Massachusetts",
     "url": "https://statestreet.wd1.myworkdayjobs.com/en-US/Global/job/Burlington-Massachusetts/Software-Engineer-II--Officer_R-785620",
     "description": "Software Engineer II, Officer",
-    "posted_at": "Posted 5 Days Ago",
+    "posted_at": "Posted 6 Days Ago",
     "source": "workday",
     "opt_friendly": true,
     "sponsor_tier": "high",
@@ -5721,10 +5646,10 @@
       "rds",
       "rag"
     ],
-    "age_days": 5,
+    "age_days": 6,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "f58a9b31ceb0": {
@@ -5733,7 +5658,7 @@
     "location": "Burlington Massachusetts",
     "url": "https://statestreet.wd1.myworkdayjobs.com/en-US/Global/job/Burlington-Massachusetts/Software-Engineer-II---Java--Officer_R-785260",
     "description": "Software Engineer II - Java, Officer",
-    "posted_at": "Posted 5 Days Ago",
+    "posted_at": "Posted 6 Days Ago",
     "source": "workday",
     "opt_friendly": true,
     "sponsor_tier": "high",
@@ -5749,10 +5674,10 @@
       "rds",
       "rag"
     ],
-    "age_days": 5,
+    "age_days": 6,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "b89e90274161": {
@@ -5778,7 +5703,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "f47415f738bb": {
@@ -6010,7 +5935,7 @@
     "location": "Wilmington, DE",
     "url": "https://mtb.wd5.myworkdayjobs.com/en-US/MTB/job/Wilmington-DE/Software-Engineer-II_R87042",
     "description": "Software Engineer II",
-    "posted_at": "Posted 3 Days Ago",
+    "posted_at": "Posted 4 Days Ago",
     "source": "workday",
     "opt_friendly": true,
     "sponsor_tier": "medium",
@@ -6026,10 +5951,10 @@
       "go",
       "rest"
     ],
-    "age_days": 3,
+    "age_days": 4,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "5fed62eba650": {
@@ -6038,7 +5963,7 @@
     "location": "Northfield, Illinois",
     "url": "https://medline.wd5.myworkdayjobs.com/en-US/Medline/job/Northfield-Illinois/Engineer-Design_R2611414",
     "description": "Engineer Design",
-    "posted_at": "Posted 5 Days Ago",
+    "posted_at": "Posted 6 Days Ago",
     "source": "workday",
     "opt_friendly": true,
     "sponsor_tier": "high",
@@ -6051,10 +5976,10 @@
       "rds",
       "rag"
     ],
-    "age_days": 5,
+    "age_days": 6,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "560a8d90b0ca": {
@@ -6663,8 +6588,8 @@
     "title": "Software Engineer II",
     "location": "SAN JOSE",
     "url": "https://cadence.wd1.myworkdayjobs.com/en-US/Univ_Careers/job/SAN-JOSE/Software-Engineer-II_R52336-1",
-    "description": "Software Engineer II",
-    "posted_at": "Posted 5 Days Ago",
+    "description": "At Cadence, we hire and develop leaders and innovators who want to make an impact on the world of technology. We are looking for a talented engineer for our mixed signal circuit simulation platform ( Spectre AMS Designer). You will work on several possible R&D projects including development of event-driven algorithms, analog circuit simulation algorithms, mixed signal circuit configuration, elaboration, simulation or debug. You will be responsible for advancing and creating state-of-the-art mixed signal circuit simulation technologies and solutions. Job Qualifications/Requirements: Minimum BS in Computer Engineering, Computer Science, Electrical Engineering, or equivalent. C/C++ software development experience in Linux environment. Strong understanding and extensive usage of data structures and algorithms. Highly technical engineer with excellent problem-solving skills. Good communication skills and ability to work in a distributed software engineering team. Preferred: MS or PhD in Computer Engineering, Computer Science, Electrical Engineering, or equivalent Experience in the use of AI/ML for EDA is a strong plus. Experience with using Cadence Spectre, Xcelium, Virtuoso, Verisium or other EDA tools Knowledge of EDA physical design algorithms, timing analysis, and multi-threading. The annual salary range for California is $101,500 to $188,500. You may also be eligible to receive incentive compensation: bonus, equity, and benefits. Sales positions generally offer a competitive On Target Earnings (OTE) incentive compensation structure. Please note that the salary range is a guideline and compensation may vary based on factors such as qualifications, skill level, competencies and work location. Our benefits programs include: paid vacation and paid holidays, 401(k) plan with employer match, employee stock purchase plan, a variety of medical, dental and vision plan options, and more. We\u2019re doing work that matters. Help us solve what others can\u2019t.",
+    "posted_at": "2026-06-08",
     "source": "workday",
     "opt_friendly": true,
     "sponsor_tier": "high",
@@ -6675,10 +6600,10 @@
     "matched_skills": [
       "go"
     ],
-    "age_days": 5,
+    "age_days": 6,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "7c980df43f92": {
@@ -6686,8 +6611,8 @@
     "title": "Software Engineer II, AI Platform",
     "location": "SAN JOSE",
     "url": "https://cadence.wd1.myworkdayjobs.com/en-US/Univ_Careers/job/SAN-JOSE/Software-Engineer-II--AI-Platform_R55030",
-    "description": "Software Engineer II, AI Platform",
-    "posted_at": "Posted 4 Days Ago",
+    "description": "At Cadence, we hire and develop leaders and innovators who want to make an impact on the world of technology. If you are an individual who enjoys an exciting, fast-moving environment and daily technical challenges as much as we do, this role will be a great fit for you. We are currently looking for an LLM/ML engineer who will be a key contributor in building scalable and resilient Agentic AI solutions. Key Qualifications Advanced experience working with core EDA, LLM/ML or data analytics, such as Langchain, Spark, Pytorch, Tensorflow etc. Able to translate requirements into both high-level and detailed architectures Understanding of AI/ML fundamentals In-depth understanding of data structures, algorithms, and distributed systems Development experience in Python, C++ or similar programming languages Enthusiastic, highly motivated, and able to work collaboratively In-depth understanding of various technologies and frameworks with ability to combine into practical solutions Hands-on experience of building agentic AI solutions is a plus Education & Experience BS degree in Computer Science, Electrical Engineering or related fields, 3+ years of industry experience MS degree in Computer Science, Electrical Engineering or related fields The annual salary range for California is $101,500 to $188,500. You may also be eligible to receive incentive compensation: bonus, equity, and benefits. Sales positions generally offer a competitive On Target Earnings (OTE) incentive compensation structure. Please note that the salary range is a guideline and compensation may vary based on factors such as qualifications, skill level, competencies and work location. Our benefits programs include: paid vacation and paid holidays, 401(k) plan with employer match, employee stock purchase plan, a variety of medical, dental and vision plan options, and more. We\u2019re doing work that matters. Help us solve what others can\u2019t.",
+    "posted_at": "2026-06-09",
     "source": "workday",
     "opt_friendly": true,
     "sponsor_tier": "high",
@@ -6703,10 +6628,10 @@
       "agent",
       "agentic"
     ],
-    "age_days": 4,
+    "age_days": 5,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "ab16b8ac66ce": {
@@ -6730,7 +6655,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "b609f8330e9c": {
@@ -6755,7 +6680,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "413c2a617088": {
@@ -6802,11 +6727,11 @@
       "rds",
       "rag"
     ],
-    "age_days": 5,
+    "age_days": 6,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
-    "open": false
+    "last_seen": "2026-06-14",
+    "open": true
   },
   "5a2da403409f": {
     "company": "Cadence",
@@ -6825,11 +6750,11 @@
     "matched_skills": [
       "go"
     ],
-    "age_days": 5,
+    "age_days": 6,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
-    "open": false
+    "last_seen": "2026-06-14",
+    "open": true
   },
   "74bc879a4b4d": {
     "company": "Cadence",
@@ -6870,11 +6795,11 @@
       "rds",
       "rag"
     ],
-    "age_days": 3,
+    "age_days": 4,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
-    "open": false
+    "last_seen": "2026-06-14",
+    "open": true
   },
   "2d674ec92bb2": {
     "company": "KLA",
@@ -6896,19 +6821,19 @@
       "rds",
       "rag"
     ],
-    "age_days": 3,
+    "age_days": 4,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
-    "open": false
+    "last_seen": "2026-06-14",
+    "open": true
   },
   "2e87c7b1fc6a": {
     "company": "KLA",
     "title": "Applications Development Engineer - FaST",
     "location": "Milpitas, CA",
     "url": "https://kla.wd1.myworkdayjobs.com/en-US/UR/job/Milpitas-CA/Applications-Development-Engineer---FaST_2637468",
-    "description": "Company Overview KLA is a global leader in diversified electronics for the semiconductor manufacturing ecosystem. Virtually every electronic device in the world is produced using our technologies. No laptop, smartphone, wearable device, voice-controlled gadget, flexible screen, VR device or smart car would have made it into your hands without us. KLA invents systems and solutions for the manufacturing of wafers and reticles, integrated circuits, packaging, printed circuit boards and flat panel displays. The innovative ideas and devices that are advancing humanity all begin with inspiration, research and development. KLA focuses more than average on innovation and we invest 15% of sales back into R&D. Our expert teams of physicists, engineers, data scientists and problem-solvers work together with the world\u2019s leading technology providers to accelerate the delivery of tomorrow\u2019s electronic devices. Life here is exciting and our teams thrive on tackling really hard problems. There is never a dull moment with us. Group/Division With over 40 years of semiconductor process control experience, chipmakers around the globe rely on KLA to ensure that their fabs ramp next-generation devices to volume production quickly and cost-effectively. Enabling the movement towards advanced chip design, KLA's Global Products Group (GPG), which is responsible for creating all of KLA\u2019s metrology and inspection products, is looking for the best and the brightest research scientist, software engineers, application development engineers, and senior product technology process engineers. The Film and Scatterometry Technology (FaST) Division provides industry leading metrology solutions for worldwide semiconductor IC manufacturers. The FaST Division portfolio of metrology products includes hardware and software solutions for optical film thickness, optical critical dimension (CD), composition, and resistivity measurement systems. These products are essential for the IC manufacturers as they provide critical metrology capabilities for the development and implementation of their advanced IC processes. The FaST division is committed to support our customers to achieve performance entitlement of our solution and we effectively partner with our customers from their early research and development phase to the high volume in-line manufacturing implementation specific for their process needs. The division consists of a global team located in US, Israel, China, and India. Job Description/Preferred Qualifications \u200b Responsibilities Lead medium-sized projects e.g. H2H, PLC, alpha characterization, beta testing, and gap analysis. Create and evaluate characterization and field test plans. Respond to customer requests and perform complex problem diagnosis and problem resolution Develop and document new applications of existing and pre-release products, including BKMs. Develop written procedures, standards, training material, and other technical documentation. Review and evaluate quality of ",
-    "posted_at": "2026-06-10",
+    "description": "Applications Development Engineer - FaST",
+    "posted_at": "Posted 4 Days Ago",
     "source": "workday",
     "opt_friendly": true,
     "sponsor_tier": "medium",
@@ -6920,11 +6845,11 @@
       "rds",
       "rag"
     ],
-    "age_days": 3,
+    "age_days": 4,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
-    "open": false
+    "last_seen": "2026-06-14",
+    "open": true
   },
   "34625a20937b": {
     "company": "KLA",
@@ -6947,11 +6872,11 @@
       "agent",
       "system design"
     ],
-    "age_days": 4,
+    "age_days": 5,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
-    "open": false
+    "last_seen": "2026-06-14",
+    "open": true
   },
   "0f0aa47d2468": {
     "company": "eBay",
@@ -7005,7 +6930,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "6f62cab75f83": {
@@ -7196,7 +7121,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "71daa98c7bf3": {
@@ -7205,7 +7130,7 @@
     "location": "Charlotte",
     "url": "https://ghr.wd1.myworkdayjobs.com/en-US/us-emplsv/job/Charlotte/TA084-Software-Engineer-II_26018213",
     "description": "Software Engineer II",
-    "posted_at": "Posted 2 Days Ago",
+    "posted_at": "Posted 3 Days Ago",
     "source": "workday",
     "opt_friendly": true,
     "sponsor_tier": "high",
@@ -7219,10 +7144,10 @@
       "api",
       "etl"
     ],
-    "age_days": 2,
-    "fresh": true,
+    "age_days": 3,
+    "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "cef3c5438dd3": {
@@ -7313,7 +7238,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "a8327c9e53a8": {
@@ -7340,7 +7265,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "596115eda7a7": {
@@ -7368,7 +7293,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "b9c17b922f76": {
@@ -7390,11 +7315,11 @@
       "rds",
       "rag"
     ],
-    "age_days": 5,
+    "age_days": 6,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
-    "open": false
+    "last_seen": "2026-06-14",
+    "open": true
   },
   "46ea0dfd3e65": {
     "company": "Cisco",
@@ -7465,7 +7390,7 @@
     "location": "Roseville, CA, USA",
     "url": "https://mii.wd5.myworkdayjobs.com/en-US/MiTek/job/Roseville-CA-USA/Design-Engineer-I_R06373",
     "description": "Design Engineer I",
-    "posted_at": "Posted 4 Days Ago",
+    "posted_at": "Posted 5 Days Ago",
     "source": "workday",
     "opt_friendly": true,
     "sponsor_tier": "medium",
@@ -7477,10 +7402,10 @@
       "go",
       "rds"
     ],
-    "age_days": 4,
+    "age_days": 5,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "dc68f4b15175": {
@@ -7566,7 +7491,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "b0def2f0d93d": {
@@ -7587,7 +7512,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "487686948446": {
@@ -7634,7 +7559,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "c83e4f801cc4": {
@@ -7700,7 +7625,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "0d9c4a1bcb54": {
@@ -7728,7 +7653,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "990ca437d386": {
@@ -7754,7 +7679,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "0af30c7820ee": {
@@ -7782,7 +7707,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "0386f5e2e555": {
@@ -7810,7 +7735,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "8c6243ae59ef": {
@@ -7838,7 +7763,7 @@
     "age_days": 1,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "df98d8d25671": {
@@ -7866,7 +7791,7 @@
     "age_days": 1,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "7eb743c4acbd": {
@@ -7894,7 +7819,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "9328bc9170f7": {
@@ -7922,7 +7847,7 @@
     "age_days": 1,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "1a439f7349ee": {
@@ -7950,7 +7875,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "348ecda6e240": {
@@ -7978,7 +7903,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "2a6c2658b727": {
@@ -8006,7 +7931,7 @@
     "age_days": 1,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "e458351fe8a0": {
@@ -8034,7 +7959,7 @@
     "age_days": 1,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "d63c790808db": {
@@ -8061,7 +7986,7 @@
     "age_days": 1,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "a0977b7ef04d": {
@@ -8089,7 +8014,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "a5d3dc2042ab": {
@@ -8117,7 +8042,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "b6372adf9f12": {
@@ -8145,7 +8070,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "03837b880846": {
@@ -8173,7 +8098,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "1f831ffc8ad1": {
@@ -8201,7 +8126,7 @@
     "age_days": 1,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "203667fe7bf6": {
@@ -8229,7 +8154,7 @@
     "age_days": 1,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "0039250b684c": {
@@ -8257,7 +8182,7 @@
     "age_days": 1,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "4c6f04a7d151": {
@@ -8283,7 +8208,7 @@
     "age_days": 1,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "c019c2d150e6": {
@@ -8304,7 +8229,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "0376325760e2": {
@@ -8330,7 +8255,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "3461121e211a": {
@@ -8355,7 +8280,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "e0bd55162d81": {
@@ -8381,7 +8306,7 @@
     "age_days": 1,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "619542ee6ff8": {
@@ -8409,7 +8334,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "f08e4e4e6469": {
@@ -8437,7 +8362,7 @@
     "age_days": 1,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "6a92c3f92884": {
@@ -8462,7 +8387,7 @@
     "age_days": 1,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "3a2f18882001": {
@@ -8487,7 +8412,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "2d376509e40b": {
@@ -8515,7 +8440,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "d911e15fb7a5": {
@@ -8541,7 +8466,7 @@
     "age_days": 1,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "46aac7fa78c0": {
@@ -8564,7 +8489,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "e1b005034fb8": {
@@ -8592,7 +8517,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "6e3008a90773": {
@@ -8620,7 +8545,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "200ec5d586eb": {
@@ -8645,7 +8570,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "86c76405a1c2": {
@@ -8673,7 +8598,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "c38ff2a7f40e": {
@@ -8701,7 +8626,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "add5dfbc0ea0": {
@@ -8729,7 +8654,7 @@
     "age_days": 1,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "baf8eef98b7e": {
@@ -8757,7 +8682,7 @@
     "age_days": 1,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "0acf6392371c": {
@@ -8782,10 +8707,10 @@
       "api",
       "rag"
     ],
-    "age_days": 0,
+    "age_days": 1,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "7118a2eaf93d": {
@@ -8811,7 +8736,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "cca5c1b6e17e": {
@@ -8832,7 +8757,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "a648c8355d77": {
@@ -8860,7 +8785,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "1502475c539f": {
@@ -8885,7 +8810,7 @@
     "age_days": 1,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "ebc7c171cc83": {
@@ -8913,7 +8838,7 @@
     "age_days": 1,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "c27724711c80": {
@@ -8941,7 +8866,7 @@
     "age_days": 1,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "1b48117b1c9a": {
@@ -8968,7 +8893,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "e4aab9a6f52a": {
@@ -8993,10 +8918,10 @@
       "go",
       "rest"
     ],
-    "age_days": 2,
-    "fresh": true,
+    "age_days": 3,
+    "fresh": false,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "42dddd61a460": {
@@ -9020,7 +8945,7 @@
     "age_days": 1,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "62701c0fdb9b": {
@@ -9048,7 +8973,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "4cf7862dfbd2": {
@@ -9073,7 +8998,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "5f05163fcd3c": {
@@ -9097,10 +9022,10 @@
       "rds",
       "docker"
     ],
-    "age_days": 1,
+    "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "f87b5d79e2ee": {
@@ -9128,7 +9053,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "75b144c11058": {
@@ -9156,7 +9081,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "52a3d3ea1ed2": {
@@ -9181,7 +9106,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "88ca652d63ab": {
@@ -9209,7 +9134,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "9582e0235e6f": {
@@ -9237,7 +9162,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "d62b7468a3dc": {
@@ -9262,7 +9187,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "ef62ec7a27eb": {
@@ -9287,7 +9212,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "f5034ca9e855": {
@@ -9314,7 +9239,7 @@
     "age_days": 1,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "35cab67736bf": {
@@ -9342,7 +9267,7 @@
     "age_days": 1,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "758c6aa278a0": {
@@ -9370,7 +9295,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "9f88488834a0": {
@@ -9398,7 +9323,7 @@
     "age_days": 1,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "60594a1c008e": {
@@ -9426,7 +9351,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "6ddd71449da2": {
@@ -9450,7 +9375,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "84f8849b8798": {
@@ -9476,7 +9401,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "71e142dac3d1": {
@@ -9502,7 +9427,7 @@
     "age_days": 1,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "41079dcd1293": {
@@ -9530,7 +9455,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "4306a0ec500a": {
@@ -9557,7 +9482,7 @@
     "age_days": 1,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "8ea6f24c9fa1": {
@@ -9584,7 +9509,7 @@
     "age_days": 1,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "f5e458b2145b": {
@@ -9612,7 +9537,7 @@
     "age_days": 1,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "ad7c667e017b": {
@@ -9640,7 +9565,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "887bdbf1db4c": {
@@ -9695,7 +9620,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "a3e9250d81f4": {
@@ -9723,7 +9648,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "51cfbf9ff005": {
@@ -9750,7 +9675,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "b39db5498702": {
@@ -9801,7 +9726,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "d04a3173ff9b": {
@@ -9829,7 +9754,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "2a6ec310a1a2": {
@@ -9854,7 +9779,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "ff1ca3d035f9": {
@@ -9880,7 +9805,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "29e5e7349012": {
@@ -9914,8 +9839,8 @@
     "title": "Data Scientist - Agentic AI / ML",
     "location": "Santa Clara,CA",
     "url": "https://amat.wd1.myworkdayjobs.com/en-US/External/job/Santa-ClaraCA/Data-Scientist---Agentic-AI---ML_R2621700",
-    "description": "Who We Are Applied Materials is a global leader in materials engineering solutions used to produce virtually every new chip and advanced display in the world. We design, build and service cutting-edge equipment that helps our customers manufacture display and semiconductor chips \u2013 the brains of devices we use every day. As the foundation of the global electronics industry, Applied enables the exciting technologies that literally connect our world \u2013 like AI and IoT. If you want to push the boundaries of materials science and engineering to create next generation technology, join us to deliver material innovation that changes the world. What We Offer Salary: $142,500.00 - $196,500.00 Location: Santa Clara,CA You\u2019ll benefit from a supportive work culture that encourages you to learn, develop, and grow your career as you take on challenges and drive innovative solutions for our customers. We empower our team to push the boundaries of what is possible\u2014while learning every day in a supportive leading global company. Visit our Careers website to learn more. At Applied Materials, we care about the health and wellbeing of our employees. We\u2019re committed to providing programs and support that encourage personal and professional growth and care for you at work, at home, or wherever you may go. Learn more about our benefits . Applied Materials\u2019 Joint Operations Leadership (JOLT) Data Science team is seeking a Data Scientist to join our growing organization. JOLT plays a critical role in rebuilding customer trust, creating an agile and resilient supply chain, reshaping supplier relationships, driving operational excellence, and maximizing profitability through advanced analytics, AI, and machine learning. This role offers the opportunity to work on high\u2011impact, cross\u2011functional initiatives and to develop end\u2011to\u2011end AI solutions\u2014from problem formulation to production deployment.: Works in project teams developing difficult analytical models, algorithms and automated processes, research and develop machine learning models from inception to deployment. Work on GenAI and LLM projects, including fine-tuning models, creating embedding-based search systems, and developing AI-driven prototypes to enhance business operations. Directing architects to design and solution GenAI architectures for stakeholders, specifically for plugin-based solutions and custom GenAI application builds. Use data mining and machine learning algorithms to provide insights into historical and real-time data for projects such as material forecast, demand forecast, pattern recognition, etc. Interfaces with stakeholders for requirements analysis and special requests and schedules; derives insights and works with business units to determine actions and KPI for those actions. Identify opportunities for forecast accuracy improvement and provide business insights and additional perspectives to Service Supply Chain leadership Collaborate with Material Planning, Field Operations, Inventory Management, ",
-    "posted_at": "2026-06-10",
+    "description": "Data Scientist - Agentic AI / ML",
+    "posted_at": "Posted 4 Days Ago",
     "source": "workday",
     "opt_friendly": true,
     "sponsor_tier": "medium",
@@ -9931,11 +9856,11 @@
       "llm",
       "rag"
     ],
-    "age_days": 3,
+    "age_days": 4,
     "fresh": false,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
-    "open": false
+    "last_seen": "2026-06-14",
+    "open": true
   },
   "025d3fba3cc7": {
     "company": "Comcast",
@@ -9960,7 +9885,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "5af1aa290340": {
@@ -9989,7 +9914,7 @@
     "fresh": true,
     "first_seen": "2026-06-13",
     "last_seen": "2026-06-13",
-    "open": true
+    "open": false
   },
   "339cd6a924dd": {
     "company": "Micron Technology",
@@ -10016,7 +9941,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "58f212568a60": {
@@ -10042,7 +9967,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "7a26303d455c": {
@@ -10051,7 +9976,7 @@
     "location": "Burlington Massachusetts",
     "url": "https://statestreet.wd1.myworkdayjobs.com/en-US/Global/job/Burlington-Massachusetts/Software-Engineer-I--Officer_R-789697",
     "description": "Software Engineer I, Officer",
-    "posted_at": "Posted 2 Days Ago",
+    "posted_at": "Posted 3 Days Ago",
     "source": "workday",
     "opt_friendly": true,
     "sponsor_tier": "high",
@@ -10067,10 +9992,10 @@
       "sql",
       "go"
     ],
-    "age_days": 2,
-    "fresh": true,
+    "age_days": 3,
+    "fresh": false,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "6254d0c2cb34": {
@@ -10128,7 +10053,7 @@
     "location": "Wilmington, DE",
     "url": "https://mtb.wd5.myworkdayjobs.com/en-US/MTB/job/Wilmington-DE/Snowflake-Data-Engineer_R86836",
     "description": "Snowflake Data Engineer",
-    "posted_at": "Posted 2 Days Ago",
+    "posted_at": "Posted 3 Days Ago",
     "source": "workday",
     "opt_friendly": true,
     "sponsor_tier": "medium",
@@ -10137,10 +10062,10 @@
     "sponsor_cert": 85.2,
     "match_score": 20,
     "matched_skills": [],
-    "age_days": 2,
-    "fresh": true,
+    "age_days": 3,
+    "fresh": false,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "436e9e68325e": {
@@ -10170,7 +10095,7 @@
     "location": "USA - Remote, NY",
     "url": "https://crowdstrike.wd5.myworkdayjobs.com/en-US/crowdstrikecareers/job/USA---Remote-NY/Backend-Engineer-III--Hybrid--NYC-_R28991",
     "description": "Backend Engineer III (Hybrid, NYC)",
-    "posted_at": "Posted Yesterday",
+    "posted_at": "Posted 2 Days Ago",
     "source": "workday",
     "opt_friendly": true,
     "sponsor_tier": "medium",
@@ -10179,10 +10104,10 @@
     "sponsor_cert": 62.5,
     "match_score": 8,
     "matched_skills": [],
-    "age_days": 1,
+    "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "76613fa8967c": {
@@ -10320,7 +10245,7 @@
     "location": "Mossville, Illinois",
     "url": "https://cat.wd5.myworkdayjobs.com/en-US/CaterpillarCareers/job/Mossville-Illinois/Embedded-Software-Engineer_R0000375975-1",
     "description": "Embedded Software Engineer",
-    "posted_at": "Posted 3 Days Ago",
+    "posted_at": "Posted 4 Days Ago",
     "source": "workday",
     "opt_friendly": true,
     "sponsor_tier": "medium",
@@ -10333,11 +10258,11 @@
       "rds",
       "rag"
     ],
-    "age_days": 3,
+    "age_days": 4,
     "fresh": false,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
-    "open": false
+    "last_seen": "2026-06-14",
+    "open": true
   },
   "cd9ca6986f61": {
     "company": "Caterpillar Inc.",
@@ -10383,7 +10308,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "223741ef497e": {
@@ -10463,7 +10388,7 @@
     "fresh": false,
     "first_seen": "2026-06-13",
     "last_seen": "2026-06-13",
-    "open": true
+    "open": false
   },
   "087ef5d88bbd": {
     "company": "Nationwide",
@@ -10567,7 +10492,7 @@
     "fresh": false,
     "first_seen": "2026-06-13",
     "last_seen": "2026-06-13",
-    "open": true
+    "open": false
   },
   "821e7c02431c": {
     "company": "Dematic",
@@ -10594,7 +10519,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "bc1d273d81e5": {
@@ -10621,7 +10546,7 @@
     "fresh": false,
     "first_seen": "2026-06-13",
     "last_seen": "2026-06-13",
-    "open": true
+    "open": false
   },
   "075d739572c5": {
     "company": "KLA Corporation",
@@ -10720,7 +10645,7 @@
     "fresh": false,
     "first_seen": "2026-06-13",
     "last_seen": "2026-06-13",
-    "open": true
+    "open": false
   },
   "ec579939f187": {
     "company": "Bank of Montreal",
@@ -10742,11 +10667,11 @@
       "api",
       "rds"
     ],
-    "age_days": 1,
+    "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
-    "open": false
+    "last_seen": "2026-06-14",
+    "open": true
   },
   "2dd8c1fda5a8": {
     "company": "Abbott",
@@ -10774,15 +10699,15 @@
     "fresh": false,
     "first_seen": "2026-06-13",
     "last_seen": "2026-06-13",
-    "open": true
+    "open": false
   },
   "9ca3af7eca37": {
     "company": "MUFG",
     "title": "Global Red Team AI Engineer, Analyst",
     "location": "Jersey City, NJ",
     "url": "https://mufgub.wd3.myworkdayjobs.com/en-US/mufg-careers/job/Jersey-City-NJ/Global-Red-Team-AI-Engineer--Analyst_10076229-WD",
-    "description": "Global Red Team AI Engineer, Analyst",
-    "posted_at": "Posted Yesterday",
+    "description": "Do you want your voice heard and your actions to count? Discover your opportunity with Mitsubishi UFJ Financial Group (MUFG), one of the world\u2019s leading financial groups. Across the globe, we\u2019re 150,000 colleagues, striving to make a difference for every client, organization, and community we serve. We stand for our values, building long-term relationships, serving society, and fostering shared and sustainable growth for a better world. With a vision to be the world\u2019s most trusted financial group, it\u2019s part of our culture to put people first, listen to new and diverse ideas and collaborate toward greater innovation, speed and agility. This means investing in talent, technologies, and tools that empower you to own your career. Join MUFG, where being inspired is expected and making a meaningful impact is rewarded. The selected colleague will work at an MUFG office or client sites four days per week and work remotely one day. A member of our recruitment team will provide more details. Job Summary: The Red Team Analyst supports MUFG Red Team operations by executing adversary\u2011emulation activities focused on AI\u2011enabled technologies. This role is designed for early\u2011career professionals with a computer science background and practical coding experience, enabling them to develop offensive security skills while contributing to risk reduction across the enterprise. Under the direction of senior operators, the analyst participates in threat\u2011led assessments, AI security testing, and purple team exercises, helping identify how real\u2011world adversaries could exploit application logic, automation pipelines, and AI\u2011assisted capabilities. Primary Responsibilities: Adversary Emulation & Testing Support Participate in Red Team missions designed to simulate real\u2011world attacker behavior against MUFG applications and platforms. Execute assigned activities during: adversary simulation and emulation (ASE) assumed\u2011breach scenarios purple team and control\u2011validation exercises Safely conduct testing activities aligned to approved scopes, deconfliction requirements, and operational guardrails. AI & Automation Workflow Testing Support adversarial testing of AI\u2011enabled capabilities, including: prompt injection and misuse scenarios unintended data access or disclosure via AI tools bypass of AI guardrails and safety controls Assist in assessing AI\u2011assisted developer tools, copilots, and automation platforms. Help evaluate how AI interacts with identity, permissions, APIs, and data sources. Tooling & Research Research emerging attacker techniques targeting: modern application stacks CI/CD and developer tooling AI/LLM systems Contribute to Red Team playbooks, test cases, and repeatable workflows. Support senior operators in engagement reporting and evidence collection. Participate in post\u2011engagement discussions with defensive and engineering teams. Develop and operationalize custom ML/LLM models for cybersecurity use cases Advance preventative, detective, and responsive security con",
+    "posted_at": "2026-06-12",
     "source": "workday",
     "opt_friendly": true,
     "sponsor_tier": "medium",
@@ -10798,10 +10723,10 @@
       "gcp",
       "ci/cd"
     ],
-    "age_days": 1,
+    "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "c84a011216f4": {
@@ -10854,15 +10779,15 @@
     "fresh": false,
     "first_seen": "2026-06-13",
     "last_seen": "2026-06-13",
-    "open": true
+    "open": false
   },
   "03baa8eff2d1": {
     "company": "Transamerica",
     "title": "AI Operations Engineer",
     "location": "Denver, Colorado",
     "url": "https://transamerica.wd5.myworkdayjobs.com/en-US/US/job/Denver-Colorado/AI-Operations-Engineer_R20061959",
-    "description": "AI Operations Engineer",
-    "posted_at": "Posted Yesterday",
+    "description": "Job Family IT - General About Us At Transamerica, hard work, innovative thinking, and personal accountability are qualities we honor and reward. We understand the potential of leveraging the talents of a diverse workforce. We embrace an environment where employees enjoy a balance between their careers, families, communities, and personal interests. Ultimately, we appreciate the uniqueness of a company where talented professionals work collaboratively in a positive environment \u2014 one focused on helping people look forward and plan for the best life possible while providing tools and solutions that make it easier to get there. Who We Are We believe everyone deserves to live their best life. More than a century ago, we were among the first financial services companies in America to serve everyday people from all walks of life . Today, we\u2019re part of an international holding company, with millions of customers and thousands of employees worldwide. Our insurance, retirement, and investment solutions help people make the most of what\u2019s important to them. We\u2019re empowered by a vast agent network covering North America, with diversity to match. Together with our nonprofit research institute and foundation, we tune in, step up, and are a force for good \u2014 for our customers and the communities where we live, work, and play. United in our purpose, we help people create the financial freedom to live life on their terms. What We Do Transamerica is organized into three distinct businesses. These include 1) World Financial Group, including Transamerica Financial Advisors, 2) Protection Solutions and Savings & Investments, comprised of life insurance, annuities, employee benefits, retirement plans, and Transamerica Investment Solutions, and 3) Financial Assets, which includes legacy blocks of long term care, universal life, and variable and fixed annuities. These are supported by Transamerica Corporate , which includes Finance, People and Places, General Counsel, Risk, Internal Audit, Strategy and Development, and Corporate Affairs, which covers Communications, Brand, and Government and Policy Affairs. Transamerica employs nearly 7 ,000 people. It\u2019s part of Aegon, an integrated, diversified, international financial services group serving approximately 23.9 million customers worldwide. * For more information, visit transamerica.com . Job Description Summary Aegon\u2019s Core AI Team is driving AI-driven transformation across our global business. Building on recent successes \u2013 including the launch of a vendor-agnostic enterprise LLM gateway (AWS Launchpad), we are now investing in next-generation Gen AI and Agentic AI capabilities. This role will help evolve the organizations AI platform and operational services, develop and mature AI operations and customer support processes, drive and support AI Platform adoption, and provide AI expertise to accelerate developer onboarding and enablement. Job Description Responsibilities \u2022 Assist in monitoring and maintaining AI platform",
+    "posted_at": "2026-06-12",
     "source": "workday",
     "opt_friendly": true,
     "sponsor_tier": "medium",
@@ -10878,10 +10803,10 @@
       "aws",
       "ci/cd"
     ],
-    "age_days": 1,
+    "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "030ac4d8df41": {
@@ -10905,11 +10830,11 @@
       "rds",
       "rag"
     ],
-    "age_days": 1,
+    "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
-    "open": false
+    "last_seen": "2026-06-14",
+    "open": true
   },
   "4c9331edcf00": {
     "company": "Kodiak",
@@ -10934,7 +10859,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "34e3e2d4f70b": {
@@ -10943,7 +10868,7 @@
     "location": "Des Moines- Corporate Of",
     "url": "https://emcins.wd5.myworkdayjobs.com/en-US/EMC_Careers/job/Des-Moines--Corporate-Office/Data-Engineer-III_R6425",
     "description": "Data Engineer III",
-    "posted_at": "Posted 2 Days Ago",
+    "posted_at": "Posted 3 Days Ago",
     "source": "workday",
     "opt_friendly": true,
     "sponsor_tier": "high",
@@ -10959,10 +10884,10 @@
       "lambda",
       "s3"
     ],
-    "age_days": 2,
-    "fresh": true,
+    "age_days": 3,
+    "fresh": false,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "d2694c2baba6": {
@@ -10971,7 +10896,7 @@
     "location": "Boca Raton",
     "url": "https://fau.wd1.myworkdayjobs.com/en-US/FAU/job/Boca-Raton/Data-Scientist---Distance-Learning---Continuing-Education_REQ22289",
     "description": "Data Scientist \u2013 Distance Learning & Continuing Education",
-    "posted_at": "Posted 2 Days Ago",
+    "posted_at": "Posted 3 Days Ago",
     "source": "workday",
     "opt_friendly": true,
     "sponsor_tier": "medium",
@@ -10986,10 +10911,10 @@
       "rds",
       "llm"
     ],
-    "age_days": 2,
-    "fresh": true,
+    "age_days": 3,
+    "fresh": false,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "3b90c82fa362": {
@@ -10998,7 +10923,7 @@
     "location": "Boca Raton",
     "url": "https://fau.wd1.myworkdayjobs.com/en-US/FAU/job/Boca-Raton/Biostatistician-Data-Scientist_REQ22029",
     "description": "Biostatistician/Data Scientist",
-    "posted_at": "Posted 5 Days Ago",
+    "posted_at": "Posted 6 Days Ago",
     "source": "workday",
     "opt_friendly": true,
     "sponsor_tier": "medium",
@@ -11010,10 +10935,10 @@
       "go",
       "rds"
     ],
-    "age_days": 5,
+    "age_days": 6,
     "fresh": false,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "3f189d01cb46": {
@@ -11021,8 +10946,8 @@
     "title": "Software Engineer",
     "location": "Lowe's Charlotte Technol",
     "url": "https://lowes.wd5.myworkdayjobs.com/en-US/LWS_External_CS/job/Lowes-Charlotte-Technology-Hub-3505/Software-Engineer_JR-02476462",
-    "description": "Software Engineer",
-    "posted_at": "Posted Yesterday",
+    "description": "Innovate in Charlotte Thank you for dedicating your time and talent to Lowe\u2019s. We want to give you more opportunities to learn and grow, so if you find a position you\u2019re interested in below, we encourage you to apply! JOB DESCRIPTION: Position based in Charlotte, NC, some teleworking may be permitted. Travel to Lowe\u2019s offices may be required. Translates business requirements and specifications into logical program designs, code modules, stable application systems, and software solutions with occasional guidance from senior colleagues; partners with Product Team to understand business needs and functional specifications. Develops, configures, or modifies integrated business and/or enterprise application solutions within various computing environments by designing and coding component-based applications using various programming languages. Conducts the implementation and maintenance of complex business and enterprise software solutions to ensure successful deployment of released applications. Supports Systems Integration Testing (SIT) and User Acceptance Testing (UAT), provides insight into defining test plans, and ensures quality software deployment. Participates in the end-to-end product lifecycle by applying and sharing an indepth understanding of company and industry methodologies, policies, standards, and controls. Understands Computer Science and/or Computer Engineering fundamentals; knows software architecture and readily applies this to software solutions. Automates and simplifies team development, test, and operations processes; develops conceptual, logical and physical architectures consisting of one or more viewpoints (business, application, data, and infrastructure) required for business solution delivery. Solves difficult technical problems; solutions are testable, maintainable, and efficient. JOB REQUIREMENTS: Job requires a Bachelor\u2019s degree* in Computer Science, CIS, Engineering, or a related field and 2 years of experience in any job title/occupation involving software development or a related field. *Employer will accept single degree or combination of degrees, diplomas and/or professional experience equivalent to a Bachelor\u2019s degree. Must have prior experience in: \u2022 2 years of experience in: o Creating responsive user Interface web page application; o Front End UI technologies; o React, Redux and Saga; o HTML and CSS; o JavaScript; and o Ajax. \u2022 1 year of experience in: o Angular and Bootstrap; and o jQuery REQ# 3523808 About Lowe\u2019s Lowe\u2019s Companies, Inc. (NYSE: LOW) is a FORTUNE\u00ae 100 home improvement company with total fiscal 2025 sales of more than $86 billion. Lowe\u2019s employs approximately 300,000 associates and operates over 1,750 home improvement stores, 540 branches and 120 distribution centers. Based in Mooresville, N.C., Lowe\u2019s supports the communities it serves through programs focused on creating safe, affordable housing, improving community spaces, helping to develop the next generation of skilled trade experts and prov",
+    "posted_at": "2026-06-12",
     "source": "workday",
     "opt_friendly": true,
     "sponsor_tier": "high",
@@ -11038,11 +10963,11 @@
       "rest",
       "rds"
     ],
-    "age_days": 1,
+    "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
-    "open": false
+    "last_seen": "2026-06-14",
+    "open": true
   },
   "c1b1d49914c8": {
     "company": "Altera Corporation",
@@ -11065,7 +10990,7 @@
     "fresh": true,
     "first_seen": "2026-06-13",
     "last_seen": "2026-06-13",
-    "open": true
+    "open": false
   },
   "2b0127aff878": {
     "company": "Symbotic",
@@ -11092,7 +11017,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "d3088c3a449f": {
@@ -11120,7 +11045,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "6fa1f734c8fe": {
@@ -11145,7 +11070,7 @@
     "age_days": 1,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "086e61e5c24d": {
@@ -11166,7 +11091,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "91646d19eada": {
@@ -11190,7 +11115,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "0fc2fcebbbb0": {
@@ -11211,7 +11136,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "57e99bc50973": {
@@ -11235,7 +11160,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "b796aadb6aad": {
@@ -11263,7 +11188,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "c0619576c11b": {
@@ -11288,7 +11213,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "ba9bfaba3ea3": {
@@ -11316,7 +11241,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "a4a374dac2e9": {
@@ -11344,7 +11269,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "c0c306e33d0c": {
@@ -11367,7 +11292,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "2bc4826a6ac0": {
@@ -11412,7 +11337,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "40f897a90f1e": {
@@ -11433,7 +11358,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "65a830bd6303": {
@@ -11461,7 +11386,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "7537f2990890": {
@@ -11489,7 +11414,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "43e3982b560e": {
@@ -11517,7 +11442,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "b7fefff007b3": {
@@ -11538,7 +11463,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "afd7ad3a1e10": {
@@ -11559,7 +11484,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "1e49a73f26f6": {
@@ -11580,7 +11505,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "ae7eb2d6b8c2": {
@@ -11601,7 +11526,7 @@
     "age_days": 1,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "fe3512de5434": {
@@ -11709,7 +11634,7 @@
     "fresh": false,
     "first_seen": "2026-06-13",
     "last_seen": "2026-06-13",
-    "open": true
+    "open": false
   },
   "15540288e92d": {
     "company": "Rockwell Automation",
@@ -11732,7 +11657,7 @@
     "fresh": true,
     "first_seen": "2026-06-13",
     "last_seen": "2026-06-13",
-    "open": true
+    "open": false
   },
   "3eaf1b125ed1": {
     "company": "Crowdstrike",
@@ -11740,7 +11665,7 @@
     "location": "USA - Remote",
     "url": "https://crowdstrike.wd5.myworkdayjobs.com/en-US/crowdstrikecareers/job/USA---Remote/Engineer-III---Data-Analytics--Hybrid-_R28230",
     "description": "Engineer III - Data Center FinOps (Remote)",
-    "posted_at": "Posted Yesterday",
+    "posted_at": "Posted 2 Days Ago",
     "source": "workday",
     "opt_friendly": true,
     "sponsor_tier": "medium",
@@ -11749,10 +11674,10 @@
     "sponsor_cert": 62.5,
     "match_score": 20,
     "matched_skills": [],
-    "age_days": 1,
+    "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "ac880bc6716c": {
@@ -11761,7 +11686,7 @@
     "location": "Virginia Beach, Virginia",
     "url": "https://cat.wd5.myworkdayjobs.com/en-US/CaterpillarCareers/job/Virginia-Beach-Virginia/Software-Engineer_R0000376140",
     "description": "Software Engineer",
-    "posted_at": "Posted Yesterday",
+    "posted_at": "Posted 2 Days Ago",
     "source": "workday",
     "opt_friendly": true,
     "sponsor_tier": "medium",
@@ -11770,11 +11695,11 @@
     "sponsor_cert": 100.0,
     "match_score": 20,
     "matched_skills": [],
-    "age_days": 1,
+    "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
-    "open": false
+    "last_seen": "2026-06-14",
+    "open": true
   },
   "b9066821b295": {
     "company": "Caterpillar Inc.",
@@ -11782,7 +11707,7 @@
     "location": "Alpharetta, Georgia",
     "url": "https://cat.wd5.myworkdayjobs.com/en-US/CaterpillarCareers/job/Alpharetta-Georgia/Embedded-Software-Engineering-Specialist_R0000375720",
     "description": "Embedded Software Engineering Specialist",
-    "posted_at": "Posted 4 Days Ago",
+    "posted_at": "Posted 5 Days Ago",
     "source": "workday",
     "opt_friendly": true,
     "sponsor_tier": "medium",
@@ -11791,11 +11716,11 @@
     "sponsor_cert": 100.0,
     "match_score": 20,
     "matched_skills": [],
-    "age_days": 4,
+    "age_days": 5,
     "fresh": false,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
-    "open": false
+    "last_seen": "2026-06-14",
+    "open": true
   },
   "38929995cf3a": {
     "company": "Carnegie Mellon University",
@@ -11882,7 +11807,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "0f31f6d45bcb": {
@@ -11907,7 +11832,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "1743f0adff40": {
@@ -11932,7 +11857,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "5044fd1a57b6": {
@@ -11957,7 +11882,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "050378ae7c08": {
@@ -11982,7 +11907,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "42485be727fa": {
@@ -12014,7 +11939,7 @@
     "location": "Fort Worth Texas",
     "url": "https://alcon.wd5.myworkdayjobs.com/en-US/careers_alcon/job/Fort-Worth-Texas/Control-Systems-Engineer_R-2026-46120-2",
     "description": "Control Systems Engineer",
-    "posted_at": "Posted Yesterday",
+    "posted_at": "Posted 2 Days Ago",
     "source": "workday",
     "opt_friendly": true,
     "sponsor_tier": "medium",
@@ -12023,11 +11948,11 @@
     "sponsor_cert": 90.9,
     "match_score": 8,
     "matched_skills": [],
-    "age_days": 1,
+    "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
-    "open": false
+    "last_seen": "2026-06-14",
+    "open": true
   },
   "5e5c34722ac8": {
     "company": "Novanta",
@@ -12140,7 +12065,7 @@
     "location": "Remote - Nationwide",
     "url": "https://ensemblehp.wd5.myworkdayjobs.com/en-US/ensemblehealthpartnerscareers/job/Remote---Nationwide/Engineer--Cybersecurity-Risk_R041881",
     "description": "Engineer II, Cybersecurity Risk",
-    "posted_at": "Posted Yesterday",
+    "posted_at": "Posted 2 Days Ago",
     "source": "workday",
     "opt_friendly": true,
     "sponsor_tier": "medium",
@@ -12149,10 +12074,10 @@
     "sponsor_cert": 100.0,
     "match_score": 8,
     "matched_skills": [],
-    "age_days": 1,
+    "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "4f801f04e0fe": {
@@ -12174,7 +12099,7 @@
     "fresh": true,
     "first_seen": "2026-06-13",
     "last_seen": "2026-06-13",
-    "open": true
+    "open": false
   },
   "83476d550b60": {
     "company": "Broadcom Limited",
@@ -12195,7 +12120,7 @@
     "fresh": true,
     "first_seen": "2026-06-13",
     "last_seen": "2026-06-13",
-    "open": true
+    "open": false
   },
   "ad5010831763": {
     "company": "Broadcom Limited",
@@ -12216,7 +12141,7 @@
     "fresh": false,
     "first_seen": "2026-06-13",
     "last_seen": "2026-06-13",
-    "open": true
+    "open": false
   },
   "c291efce4fcc": {
     "company": "Broadcom Limited",
@@ -12237,7 +12162,7 @@
     "fresh": false,
     "first_seen": "2026-06-13",
     "last_seen": "2026-06-13",
-    "open": true
+    "open": false
   },
   "42e61eb6e80d": {
     "company": "Thomson Reuters",
@@ -12392,27 +12317,6 @@
     "location": "CAFLO Carrier Home Flori",
     "url": "https://carrier.wd5.myworkdayjobs.com/en-US/jobs/job/CAFLO-Carrier-Home-Florida-Remote-Location-Remote-City-FL-33412-USA/Energy-Engineer-II--NORESCO-_30206638-2",
     "description": "Energy Engineer II (NORESCO)",
-    "posted_at": "Posted 2 Days Ago",
-    "source": "workday",
-    "opt_friendly": true,
-    "sponsor_tier": "high",
-    "sponsors_visa": true,
-    "sponsor_cases": null,
-    "sponsor_cert": null,
-    "match_score": 8,
-    "matched_skills": [],
-    "age_days": 2,
-    "fresh": true,
-    "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
-    "open": false
-  },
-  "0eda860c16dd": {
-    "company": "Carrier Global",
-    "title": "Project Engineer",
-    "location": "CAV20: ALC - Virginia, 4",
-    "url": "https://carrier.wd5.myworkdayjobs.com/en-US/jobs/job/CAV20-ALC---Virginia-4948-Dominion-Boulevard-Glen-Allen-VA-23060-USA/Project-Engineer_30205234",
-    "description": "Project Engineer",
     "posted_at": "Posted 3 Days Ago",
     "source": "workday",
     "opt_friendly": true,
@@ -12425,7 +12329,28 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
+    "open": true
+  },
+  "0eda860c16dd": {
+    "company": "Carrier Global",
+    "title": "Project Engineer",
+    "location": "CAV20: ALC - Virginia, 4",
+    "url": "https://carrier.wd5.myworkdayjobs.com/en-US/jobs/job/CAV20-ALC---Virginia-4948-Dominion-Boulevard-Glen-Allen-VA-23060-USA/Project-Engineer_30205234",
+    "description": "Project Engineer",
+    "posted_at": "Posted 4 Days Ago",
+    "source": "workday",
+    "opt_friendly": true,
+    "sponsor_tier": "high",
+    "sponsors_visa": true,
+    "sponsor_cases": null,
+    "sponsor_cert": null,
+    "match_score": 8,
+    "matched_skills": [],
+    "age_days": 4,
+    "fresh": false,
+    "first_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "0342661e9bbc": {
@@ -12455,7 +12380,7 @@
     "location": "WI Madison",
     "url": "https://amfam.wd1.myworkdayjobs.com/en-US/Careers/job/WI-Madison/Software-Engineer_R38954",
     "description": "Software Engineer",
-    "posted_at": "Posted Yesterday",
+    "posted_at": "Posted 2 Days Ago",
     "source": "workday",
     "opt_friendly": true,
     "sponsor_tier": "medium",
@@ -12464,11 +12389,11 @@
     "sponsor_cert": 100.0,
     "match_score": 20,
     "matched_skills": [],
-    "age_days": 1,
+    "age_days": 2,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
-    "open": false
+    "last_seen": "2026-06-14",
+    "open": true
   },
   "f87589bb9be2": {
     "company": "American Family Insurance Group",
@@ -12489,7 +12414,7 @@
     "fresh": false,
     "first_seen": "2026-06-13",
     "last_seen": "2026-06-13",
-    "open": true
+    "open": false
   },
   "b68ee6653fa5": {
     "company": "Williams",
@@ -12510,7 +12435,7 @@
     "fresh": true,
     "first_seen": "2026-06-13",
     "last_seen": "2026-06-13",
-    "open": true
+    "open": false
   },
   "2011e07f35b2": {
     "company": "McKesson",
@@ -12579,7 +12504,7 @@
     "age_days": 0,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "9eb6efc22e55": {
@@ -12603,33 +12528,7 @@
     "age_days": 0,
     "fresh": true,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
-    "open": true
-  },
-  "918693b7eb9e": {
-    "company": "Worldpay",
-    "title": "Platform Engineer II - AWS, Kubernetes & Golang",
-    "location": "CINCINNATI OHIO",
-    "url": "https://worldpay.wd5.myworkdayjobs.com/en-US/Worldpay_External_Careers_Site/job/CINCINNATI-OHIO/Platform-Engineer-II---AWS--Kubernetes---Golang_JR0609806",
-    "description": "Platform Engineer II - AWS, Kubernetes & Golang",
-    "posted_at": "",
-    "source": "workday",
-    "opt_friendly": true,
-    "sponsor_tier": "medium",
-    "sponsors_visa": true,
-    "sponsor_cases": 36,
-    "sponsor_cert": 91.7,
-    "match_score": 40,
-    "matched_skills": [
-      "go",
-      "golang",
-      "aws",
-      "kubernetes"
-    ],
-    "age_days": null,
-    "fresh": false,
-    "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "c24345d0f960": {
@@ -12638,7 +12537,7 @@
     "location": "USA, Sunnyvale CA",
     "url": "https://crowdstrike.wd5.myworkdayjobs.com/en-US/crowdstrikecareers/job/USA---Sunnyvale-CA/Engineer-III--CICD---AI-Detection-and-Response--AIDR-_R27090",
     "description": "Engineer III, CICD - AI Detection and Response (AIDR) (HYBRID)",
-    "posted_at": "Posted 4 Days Ago",
+    "posted_at": "Posted 5 Days Ago",
     "source": "workday",
     "opt_friendly": true,
     "sponsor_tier": "medium",
@@ -12647,10 +12546,10 @@
     "sponsor_cert": 62.5,
     "match_score": 20,
     "matched_skills": [],
-    "age_days": 4,
+    "age_days": 5,
     "fresh": false,
     "first_seen": "2026-06-13",
-    "last_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
     "open": true
   },
   "dc49d392ebee": {
@@ -12672,7 +12571,7 @@
     "fresh": false,
     "first_seen": "2026-06-13",
     "last_seen": "2026-06-13",
-    "open": true
+    "open": false
   },
   "07a5f847d614": {
     "company": "Caterpillar Inc.",
@@ -12693,7 +12592,7 @@
     "fresh": false,
     "first_seen": "2026-06-13",
     "last_seen": "2026-06-13",
-    "open": true
+    "open": false
   },
   "fb328d540d59": {
     "company": "Fidelity Investments",
@@ -12716,7 +12615,7 @@
     "fresh": false,
     "first_seen": "2026-06-13",
     "last_seen": "2026-06-13",
-    "open": true
+    "open": false
   },
   "9e0a65a15fbc": {
     "company": "Arch Capital Group",
@@ -12737,7 +12636,7 @@
     "fresh": false,
     "first_seen": "2026-06-13",
     "last_seen": "2026-06-13",
-    "open": true
+    "open": false
   },
   "aa0771d26e60": {
     "company": "Bank of America",
@@ -12761,7 +12660,7 @@
     "fresh": true,
     "first_seen": "2026-06-13",
     "last_seen": "2026-06-13",
-    "open": true
+    "open": false
   },
   "8bdc8194cb1d": {
     "company": "Elevance Health",
@@ -12782,7 +12681,7 @@
     "fresh": false,
     "first_seen": "2026-06-13",
     "last_seen": "2026-06-13",
-    "open": true
+    "open": false
   },
   "b0e845aa36a4": {
     "company": "BainCapital",
@@ -12803,7 +12702,7 @@
     "fresh": false,
     "first_seen": "2026-06-13",
     "last_seen": "2026-06-13",
-    "open": true
+    "open": false
   },
   "5912497a649d": {
     "company": "Hewlett Packard Enterprise",
@@ -12824,7 +12723,7 @@
     "fresh": false,
     "first_seen": "2026-06-13",
     "last_seen": "2026-06-13",
-    "open": true
+    "open": false
   },
   "ff60b47e8be3": {
     "company": "MiTek",
@@ -12845,6 +12744,132 @@
     "fresh": false,
     "first_seen": "2026-06-13",
     "last_seen": "2026-06-13",
+    "open": false
+  },
+  "89cc54f158f0": {
+    "company": "Hewlett Packard (HP)",
+    "title": "PS Data Analyst",
+    "location": "Spring Texas United Stat",
+    "url": "https://hp.wd5.myworkdayjobs.com/en-US/ExternalCareerSite/job/Spring-Texas-United-States-of-America/PS---Data-Analyst_3164435-1",
+    "description": "PS Data Analyst",
+    "posted_at": "Posted 6 Days Ago",
+    "source": "workday",
+    "opt_friendly": true,
+    "sponsor_tier": "medium",
+    "sponsors_visa": true,
+    "sponsor_cases": 24,
+    "sponsor_cert": 100.0,
+    "match_score": 20,
+    "matched_skills": [],
+    "age_days": 6,
+    "fresh": false,
+    "first_seen": "2026-06-14",
+    "last_seen": "2026-06-14",
+    "open": true
+  },
+  "7e8832f7cce5": {
+    "company": "Rockwell Automation",
+    "title": "Associate Software Engineer-Embedded",
+    "location": "Mayfield Heights, Ohio, ",
+    "url": "https://rockwellautomation.wd1.myworkdayjobs.com/en-US/External_Rockwell_Automation/job/Mayfield-Heights-Ohio-United-States/Associate-Software-Engineer-Embedded_R26-3608",
+    "description": "Associate Software Engineer-Embedded",
+    "posted_at": "Posted 2 Days Ago",
+    "source": "workday",
+    "opt_friendly": true,
+    "sponsor_tier": "medium",
+    "sponsors_visa": true,
+    "sponsor_cases": 10,
+    "sponsor_cert": 90.0,
+    "match_score": 20,
+    "matched_skills": [],
+    "age_days": 2,
+    "fresh": true,
+    "first_seen": "2026-06-14",
+    "last_seen": "2026-06-14",
+    "open": true
+  },
+  "148f17ed2c49": {
+    "company": "Cadence",
+    "title": "C++ Software Engineer",
+    "location": "SAN JOSE",
+    "url": "https://cadence.wd1.myworkdayjobs.com/en-US/External_Careers/job/SAN-JOSE/Principal-Software-Engineer_R53006",
+    "description": "C++ Software Engineer",
+    "posted_at": "Posted 3 Days Ago",
+    "source": "workday",
+    "opt_friendly": true,
+    "sponsor_tier": "high",
+    "sponsors_visa": true,
+    "sponsor_cases": 54,
+    "sponsor_cert": 94.4,
+    "match_score": 20,
+    "matched_skills": [],
+    "age_days": 3,
+    "fresh": false,
+    "first_seen": "2026-06-14",
+    "last_seen": "2026-06-14",
+    "open": true
+  },
+  "7aebac20056c": {
+    "company": "Embry-Riddle Aeronautical University",
+    "title": "Assistant/Associate Professor of Computer Engineering (NTT), Prescott Campus",
+    "location": "Prescott, AZ",
+    "url": "https://embryriddle.wd1.myworkdayjobs.com/en-US/External/job/Prescott-AZ/Assistant-Associate-Professor-of-Computer-Engineering--NTT---Prescott-Campus_R311259",
+    "description": "Assistant/Associate Professor of Computer Engineering (NTT), Prescott Campus",
+    "posted_at": "",
+    "source": "workday",
+    "opt_friendly": true,
+    "sponsor_tier": "medium",
+    "sponsors_visa": true,
+    "sponsor_cases": 29,
+    "sponsor_cert": 65.5,
+    "match_score": 8,
+    "matched_skills": [],
+    "age_days": null,
+    "fresh": false,
+    "first_seen": "2026-06-14",
+    "last_seen": "2026-06-14",
+    "open": true
+  },
+  "362518807869": {
+    "company": "Cisco",
+    "title": "Customer Relibility Engineer - Isovalent",
+    "location": "San Jose California US",
+    "url": "https://cisco.wd5.myworkdayjobs.com/en-US/cisco_careers/job/San-Jose-California-US/Customer-Relibility-Engineer---Isovalent_2015890",
+    "description": "Customer Relibility Engineer - Isovalent",
+    "posted_at": "Posted 2 Days Ago",
+    "source": "workday",
+    "opt_friendly": true,
+    "sponsor_tier": "high",
+    "sponsors_visa": true,
+    "sponsor_cases": 193,
+    "sponsor_cert": 99.5,
+    "match_score": 8,
+    "matched_skills": [],
+    "age_days": 2,
+    "fresh": true,
+    "first_seen": "2026-06-14",
+    "last_seen": "2026-06-14",
+    "open": true
+  },
+  "57afdbc91e11": {
+    "company": "Cisco",
+    "title": "Software Engineering Technical Leader , Frontend (Hybrid)",
+    "location": "Milpitas, California, US",
+    "url": "https://cisco.wd5.myworkdayjobs.com/en-US/cisco_careers/job/Milpitas-California-US/Software-Engineering-Technical-Leader---Frontend--Hybrid-_2016291",
+    "description": "Software Engineering Technical Leader , Frontend (Hybrid)",
+    "posted_at": "Posted 6 Days Ago",
+    "source": "workday",
+    "opt_friendly": true,
+    "sponsor_tier": "high",
+    "sponsors_visa": true,
+    "sponsor_cases": 193,
+    "sponsor_cert": 99.5,
+    "match_score": 20,
+    "matched_skills": [],
+    "age_days": 6,
+    "fresh": false,
+    "first_seen": "2026-06-14",
+    "last_seen": "2026-06-14",
     "open": true
   }
 }
