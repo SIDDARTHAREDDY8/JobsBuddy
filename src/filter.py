@@ -138,6 +138,36 @@ FOREIGN_CC = {
     "ae", "qa", "il", "eg", "za", "ng", "ke", "lk", "bd", "pk", "np", "ph",
 }
 
+# 3-letter ISO codes (Workday uses these: "Carlow, Carlow, IRE"). None collide
+# with US 2-letter state codes, so all non-US 3-letter codes are safe to block.
+FOREIGN_CC3 = {
+    "ire", "irl", "gbr", "ind", "can", "deu", "fra", "esp", "ita", "nld", "bel",
+    "che", "aut", "dnk", "swe", "nor", "fin", "pol", "cze", "svk", "hun", "rou",
+    "bgr", "grc", "hrv", "srb", "svn", "est", "ltu", "lva", "tur", "ukr", "rus",
+    "jpn", "chn", "kor", "twn", "hkg", "sgp", "mys", "tha", "phl", "idn", "vnm",
+    "aus", "nzl", "bra", "mex", "chl", "col", "per", "are", "qat", "isr", "egy",
+    "zaf", "nga", "ken", "lka", "bgd", "pak", "npl", "prt", "lux", "mlt", "sau",
+}
+
+# US state codes — matched only as a complete trailing token (", CA"), with a
+# word boundary, so they don't substring-match foreign cities ("ca" in "Carlow")
+_US_STATE_CODES = ("al ak az ar ca co ct de fl ga hi id il in ia ks ky la me md "
+                   "ma mi mn ms mo mt ne nv nh nj nm ny nc nd oh ok or pa ri sc "
+                   "sd tn tx ut vt va wa wv wi wy dc").split()
+_US_CODE_RE = re.compile(r",\s*(" + "|".join(_US_STATE_CODES) + r")\b")
+
+
+def _us_signal(loc_text, hints):
+    """Positive US detection, boundary-aware (so ', ca' != 'Carlow')."""
+    if _US_CODE_RE.search(loc_text):
+        return True
+    for h in hints:
+        if h.startswith(", "):      # comma state-codes handled above
+            continue
+        if re.search(r"\b" + re.escape(h.strip()) + r"\b", loc_text):
+            return True
+    return False
+
 
 def location_ok(location, profile):
     """US-REQUIRED logic: a job is kept only if its location shows a clear US
@@ -154,10 +184,10 @@ def location_ok(location, profile):
     # 1) explicit foreign signal (known country/city, anywhere incl. URL path) -> drop
     if _has_word(full, profile.get("us_location_block", [])) and not strong_us:
         return False
-    # 2) trailing 2-letter country code ("Hà Nội, vn") -> drop
+    # 2) trailing country code, 2- or 3-letter ("Hà Nội, vn" / "Carlow, IRE") -> drop
     seg = loc_text.replace(";", ",").split(",")[-1].strip()
     last = seg.split()[0] if seg.split() else ""
-    if last in FOREIGN_CC and not strong_us:
+    if (last in FOREIGN_CC or last in FOREIGN_CC3) and not strong_us:
         return False
 
     # 3) US-REQUIRED: must have a positive US signal to pass
@@ -165,7 +195,7 @@ def location_ok(location, profile):
         return True            # truly no location given -> keep (rare, don't over-drop)
     if "remote" in loc_text:
         return True            # remote (US-leaning for US-based employers)
-    if strong_us or _has_any(loc_text, profile.get("us_location_hints", [])):
+    if strong_us or _us_signal(loc_text, profile.get("us_location_hints", [])):
         return True            # US state / city / "United States" / ", CA" etc.
     # has a location, but no US signal at all -> foreign or unknown -> DROP
     return False
