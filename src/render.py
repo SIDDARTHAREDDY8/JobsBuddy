@@ -136,8 +136,8 @@ def render_readme(jobs, profile, today):
              f"Open now: **{open_now}** • 🆕 Added today: **{new_today}**</sub>")
     L.append("")
     L.append("**Legend:** 🔥 NEW = added in the latest update (older jobs lose this automatically) • "
-             "✅ Sponsors = recent H1B filing history • 🔒 = no longer listed • "
-             "Posted = how long ago the company posted it • Match % = how strong a fit the role is.")
+             "✅ Sponsors = recent H1B filing history • Posted = how long ago the company "
+             "posted it • Match % = how strong a fit the role is. (Only open, currently-listed jobs shown.)")
     L.append("")
     L.append("---")
     L.append("")
@@ -159,7 +159,7 @@ def render_readme(jobs, profile, today):
 
     L.append("<sub>Built with a free Python scraper + GitHub Actions — no paid APIs. "
              "Sponsorship tiers are indicative; verify on the posting. "
-             "Closed roles are kept for history. Data from public ATS feeds "
+             "Only open, currently-listed roles shown. Data from public ATS feeds "
              "(Greenhouse, Lever, Ashby, Workday).</sub>")
     L.append("")
     return "\n".join(L)
