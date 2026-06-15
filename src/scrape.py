@@ -9,6 +9,33 @@ import json
 import html as _html
 import urllib.request
 import urllib.error
+from datetime import datetime, timezone, timedelta
+
+
+def _abs_date_from_relative(text):
+    """Convert Workday's relative 'Posted Today' / 'Posted 3 Days Ago' to an
+    ABSOLUTE date at scrape time. Storing the literal string is a bug: it would
+    re-evaluate to 'today' forever. If `text` is already a date/ISO, leave it."""
+    if not text:
+        return text
+    s = str(text).lower()
+    if "posted" not in s and "today" not in s and "yesterday" not in s and "day ago" not in s and "days ago" not in s:
+        return text  # already absolute (ISO date / startDate)
+    import re as _r
+    if "today" in s or "just posted" in s:
+        days = 0
+    elif "yesterday" in s:
+        days = 1
+    else:
+        m = _r.search(r"(\d+)\+?\s*day", s)
+        if m:
+            days = int(m.group(1))
+        else:
+            m = _r.search(r"(\d+)\+?\s*month", s)
+            days = int(m.group(1)) * 30 if m else None
+    if days is None:
+        return text
+    return (datetime.now(timezone.utc) - timedelta(days=days)).strftime("%Y-%m-%d")
 
 UA = "opt-friendly-jobs/1.0 (+https://github.com/SIDDARTHAREDDY8)"
 TIMEOUT = 20
@@ -189,7 +216,9 @@ def scrape_workday(slug, company, fetch_detail=True, max_detail=120):
                 out.append({
                     "company": company, "title": j.get("title", ""),
                     "location": loc, "url": host + path,
-                    "description": desc, "posted_at": posted, "source": "workday",
+                    "description": desc,
+                    "posted_at": _abs_date_from_relative(posted),  # freeze to absolute date
+                    "source": "workday",
                 })
             offset += 20
             if offset >= data.get("total", 0):
