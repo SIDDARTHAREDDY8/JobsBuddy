@@ -184,7 +184,10 @@ def location_ok(location, profile):
     full = (location or "").lower()          # may be "location url"
     loc_text = full.split("http")[0].strip()  # location portion only (drop URL)
 
-    strong_us = _strong_us(full)
+    # US signal must come from the LOCATION, not the URL — Workday URLs contain the
+    # "/en-US/" locale, whose "-us" would otherwise fake a US signal on EVERY
+    # foreign Workday job (Bengaluru, Paris, ...). This was the big leak.
+    strong_us = _strong_us(loc_text)
 
     # 1) explicit foreign signal (known country/city, anywhere incl. URL path) -> drop
     if _has_word(full, profile.get("us_location_block", [])) and not strong_us:
