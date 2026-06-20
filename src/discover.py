@@ -146,6 +146,88 @@ CANDIDATES = [
 ]
 
 
+def parse_target(arg):
+    """Turn a job/careers URL (or 'ats:slug', or bare slug) into (name, ats, slug).
+    Lets you add any job you spot on LinkedIn in one command:
+        python3 src/discover.py --add https://job-boards.greenhouse.io/ooma/jobs/123
+    """
+    a = arg.strip()
+    host = a.split("//")[-1].split("/")[0].lower()
+    parts = [p for p in a.split("//")[-1].split("/")[1:] if p]
+    if "greenhouse.io" in host:
+        # boards-api.greenhouse.io/v1/boards/{slug}/... | job-boards/boards.greenhouse.io/{slug}/...
+        if "v1/boards" in a:
+            slug = a.split("v1/boards/")[1].split("/")[0]
+        else:
+            slug = parts[0] if parts else ""
+        return (slug.title(), "greenhouse", slug) if slug else None
+    if "lever.co" in host:
+        return (parts[0].title(), "lever", parts[0]) if parts else None
+    if "ashbyhq.com" in host:
+        return (parts[0].title(), "ashby", parts[0]) if parts else None
+    if "smartrecruiters.com" in host:
+        return (parts[0].title(), "smartrecruiters", parts[0]) if parts else None
+    if "avature.net" in host:                       # {co}.avature.net
+        return (host.split(".")[0].title(), "avature", host)
+    if host.startswith("apply.") and host.endswith((".com", ".net")):  # apply.{co}.com (Avature)
+        return (host.split(".")[1].title(), "avature", host)
+    if ":" in a and "//" not in a:                  # "ats:slug"
+        ats, slug = a.split(":", 1)
+        return (slug.title(), ats.strip(), slug.strip())
+    if "." not in a and "/" not in a:               # bare slug -> assume greenhouse
+        return (a.title(), "greenhouse", a)
+    return None
+
+
+def _gh_name(slug):
+    """Fetch the real company display name from the Greenhouse board (nicer than
+    a title-cased slug)."""
+    try:
+        d = json.loads(_get(f"https://boards-api.greenhouse.io/v1/boards/{slug}"))
+        return d.get("name") or slug.title()
+    except Exception:
+        return slug.title()
+
+
+def add_targets(args):
+    """--add mode: parse each URL/slug, validate it returns jobs, merge if new."""
+    path = os.path.join(HERE, "companies.json")
+    existing = json.load(open(path))
+    have = {(x["ats"], x["slug"].lower()) for x in existing}
+    added = 0
+    for arg in args:
+        t = parse_target(arg)
+        if not t:
+            print(f"  ?  couldn't parse: {arg}")
+            continue
+        name, ats, slug = t
+        if ats not in VALIDATORS:
+            print(f"  ⚠️  {ats} not auto-validatable here: {slug}")
+            continue
+        if (ats, slug.lower()) in have:
+            print(f"  =  already have {ats}:{slug}")
+            continue
+        try:
+            n = VALIDATORS[ats](slug)
+        except Exception as e:
+            print(f"  ❌ {ats}:{slug} did not resolve ({type(e).__name__})")
+            continue
+        if not n:
+            print(f"  ❌ {ats}:{slug} resolved but has 0 open jobs")
+            continue
+        if ats == "greenhouse":
+            name = _gh_name(slug)
+        existing.append({"company": name, "ats": ats, "slug": slug})
+        have.add((ats, slug.lower()))
+        added += 1
+        print(f"  ✅ added {name} ({ats}:{slug}) — {n} open jobs")
+    if added:
+        json.dump(existing, open(path, "w"), indent=2)
+        print(f"\n💾 merged {added} new → companies.json (now {len(existing)} total)")
+    else:
+        print("\nnothing new to add.")
+
+
 def check(c):
     name, ats, slug = c
     try:
@@ -156,6 +238,11 @@ def check(c):
 
 
 def main():
+    if "--add" in sys.argv:
+        targets = [a for a in sys.argv[sys.argv.index("--add") + 1:]
+                   if not a.startswith("--")]
+        add_targets(targets)
+        return
     write = "--write" in sys.argv
     existing = json.load(open(os.path.join(HERE, "companies.json")))
     have = {(x["ats"], x["slug"].lower()) for x in existing}
