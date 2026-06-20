@@ -9973,5 +9973,95 @@
     "company": "Deloitte",
     "ats": "avature",
     "slug": "apply.deloitte.com"
+  },
+  {
+    "company": "Lyra Health",
+    "ats": "lever",
+    "slug": "lyrahealth"
+  },
+  {
+    "company": "Okta",
+    "ats": "greenhouse",
+    "slug": "okta"
+  },
+  {
+    "company": "Oscar Health",
+    "ats": "greenhouse",
+    "slug": "oscar"
+  },
+  {
+    "company": "Elastic",
+    "ats": "greenhouse",
+    "slug": "elastic"
+  },
+  {
+    "company": "Rubrik",
+    "ats": "greenhouse",
+    "slug": "rubrik"
+  },
+  {
+    "company": "LangChain",
+    "ats": "ashby",
+    "slug": "langchain"
+  },
+  {
+    "company": "SoFi",
+    "ats": "greenhouse",
+    "slug": "sofi"
+  },
+  {
+    "company": "Abnormal Security",
+    "ats": "greenhouse",
+    "slug": "abnormalsecurity"
+  },
+  {
+    "company": "Duolingo",
+    "ats": "greenhouse",
+    "slug": "duolingo"
+  },
+  {
+    "company": "Sweetgreen",
+    "ats": "greenhouse",
+    "slug": "sweetgreen"
+  },
+  {
+    "company": "Peloton",
+    "ats": "greenhouse",
+    "slug": "peloton"
+  },
+  {
+    "company": "ZipRecruiter",
+    "ats": "greenhouse",
+    "slug": "ziprecruiter"
+  },
+  {
+    "company": "Komodo Health",
+    "ats": "greenhouse",
+    "slug": "komodohealth"
+  },
+  {
+    "company": "Betterment",
+    "ats": "greenhouse",
+    "slug": "betterment"
+  },
+  {
+    "company": "Sardine",
+    "ats": "ashby",
+    "slug": "sardine"
+  },
+  {
+    "company": "Pinecone",
+    "ats": "ashby",
+    "slug": "pinecone"
+  },
+  {
+    "company": "ButcherBox",
+    "ats": "greenhouse",
+    "slug": "butcherbox"
+  },
+  {
+    "company": "Wiz",
+    "ats": "greenhouse",
+    "slug": "wizinc"
   }
 ]
