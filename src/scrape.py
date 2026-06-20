@@ -9,6 +9,7 @@ import json
 import html as _html
 import urllib.request
 import urllib.error
+import urllib.parse
 from datetime import datetime, timezone, timedelta
 
 
@@ -244,6 +245,113 @@ def _workday_detail(url):
         return None
 
 
+# ---------- Avature ----------
+# Used by big consulting/enterprise firms (Deloitte, etc.). The careers site is a
+# JS-rendered SPA, but its AJAX "SearchJobs/results" endpoint returns plain HTML
+# rows we can parse. The list view has title + company + location inline; the
+# posting DATE lives only on the detail page (JSON-LD datePosted) — so, exactly
+# like Workday, we detail-fetch ONLY the relevant non-senior roles, capped.
+# The /results AJAX fragment ignores the keyword param (it's session-stateful),
+# but the MAIN SearchJobs page honours ?search=<term> statelessly and paginates
+# via ?jobOffset=N (10 rows/page). So we drive that, one search term at a time —
+# exactly the Workday pattern (keyword-search a huge board, page deep, dedup).
+_AVA_TERMS = ["software engineer", "data engineer", "developer", "data scientist", "machine learning"]
+_AVA_PAGE = 10        # rows per page on the main SearchJobs page
+_AVA_PAGES = 5        # up to 50 results/term — deep enough for early-career roles
+_AVA_ARTICLE = _re.compile(r"<article class=\"article--result.*?</article>", _re.S)
+_AVA_LINK = _re.compile(r'<a href="(https://[^"]*?/JobDetail/[^"]+)"[^>]*>(.*?)</a>', _re.S)
+_AVA_SPAN = _re.compile(r"<span>(.*?)</span>", _re.S)
+
+
+def scrape_avature(slug, company, fetch_detail=True, max_detail=70):
+    # slug = the careers host, e.g. "apply.deloitte.com"
+    base = f"https://{slug}/en_US/careers/SearchJobs"
+    out, seen, detail_count = [], set(), 0
+    for term in _AVA_TERMS:
+        if detail_count >= max_detail:
+            break
+        for page in range(_AVA_PAGES):
+            q = urllib.parse.urlencode({"search": term, "sort": "relevancy",
+                                        "jobOffset": page * _AVA_PAGE})
+            try:
+                req = urllib.request.Request(base + "?" + q,
+                                             headers={"User-Agent": UA})
+                with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
+                    page_html = r.read().decode("utf-8", "replace")
+            except Exception:
+                break
+            arts = _AVA_ARTICLE.findall(page_html)
+            if not arts:
+                break
+            new_on_page = 0
+            for art in arts:
+                lm = _AVA_LINK.search(art)
+                if not lm:
+                    continue
+                url, title = lm.group(1), _strip_html(lm.group(2))
+                if not title or url in seen:
+                    continue
+                seen.add(url)
+                new_on_page += 1
+                tl = title.lower()
+                # keep only tech-ish, non-senior titles (the search is fuzzy and
+                # returns sales/tax/consulting + senior roles we don't want)
+                if not _WD_TITLE_HINT.search(tl) or _WD_SENIOR.search(tl):
+                    continue
+                if detail_count >= max_detail:
+                    break
+                # the list shows "Multiple Locations" + NO date; the detail page
+                # is the only source of the real posting date + location + body.
+                # Emit ONLY dated jobs — undated ones can't be placed on a
+                # freshness-first board and would clutter the "unknown" bucket.
+                info = _avature_detail(url) if fetch_detail else None
+                detail_count += 1
+                if not info or not info.get("posted"):
+                    continue
+                spans = [_strip_html(s) for s in _AVA_SPAN.findall(art)]
+                loc = info.get("location") or (spans[-1] if spans else "")
+                out.append({
+                    "company": company, "title": title,
+                    "location": loc, "url": url,
+                    "description": info.get("description", ""),
+                    "posted_at": info.get("posted", ""), "source": "avature",
+                })
+            if not new_on_page or detail_count >= max_detail:
+                break
+    return out
+
+
+def _avature_detail(url):
+    """Detail page carries a JobPosting JSON-LD block with the real posting date,
+    full description, and a clean location — same role the Workday detail plays."""
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": UA})
+        with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
+            t = r.read().decode("utf-8", "replace")
+    except Exception:
+        return None
+    for m in _re.finditer(r"<script[^>]*application/ld\+json[^>]*>(.*?)</script>", t, _re.S):
+        try:
+            d = json.loads(m.group(1))
+        except Exception:
+            continue
+        if not (isinstance(d, dict) and d.get("@type") == "JobPosting"):
+            continue
+        jl = d.get("jobLocation") or {}
+        if isinstance(jl, list):
+            jl = jl[0] if jl else {}
+        addr = jl.get("address", {}) if isinstance(jl, dict) else {}
+        loc = ", ".join(x for x in [addr.get("addressLocality", ""),
+                                    addr.get("addressRegion", ""),
+                                    addr.get("addressCountry", "")] if x)
+        return {
+            "posted": (d.get("datePosted", "") or "")[:10],
+            "description": _strip_html(d.get("description", ""))[:3000],
+            "location": loc,
+        }
+    return None
+
+
 # ---------- Breezy HR ----------
 def scrape_breezy(slug, company):
     data = _get_json(f"https://{slug}.breezy.hr/json")
@@ -424,6 +532,7 @@ ADAPTERS = {
     "breezy": scrape_breezy,
     "pinpoint": scrape_pinpoint,
     "rippling": scrape_rippling,
+    "avature": scrape_avature,
 }
 
 
