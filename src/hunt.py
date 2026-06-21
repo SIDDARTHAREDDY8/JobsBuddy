@@ -97,7 +97,46 @@ NAMES = [
     # Robotics / hardware (non-defense)
     "Zipline", "Skydio", "Figure", "Nuro", "Applied Intuition", "Waymo", "Zoox",
     "Cruise", "Aurora Innovation", "Rivian", "Wing",
+    # --- Overlooked verticals (almost nobody targets their software teams) ---
+    # Auto OEM / EV
+    "Tesla", "Rivian", "Lucid Motors", "Ford", "General Motors", "Stellantis",
+    "Polestar", "Scout Motors", "VinFast", "Canoo", "Fisker", "Karma Automotive",
+    "Faraday Future", "Lordstown", "Hyundai", "Toyota", "Honda", "Nissan",
+    # Auto suppliers / mobility tech
+    "Bosch", "Continental", "Aptiv", "Magna", "Harman", "Mobileye", "Luminar",
+    "Valeo", "Forvia", "Cerence", "Stoneridge", "May Mobility", "Plus", "Kodiak Robotics",
+    # Bikes / powersports
+    "Harley-Davidson", "Trek Bikes", "Specialized", "SRAM", "Zero Motorcycles",
+    "LiveWire", "Polaris", "BRP", "Rad Power Bikes", "Aventon", "Super73", "Cannondale",
+    # Sports apparel / equipment / wearables
+    "Nike", "Adidas", "Under Armour", "Puma", "New Balance", "Lululemon",
+    "Columbia Sportswear", "Patagonia", "Wilson", "Callaway", "Garmin", "Whoop",
+    "Strava", "On Running", "Hoka", "Deckers", "YETI", "Vuori", "Gymshark", "Fanatics",
+    # Sports tech / betting / media
+    "DraftKings", "FanDuel", "Sportradar", "Genius Sports", "Hudl", "Catapult Sports",
+    "Stats Perform", "Sorare", "Dapper Labs", "Underdog Fantasy", "PrizePicks",
+    "Sleeper", "DAZN", "Fancode", "Fubo", "Tonal", "Zwift",
+    # Sports teams / leagues
+    "NFL", "NBA", "Major League Baseball", "NHL", "Major League Soccer", "NASCAR",
+    "PGA Tour", "UFC", "WWE", "Madison Square Garden", "Los Angeles Dodgers",
+    "San Francisco 49ers", "Golden State Warriors", "Atlanta Braves",
+    # Other overlooked: airlines, travel, retail, CPG, gaming, toys
+    "United Airlines", "JetBlue", "Alaska Airlines", "Expedia", "Tripadvisor",
+    "Marriott", "Hilton", "Hyatt", "Target", "Best Buy", "Chewy", "Wayfair",
+    "PepsiCo", "Mondelez", "General Mills", "Electronic Arts", "Riot Games",
+    "Epic Games", "Bungie", "Take-Two", "Hasbro", "Mattel", "LEGO", "Scopely",
 ]
+
+
+# slug collisions: the slug resolves to a DIFFERENT company than the name implies
+# (verified by board name / job content). Skip so we never add the wrong employer.
+SKIP = {
+    ("greenhouse", "general"),   # "General Interest" — not GM / General Mills
+    ("greenhouse", "new"),       # "Sonja Inc." — not New Balance
+    ("greenhouse", "zero"),      # generic "Zero" — unconfirmed as Zero Motorcycles
+    ("ashby", "zero"),           # SF AI startup — not Zero Motorcycles
+    ("ashby", "radai"),          # "Rad AI" (radiology) — not Rad Power Bikes
+}
 
 
 def hunt_one(name, have):
@@ -105,6 +144,8 @@ def hunt_one(name, have):
         for slug in slug_variants(name):
             if (ats, slug.lower()) in have:
                 return (name, ats, slug, -1)   # already have it
+            if (ats, slug.lower()) in SKIP:
+                continue
             try:
                 n = vfn(slug)
             except Exception:

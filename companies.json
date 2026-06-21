@@ -11823,5 +11823,130 @@
     "company": "Cardboard",
     "ats": "ashby",
     "slug": "cardboard"
+  },
+  {
+    "company": "Mattel",
+    "ats": "smartrecruiters",
+    "slug": "mattelinc"
+  },
+  {
+    "company": "On",
+    "ats": "greenhouse",
+    "slug": "onrunning"
+  },
+  {
+    "company": "Vuori",
+    "ats": "smartrecruiters",
+    "slug": "vuoriinc"
+  },
+  {
+    "company": "Riot Games",
+    "ats": "greenhouse",
+    "slug": "riotgames"
+  },
+  {
+    "company": "Hasbro",
+    "ats": "greenhouse",
+    "slug": "hasbro"
+  },
+  {
+    "company": "Epic Games",
+    "ats": "greenhouse",
+    "slug": "epicgames"
+  },
+  {
+    "company": "FanDuel",
+    "ats": "greenhouse",
+    "slug": "fanduel"
+  },
+  {
+    "company": "Major League Baseball",
+    "ats": "greenhouse",
+    "slug": "majorleaguebaseball"
+  },
+  {
+    "company": "Sportradar",
+    "ats": "smartrecruiters",
+    "slug": "sportradar"
+  },
+  {
+    "company": "Genius Sports",
+    "ats": "greenhouse",
+    "slug": "geniussports"
+  },
+  {
+    "company": "PrizePicks",
+    "ats": "greenhouse",
+    "slug": "prizepicks"
+  },
+  {
+    "company": "Strava",
+    "ats": "ashby",
+    "slug": "strava"
+  },
+  {
+    "company": "Fanatics Inc.",
+    "ats": "greenhouse",
+    "slug": "fanaticsinc"
+  },
+  {
+    "company": "Dapper Labs",
+    "ats": "ashby",
+    "slug": "dapper"
+  },
+  {
+    "company": "Gymshark",
+    "ats": "greenhouse",
+    "slug": "gymshark"
+  },
+  {
+    "company": "Sleeper",
+    "ats": "ashby",
+    "slug": "sleeper"
+  },
+  {
+    "company": "Aventon",
+    "ats": "lever",
+    "slug": "aventon"
+  },
+  {
+    "company": "Zwift",
+    "ats": "greenhouse",
+    "slug": "zwift"
+  },
+  {
+    "company": "Cannondale",
+    "ats": "greenhouse",
+    "slug": "cannondale"
+  },
+  {
+    "company": "Wilson",
+    "ats": "ashby",
+    "slug": "wilson"
+  },
+  {
+    "company": "Sorare",
+    "ats": "ashby",
+    "slug": "sorare"
+  },
+  {
+    "company": "Polaris ",
+    "ats": "greenhouse",
+    "slug": "polaris"
+  },
+  {
+    "company": "Marriott",
+    "ats": "smartrecruiters",
+    "slug": "marriottinc"
+  },
+  {
+    "company": "Bungie",
+    "ats": "greenhouse",
+    "slug": "bungie"
+  },
+  {
+    "company": "Wayfair",
+    "ats": "smartrecruiters",
+    "slug": "wayfair"
   }
 ]
