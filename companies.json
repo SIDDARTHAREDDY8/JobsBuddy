@@ -10323,5 +10323,1505 @@
     "company": "Socket",
     "ats": "greenhouse",
     "slug": "socket"
+  },
+  {
+    "company": "Tractian",
+    "ats": "lever",
+    "slug": "tractian"
+  },
+  {
+    "company": "Ashby",
+    "ats": "ashby",
+    "slug": "ashby"
+  },
+  {
+    "company": "Deepgram",
+    "ats": "ashby",
+    "slug": "deepgram"
+  },
+  {
+    "company": "Alpaca",
+    "ats": "greenhouse",
+    "slug": "alpaca"
+  },
+  {
+    "company": "Human Interest",
+    "ats": "greenhouse",
+    "slug": "humaninterest"
+  },
+  {
+    "company": "Algolia",
+    "ats": "greenhouse",
+    "slug": "algolia"
+  },
+  {
+    "company": "HackerRank Careers",
+    "ats": "greenhouse",
+    "slug": "hackerrank"
+  },
+  {
+    "company": "Apollo.io",
+    "ats": "greenhouse",
+    "slug": "apolloio"
+  },
+  {
+    "company": "Twenty",
+    "ats": "ashby",
+    "slug": "twenty"
+  },
+  {
+    "company": "Netomi",
+    "ats": "lever",
+    "slug": "netomi"
+  },
+  {
+    "company": "Canary Technologies",
+    "ats": "lever",
+    "slug": "canarytechnologies"
+  },
+  {
+    "company": "Pair Team",
+    "ats": "greenhouse",
+    "slug": "pairteam"
+  },
+  {
+    "company": "Overview",
+    "ats": "ashby",
+    "slug": "overview"
+  },
+  {
+    "company": "Gigs",
+    "ats": "greenhouse",
+    "slug": "gigs"
+  },
+  {
+    "company": "Reducto",
+    "ats": "ashby",
+    "slug": "reducto"
+  },
+  {
+    "company": "NABIS",
+    "ats": "greenhouse",
+    "slug": "nabis"
+  },
+  {
+    "company": "Fieldguide",
+    "ats": "ashby",
+    "slug": "fieldguide"
+  },
+  {
+    "company": "Gridware",
+    "ats": "lever",
+    "slug": "gridware"
+  },
+  {
+    "company": "Stepful",
+    "ats": "ashby",
+    "slug": "stepful"
+  },
+  {
+    "company": "Confido",
+    "ats": "ashby",
+    "slug": "confido"
+  },
+  {
+    "company": "Campfire",
+    "ats": "ashby",
+    "slug": "campfire"
+  },
+  {
+    "company": "CaptivateIQ",
+    "ats": "lever",
+    "slug": "captivateiq"
+  },
+  {
+    "company": "Roboflow",
+    "ats": "ashby",
+    "slug": "roboflow"
+  },
+  {
+    "company": "Mesh",
+    "ats": "greenhouse",
+    "slug": "mesh"
+  },
+  {
+    "company": "Kalshi",
+    "ats": "ashby",
+    "slug": "kalshi"
+  },
+  {
+    "company": "Ditto",
+    "ats": "ashby",
+    "slug": "ditto"
+  },
+  {
+    "company": "AfterQuery",
+    "ats": "ashby",
+    "slug": "afterquery"
+  },
+  {
+    "company": "Nox Metals",
+    "ats": "ashby",
+    "slug": "nox-metals"
+  },
+  {
+    "company": "GOAT Group",
+    "ats": "greenhouse",
+    "slug": "goatgroup"
+  },
+  {
+    "company": "Latent",
+    "ats": "ashby",
+    "slug": "latent"
+  },
+  {
+    "company": "Vetcove",
+    "ats": "ashby",
+    "slug": "vetcove"
+  },
+  {
+    "company": "Juicebox",
+    "ats": "ashby",
+    "slug": "juicebox"
+  },
+  {
+    "company": "ClassDojo",
+    "ats": "ashby",
+    "slug": "classdojo"
+  },
+  {
+    "company": "Avoca",
+    "ats": "ashby",
+    "slug": "avoca"
+  },
+  {
+    "company": "Curri",
+    "ats": "ashby",
+    "slug": "curri"
+  },
+  {
+    "company": "Abacum",
+    "ats": "ashby",
+    "slug": "abacum"
+  },
+  {
+    "company": "Retell AI",
+    "ats": "ashby",
+    "slug": "retell-ai"
+  },
+  {
+    "company": "Odeko",
+    "ats": "greenhouse",
+    "slug": "odeko"
+  },
+  {
+    "company": "Qventus",
+    "ats": "greenhouse",
+    "slug": "qventus"
+  },
+  {
+    "company": "Middesk",
+    "ats": "ashby",
+    "slug": "middesk"
+  },
+  {
+    "company": "Pine Park Health",
+    "ats": "greenhouse",
+    "slug": "pineparkhealth"
+  },
+  {
+    "company": "Porter",
+    "ats": "lever",
+    "slug": "porter"
+  },
+  {
+    "company": "Padlet",
+    "ats": "ashby",
+    "slug": "padlet"
+  },
+  {
+    "company": "RADAR",
+    "ats": "ashby",
+    "slug": "radar"
+  },
+  {
+    "company": "Short Story",
+    "ats": "ashby",
+    "slug": "shortstory"
+  },
+  {
+    "company": "Firecrawl",
+    "ats": "ashby",
+    "slug": "firecrawl"
+  },
+  {
+    "company": "Mashgin",
+    "ats": "lever",
+    "slug": "mashgin"
+  },
+  {
+    "company": "Nanonets",
+    "ats": "greenhouse",
+    "slug": "nanonets"
+  },
+  {
+    "company": "Snappr",
+    "ats": "lever",
+    "slug": "snappr"
+  },
+  {
+    "company": "Legion Health",
+    "ats": "ashby",
+    "slug": "legionhealth"
+  },
+  {
+    "company": "Tennr",
+    "ats": "ashby",
+    "slug": "tennr"
+  },
+  {
+    "company": "Rescale",
+    "ats": "ashby",
+    "slug": "rescale"
+  },
+  {
+    "company": "Sendbird",
+    "ats": "greenhouse",
+    "slug": "sendbird"
+  },
+  {
+    "company": "Swayable",
+    "ats": "greenhouse",
+    "slug": "swayable"
+  },
+  {
+    "company": "David AI",
+    "ats": "ashby",
+    "slug": "david-ai"
+  },
+  {
+    "company": "Topline Pro",
+    "ats": "ashby",
+    "slug": "topline-pro"
+  },
+  {
+    "company": "Camber",
+    "ats": "ashby",
+    "slug": "camber"
+  },
+  {
+    "company": "Nova Credit",
+    "ats": "greenhouse",
+    "slug": "novacredit"
+  },
+  {
+    "company": "SigNoz",
+    "ats": "ashby",
+    "slug": "signoz"
+  },
+  {
+    "company": "Atomic Industries",
+    "ats": "ashby",
+    "slug": "atomicindustries"
+  },
+  {
+    "company": "Lago",
+    "ats": "ashby",
+    "slug": "lago"
+  },
+  {
+    "company": "Attain",
+    "ats": "greenhouse",
+    "slug": "attain"
+  },
+  {
+    "company": "Metriport",
+    "ats": "ashby",
+    "slug": "metriport"
+  },
+  {
+    "company": "Quindar",
+    "ats": "ashby",
+    "slug": "quindar"
+  },
+  {
+    "company": "Parker",
+    "ats": "ashby",
+    "slug": "parker"
+  },
+  {
+    "company": "AtoB",
+    "ats": "ashby",
+    "slug": "atob"
+  },
+  {
+    "company": "Coast",
+    "ats": "greenhouse",
+    "slug": "coast"
+  },
+  {
+    "company": "Posh",
+    "ats": "ashby",
+    "slug": "posh"
+  },
+  {
+    "company": "Sift",
+    "ats": "ashby",
+    "slug": "sift"
+  },
+  {
+    "company": "GiveCampus",
+    "ats": "greenhouse",
+    "slug": "givecampus"
+  },
+  {
+    "company": "Titan",
+    "ats": "ashby",
+    "slug": "titan"
+  },
+  {
+    "company": "Odys Aviation",
+    "ats": "ashby",
+    "slug": "odys-aviation"
+  },
+  {
+    "company": "Novig",
+    "ats": "ashby",
+    "slug": "novig"
+  },
+  {
+    "company": "Concourse",
+    "ats": "ashby",
+    "slug": "concourse"
+  },
+  {
+    "company": "FurtherAI",
+    "ats": "ashby",
+    "slug": "furtherai"
+  },
+  {
+    "company": "PointOne",
+    "ats": "ashby",
+    "slug": "pointone"
+  },
+  {
+    "company": "Icarus",
+    "ats": "greenhouse",
+    "slug": "icarus"
+  },
+  {
+    "company": "Bloom",
+    "ats": "lever",
+    "slug": "bloom"
+  },
+  {
+    "company": "Cambly",
+    "ats": "ashby",
+    "slug": "cambly"
+  },
+  {
+    "company": "Tovala",
+    "ats": "lever",
+    "slug": "tovala"
+  },
+  {
+    "company": "Spellbrush",
+    "ats": "ashby",
+    "slug": "spellbrush"
+  },
+  {
+    "company": "Pelago",
+    "ats": "greenhouse",
+    "slug": "pelago"
+  },
+  {
+    "company": "Mutiny",
+    "ats": "ashby",
+    "slug": "mutiny"
+  },
+  {
+    "company": "Benepass",
+    "ats": "ashby",
+    "slug": "benepass"
+  },
+  {
+    "company": "Handoff",
+    "ats": "lever",
+    "slug": "handoff"
+  },
+  {
+    "company": "Luminai",
+    "ats": "ashby",
+    "slug": "luminai"
+  },
+  {
+    "company": "Arketa",
+    "ats": "ashby",
+    "slug": "arketa"
+  },
+  {
+    "company": "Onshore",
+    "ats": "greenhouse",
+    "slug": "onshore"
+  },
+  {
+    "company": "Clarion",
+    "ats": "ashby",
+    "slug": "clarion"
+  },
+  {
+    "company": "Modern Health",
+    "ats": "greenhouse",
+    "slug": "modernhealth"
+  },
+  {
+    "company": "Prodigal",
+    "ats": "greenhouse",
+    "slug": "prodigal"
+  },
+  {
+    "company": "Vori",
+    "ats": "ashby",
+    "slug": "vori"
+  },
+  {
+    "company": "General Proximity",
+    "ats": "greenhouse",
+    "slug": "generalproximity"
+  },
+  {
+    "company": "Sphere",
+    "ats": "ashby",
+    "slug": "sphere"
+  },
+  {
+    "company": "AiPrise",
+    "ats": "ashby",
+    "slug": "aiprise"
+  },
+  {
+    "company": "Vitalize",
+    "ats": "ashby",
+    "slug": "vitalize"
+  },
+  {
+    "company": "HockeyStack",
+    "ats": "ashby",
+    "slug": "hockeystack"
+  },
+  {
+    "company": "Casca",
+    "ats": "ashby",
+    "slug": "casca"
+  },
+  {
+    "company": "Ultra",
+    "ats": "ashby",
+    "slug": "ultra"
+  },
+  {
+    "company": "Pulse",
+    "ats": "ashby",
+    "slug": "pulse"
+  },
+  {
+    "company": "Osmosis",
+    "ats": "greenhouse",
+    "slug": "osmosis"
+  },
+  {
+    "company": "Human Archive",
+    "ats": "ashby",
+    "slug": "humanarchive"
+  },
+  {
+    "company": "Atlas",
+    "ats": "ashby",
+    "slug": "atlas"
+  },
+  {
+    "company": "Flint",
+    "ats": "ashby",
+    "slug": "flint"
+  },
+  {
+    "company": "doola",
+    "ats": "lever",
+    "slug": "doola"
+  },
+  {
+    "company": "Glimpse",
+    "ats": "ashby",
+    "slug": "glimpse"
+  },
+  {
+    "company": "Popl",
+    "ats": "ashby",
+    "slug": "popl"
+  },
+  {
+    "company": "Tavus",
+    "ats": "ashby",
+    "slug": "tavus"
+  },
+  {
+    "company": "Infisical",
+    "ats": "ashby",
+    "slug": "infisical"
+  },
+  {
+    "company": "Vooma",
+    "ats": "ashby",
+    "slug": "vooma"
+  },
+  {
+    "company": "FleetWorks",
+    "ats": "ashby",
+    "slug": "fleetworks"
+  },
+  {
+    "company": "SafetyKit",
+    "ats": "ashby",
+    "slug": "safetykit"
+  },
+  {
+    "company": "Bretton AI",
+    "ats": "ashby",
+    "slug": "brettonai"
+  },
+  {
+    "company": "Flint",
+    "ats": "ashby",
+    "slug": "flint"
+  },
+  {
+    "company": "Artisan",
+    "ats": "ashby",
+    "slug": "artisan"
+  },
+  {
+    "company": "Uplane",
+    "ats": "ashby",
+    "slug": "uplane"
+  },
+  {
+    "company": "Bitmovin",
+    "ats": "greenhouse",
+    "slug": "bitmovin"
+  },
+  {
+    "company": "People.ai",
+    "ats": "lever",
+    "slug": "people-ai"
+  },
+  {
+    "company": "Stable",
+    "ats": "ashby",
+    "slug": "stable"
+  },
+  {
+    "company": "Notabene",
+    "ats": "ashby",
+    "slug": "notabene"
+  },
+  {
+    "company": "Parallel Bio",
+    "ats": "ashby",
+    "slug": "parallel-bio"
+  },
+  {
+    "company": "Salient",
+    "ats": "ashby",
+    "slug": "salient"
+  },
+  {
+    "company": "Suger",
+    "ats": "lever",
+    "slug": "suger"
+  },
+  {
+    "company": "Tamarind Bio",
+    "ats": "ashby",
+    "slug": "tamarindbio"
+  },
+  {
+    "company": "Codes Health",
+    "ats": "ashby",
+    "slug": "codes-health"
+  },
+  {
+    "company": "Kastle",
+    "ats": "ashby",
+    "slug": "kastle"
+  },
+  {
+    "company": "Simple AI",
+    "ats": "ashby",
+    "slug": "simple-ai"
+  },
+  {
+    "company": "XION",
+    "ats": "greenhouse",
+    "slug": "burnt"
+  },
+  {
+    "company": "super{set} Hive Community",
+    "ats": "greenhouse",
+    "slug": "superset"
+  },
+  {
+    "company": "Lob",
+    "ats": "greenhouse",
+    "slug": "lob"
+  },
+  {
+    "company": "Probably Genetic",
+    "ats": "ashby",
+    "slug": "probablygenetic"
+  },
+  {
+    "company": "Recidiviz",
+    "ats": "greenhouse",
+    "slug": "recidiviz"
+  },
+  {
+    "company": "AIOS",
+    "ats": "ashby",
+    "slug": "aios"
+  },
+  {
+    "company": "Albedo",
+    "ats": "greenhouse",
+    "slug": "albedo"
+  },
+  {
+    "company": "Replo",
+    "ats": "ashby",
+    "slug": "replo"
+  },
+  {
+    "company": "Aleph",
+    "ats": "ashby",
+    "slug": "aleph"
+  },
+  {
+    "company": "Complete",
+    "ats": "ashby",
+    "slug": "complete"
+  },
+  {
+    "company": "GovDash",
+    "ats": "ashby",
+    "slug": "govdash"
+  },
+  {
+    "company": "Blink",
+    "ats": "ashby",
+    "slug": "blink"
+  },
+  {
+    "company": "Inkeep",
+    "ats": "ashby",
+    "slug": "inkeep"
+  },
+  {
+    "company": "LiteLLM",
+    "ats": "ashby",
+    "slug": "litellm"
+  },
+  {
+    "company": "Outset",
+    "ats": "ashby",
+    "slug": "outset"
+  },
+  {
+    "company": "Sweep",
+    "ats": "ashby",
+    "slug": "sweep"
+  },
+  {
+    "company": "Centralize",
+    "ats": "ashby",
+    "slug": "centralize"
+  },
+  {
+    "company": "Circleback",
+    "ats": "ashby",
+    "slug": "circleback"
+  },
+  {
+    "company": "Substrate",
+    "ats": "ashby",
+    "slug": "substrate"
+  },
+  {
+    "company": "Clearly AI",
+    "ats": "ashby",
+    "slug": "clearly-ai"
+  },
+  {
+    "company": "Usul",
+    "ats": "ashby",
+    "slug": "usul"
+  },
+  {
+    "company": "Unusual",
+    "ats": "lever",
+    "slug": "unusual"
+  },
+  {
+    "company": "Mosaic",
+    "ats": "ashby",
+    "slug": "mosaic"
+  },
+  {
+    "company": "Lance",
+    "ats": "ashby",
+    "slug": "lance"
+  },
+  {
+    "company": "Tempo",
+    "ats": "ashby",
+    "slug": "tempo"
+  },
+  {
+    "company": "AssemblyAI",
+    "ats": "greenhouse",
+    "slug": "assemblyai"
+  },
+  {
+    "company": "Bunkerhill Health",
+    "ats": "ashby",
+    "slug": "bunkerhillhealth"
+  },
+  {
+    "company": "Atomic",
+    "ats": "ashby",
+    "slug": "atomic"
+  },
+  {
+    "company": "SpruceID",
+    "ats": "ashby",
+    "slug": "spruceid"
+  },
+  {
+    "company": "Axle Health",
+    "ats": "ashby",
+    "slug": "axle-health"
+  },
+  {
+    "company": "Triomics",
+    "ats": "ashby",
+    "slug": "triomics"
+  },
+  {
+    "company": "Invert",
+    "ats": "ashby",
+    "slug": "invert"
+  },
+  {
+    "company": "Cinder",
+    "ats": "ashby",
+    "slug": "cinder"
+  },
+  {
+    "company": "Blee",
+    "ats": "ashby",
+    "slug": "blee"
+  },
+  {
+    "company": "MaverickX",
+    "ats": "lever",
+    "slug": "maverickx"
+  },
+  {
+    "company": "Relace",
+    "ats": "ashby",
+    "slug": "relace"
+  },
+  {
+    "company": "Escape",
+    "ats": "ashby",
+    "slug": "escape"
+  },
+  {
+    "company": "Vector",
+    "ats": "ashby",
+    "slug": "vector"
+  },
+  {
+    "company": "Automat",
+    "ats": "ashby",
+    "slug": "automat"
+  },
+  {
+    "company": "Hyperbound",
+    "ats": "ashby",
+    "slug": "hyperbound"
+  },
+  {
+    "company": "Decoda Health",
+    "ats": "ashby",
+    "slug": "decodahealth"
+  },
+  {
+    "company": "Sage Care",
+    "ats": "ashby",
+    "slug": "sagecare"
+  },
+  {
+    "company": "Minerva",
+    "ats": "ashby",
+    "slug": "minerva"
+  },
+  {
+    "company": "Claim Health",
+    "ats": "ashby",
+    "slug": "claim-health"
+  },
+  {
+    "company": "Thunkable",
+    "ats": "lever",
+    "slug": "thunkable"
+  },
+  {
+    "company": "Mednet",
+    "ats": "ashby",
+    "slug": "mednet"
+  },
+  {
+    "company": "Deepnote",
+    "ats": "ashby",
+    "slug": "deepnote"
+  },
+  {
+    "company": "Paragon",
+    "ats": "ashby",
+    "slug": "paragon"
+  },
+  {
+    "company": "Kingdom",
+    "ats": "ashby",
+    "slug": "kingdom"
+  },
+  {
+    "company": "authzed",
+    "ats": "ashby",
+    "slug": "authzed"
+  },
+  {
+    "company": "Svix",
+    "ats": "ashby",
+    "slug": "svix"
+  },
+  {
+    "company": "Kodex",
+    "ats": "ashby",
+    "slug": "kodex"
+  },
+  {
+    "company": "Double",
+    "ats": "ashby",
+    "slug": "double"
+  },
+  {
+    "company": "Zensors",
+    "ats": "ashby",
+    "slug": "zensors"
+  },
+  {
+    "company": "Thera",
+    "ats": "ashby",
+    "slug": "thera"
+  },
+  {
+    "company": "Finvest",
+    "ats": "ashby",
+    "slug": "finvest"
+  },
+  {
+    "company": "Magic Patterns",
+    "ats": "ashby",
+    "slug": "magicpatterns"
+  },
+  {
+    "company": "Electric Air",
+    "ats": "ashby",
+    "slug": "electricair"
+  },
+  {
+    "company": "Sola",
+    "ats": "ashby",
+    "slug": "sola"
+  },
+  {
+    "company": "Greenboard",
+    "ats": "ashby",
+    "slug": "greenboard"
+  },
+  {
+    "company": "Abundant",
+    "ats": "ashby",
+    "slug": "abundant"
+  },
+  {
+    "company": "hud",
+    "ats": "ashby",
+    "slug": "hud"
+  },
+  {
+    "company": "Weave",
+    "ats": "greenhouse",
+    "slug": "weave"
+  },
+  {
+    "company": "Paragon",
+    "ats": "ashby",
+    "slug": "paragon"
+  },
+  {
+    "company": "Sim",
+    "ats": "ashby",
+    "slug": "sim"
+  },
+  {
+    "company": "Flai",
+    "ats": "ashby",
+    "slug": "flai"
+  },
+  {
+    "company": "Polymath",
+    "ats": "ashby",
+    "slug": "polymath"
+  },
+  {
+    "company": "Assembly",
+    "ats": "ashby",
+    "slug": "assembly"
+  },
+  {
+    "company": "Freshpaint",
+    "ats": "ashby",
+    "slug": "freshpaint"
+  },
+  {
+    "company": "Ello",
+    "ats": "ashby",
+    "slug": "ello"
+  },
+  {
+    "company": "Ready",
+    "ats": "ashby",
+    "slug": "ready"
+  },
+  {
+    "company": "Fathom",
+    "ats": "ashby",
+    "slug": "fathom"
+  },
+  {
+    "company": "FlutterFlow",
+    "ats": "ashby",
+    "slug": "flutterflow"
+  },
+  {
+    "company": "Slope",
+    "ats": "ashby",
+    "slug": "slope"
+  },
+  {
+    "company": "Aviator",
+    "ats": "ashby",
+    "slug": "aviator"
+  },
+  {
+    "company": "Stream",
+    "ats": "ashby",
+    "slug": "stream"
+  },
+  {
+    "company": "Rally UXR",
+    "ats": "ashby",
+    "slug": "rallyuxr"
+  },
+  {
+    "company": "Two Dots",
+    "ats": "lever",
+    "slug": "twodots"
+  },
+  {
+    "company": "Knowtex",
+    "ats": "ashby",
+    "slug": "knowtex"
+  },
+  {
+    "company": "Pirros",
+    "ats": "ashby",
+    "slug": "pirros"
+  },
+  {
+    "company": "Loula",
+    "ats": "ashby",
+    "slug": "loula"
+  },
+  {
+    "company": "Artie",
+    "ats": "ashby",
+    "slug": "artie"
+  },
+  {
+    "company": "Yuma AI",
+    "ats": "ashby",
+    "slug": "yumaai"
+  },
+  {
+    "company": "Onyx",
+    "ats": "ashby",
+    "slug": "onyx"
+  },
+  {
+    "company": "Anara",
+    "ats": "ashby",
+    "slug": "anara"
+  },
+  {
+    "company": "Chestnut",
+    "ats": "ashby",
+    "slug": "chestnut"
+  },
+  {
+    "company": "AgentMail",
+    "ats": "ashby",
+    "slug": "agentmail"
+  },
+  {
+    "company": "truthsystems",
+    "ats": "ashby",
+    "slug": "truthsystems"
+  },
+  {
+    "company": "Idler",
+    "ats": "ashby",
+    "slug": "idler"
+  },
+  {
+    "company": "Asimov",
+    "ats": "ashby",
+    "slug": "asimov"
+  },
+  {
+    "company": "DiligenceSquared",
+    "ats": "ashby",
+    "slug": "diligencesquared"
+  },
+  {
+    "company": "SmartAsset",
+    "ats": "greenhouse",
+    "slug": "smartasset"
+  },
+  {
+    "company": "Quartzy",
+    "ats": "lever",
+    "slug": "quartzy"
+  },
+  {
+    "company": "Reach",
+    "ats": "ashby",
+    "slug": "reach"
+  },
+  {
+    "company": "Datafold",
+    "ats": "ashby",
+    "slug": "datafold"
+  },
+  {
+    "company": "Finch",
+    "ats": "ashby",
+    "slug": "finch"
+  },
+  {
+    "company": "OneSchema",
+    "ats": "ashby",
+    "slug": "oneschema"
+  },
+  {
+    "company": "Eventual",
+    "ats": "ashby",
+    "slug": "eventual"
+  },
+  {
+    "company": "Reflex",
+    "ats": "greenhouse",
+    "slug": "reflex"
+  },
+  {
+    "company": "Cambio",
+    "ats": "ashby",
+    "slug": "cambio"
+  },
+  {
+    "company": "Rollstack",
+    "ats": "ashby",
+    "slug": "rollstack"
+  },
+  {
+    "company": "Conduit",
+    "ats": "ashby",
+    "slug": "conduit"
+  },
+  {
+    "company": "Pure",
+    "ats": "ashby",
+    "slug": "pure"
+  },
+  {
+    "company": "Greptile",
+    "ats": "ashby",
+    "slug": "greptile"
+  },
+  {
+    "company": "Conduit",
+    "ats": "ashby",
+    "slug": "conduit"
+  },
+  {
+    "company": "Hazel",
+    "ats": "ashby",
+    "slug": "hazel"
+  },
+  {
+    "company": "Brainbase Labs",
+    "ats": "ashby",
+    "slug": "brainbaselabs"
+  },
+  {
+    "company": "Mem0",
+    "ats": "ashby",
+    "slug": "mem0"
+  },
+  {
+    "company": "Conductor",
+    "ats": "ashby",
+    "slug": "conductor"
+  },
+  {
+    "company": "Apolink",
+    "ats": "ashby",
+    "slug": "apolink"
+  },
+  {
+    "company": "SalesPatriot",
+    "ats": "ashby",
+    "slug": "salespatriot"
+  },
+  {
+    "company": "Infinite",
+    "ats": "ashby",
+    "slug": "infinite"
+  },
+  {
+    "company": "Blaxel",
+    "ats": "ashby",
+    "slug": "blaxel"
+  },
+  {
+    "company": "Prox",
+    "ats": "ashby",
+    "slug": "prox"
+  },
+  {
+    "company": "Fleetline",
+    "ats": "ashby",
+    "slug": "fleetline"
+  },
+  {
+    "company": "Interface",
+    "ats": "ashby",
+    "slug": "interface"
+  },
+  {
+    "company": "Pax Historia",
+    "ats": "ashby",
+    "slug": "pax-historia"
+  },
+  {
+    "company": "InfluxData",
+    "ats": "ashby",
+    "slug": "influxdata"
+  },
+  {
+    "company": "New Story",
+    "ats": "ashby",
+    "slug": "new-story"
+  },
+  {
+    "company": "Castle",
+    "ats": "ashby",
+    "slug": "castle"
+  },
+  {
+    "company": "UpCodes",
+    "ats": "ashby",
+    "slug": "upcodes"
+  },
+  {
+    "company": "Prelim",
+    "ats": "ashby",
+    "slug": "prelim"
+  },
+  {
+    "company": "Dex",
+    "ats": "ashby",
+    "slug": "dex"
+  },
+  {
+    "company": "Vorticity",
+    "ats": "ashby",
+    "slug": "vorticity"
+  },
+  {
+    "company": "Accord",
+    "ats": "ashby",
+    "slug": "accord"
+  },
+  {
+    "company": "PostEra",
+    "ats": "lever",
+    "slug": "postera"
+  },
+  {
+    "company": "Hotplate",
+    "ats": "ashby",
+    "slug": "hotplate"
+  },
+  {
+    "company": "Smartcuts",
+    "ats": "lever",
+    "slug": "smartcuts"
+  },
+  {
+    "company": "Agave",
+    "ats": "ashby",
+    "slug": "agave"
+  },
+  {
+    "company": "Nango",
+    "ats": "ashby",
+    "slug": "nango"
+  },
+  {
+    "company": "GovEagle",
+    "ats": "ashby",
+    "slug": "goveagle"
+  },
+  {
+    "company": "Airgoods",
+    "ats": "ashby",
+    "slug": "airgoods"
+  },
+  {
+    "company": "Momentic",
+    "ats": "ashby",
+    "slug": "momentic"
+  },
+  {
+    "company": "Tuesday Labs",
+    "ats": "ashby",
+    "slug": "tuesday-labs"
+  },
+  {
+    "company": "Paradigm",
+    "ats": "greenhouse",
+    "slug": "paradigm"
+  },
+  {
+    "company": "Navier AI",
+    "ats": "greenhouse",
+    "slug": "navierai"
+  },
+  {
+    "company": "Pivot Robotics",
+    "ats": "ashby",
+    "slug": "pivotrobotics"
+  },
+  {
+    "company": "OffDeal",
+    "ats": "ashby",
+    "slug": "offdeal"
+  },
+  {
+    "company": "Thunder Compute",
+    "ats": "ashby",
+    "slug": "thundercompute"
+  },
+  {
+    "company": "CTGT",
+    "ats": "ashby",
+    "slug": "ctgt"
+  },
+  {
+    "company": "Capy",
+    "ats": "ashby",
+    "slug": "capy"
+  },
+  {
+    "company": "Bild AI",
+    "ats": "ashby",
+    "slug": "bild-ai"
+  },
+  {
+    "company": "Revise Robotics",
+    "ats": "ashby",
+    "slug": "reviserobotics"
+  },
+  {
+    "company": "Dex",
+    "ats": "ashby",
+    "slug": "dex"
+  },
+  {
+    "company": "Dedalus Labs",
+    "ats": "ashby",
+    "slug": "dedalus-labs"
+  },
+  {
+    "company": "Verge Genomics",
+    "ats": "ashby",
+    "slug": "verge-genomics"
+  },
+  {
+    "company": "Mux",
+    "ats": "ashby",
+    "slug": "mux"
+  },
+  {
+    "company": "CoinTracker",
+    "ats": "ashby",
+    "slug": "cointracker"
+  },
+  {
+    "company": "Meru Health",
+    "ats": "greenhouse",
+    "slug": "meruhealth"
+  },
+  {
+    "company": "Culdesac",
+    "ats": "lever",
+    "slug": "culdesac"
+  },
+  {
+    "company": "Beacons",
+    "ats": "ashby",
+    "slug": "beacons"
+  },
+  {
+    "company": "Quicknode",
+    "ats": "ashby",
+    "slug": "quicknode"
+  },
+  {
+    "company": "WarpBuild",
+    "ats": "ashby",
+    "slug": "warpbuild"
+  },
+  {
+    "company": "Dots",
+    "ats": "greenhouse",
+    "slug": "dots"
+  },
+  {
+    "company": "Beam",
+    "ats": "ashby",
+    "slug": "beam"
+  },
+  {
+    "company": "Remi",
+    "ats": "greenhouse",
+    "slug": "remi"
+  },
+  {
+    "company": "Coperniq",
+    "ats": "ashby",
+    "slug": "coperniq"
+  },
+  {
+    "company": "Metal",
+    "ats": "ashby",
+    "slug": "metal"
+  },
+  {
+    "company": "Fortuna Health",
+    "ats": "ashby",
+    "slug": "fortuna-health"
+  },
+  {
+    "company": "Arini",
+    "ats": "ashby",
+    "slug": "arini"
+  },
+  {
+    "company": "Newton",
+    "ats": "greenhouse",
+    "slug": "newton"
+  },
+  {
+    "company": "Spur",
+    "ats": "ashby",
+    "slug": "spur"
+  },
+  {
+    "company": "Dataleap",
+    "ats": "ashby",
+    "slug": "dataleap"
+  },
+  {
+    "company": "Ryvn",
+    "ats": "ashby",
+    "slug": "ryvn"
+  },
+  {
+    "company": "Flowtel",
+    "ats": "ashby",
+    "slug": "flowtel"
+  },
+  {
+    "company": "Ambral",
+    "ats": "ashby",
+    "slug": "ambral"
+  },
+  {
+    "company": "Attune",
+    "ats": "greenhouse",
+    "slug": "attune"
+  },
+  {
+    "company": "MangoDesk",
+    "ats": "ashby",
+    "slug": "mangodesk"
+  },
+  {
+    "company": "CareSwift",
+    "ats": "ashby",
+    "slug": "careswift"
+  },
+  {
+    "company": "BootLoop",
+    "ats": "ashby",
+    "slug": "bootloop"
+  },
+  {
+    "company": "Hyperspell",
+    "ats": "ashby",
+    "slug": "hyperspell"
+  },
+  {
+    "company": "Hypercubic",
+    "ats": "ashby",
+    "slug": "hypercubic"
+  },
+  {
+    "company": "Cardboard",
+    "ats": "ashby",
+    "slug": "cardboard"
   }
 ]
