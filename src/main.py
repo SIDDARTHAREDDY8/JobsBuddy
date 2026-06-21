@@ -75,6 +75,13 @@ def main():
     # NOTE: The Muse aggregator was removed — it re-stamps every job with the
     # current date (fake "posted today"), so it floods the fresh section with
     # actually-outdated jobs. Incompatible with a freshness-first board.
+    # Reverse-discovery: Workable's cross-company global search surfaces jobs from
+    # unknown employers we've never listed (the "found-only-on-LinkedIn" companies).
+    from scrape import scrape_workable_global
+    gj = scrape_workable_global()
+    print(f"   + {len(gj)} jobs from Workable global discovery "
+          f"({len({j['company'] for j in gj})} unknown companies)")
+    jobs += gj
     print(f"   total raw jobs: {len(jobs)}")
 
     print("② Filtering to my profile (role + 0-3 yrs + sponsor-friendly)...")

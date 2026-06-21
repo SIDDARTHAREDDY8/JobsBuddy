@@ -494,6 +494,60 @@ def scrape_workable(slug, company):
     return out
 
 
+# ---------- Workable GLOBAL (reverse discovery across ALL Workable companies) ----------
+# Workable runs a public, cross-company job search at jobs.workable.com. Unlike the
+# per-company adapters, this surfaces jobs from employers we've NEVER listed — the
+# unknown, "found-only-on-LinkedIn" companies. We page the global search for our role
+# terms (US only) and feed the jobs straight in. Their apply slug isn't exposed, but
+# the view URL is itself a working apply link, and the payload carries everything the
+# pipeline needs (company, title, location, description, created date).
+_WG_TERMS = ["software engineer", "data engineer", "machine learning engineer",
+             "data analyst", "full stack developer", "backend engineer"]
+_WG_PAGES = 12   # ~20 jobs/page; relevance-ranked, ~21% land inside the 7-day window
+
+
+def scrape_workable_global(terms=None, pages=_WG_PAGES):
+    terms = terms or _WG_TERMS
+    out, seen = [], set()
+    for term in terms:
+        base = ("https://jobs.workable.com/api/v1/jobs?query="
+                + urllib.parse.quote(term) + "&location="
+                + urllib.parse.quote("United States"))
+        token = None
+        for _ in range(pages):
+            url = base + (f"&pageToken={token}" if token else "")
+            try:
+                data = _get_json(url)
+            except Exception:
+                break
+            jobs = data.get("jobs", [])
+            if not jobs:
+                break
+            for j in jobs:
+                jid = j.get("id")
+                if not jid or jid in seen:
+                    continue
+                seen.add(jid)
+                loc = j.get("location") or {}
+                locstr = ", ".join(x for x in [loc.get("city", ""), loc.get("subregion", ""),
+                                               loc.get("countryName", "")] if x)
+                if not locstr and j.get("workplace") == "remote":
+                    locstr = "Remote, United States"
+                out.append({
+                    "company": (j.get("company") or {}).get("title", ""),
+                    "title": j.get("title", ""),
+                    "location": locstr,
+                    "url": j.get("url", ""),
+                    "description": _strip_html(j.get("description", "")),
+                    "posted_at": (j.get("created", "") or "")[:10],
+                    "source": "workable",
+                })
+            token = data.get("nextPageToken")
+            if not token:
+                break
+    return out
+
+
 # ---------- Recruitee ----------
 def scrape_recruitee(slug, company):
     url = f"https://{slug}.recruitee.com/api/offers/"
