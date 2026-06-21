@@ -20,9 +20,10 @@ def _alive(url):
         with urllib.request.urlopen(req, timeout=10) as r:
             return r.status < 400
     except urllib.error.HTTPError as e:
-        if e.code in (404, 410):
-            return False                 # server says it's gone
-        if e.code == 405:                # HEAD not allowed -> try a light GET
+        # HEAD is unreliable on SPA/CDN-hosted boards: Workable's global view URLs
+        # (and others) return 404/405 to HEAD but 200 to a real GET. NEVER trust a
+        # HEAD 404/410/405 — confirm with a GET before declaring a link dead.
+        if e.code in (404, 410, 405):
             try:
                 req = urllib.request.Request(url, headers={"User-Agent": UA})
                 with urllib.request.urlopen(req, timeout=10) as r:
