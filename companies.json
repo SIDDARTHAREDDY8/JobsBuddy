@@ -10068,5 +10068,260 @@
     "company": "Ooma",
     "ats": "greenhouse",
     "slug": "ooma"
+  },
+  {
+    "company": "Waymo",
+    "ats": "greenhouse",
+    "slug": "waymo"
+  },
+  {
+    "company": "Applied Intuition",
+    "ats": "ashby",
+    "slug": "applied"
+  },
+  {
+    "company": "Canva",
+    "ats": "smartrecruiters",
+    "slug": "canva"
+  },
+  {
+    "company": "ClickHouse",
+    "ats": "greenhouse",
+    "slug": "clickhouse"
+  },
+  {
+    "company": "Aurora Innovation",
+    "ats": "greenhouse",
+    "slug": "aurorainnovation"
+  },
+  {
+    "company": "Postman",
+    "ats": "greenhouse",
+    "slug": "postman"
+  },
+  {
+    "company": "Nuro",
+    "ats": "greenhouse",
+    "slug": "nuro"
+  },
+  {
+    "company": "Included Health",
+    "ats": "lever",
+    "slug": "includedhealth"
+  },
+  {
+    "company": "Chainguard",
+    "ats": "greenhouse",
+    "slug": "chainguard"
+  },
+  {
+    "company": "Headway",
+    "ats": "ashby",
+    "slug": "headway"
+  },
+  {
+    "company": "Hims and Hers",
+    "ats": "ashby",
+    "slug": "hims-and-hers"
+  },
+  {
+    "company": "Hightouch",
+    "ats": "greenhouse",
+    "slug": "hightouch"
+  },
+  {
+    "company": "Ro",
+    "ats": "lever",
+    "slug": "ro"
+  },
+  {
+    "company": "Drata",
+    "ats": "ashby",
+    "slug": "drata"
+  },
+  {
+    "company": "Temporal",
+    "ats": "ashby",
+    "slug": "temporal"
+  },
+  {
+    "company": "Mercury",
+    "ats": "greenhouse",
+    "slug": "mercury"
+  },
+  {
+    "company": "Tailscale",
+    "ats": "greenhouse",
+    "slug": "tailscale"
+  },
+  {
+    "company": "Maven Clinic",
+    "ats": "greenhouse",
+    "slug": "mavenclinic"
+  },
+  {
+    "company": "Semgrep",
+    "ats": "ashby",
+    "slug": "semgrep"
+  },
+  {
+    "company": "Front",
+    "ats": "ashby",
+    "slug": "frontcareers"
+  },
+  {
+    "company": "Wing",
+    "ats": "greenhouse",
+    "slug": "wing"
+  },
+  {
+    "company": "Flatiron Health",
+    "ats": "greenhouse",
+    "slug": "flatironhealth"
+  },
+  {
+    "company": "Figure Lending",
+    "ats": "greenhouse",
+    "slug": "figure"
+  },
+  {
+    "company": "Render",
+    "ats": "ashby",
+    "slug": "render"
+  },
+  {
+    "company": "Column",
+    "ats": "ashby",
+    "slug": "column"
+  },
+  {
+    "company": "Wealthfront",
+    "ats": "lever",
+    "slug": "wealthfront"
+  },
+  {
+    "company": "Unit",
+    "ats": "ashby",
+    "slug": "unit"
+  },
+  {
+    "company": "Railway",
+    "ats": "ashby",
+    "slug": "railway"
+  },
+  {
+    "company": "Carbon, Inc.",
+    "ats": "greenhouse",
+    "slug": "carbon"
+  },
+  {
+    "company": "Lithic",
+    "ats": "greenhouse",
+    "slug": "lithic"
+  },
+  {
+    "company": "Neon",
+    "ats": "lever",
+    "slug": "neon"
+  },
+  {
+    "company": "Highnote",
+    "ats": "greenhouse",
+    "slug": "highnote"
+  },
+  {
+    "company": "Dave",
+    "ats": "ashby",
+    "slug": "dave"
+  },
+  {
+    "company": "Airbyte",
+    "ats": "ashby",
+    "slug": "airbyte"
+  },
+  {
+    "company": "Modern Treasury",
+    "ats": "ashby",
+    "slug": "moderntreasury"
+  },
+  {
+    "company": "Dremio",
+    "ats": "greenhouse",
+    "slug": "dremio"
+  },
+  {
+    "company": "LanceDB",
+    "ats": "ashby",
+    "slug": "lancedb"
+  },
+  {
+    "company": "Prefect",
+    "ats": "ashby",
+    "slug": "prefect"
+  },
+  {
+    "company": "Material Security",
+    "ats": "ashby",
+    "slug": "materialsecurity"
+  },
+  {
+    "company": "Weaviate",
+    "ats": "ashby",
+    "slug": "weaviate"
+  },
+  {
+    "company": "Materialize",
+    "ats": "ashby",
+    "slug": "materialize"
+  },
+  {
+    "company": "Orca Security",
+    "ats": "greenhouse",
+    "slug": "orcasecurity"
+  },
+  {
+    "company": "Cedar",
+    "ats": "ashby",
+    "slug": "cedar"
+  },
+  {
+    "company": "Public",
+    "ats": "greenhouse",
+    "slug": "public"
+  },
+  {
+    "company": "Netlify",
+    "ats": "greenhouse",
+    "slug": "netlify"
+  },
+  {
+    "company": "General Assembly Remote Jobs ",
+    "ats": "greenhouse",
+    "slug": "remote"
+  },
+  {
+    "company": "Devoted Health",
+    "ats": "smartrecruiters",
+    "slug": "devotedhealth"
+  },
+  {
+    "company": "Anyscale",
+    "ats": "lever",
+    "slug": "anyscale"
+  },
+  {
+    "company": "Glean",
+    "ats": "smartrecruiters",
+    "slug": "glean"
+  },
+  {
+    "company": "Current",
+    "ats": "greenhouse",
+    "slug": "current"
+  },
+  {
+    "company": "Socket",
+    "ats": "greenhouse",
+    "slug": "socket"
   }
 ]
