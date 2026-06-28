@@ -285,11 +285,6 @@
     "slug": "supabase"
   },
   {
-    "company": "PostHog",
-    "ats": "ashby",
-    "slug": "posthog"
-  },
-  {
     "company": "Modal",
     "ats": "ashby",
     "slug": "modal"
@@ -463,11 +458,6 @@
     "company": "Perplexity",
     "ats": "ashby",
     "slug": "perplexity"
-  },
-  {
-    "company": "Cursor",
-    "ats": "ashby",
-    "slug": "cursor"
   },
   {
     "company": "Abridge",
@@ -10535,11 +10525,6 @@
     "slug": "porter"
   },
   {
-    "company": "Padlet",
-    "ats": "ashby",
-    "slug": "padlet"
-  },
-  {
     "company": "RADAR",
     "ats": "ashby",
     "slug": "radar"
@@ -11260,11 +11245,6 @@
     "slug": "greenboard"
   },
   {
-    "company": "Abundant",
-    "ats": "ashby",
-    "slug": "abundant"
-  },
-  {
     "company": "hud",
     "ats": "ashby",
     "slug": "hud"
@@ -11600,11 +11580,6 @@
     "slug": "smartcuts"
   },
   {
-    "company": "Agave",
-    "ats": "ashby",
-    "slug": "agave"
-  },
-  {
     "company": "Nango",
     "ats": "ashby",
     "slug": "nango"
@@ -11728,11 +11703,6 @@
     "company": "Dots",
     "ats": "greenhouse",
     "slug": "dots"
-  },
-  {
-    "company": "Beam",
-    "ats": "ashby",
-    "slug": "beam"
   },
   {
     "company": "Remi",

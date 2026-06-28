@@ -38,10 +38,11 @@ def _alive(url):
         return True                      # timeout / DNS blip -> don't drop
 
 
+import re as _re
+
+
 def _ashby_live_ids(slug):
-    """Authoritative set of LIVE job UUIDs for an Ashby company board. Ashby is a
-    JS SPA that returns HTTP 200 even for filled/removed jobs, so the only reliable
-    liveness signal is whether the UUID still appears in the board API."""
+    """Authoritative set of LIVE job UUIDs for an Ashby company board."""
     try:
         req = urllib.request.Request(
             f"https://api.ashbyhq.com/posting-api/job-board/{slug}",
@@ -51,6 +52,30 @@ def _ashby_live_ids(slug):
         return {j.get("jobUrl", "").rstrip("/").split("/")[-1] for j in data.get("jobs", [])}
     except Exception:
         return None        # board unreachable -> can't judge, treat all as alive
+
+
+def _ashby_status(slug):
+    """Ashby liveness, robust to two distinct failure modes:
+      'GHOST' — the company's PUBLIC board is dead/disabled (they moved to a custom
+                domain). The posting-API still serves jobs with jobs.ashbyhq.com
+                URLs that 404, so EVERY link is broken. Detected by the board-root
+                <title>: a live board renders '<Company> Jobs', a dead one renders
+                bare 'Jobs' / 'Page not found'.
+      set      — live board; the set of currently-open job UUIDs (catches filled jobs).
+      None     — couldn't determine (network error) -> caller keeps the jobs.
+    """
+    try:
+        req = urllib.request.Request(f"https://jobs.ashbyhq.com/{slug}",
+                                     headers={"User-Agent": UA})
+        with urllib.request.urlopen(req, timeout=12) as r:
+            html = r.read(120000).decode("utf-8", "replace")
+        m = _re.search(r"<title>([^<]*)</title>", html)
+        title = (m.group(1).strip().lower() if m else "")
+        if title in ("jobs", "page not found", ""):
+            return "GHOST"
+    except Exception:
+        return None
+    return _ashby_live_ids(slug)
 
 
 def verify_links(jobs, workers=40):
@@ -73,11 +98,13 @@ def verify_links(jobs, workers=40):
         by_slug.setdefault(slug, []).append(j)
 
     def _check_slug(slug):
-        live = _ashby_live_ids(slug)
-        if live is None:
+        status = _ashby_status(slug)
+        if status == "GHOST":
+            return by_slug[slug]                       # public board dead -> all broken
+        if status is None:
             return []                                  # unreachable -> keep all
-        return [j for j in by_slug[slug]
-                if j["url"].rstrip("/").split("/")[-1] not in live]
+        return [j for j in by_slug[slug]               # live board -> drop filled jobs
+                if j["url"].rstrip("/").split("/")[-1] not in status]
 
     if by_slug:
         with ThreadPoolExecutor(max_workers=min(workers, 24)) as ex:
