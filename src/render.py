@@ -75,7 +75,7 @@ def render_readme(jobs, profile, today):
     L.append("<a href=\"https://github.com/SIDDARTHAREDDY8/JobsBuddy/stargazers\">"
              "<img src=\"https://img.shields.io/github/stars/SIDDARTHAREDDY8/JobsBuddy?"
              "style=for-the-badge&logo=github&color=gold\" alt=\"Stars\"></a>")
-    L.append("<img src=\"https://img.shields.io/badge/updated-every%206%20hours-brightgreen?"
+    L.append("<img src=\"https://img.shields.io/badge/updated-every%203%20hours-brightgreen?"
              "style=for-the-badge\" alt=\"Auto-updated\">")
     L.append(f"<img src=\"https://img.shields.io/badge/open%20jobs-{open_now}-blue?"
              "style=for-the-badge\" alt=\"Open jobs\">")
@@ -90,7 +90,7 @@ def render_readme(jobs, profile, today):
     L.append("")
     L.append(f"📡 **Scanning {n_companies:,} companies** across **{n_ats} ATS systems** "
              "(Greenhouse, Lever, Ashby, Workday, SmartRecruiters, Workable, Pinpoint, Breezy) "
-             "— re-scraped **every 6 hours**, real posting dates only.")
+             "— re-scraped **every 3 hours**, real posting dates only.")
     L.append("")
     L.append("> ### 🛂 Every job here is at a company with a **real H1B visa-sponsorship history.**")
     L.append("> No more applying to 500 jobs only to hear *“sorry, we don’t sponsor.”*")
@@ -122,7 +122,7 @@ def render_readme(jobs, profile, today):
     L.append("- 🇺🇸 **US-only & OPT-friendly** — no overseas roles wasting your time")
     L.append("- 🔒 **Zero security-clearance jobs** — auto-removed (most of us can't get them)")
     L.append("- 🎓 **Early-career focused** — 0–3 years, no senior/staff noise")
-    L.append("- 🆕 **Updated every 6 hours** — newest jobs always on top, with the date added")
+    L.append("- 🆕 **Updated every 3 hours** — newest jobs always on top, with the date added")
     L.append("- 💸 **100% free & open-source** — no signups, no paywalls, no catch")
     L.append("")
     L.append("## 🚀 How to use it")

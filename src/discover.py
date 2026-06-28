@@ -6,7 +6,7 @@ the slugs that actually return open jobs, drops anything already in companies.js
 and (with --write) merges the verified new companies in.
 
 Why a validator instead of just pasting names: a dead/wrong slug isn't free — it
-makes the scraper waste a request and log a failure every 6 hours, forever. We
+makes the scraper waste a request and log a failure every 3 hours, forever. We
 only ever want slugs proven to resolve. Run:  python3 src/discover.py [--write]
 
 stdlib only — no pip, same as the scraper.
