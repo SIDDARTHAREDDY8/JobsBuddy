@@ -5,6 +5,7 @@ Verify Apply links are still live. Removes jobs whose link is confirmed dead
 Conservative on purpose: a network blip, timeout, or bot-block (403/405/429)
 is treated as ALIVE — we only drop links the server explicitly says are gone.
 """
+import json
 import urllib.request
 import urllib.error
 from concurrent.futures import ThreadPoolExecutor
@@ -37,12 +38,56 @@ def _alive(url):
         return True                      # timeout / DNS blip -> don't drop
 
 
+def _ashby_live_ids(slug):
+    """Authoritative set of LIVE job UUIDs for an Ashby company board. Ashby is a
+    JS SPA that returns HTTP 200 even for filled/removed jobs, so the only reliable
+    liveness signal is whether the UUID still appears in the board API."""
+    try:
+        req = urllib.request.Request(
+            f"https://api.ashbyhq.com/posting-api/job-board/{slug}",
+            headers={"User-Agent": UA, "Accept": "application/json"})
+        with urllib.request.urlopen(req, timeout=12) as r:
+            data = json.loads(r.read().decode("utf-8", "replace"))
+        return {j.get("jobUrl", "").rstrip("/").split("/")[-1] for j in data.get("jobs", [])}
+    except Exception:
+        return None        # board unreachable -> can't judge, treat all as alive
+
+
 def verify_links(jobs, workers=40):
-    """Returns the set of job ids (by url) whose link is confirmed dead."""
+    """Returns the list of jobs whose Apply link is confirmed dead.
+
+    Ashby links can't be checked by HTTP status (the SPA serves 200 even for a
+    removed job, landing the user on a generic 'Jobs' board). For those we verify
+    the UUID against the company's LIVE Ashby board API — one fetch per company.
+    Everything else uses the HTTP 404/410 check.
+    """
     targets = [j for j in jobs if j.get("open", True)]
+    ashby = [j for j in targets if "jobs.ashbyhq.com/" in j.get("url", "")]
+    other = [j for j in targets if "jobs.ashbyhq.com/" not in j.get("url", "")]
     dead = []
-    with ThreadPoolExecutor(max_workers=workers) as ex:
-        for j, ok in zip(targets, ex.map(lambda x: _alive(x.get("url", "")), targets)):
-            if not ok:
-                dead.append(j)
+
+    # --- Ashby: authoritative liveness via the board API (one fetch per company) ---
+    by_slug = {}
+    for j in ashby:
+        slug = j["url"].split("jobs.ashbyhq.com/")[1].split("/")[0]
+        by_slug.setdefault(slug, []).append(j)
+
+    def _check_slug(slug):
+        live = _ashby_live_ids(slug)
+        if live is None:
+            return []                                  # unreachable -> keep all
+        return [j for j in by_slug[slug]
+                if j["url"].rstrip("/").split("/")[-1] not in live]
+
+    if by_slug:
+        with ThreadPoolExecutor(max_workers=min(workers, 24)) as ex:
+            for gone in ex.map(_check_slug, list(by_slug.keys())):
+                dead.extend(gone)
+
+    # --- everything else: HTTP check ---
+    if other:
+        with ThreadPoolExecutor(max_workers=workers) as ex:
+            for j, ok in zip(other, ex.map(lambda x: _alive(x.get("url", "")), other)):
+                if not ok:
+                    dead.append(j)
     return dead
