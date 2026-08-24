@@ -3,7 +3,7 @@
 <p align="center">
 <a href="https://github.com/SIDDARTHAREDDY8/JobsBuddy/stargazers"><img src="https://img.shields.io/github/stars/SIDDARTHAREDDY8/JobsBuddy?style=for-the-badge&logo=github&color=gold" alt="Stars"></a>
 <img src="https://img.shields.io/badge/updated-every%203%20hours-brightgreen?style=for-the-badge" alt="Auto-updated">
-<img src="https://img.shields.io/badge/open%20jobs-393-blue?style=for-the-badge" alt="Open jobs">
+<img src="https://img.shields.io/badge/open%20jobs-335-blue?style=for-the-badge" alt="Open jobs">
 <img src="https://img.shields.io/badge/cost-%240%20forever-success?style=for-the-badge" alt="Free">
 <img src="https://img.shields.io/badge/companies-2384-blueviolet?style=for-the-badge" alt="Companies">
 <img src="https://img.shields.io/badge/ATS%20systems-9-orange?style=for-the-badge" alt="ATS systems">
@@ -42,7 +42,7 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 3. 📋 Scroll the table below — newest jobs are at the top.
 4. 🛂 Look for the **✅ Sponsors** tag, then hit **Apply**.
 
-<sub>🔄 Last updated: **2026-08-24 02:51 AM ET** • Total roles tracked: **393** • Open now: **393** • 🆕 Added today: **63**</sub>
+<sub>🔄 Last updated: **2026-08-24 05:47 AM ET** • Total roles tracked: **335** • Open now: **335** • 🆕 Added today: **22**</sub>
 
 **Legend:** 🔥 = newly discovered today (jobs we first found in today's scrape) • ✅ Sponsors = recent H1B filing history • Posted = how long ago the company posted it • Match % = how strong a fit the role is. (Only open, currently-listed jobs shown.)
 
@@ -60,20 +60,18 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 |  | Varda Space | Terrestrial Ground Support Equipment Engineer - Automation & Python | El Segundo, California,  | ⚠️ May not sponsor | **40%** | today | [Apply](https://job-boards.greenhouse.io/vardaspace/jobs/7952932003) |
 |  | Varda Space | Space Build Reliability Engineer, RCA | El Segundo, California,  | ⚠️ May not sponsor | **32%** | today | [Apply](https://job-boards.greenhouse.io/vardaspace/jobs/7953146003) |
 
-## 🔥 Posted Yesterday — 8 jobs
+## 🔥 Posted Yesterday — 6 jobs
 
 | | Company | Role | Location | Visa | Match | Posted | Apply |
 |--|--|--|--|--|--|--|--|
 |  | Expedia Group | Mobile Engineer II (Android) | USA - Illinois - Chicago | ✅ Sponsors (High) · 96 H1B filings | **56%** | 1d ago | [Apply](https://expedia.wd108.myworkdayjobs.com/en-US/search/job/USA---Illinois---Chicago/Mobile-Engineer-II--Android-_R-108950-1) |
 |  | Expedia Group | Mobile Engineer II, Android | USA - Illinois - Chicago | ✅ Sponsors (High) · 96 H1B filings | **56%** | 1d ago | [Apply](https://expedia.wd108.myworkdayjobs.com/en-US/search/job/USA---Illinois---Chicago/Mobile-Engineer-II--Android_R-109089-1) |
-| 🔥 | Cisco | Software Engineering Technical Leader (Remote) | Boulder Colorado US | ✅ Sponsors (High) · 193 H1B filings | **20%** | 1d ago | [Apply](https://cisco.wd5.myworkdayjobs.com/en-US/cisco_careers/job/Boulder-Colorado-US/Software-Engineering-Technical-Leader--Remote-_2021120) |
-| 🔥 | BorgWarner | UL Certification Engineer | Auburn Hills - Michigan  | ✅ Sponsors (Med) · 15 H1B filings | **8%** | 1d ago | [Apply](https://borgwarner.wd5.myworkdayjobs.com/en-US/BorgWarner_Careers/job/Auburn-Hills---Michigan---USA/UL-Certification-Engineer_R2026-3342-1) |
 |  | Hippocratic AI | Agent Deployment Engineer (Residency Program) | Menlo Park, CA | — unknown | **80%** | 1d ago | [Apply](https://jobs.ashbyhq.com/Hippocratic%20AI/0437c678-bd5a-429d-b34b-bfd3b70d1793) |
 |  | LangChain | Deployed Engineer (Atlanta) | Atlanta, GA | — unknown | **80%** | 1d ago | [Apply](https://jobs.ashbyhq.com/langchain/3e31c750-67f2-4d3d-ac29-48a2b57cf4bd) |
 |  | Hippocratic AI | LLM  Inference Engineer | Menlo Park, CA | — unknown | **48%** | 1d ago | [Apply](https://jobs.ashbyhq.com/Hippocratic%20AI/eef8a721-23de-4c20-bff0-56088b39afa0) |
 |  | Pax Historia | Founding Engineer - Harness Optimization | San Francisco | — unknown | **24%** | 1d ago | [Apply](https://jobs.ashbyhq.com/pax-historia/5742565d-afc5-4b34-bd4e-ad79da5967d5) |
 
-## 🗓️ Posted 2 days ago — 58 jobs
+## 🗓️ Posted 2 days ago — 48 jobs
 
 | | Company | Role | Location | Visa | Match | Posted | Apply |
 |--|--|--|--|--|--|--|--|
@@ -82,8 +80,6 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 |  | SBT Global | Java Full-Stack Developer (Korean Bilingual) | Santa Ana, CA, United St | ✅ Sponsors (High) | **72%** | 2d ago | [Apply](https://jobs.smartrecruiters.com/SBTGlobalInc/3743990014778306) |
 |  | Harvard University | Data Scientist/Computational Biologist | Boston, MA, United State | ✅ Sponsors (High) · 84 H1B filings | **44%** | 2d ago | [Apply](https://jobs.smartrecruiters.com/HarvardUniversity/3743990014766326) |
 |  | City and County of San Francisco | Stationary Engineer, Water Treatment Plant (7341) - Citywide - (U00047) | San Francisco, CA, Unite | ✅ Sponsors (High) | **24%** | 2d ago | [Apply](https://jobs.smartrecruiters.com/CityAndCountyOfSanFrancisco1/3743990014759876) |
-| 🔥 | eBay | MTS 1, Software Engineer | San Jose | ✅ Sponsors (High) · 114 H1B filings | **20%** | 2d ago | [Apply](https://ebay.wd5.myworkdayjobs.com/en-US/apply/job/San-Jose/MTS-1--Software-Engineer_R0076582) |
-| 🔥 | eBay | MTS 2, Software Engineer | Austin | ✅ Sponsors (High) · 114 H1B filings | **20%** | 2d ago | [Apply](https://ebay.wd5.myworkdayjobs.com/en-US/apply/job/Austin/MTS-2--Software-Engineer_R0076583) |
 |  | Wayve | Software Engineer, Fleet Management | Sunnyvale | ✅ Sponsors (Med) · 14 H1B filings | **100%** | 2d ago | [Apply](https://wayve.firststage.co/jobs?gh_jid=8735204002) |
 |  | LinkedIn | Software Engineer - Systems and Infrastructure  | Mountain View, CA, Unite | ✅ Sponsors (Med) · 31 H1B filings | **100%** | 2d ago | [Apply](https://jobs.smartrecruiters.com/LinkedIn3/744000144804759) |
 |  | Twilio | Software Engineer L2-Messaging API | Remote - US | ✅ Sponsors (Med) · 35 H1B filings | **100%** | 2d ago | [Apply](https://job-boards.greenhouse.io/twilio/jobs/7816159) |
@@ -95,17 +91,9 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 |  | Airbnb | Software Engineer, Payments | Remote - USA | ✅ Sponsors (Med) · 48 H1B filings | **76%** | 2d ago | [Apply](https://careers.airbnb.com/positions/8146265?gh_jid=8146265) |
 |  | OpenAI | Research Engineer / Research Scientist, Health | San Francisco | ✅ Sponsors (Med) · 23 H1B filings | **72%** | 2d ago | [Apply](https://jobs.ashbyhq.com/openai/719cc0f6-ed38-41db-8870-299b4d336f37) |
 |  | SpaceX | Electromagnetic Effects Engineer (Starlink Aviation) | Woodinville, WA | ✅ Sponsors (Med) | **40%** | 2d ago | [Apply](https://boards.greenhouse.io/spacex/jobs/8731514002?gh_jid=8731514002) |
-|  | University of Kansas Medical Center | Agentic AI Engineer - Research Administration | Kansas City Metro Area | ✅ Sponsors (Med) · 18 H1B filings | **36%** | 2d ago | [Apply](https://kumc.wd5.myworkdayjobs.com/en-US/kumc-jobs/job/Kansas-City-Metro-Area/Agentic-AI-Engineer---Research-Administration_JR010391) |
 |  | SpaceX | Build Reliability Engineer (Starship) | Starbase, TX | ✅ Sponsors (Med) | **32%** | 2d ago | [Apply](https://boards.greenhouse.io/spacex/jobs/8737677002?gh_jid=8737677002) |
-| 🔥 | Crowdstrike | Software Engineer 3, Sensor - Platform API (Remote) | USA - Remote, WA | ✅ Sponsors (Med) · 40 H1B filings | **28%** | 2d ago | [Apply](https://crowdstrike.wd5.myworkdayjobs.com/en-US/crowdstrikecareers/job/USA---Remote-WA/Software-Engineer-3--Sensor---Platform-API--Remote-_R29896) |
 |  | AbbVie | Quality Data Scientist | North Chicago, IL, Unite | ✅ Sponsors (Med) · 26 H1B filings | **20%** | 2d ago | [Apply](https://jobs.smartrecruiters.com/AbbVie/3743990014754431) |
-| 🔥 | Crowdstrike | Engineer II, Software Assurance, Product Security (Remote) | USA - Remote | ✅ Sponsors (Med) · 40 H1B filings | **20%** | 2d ago | [Apply](https://crowdstrike.wd5.myworkdayjobs.com/en-US/crowdstrikecareers/job/USA---Remote/Engineer-II--Software-Assurance--Product-Security--Remote-_R29908) |
 |  | AECOM | Entry-Level Bridge Engineer | Greenville, SC, United S | ✅ Sponsors (Med) · 39 H1B filings | **8%** | 2d ago | [Apply](https://jobs.smartrecruiters.com/AECOM2/744000144832309) |
-|  | Broadcom Limited | R&D Engineer SW Quality 3 | USA-CO Broomfield | ✅ Sponsors (Med) · 22 H1B filings | **8%** | 2d ago | [Apply](https://broadcom.wd1.myworkdayjobs.com/en-US/External_Career/job/USA-CO-Broomfield/R-D-Engineer-SW-Quality-3_R026523) |
-| 🔥 | Caterpillar Inc. | Electrification Site Solution Development Engineer | Mossville, Illinois | ✅ Sponsors (Med) · 14 H1B filings | **8%** | 2d ago | [Apply](https://cat.wd5.myworkdayjobs.com/en-US/CaterpillarCareers/job/Mossville-Illinois/Electrification-Site-Solution-Development-Engineer_R0000376093-1) |
-| 🔥 | Crowdstrike | Backend Engineer III (Hybrid) | USA - New York, NY | ✅ Sponsors (Med) · 40 H1B filings | **8%** | 2d ago | [Apply](https://crowdstrike.wd5.myworkdayjobs.com/en-US/crowdstrikecareers/job/USA---New-York-NY/Principal-Engineer--Hybrid-_R23913) |
-| 🔥 | Ameriprise Financial | Adobe Analytics Engineer | Minneapolis, Minnesota | ✅ Sponsors (Med) · 27 H1B filings | **8%** | 2d ago | [Apply](https://ameriprise.wd5.myworkdayjobs.com/en-US/Ameriprise/job/Minneapolis-Minnesota/Adobe-Analytics-Engineer_R26_3370-1) |
-| 🔥 | KLA | Applications Development Engineer - Surfscan | Milpitas, CA | ✅ Sponsors (Med) · 42 H1B filings | **8%** | 2d ago | [Apply](https://kla.wd1.myworkdayjobs.com/en-US/UR/job/Milpitas-CA/Applications-Development-Engineer---Surfscan_2638818-2) |
 |  | Impiricus | Software Engineer (Full-stack) | New York, NY, Atlanta, G | — unknown | **92%** | 2d ago | [Apply](https://job-boards.greenhouse.io/impiricus/jobs/5397992008) |
 |  | Tessera Labs | AI Engineer | San Jose Office (HQ) | — unknown | **92%** | 2d ago | [Apply](https://jobs.ashbyhq.com/tessera-labs/eb150714-eeb2-44b4-8a23-c893be972bed) |
 |  | Oklo | Software Engineer (Applied AI/ML) | Santa Clara, CA or Remot | — unknown | **92%** | 2d ago | [Apply](https://job-boards.greenhouse.io/oklo/jobs/6150355004) |
@@ -136,33 +124,28 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 |  | Apex Companies | Water Resources Engineer PE | Fort Myers, FL | — unknown | **16%** | 2d ago | [Apply](https://job-boards.greenhouse.io/apexcompanies/jobs/5398431008) |
 |  | Apex Companies | Traffic Engineer | Remote | — unknown | **8%** | 2d ago | [Apply](https://job-boards.greenhouse.io/apexcompanies/jobs/5398421008) |
 
-## 🗓️ Posted 3 days ago — 78 jobs
+## 🗓️ Posted 3 days ago — 68 jobs
 
 | | Company | Role | Location | Visa | Match | Posted | Apply |
 |--|--|--|--|--|--|--|--|
 |  | Expedia Group | Software Development Engineer I | Washington - Seattle Cam | ✅ Sponsors (High) · 96 H1B filings | **100%** | 3d ago | [Apply](https://expedia.wd108.myworkdayjobs.com/en-US/search/job/Washington---Seattle-Campus/Software-Development-Engineer-I_R-108739) |
 |  | Humana | Data Scientist | Louisville, KY | ✅ Sponsors (High) · 80 H1B filings | **100%** | 3d ago | [Apply](https://humana.wd5.myworkdayjobs.com/en-US/humana_external_career_site/job/Louisville-KY/Data-Scientist_R-427651) |
-| 🔥 | Fiserv | Bilingual AI Software Development Engineer | Coral Springs, Florida | ✅ Sponsors (High) · 95 H1B filings | **92%** | 3d ago | [Apply](https://fiserv.wd5.myworkdayjobs.com/en-US/ext/job/Coral-Springs-Florida/AI-Engineering-Specialist_R-10400656) |
 |  | ServiceNow | Assoc Applications Dev Engineer | Santa Clara, CALIFORNIA, | ✅ Sponsors (High) · 116 H1B filings | **88%** | 3d ago | [Apply](https://jobs.smartrecruiters.com/ServiceNow/744000144653619) |
 |  | Micron Technology | Engineer, FW & Product Test Eng | Longmont, CO | ✅ Sponsors (High) · 80 H1B filings | **80%** | 3d ago | [Apply](https://micron.wd1.myworkdayjobs.com/en-US/External/job/Longmont-CO/Engineer--FW---Product-Test-Eng_JR108878-1) |
 |  | Bank of America | Performance Engineer | Jersey City | ✅ Sponsors (High) · 136 H1B filings | **64%** | 3d ago | [Apply](https://ghr.wd1.myworkdayjobs.com/en-US/us-emplsv/job/Jersey-City/Performance-Engineer_26030698) |
-|  | The North Face | The North Face: Associate Developer, Equipment & Accessories | USCA > USA > Colorado >  | ✅ Sponsors (High) | **40%** | 3d ago | [Apply](https://vfc.wd5.myworkdayjobs.com/en-US/northface_careers/job/USCA--USA--Colorado--Denver-HQ---VFC/The-North-Face--Associate-Developer--Equipment---Accessories_R-20260814-0014) |
 |  | Harvard University | Programmer | Boston, MA, United State | ✅ Sponsors (High) · 84 H1B filings | **32%** | 3d ago | [Apply](https://jobs.smartrecruiters.com/HarvardUniversity/3743990014712421) |
 |  | City and County of San Francisco | Engineering Associate I (Engineering Drafter) – Project Design & Development - San Francisco Public Works (5364)  | San Francisco, CA, Unite | ✅ Sponsors (High) | **24%** | 3d ago | [Apply](https://jobs.smartrecruiters.com/CityAndCountyOfSanFrancisco1/3743990014708436) |
-| 🔥 | The Home Depot | Robotics Automation Software Engineer | MASSACHUSETTS - VIRTUAL  | ✅ Sponsors (High) · 70 H1B filings | **20%** | 3d ago | [Apply](https://homedepot.wd5.myworkdayjobs.com/en-US/careerdepot/job/MASSACHUSETTS---VIRTUAL---MA01/Robotics-Automation-Software-Engineer_Req190930) |
+| 🔥 | eBay | MTS 1, Software Engineer | San Jose | ✅ Sponsors (High) · 114 H1B filings | **20%** | 3d ago | [Apply](https://ebay.wd5.myworkdayjobs.com/en-US/apply/job/San-Jose/MTS-1--Software-Engineer_R0076582) |
+| 🔥 | eBay | MTS 2, Software Engineer | Austin | ✅ Sponsors (High) · 114 H1B filings | **20%** | 3d ago | [Apply](https://ebay.wd5.myworkdayjobs.com/en-US/apply/job/Austin/MTS-2--Software-Engineer_R0076583) |
+| 🔥 | Lowe's | Software Engineer- Frontend | Lowe's Charlotte Technol | ✅ Sponsors (High) · 85 H1B filings | **20%** | 3d ago | [Apply](https://lowes.wd5.myworkdayjobs.com/en-US/LWS_External_CS/job/Lowes-Charlotte-Technology-Hub-3505/Software-Engineer--Java-Fullstack_JR-02526453) |
 |  | Analog Devices | Associate Product Engineer (Product Development) | US, MA, Wilmington | ✅ Sponsors (High) · 53 H1B filings | **8%** | 3d ago | [Apply](https://analogdevices.wd1.myworkdayjobs.com/en-US/External/job/US-MA-Wilmington/Associate-Product-Engineer--Product-Development-_R265304) |
-|  | Thermo Fisher Scientific | Technical Service Engineer III - Cell Sorting & Spectral Flow Cytometry | Carlsbad, California, US | ✅ Sponsors (High) · 79 H1B filings | **8%** | 3d ago | [Apply](https://thermofisher.wd5.myworkdayjobs.com/en-US/ThermoFisherCareers/job/Carlsbad-California-USA/Technical-Service-Engineer-III---Cell-Sorting---Spectral-Flow-Cytometry_R-01357218-1) |
-| 🔥 | Cisco | UI Desktop macOS and IOS Engineer Hybird | RTP North Carolina US | ✅ Sponsors (High) · 193 H1B filings | **8%** | 3d ago | [Apply](https://cisco.wd5.myworkdayjobs.com/en-US/cisco_careers/job/RTP-North-Carolina-US/UI-Desktop-Engineer-Hybird_2021020) |
+|  | Thermo Fisher Scientific | Technical Service Engineer III - Cell Sorting & Spectral Flow Cytometry | Carlsbad California USA | ✅ Sponsors (High) · 79 H1B filings | **8%** | 3d ago | [Apply](https://thermofisher.wd5.myworkdayjobs.com/en-US/ThermoFisherCareers/job/Carlsbad-California-USA/Technical-Service-Engineer-III---Cell-Sorting---Spectral-Flow-Cytometry_R-01357218-1) |
+| 🔥 | Thermo Fisher Scientific | Onsite Service Engineer (Electron Microscopy) | Remote Oregon USA | ✅ Sponsors (High) · 79 H1B filings | **8%** | 3d ago | [Apply](https://thermofisher.wd5.myworkdayjobs.com/en-US/ThermoFisherCareers/job/Remote-Oregon-USA/Onsite-Service-Engineer-I--Electron-Microscopy-_R-01352621) |
 |  | OpenAI | Data Scientist, Real Estate & Workplace  | San Francisco | ✅ Sponsors (Med) · 23 H1B filings | **100%** | 3d ago | [Apply](https://jobs.ashbyhq.com/openai/3ac187b2-dd75-4acd-b285-51ae6e603dbd) |
 |  | Wayve | Full Stack Software Engineer, Evaluation Tools | Sunnyvale | ✅ Sponsors (Med) · 14 H1B filings | **100%** | 3d ago | [Apply](https://wayve.firststage.co/jobs?gh_jid=8733546002) |
 |  | OpenAI | Data Engineer, Monetization Data Platform | Mountain View | ✅ Sponsors (Med) · 23 H1B filings | **100%** | 3d ago | [Apply](https://jobs.ashbyhq.com/openai/44abed05-4b45-4aa0-bee6-45d113bbef66) |
 |  | Altera Corporation | AI Engineer – Cloud Software & AI Platforms - Contract | San Jose, California, Un | ✅ Sponsors (Med) · 28 H1B filings | **100%** | 3d ago | [Apply](https://altera.wd1.myworkdayjobs.com/en-US/altera/job/San-Jose-California-United-States/AI-Engineer---Cloud-Software---AI-Platforms---Contract_R03022-1) |
-| 🔥 | BlackRock | Associate, Data Engineer | Atlanta, GA | ✅ Sponsors (Med) · 14 H1B filings | **100%** | 3d ago | [Apply](https://blackrock.wd1.myworkdayjobs.com/en-US/BlackRock_Professional/job/Atlanta-GA/Associate--Data-Engineer_R266059) |
-| 🔥 | Blackstone | 2027 Blackstone Data Engineer Summer Analyst | Miami | ✅ Sponsors (Med) · 19 H1B filings | **100%** | 3d ago | [Apply](https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/Miami/XMLNAME-2027-Blackstone-Technology-and-Innovations--Data-Engineer-Summer-Analyst_45022) |
 |  | Anthropic | Security Engineer, Corporate Security | San Francisco, CA / Seat | ✅ Sponsors (Med) · 48 H1B filings | **88%** | 3d ago | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5397319008) |
-| 🔥 | Dexcom | SW Test Development Engineer 1 | Remote Virginia | ✅ Sponsors (Med) · 10 H1B filings | **88%** | 3d ago | [Apply](https://dexcom.wd1.myworkdayjobs.com/en-US/Dexcom/job/Remote-Virginia/SW-Test-Development-Engineer-1_JR120349) |
-| 🔥 | BlackRock | Associate, DevOps Engineer | Wilmington, DE | ✅ Sponsors (Med) · 14 H1B filings | **80%** | 3d ago | [Apply](https://blackrock.wd1.myworkdayjobs.com/en-US/BlackRock_Professional/job/Wilmington-DE/Associate--DevOps-Engineer_R266149) |
-| 🔥 | BlackRock | Associate, Application Engineer | San Francisco, CA | ✅ Sponsors (Med) · 14 H1B filings | **80%** | 3d ago | [Apply](https://blackrock.wd1.myworkdayjobs.com/en-US/BlackRock_Professional/job/San-Francisco-CA/Associate--Application-Engineer_R266144) |
 |  | LexisNexis Risk Solutions | Finance Systems AI/Automation Engineer | Dayton, OH | ✅ Sponsors (Med) · 17 H1B filings | **76%** | 3d ago | [Apply](https://relx.wd3.myworkdayjobs.com/en-US/LexisNexisLegal/job/Dayton-OH/Finance-Systems-AI-Automation-Engineer_R116686) |
 |  | Zoox | Contract Student Worker - Data Analyst | Foster City, CA | ✅ Sponsors (Med) · 17 H1B filings | **60%** | 3d ago | [Apply](https://jobs.lever.co/zoox/11d7b37e-4420-4619-a465-d387ffc6ee16) |
 |  | MongoDB | Software Engineer 3, Networking & Observability | New York City | ✅ Sponsors (Med) · 44 H1B filings | **60%** | 3d ago | [Apply](https://www.mongodb.com/careers/job/?gh_jid=8119841) |
@@ -171,21 +154,16 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 |  | Applied Materials | Software QA Engineer | Santa Clara,CA | ✅ Sponsors (Med) · 17 H1B filings | **44%** | 3d ago | [Apply](https://amat.wd1.myworkdayjobs.com/en-US/External/job/Santa-ClaraCA/Software-QA-Engineer_R2626793) |
 |  | Samsara | AV Events Engineer | San Francisco - SF9 | ✅ Sponsors (Med) · 13 H1B filings | **40%** | 3d ago | [Apply](https://www.samsara.com/company/careers/roles/8129501?gh_jid=8129501) |
 |  | Applied Materials | Software Engineer | Santa Clara,CA | ✅ Sponsors (Med) · 17 H1B filings | **36%** | 3d ago | [Apply](https://amat.wd1.myworkdayjobs.com/en-US/External/job/Santa-ClaraCA/Software-Engineer_R2626785) |
-| 🔥 | GlobalFoundries | Full Stack Engineer - Agentic Platforms | Austin | ✅ Sponsors (Med) · 26 H1B filings | **36%** | 3d ago | [Apply](https://globalfoundries.wd1.myworkdayjobs.com/en-US/External/job/Austin/Full-Stack-Engineer---Agentic-Platforms_JR-2603866) |
 |  | SpaceX | Supplier Development Engineer, PCB (Starlink) | Bastrop, TX | ✅ Sponsors (Med) | **32%** | 3d ago | [Apply](https://boards.greenhouse.io/spacex/jobs/8731214002?gh_jid=8731214002) |
 |  | SpaceX | Yield Engineer, RF Final Test Integration (Starlink/Akoustis) | Bastrop, TX | ✅ Sponsors (Med) | **32%** | 3d ago | [Apply](https://boards.greenhouse.io/spacex/jobs/8727899002?gh_jid=8727899002) |
-| 🔥 | KLA Corporation | Product Release Engineer | Milpitas, CA | ✅ Sponsors (Med) · 42 H1B filings | **32%** | 3d ago | [Apply](https://kla.wd1.myworkdayjobs.com/en-US/search/job/Milpitas-CA/Product-Release-Engineer_2637328) |
 |  | AbbVie | Data Scientist II, ML Expert | North Chicago, IL, Unite | ✅ Sponsors (Med) · 26 H1B filings | **20%** | 3d ago | [Apply](https://jobs.smartrecruiters.com/AbbVie/3743990014722956) |
-| 🔥 | Stryker | Salesforce Software Engineer (Remote) | Portage Michigan | ✅ Sponsors (Med) · 23 H1B filings | **20%** | 3d ago | [Apply](https://stryker.wd1.myworkdayjobs.com/en-US/StrykerCareers/job/Portage-Michigan/Salesforce-Software-Engineer--Remote-_R570625) |
-| 🔥 | Crowdstrike | SDET - AI Detection and Response (AIDR) (Hybrid, Sunnyvale) | USA - Sunnyvale, CA | ✅ Sponsors (Med) · 40 H1B filings | **20%** | 3d ago | [Apply](https://crowdstrike.wd5.myworkdayjobs.com/en-US/crowdstrikecareers/job/USA---Sunnyvale-CA/SDET---AI-Detection-and-Response--AIDR---Hybrid-_R29793) |
-| 🔥 | Uhaul | Accounting Data Analyst | Phoenix, Arizona | ✅ Sponsors (Med) · 14 H1B filings | **20%** | 3d ago | [Apply](https://uhaul.wd1.myworkdayjobs.com/en-US/UhaulJobs/job/Phoenix-Arizona/Accounting-Data-Analyst_R253560) |
-| 🔥 | KLA Corporation | Software Engineer | Milpitas, CA | ✅ Sponsors (Med) · 42 H1B filings | **20%** | 3d ago | [Apply](https://kla.wd1.myworkdayjobs.com/en-US/search/job/Milpitas-CA/Software-Engineer_2638981) |
+| 🔥 | Merck | Maintenance Planner- Specialist Engineering | USA - Pennsylvania - Wes | ✅ Sponsors (Med) · 29 H1B filings | **20%** | 3d ago | [Apply](https://msd.wd5.myworkdayjobs.com/en-US/searchjobs/job/USA---Pennsylvania---West-Point/Maintenance-Planner--Specialist-Engineering_R412869) |
 |  | AbbVie | Statistical Programmer (Hybrid) | Florham Park, NJ, United  +3 | ✅ Sponsors (Med) · 26 H1B filings | **16%** | 3d ago | [Apply](https://jobs.smartrecruiters.com/AbbVie/3743990014716766) |
 |  | AECOM | Automation Engineer | Charlotte, NC, United St  +4 | ✅ Sponsors (Med) · 39 H1B filings | **8%** | 3d ago | [Apply](https://jobs.smartrecruiters.com/AECOM2/744000144530139) |
 |  | AbbVie | Engineer, Quality Systems | Florham Park, NJ, United  +1 | ✅ Sponsors (Med) · 26 H1B filings | **8%** | 3d ago | [Apply](https://jobs.smartrecruiters.com/AbbVie/3743990014707317) |
-|  | Continental Resources | Engineer Advisor - Completions | Oklahoma City, OK | ✅ Sponsors (Med) | **8%** | 3d ago | [Apply](https://clr.wd5.myworkdayjobs.com/en-US/CLR_Careers/job/Oklahoma-City-OK/Advisor--Engineer--Completions-_R02442) |
-| 🔥 | Crowdstrike | Engineer II, Advanced Research (Remote) | USA, Remote MA | ✅ Sponsors (Med) · 40 H1B filings | **8%** | 3d ago | [Apply](https://crowdstrike.wd5.myworkdayjobs.com/en-US/crowdstrikecareers/job/USA---Remote-MA/Engineer-II--Advanced-Research--Remote-_R29440) |
-| 🔥 | KLA | Product Development Engineer | Milpitas, CA | ✅ Sponsors (Med) · 42 H1B filings | **8%** | 3d ago | [Apply](https://kla.wd1.myworkdayjobs.com/en-US/UR/job/Milpitas-CA/Product-Development-Engineer_2639800) |
+|  | Broadcom Limited | R&D Engineer SW Quality 3 | USA-CO Broomfield | ✅ Sponsors (Med) · 22 H1B filings | **8%** | 3d ago | [Apply](https://broadcom.wd1.myworkdayjobs.com/en-US/External_Career/job/USA-CO-Broomfield/R-D-Engineer-SW-Quality-3_R026523) |
+| 🔥 | KLA | Applications Development Engineer - Surfscan | Milpitas, CA | ✅ Sponsors (Med) · 42 H1B filings | **8%** | 3d ago | [Apply](https://kla.wd1.myworkdayjobs.com/en-US/UR/job/Milpitas-CA/Applications-Development-Engineer---Surfscan_2638818-2) |
+| 🔥 | Abbott | Power BI Developer, Global Market Intelligence COE  | United States - Minnesot | ✅ Sponsors (Med) · 16 H1B filings | **8%** | 3d ago | [Apply](https://abbott.wd5.myworkdayjobs.com/en-US/abbottcareers2/job/United-States---Minnesota---Minnetonka/Power-BI-Developer--Global-Market-Intelligence-COE-_31159157) |
 |  | Snorkel AI | Software Engineer — Security  | New York City, NY (Hybri | ✅ Sponsors (Low) | **100%** | 3d ago | [Apply](https://job-boards.greenhouse.io/snorkelai/jobs/6148995004) |
 |  | Supabase | Developer Relations Engineer (New York, NY) | Remote, New York, US | ✅ Sponsors (Low) | **72%** | 3d ago | [Apply](https://jobs.ashbyhq.com/supabase/98ae5c78-eab7-4879-b143-96b98e4d0dbb) |
 |  | Supabase | Developer Relations Engineer | Remote, Anywhere | ✅ Sponsors (Low) | **72%** | 3d ago | [Apply](https://jobs.ashbyhq.com/supabase/26f7817d-ca92-4094-a2b5-f22e07a218c4) |
@@ -219,16 +197,14 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 |  | Waabi | Test Engineer | Phoenix, AZ  +1 more | — unknown | **24%** | 3d ago | [Apply](https://jobs.lever.co/waabi/1fb790ab-2a32-4314-a1fd-907f7ce0e6e6) |
 |  | Stafford Gray | Dynamics 365 Programmer Analyst | Lansing, Michigan, Unite | — unknown | **8%** | 3d ago | [Apply](https://jobs.workable.com/view/1cD7LpRXYiiQntFsvgjDF2/hybrid-dynamics-365-programmer-analyst-in-lansing-at-stafford-gray) |
 
-## 🗓️ Posted 4 days ago — 70 jobs
+## 🗓️ Posted 4 days ago — 63 jobs
 
 | | Company | Role | Location | Visa | Match | Posted | Apply |
 |--|--|--|--|--|--|--|--|
-| 🔥 | Bank of America | Data Scientist I | New York | ✅ Sponsors (High) · 136 H1B filings | **84%** | 4d ago | [Apply](https://ghr.wd1.myworkdayjobs.com/en-US/us-emplsv/job/New-York/Data-Scientist-I_26030546-1) |
 |  | Micron Technology | Engineer, FW & Product Test Engineering | Longmont, CO | ✅ Sponsors (High) · 80 H1B filings | **80%** | 4d ago | [Apply](https://micron.wd1.myworkdayjobs.com/en-US/External/job/Longmont-CO/Engineer--FW---Product-Test-Engineering_JR108871-1) |
 |  | Expedia Group | Data Scientist III, Media & Paid Social Analytics | Washington - Seattle Cam | ✅ Sponsors (High) · 96 H1B filings | **76%** | 4d ago | [Apply](https://expedia.wd108.myworkdayjobs.com/en-US/search/job/Washington---Seattle-Campus/Data-Scientist-III--Media---Paid-Social-Analytics_R-109076) |
-| 🔥 | The Home Depot | Data Scientist, Pricing (Forecasting & Deep Learning) | GEORGIA - VIRTUAL - GA01 | ✅ Sponsors (High) · 70 H1B filings | **52%** | 4d ago | [Apply](https://homedepot.wd5.myworkdayjobs.com/en-US/careerdepot/job/GEORGIA---VIRTUAL---GA01/Data-Scientist--Pricing--Optimization---Deep-Learning-_Req190688) |
 |  | Intuitive Surgical | Equipment Engineering - Software | Sunnyvale, CA, United St | ✅ Sponsors (High) · 59 H1B filings | **20%** | 4d ago | [Apply](https://jobs.smartrecruiters.com/Intuitive/744000144390590) |
-|  | Elevance Health | Information Security Advisor - Detection Engineer | IN INDIANAPOLIS 220 VIRG | ✅ Sponsors (High) · 114 H1B filings | **8%** | 4d ago | [Apply](https://elevancehealth.wd1.myworkdayjobs.com/en-US/ANT/job/IN-INDIANAPOLIS-220-VIRGINIA-AVE/Information-Security-Advisor---Detection-Engineer_JR192279-1) |
+| 🔥 | Amgen | CD&A Data Scientist, Obesity - Associate | US - California - Thousa | ✅ Sponsors (High) · 65 H1B filings | **20%** | 4d ago | [Apply](https://amgen.wd1.myworkdayjobs.com/en-US/careers/job/US---California---Thousand-Oaks/CD-A-Data-Scientist--Obesity---Associate_R-252126) |
 |  | SpaceX | Software Engineer, Inference (AI Data Engineering) | Palo Alto, CA | ✅ Sponsors (Med) | **100%** | 4d ago | [Apply](https://boards.greenhouse.io/spacex/jobs/8717350002?gh_jid=8717350002) |
 |  | SpaceX | Software Engineer (Application Software) | Hawthorne, CA | ✅ Sponsors (Med) | **100%** | 4d ago | [Apply](https://boards.greenhouse.io/spacex/jobs/8731256002?gh_jid=8731256002) |
 |  | Motive | GTM AI Engineer | United States - Remote | ✅ Sponsors (Med) · 40 H1B filings | **100%** | 4d ago | [Apply](https://job-boards.greenhouse.io/gomotive/jobs/8709999002) |
@@ -238,8 +214,6 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 |  | Anthropic | DevOps / AgentOps Engineer, GTM Systems | San Francisco, CA | ✅ Sponsors (Med) · 48 H1B filings | **80%** | 4d ago | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5392856008) |
 |  | Airbnb | Software Engineer, Trust | Remote, United States | ✅ Sponsors (Med) · 48 H1B filings | **76%** | 4d ago | [Apply](https://careers.airbnb.com/positions/8142827?gh_jid=8142827) |
 |  | Crusoe | Software Engineer I, Network | San Francisco, CA - US | ✅ Sponsors (Med) · 14 H1B filings | **68%** | 4d ago | [Apply](https://jobs.ashbyhq.com/Crusoe/9a5223c4-9eb7-4fdb-b97c-f43525df35ed) |
-| 🔥 | KLA | Data Scientist - Palantir Developer | Ann Arbor, MI | ✅ Sponsors (Med) · 42 H1B filings | **68%** | 4d ago | [Apply](https://kla.wd1.myworkdayjobs.com/en-US/AnnArbor/job/Ann-Arbor-MI/Data-Scientist---Palantir-Developer_2638928) |
-| 🔥 | KLA Corporation | Data Scientist - Palantir Developer | Ann Arbor, MI | ✅ Sponsors (Med) · 42 H1B filings | **68%** | 4d ago | [Apply](https://kla.wd1.myworkdayjobs.com/en-US/search/job/Ann-Arbor-MI/Data-Scientist---Palantir-Developer_2638928-1) |
 |  | SpaceX | New Graduate Engineer, Software (Application Software) | Hawthorne, CA | ✅ Sponsors (Med) | **60%** | 4d ago | [Apply](https://boards.greenhouse.io/spacex/jobs/8730567002?gh_jid=8730567002) |
 |  | SpaceX | Wi-Fi Software Engineer (Starlink) | Bastrop, TX  +1 more | ✅ Sponsors (Med) | **60%** | 4d ago | [Apply](https://boards.greenhouse.io/spacex/jobs/8715832002?gh_jid=8715832002) |
 |  | OpenAI | Software Engineer, Trainium  | San Francisco | ✅ Sponsors (Med) · 23 H1B filings | **60%** | 4d ago | [Apply](https://jobs.ashbyhq.com/openai/2bf44c13-a463-4ec7-b152-b8367075246c) |
@@ -250,17 +224,14 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 |  | SpaceX | Fire Protection Engineer | Bastrop, TX | ✅ Sponsors (Med) | **32%** | 4d ago | [Apply](https://boards.greenhouse.io/spacex/jobs/8731073002?gh_jid=8731073002) |
 |  | Genuine Parts Company | Motion Automation Intelligence - Application Engineer | Eden Prairie, MN, USA | ✅ Sponsors (Med) · 27 H1B filings | **32%** | 4d ago | [Apply](https://genpt.wd1.myworkdayjobs.com/en-US/careers/job/Eden-Prairie-MN-USA/Motion-Automation-Intelligence---Application-Engineer_R26_0000026951) |
 |  | Dematic | Software Engineer - Tech Support | Wauwatosa, WI, United St | ✅ Sponsors (Med) | **28%** | 4d ago | [Apply](https://kiongroup.wd3.myworkdayjobs.com/en-US/kion_scs/job/Wauwatosa-WI-United-States/Live-Operations---Software-Engineer_JR-0091300) |
-| 🔥 | Regions | Data Governance Analyst/BI Developer - Salt Lake, UT | Salt Lake City UT LOB | ✅ Sponsors (Med) · 13 H1B filings | **28%** | 4d ago | [Apply](https://regions.wd5.myworkdayjobs.com/en-US/regions_careers/job/Salt-Lake-City-UT-LOB/Data-Governance-Analyst-BI-Developer---Salt-Lake--UT_R105114-1) |
 |  | ALTEN Technology | Advanced Vehicle Dynamics Engineer | Auburn Hills, Michigan,  | ✅ Sponsors (Med) · 14 H1B filings | **24%** | 4d ago | [Apply](https://job-boards.greenhouse.io/altentechnologyusa/jobs/5216204007) |
-|  | AECOM | Substation Engineer - Physical - Remote (U.S.) | Dallas, TX, United State | ✅ Sponsors (Med) · 39 H1B filings | **24%** | 4d ago | [Apply](https://jobs.smartrecruiters.com/AECOM2/744000144376089) |
 |  | SpaceX | Automation Build Engineer, Development (Starlink)  | Bastrop, TX | ✅ Sponsors (Med) | **24%** | 4d ago | [Apply](https://boards.greenhouse.io/spacex/jobs/8696881002?gh_jid=8696881002) |
 |  | AbbVie | AWS Platform/API Engineer | North Chicago, IL, Unite | ✅ Sponsors (Med) · 26 H1B filings | **24%** | 4d ago | [Apply](https://jobs.smartrecruiters.com/AbbVie/3743990014690107) |
 |  | ASML | Plasma and Laser Physics Engineer | San Diego, CA, USA | ✅ Sponsors (Med) · 10 H1B filings | **24%** | 4d ago | [Apply](https://asml.wd3.myworkdayjobs.com/en-US/asmlext1/job/San-Diego-CA-USA/Plasma-and-Laser-Physics-Engineer_J-00350019) |
-| 🔥 | Caterpillar Inc. | Embedded Software Engineer - Platform Software | Mossville, Illinois | ✅ Sponsors (Med) · 14 H1B filings | **20%** | 4d ago | [Apply](https://cat.wd5.myworkdayjobs.com/en-US/CaterpillarCareers/job/Mossville-Illinois/Embedded-Software-Engineer---Platform-Software_R0000377279) |
-| 🔥 | GlobalFoundries | AI/ML Software Engineer (2026 New College Graduate) | Richardson | ✅ Sponsors (Med) · 26 H1B filings | **20%** | 4d ago | [Apply](https://globalfoundries.wd1.myworkdayjobs.com/en-US/External/job/Richardson/AI-ML-Software-Engineer--2026-New-College-Graduate-_JR-2602832) |
 |  | ASML | Field Applications Engineer - Taylor, TX | Austin, TX, USA | ✅ Sponsors (Med) · 10 H1B filings | **16%** | 4d ago | [Apply](https://asml.wd3.myworkdayjobs.com/en-US/asmlext1/job/Austin-TX-USA/Field-Applications-Engineer---Taylor--TX_J-00350254) |
 |  | AECOM | Substation Engineer - Physical (Remote - U.S.) | Oakland, CA, United Stat | ✅ Sponsors (Med) · 39 H1B filings | **8%** | 4d ago | [Apply](https://jobs.smartrecruiters.com/AECOM2/744000144393044) |
 |  | AbbVie | Scientist I/II, Engineering - Design Verification Engineer | North Chicago, IL, Unite | ✅ Sponsors (Med) · 26 H1B filings | **8%** | 4d ago | [Apply](https://jobs.smartrecruiters.com/AbbVie/3743990014690366) |
+| 🔥 | KLA | Product Development Engineer | Milpitas, CA | ✅ Sponsors (Med) · 42 H1B filings | **8%** | 4d ago | [Apply](https://kla.wd1.myworkdayjobs.com/en-US/UR/job/Milpitas-CA/Product-Development-Engineer_2639800) |
 |  | Cribl | Software Engineer, Edge | Remote - United States | ✅ Sponsors (Low) | **100%** | 4d ago | [Apply](https://cribl.io/job-detail/?gh_jid=6144377004) |
 |  | Substack | Full Stack Software Engineer - Growth | San Francisco (HQ) | ✅ Sponsors (Low) | **68%** | 4d ago | [Apply](https://jobs.ashbyhq.com/substack/110ac422-58fb-461f-b249-9072eff43f3a) |
 |  | Vantage Point Solutions | Cybersecurity Engineering Specialist | Mitchell, SD | ✅ Sponsors (Low) | **8%** | 4d ago | [Apply](https://vantage-point-solutions-inc.breezy.hr/p/2d7d94232057-cybersecurity-engineering-specialist) |
@@ -268,7 +239,7 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 |  | The New York Times | Software Engineer, Reﬂections | New York, NY | — unknown | **92%** | 4d ago | [Apply](https://job-boards.greenhouse.io/thenewyorktimes/jobs/4724948005) |
 |  | National Information Solutions Cooperative (NISC) | Software Developer - Telecom Bill Calculations Software (Back End, Python) | Cedar Rapids, IA  +2 more | — unknown | **92%** | 4d ago | [Apply](https://job-boards.greenhouse.io/testnisc/jobs/8142924) |
 |  | Reflect Orbital | Ground Software Engineer | Hawthorne, CA | — unknown | **92%** | 4d ago | [Apply](https://jobs.ashbyhq.com/reflect-orbital/3b04b8bd-961c-4dd7-8e1b-eccdaa369a17) |
-|  | Mindrift | Freelance Full-Stack Web App Developer | Alabama, United States  +26  | — unknown | **80%** | 4d ago | [Apply](https://jobs.workable.com/view/8Vso5vQKAdinD17USxZ2CK/remote-freelance-full-stack-web-app-developer-in-florida-at-mindrift) |
+|  | Mindrift | Freelance Full-Stack Web App Developer | Alabama, United States  +25  | — unknown | **80%** | 4d ago | [Apply](https://jobs.workable.com/view/8Vso5vQKAdinD17USxZ2CK/remote-freelance-full-stack-web-app-developer-in-florida-at-mindrift) |
 |  | Front | Software Engineer (Backend), Foundation | San Francisco, CA | — unknown | **76%** | 4d ago | [Apply](https://jobs.ashbyhq.com/frontcareers/6f8123bc-8c6c-479a-9a6d-0935f94b42ca) |
 |  | Nasdaq | Markets Investigative Data Scientist | Washington DC | — unknown | **68%** | 4d ago | [Apply](https://nasdaq.wd1.myworkdayjobs.com/en-US/Global_External_Site/job/Washington-DC/Investigative-Data-Scientist-AI-Engineer_R0026342) |
 |  | Anyscale | Software Engineer, Infrastructure | San Francisco | — unknown | **60%** | 4d ago | [Apply](https://jobs.ashbyhq.com/anyscale/8691daef-bfe5-4d01-871f-cf2226ba0c82) |
@@ -294,16 +265,13 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 |  | IEM | Estimation Engineer | US - Remote | — unknown | **8%** | 4d ago | [Apply](https://job-boards.greenhouse.io/industrialelectricmanufacturing/jobs/4375329009) |
 |  | JND | [Mid Level] Network QA Engineer - Cell Phone Network Field Testing (2608-2) | Bellevue, WA | — unknown | **0%** | 4d ago | [Apply](https://jnd-inc.breezy.hr/p/aa56654665a7-mid-level-network-qa-engineer-cell-phone-network-field-testing-2608-2) |
 
-## 🗓️ Posted 5 days ago — 71 jobs
+## 🗓️ Posted 5 days ago — 60 jobs
 
 | | Company | Role | Location | Visa | Match | Posted | Apply |
 |--|--|--|--|--|--|--|--|
 |  | Micron Technology | AI Security Engineer | Boise, ID - Main Site | ✅ Sponsors (High) · 80 H1B filings | **60%** | 5d ago | [Apply](https://micron.wd1.myworkdayjobs.com/en-US/External/job/Boise-ID---Main-Site/AI-Security-Engineer_JR109465) |
 |  | Intuitive Surgical | Product Development Engineer | Durham, NC, United State | ✅ Sponsors (High) · 59 H1B filings | **32%** | 5d ago | [Apply](https://jobs.smartrecruiters.com/Intuitive/744000144169168) |
 |  | Western Digital | Servo Control Engineer | San Jose, CA, United Sta | ✅ Sponsors (High) · 76 H1B filings | **24%** | 5d ago | [Apply](https://jobs.smartrecruiters.com/WesternDigital/744000144103580) |
-| 🔥 | eBay | MTS1 Software Engineer, Android | Portland | ✅ Sponsors (High) · 114 H1B filings | **20%** | 5d ago | [Apply](https://ebay.wd5.myworkdayjobs.com/en-US/apply/job/Portland/MTS1-Software-Engineer--Android_R0076414) |
-|  | Bank of America | IBMi MQ Series Infrastructure Engineer ll | Jersey City | ✅ Sponsors (High) · 136 H1B filings | **8%** | 5d ago | [Apply](https://ghr.wd1.myworkdayjobs.com/en-US/us-emplsv/job/Jersey-City/IBMi-MQ-Series-Infrastructure-Engineer-ll_26029898-2) |
-| 🔥 | Bank of America | Site Reliability Engineer II | Jersey City | ✅ Sponsors (High) · 136 H1B filings | **8%** | 5d ago | [Apply](https://ghr.wd1.myworkdayjobs.com/en-US/us-emplsv/job/Jersey-City/Site-Reliability-Engineer-II_26029993) |
 |  | SpaceX | Full Stack Software Engineer, Employee Experience  | Hawthorne, CA | ✅ Sponsors (Med) | **100%** | 5d ago | [Apply](https://boards.greenhouse.io/spacex/jobs/8726225002?gh_jid=8726225002) |
 |  | SpaceX | Full Stack Software Engineer, Operations Software (Starlink)  | Redmond, WA | ✅ Sponsors (Med) | **100%** | 5d ago | [Apply](https://boards.greenhouse.io/spacex/jobs/8722645002?gh_jid=8722645002) |
 |  | SpaceX | Software Engineer | Starbase, TX | ✅ Sponsors (Med) | **100%** | 5d ago | [Apply](https://boards.greenhouse.io/spacex/jobs/8726545002?gh_jid=8726545002) |
@@ -314,11 +282,9 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 |  | LexisNexis Risk Solutions | Software Engineer I | Raleigh, NC | ✅ Sponsors (Med) · 17 H1B filings | **92%** | 5d ago | [Apply](https://relx.wd3.myworkdayjobs.com/en-US/LexisNexisLegal/job/Raleigh-NC/Software-Engineer-I_R117314) |
 |  | MongoDB | Technical Services Engineer - Weekend Shift | United States | ✅ Sponsors (Med) · 44 H1B filings | **88%** | 5d ago | [Apply](https://www.mongodb.com/careers/job/?gh_jid=8070616) |
 |  | Autodesk | Software Engineer | San Francisco, CA, USA | ✅ Sponsors (Med) · 32 H1B filings | **84%** | 5d ago | [Apply](https://autodesk.wd1.myworkdayjobs.com/en-US/Ext/job/San-Francisco-CA-USA/Software-Engineer_26WD100686) |
-| 🔥 | Becton Dickinson | DevOps Engineer | USA CA - Milpitas 155 | ✅ Sponsors (Med) · 25 H1B filings | **80%** | 5d ago | [Apply](https://bdx.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREER_SITE_USA/job/USA-CA---Milpitas-155/DevOps-Engineer_R-553112-1) |
 |  | OpenAI | Software Engineer, Plugin Developer Platform | San Francisco | ✅ Sponsors (Med) · 23 H1B filings | **76%** | 5d ago | [Apply](https://jobs.ashbyhq.com/openai/71838fdf-4476-490c-81b6-4bf0746f6774) |
 |  | Northramp LLC | Data Scientist (Looker / AI / BI) | Washington, District of  | ✅ Sponsors (Med) | **68%** | 5d ago | [Apply](https://jobs.workable.com/view/8m9Ro5UhgNCuSQuUvgABnV/hybrid-data-scientist-(looker-%2F-ai-%2F-bi)-in-washington-at-northramp-llc) |
 |  | Meridian Link | Software Engineer II | US Remote | ✅ Sponsors (Med) | **60%** | 5d ago | [Apply](https://jobs.ashbyhq.com/meridianlink/c9a9ca80-af80-4fe9-b4b7-9c0d026ee99b) |
-| 🔥 | Becton Dickinson | Engineer III - Software Developer Engineer in Test (SDET) | USA MD - Sparks - 7 Love | ✅ Sponsors (Med) · 25 H1B filings | **60%** | 5d ago | [Apply](https://bdx.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREER_SITE_USA/job/USA-MD---Sparks---7-Loveton-Circle/Engineer-III---Software-Developer-Engineer-in-Test--SDET-_R-552362-1) |
 |  | Datadog | Technical Escalations Engineer 2 (Web Platform) - US-West | Denver, Colorado, USA | ✅ Sponsors (Med) · 25 H1B filings | **56%** | 5d ago | [Apply](https://careers.datadoghq.com/detail/8130723/?gh_jid=8130723) |
 |  | SpaceX | Software Engineer, Starlink Enterprise Products (Space Lasers) | Redmond, WA | ✅ Sponsors (Med) | **52%** | 5d ago | [Apply](https://boards.greenhouse.io/spacex/jobs/8715839002?gh_jid=8715839002) |
 |  | LinkedIn | iOS Software Engineer | Mountain View, CA, Unite | ✅ Sponsors (Med) · 31 H1B filings | **52%** | 5d ago | [Apply](https://jobs.smartrecruiters.com/LinkedIn3/744000144139015) |
@@ -331,16 +297,11 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 |  | Dyna Robotics | Exceptional Software Engineer | Redwood City, CA | ✅ Sponsors (Med) · 16 H1B filings | **36%** | 5d ago | [Apply](https://jobs.ashbyhq.com/dyna-robotics/9f1fb776-9d59-4725-9749-6a529cbdfada) |
 |  | Astemo | Engineer II (Prototype) | Berea, Kentucky, United  | ✅ Sponsors (Med) · 12 H1B filings | **32%** | 5d ago | [Apply](https://astemo.wd102.myworkdayjobs.com/en-US/Global_Career_Site/job/Berea-Kentucky-United-States/Engineer-II--Prototype-_J0051178) |
 |  | Astemo | Engineer I | Harrodsburg, Kentucky, U | ✅ Sponsors (Med) · 12 H1B filings | **24%** | 5d ago | [Apply](https://astemo.wd102.myworkdayjobs.com/en-US/Global_Career_Site/job/Harrodsburg-Kentucky-United-States/Engineer-I_J0051495) |
-|  | Broadcom Limited | R&D Software Engineer | USA-TX Plano Legacy Driv | ✅ Sponsors (Med) · 22 H1B filings | **20%** | 5d ago | [Apply](https://broadcom.wd1.myworkdayjobs.com/en-US/External_Career/job/USA-TX-Plano-Legacy-Drive-Suite-700/R-D-Software-Engineer_R026205) |
-|  | Caterpillar Inc. | Software Engineer (Autonomy Services) | Irving, Texas | ✅ Sponsors (Med) · 14 H1B filings | **20%** | 5d ago | [Apply](https://cat.wd5.myworkdayjobs.com/en-US/CaterpillarCareers/job/Irving-Texas/Software-Engineer--Autonomy-Services-_R0000380992) |
-|  | F5 | Software Development Engineer III — Salesforce | Seattle | ✅ Sponsors (Med) · 34 H1B filings | **20%** | 5d ago | [Apply](https://ffive.wd5.myworkdayjobs.com/en-US/f5jobs/job/Seattle/Software-Development-Engineer-III---Salesforce_RP1038167) |
-| 🔥 | Stryker | Software Development Engineer | Indiana, Fort Wayne 1950 | ✅ Sponsors (Med) · 23 H1B filings | **20%** | 5d ago | [Apply](https://stryker.wd1.myworkdayjobs.com/en-US/StrykerCareers/job/Indiana-Fort-Wayne-1950-West-Cook-Road/Software-Development-Engineer_R570340) |
-|  | DuBois | Applications Engineer | Sharonville, OH - HQ | ✅ Sponsors (Med) · 13 H1B filings | **8%** | 5d ago | [Apply](https://duboischemicals.wd1.myworkdayjobs.com/en-US/external/job/Sharonville-OH---HQ/Applications-Engineer_R103213) |
+|  | Broadcom Limited | R&D Software Engineer | USA TX Plano Legacy Driv | ✅ Sponsors (Med) · 22 H1B filings | **20%** | 5d ago | [Apply](https://broadcom.wd1.myworkdayjobs.com/en-US/External_Career/job/USA-TX-Plano-Legacy-Drive-Suite-700/R-D-Software-Engineer_R026205) |
+| 🔥 | Caterpillar Inc. | Embedded Software Engineer - Platform Software | Mossville, Illinois | ✅ Sponsors (Med) · 14 H1B filings | **20%** | 5d ago | [Apply](https://cat.wd5.myworkdayjobs.com/en-US/CaterpillarCareers/job/Mossville-Illinois/Embedded-Software-Engineer---Platform-Software_R0000377279) |
 |  | Williams | Technical Product Developer III/IV | OK Tulsa - Headquarters | ✅ Sponsors (Med) · 22 H1B filings | **8%** | 5d ago | [Apply](https://williams.wd5.myworkdayjobs.com/en-US/External/job/OK-Tulsa---Headquarters/Technical-Product-Developer-III-IV_R112565) |
-|  | Broadcom Limited | Field Applications Engineer | USA-CA San Jose Innovati | ✅ Sponsors (Med) · 22 H1B filings | **8%** | 5d ago | [Apply](https://broadcom.wd1.myworkdayjobs.com/en-US/External_Career/job/USA-CA-San-Jose-Innovation-Drive/Field-Applications-Engineer_R026109) |
-|  | Broadcom Limited | NPI Test Development Engineer | USA-California- San Jose | ✅ Sponsors (Med) · 22 H1B filings | **8%** | 5d ago | [Apply](https://broadcom.wd1.myworkdayjobs.com/en-US/External_Career/job/USA-California--San-Jose---1730-Fox-Drive/NPI-Test-Development-Engineer_R026437-1) |
-| 🔥 | KLA | Regional Applications Development Engineer | Milpitas, CA | ✅ Sponsors (Med) · 42 H1B filings | **8%** | 5d ago | [Apply](https://kla.wd1.myworkdayjobs.com/en-US/UR/job/Milpitas-CA/Regional-Applications-Development-Engineer_2638921) |
-| 🔥 | CoorsTek | Reliability Engineer I | Golden, CO | ✅ Sponsors (Med) · 19 H1B filings | **8%** | 5d ago | [Apply](https://coorstek.wd1.myworkdayjobs.com/en-US/CoorsTekCareers/job/Golden-CO/Facilities-Engineer-II_R-113654) |
+| 🔥 | Southwest Airlines | WCM Digital Developer | TX-Dallas | ✅ Sponsors (Med) · 21 H1B filings | **8%** | 5d ago | [Apply](https://swa.wd1.myworkdayjobs.com/en-US/external/job/TX-Dallas/WCM-Digital-Developer_R-2026-70965) |
+| 🔥 | KLA | Customer Engagement Applications Engineer | Boise, ID | ✅ Sponsors (Med) · 42 H1B filings | **8%** | 5d ago | [Apply](https://kla.wd1.myworkdayjobs.com/en-US/UR/job/Boise-ID/Customer-Engagement-Applications-Engineer_2639864-2) |
 |  | Baseten | Forward Deployed Engineer (Training) | San Francisco | ✅ Sponsors (Low) | **60%** | 5d ago | [Apply](https://jobs.ashbyhq.com/baseten/11ab2593-6648-4943-ab4a-284fe7e89720) |
 |  | The New York Times | Associate Newsroom Software Engineer, Interactive News﻿﻿ | New York, NY | — unknown | **92%** | 5d ago | [Apply](https://job-boards.greenhouse.io/thenewyorktimes/jobs/4721982005) |
 |  | Kairos Power | Software Engineer, Cyber Physical Systems | Alameda, CA or Albuquerq | — unknown | **92%** | 5d ago | [Apply](https://job-boards.greenhouse.io/kairospower/jobs/6093018004) |
@@ -350,7 +311,6 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 |  | Oklo | Refueling Supplier Engineer | Santa Clara, CA or Remot | — unknown | **56%** | 5d ago | [Apply](https://job-boards.greenhouse.io/oklo/jobs/6146512004) |
 |  | Ema | AI Application Engineer (Contractor role) | San Francisco Bay Area | — unknown | **52%** | 5d ago | [Apply](https://jobs.ashbyhq.com/ema/ab094389-25ec-417b-b646-06969d166d06) |
 |  | 1Password | Developer, Authorization | Remote (United States /  | — unknown | **48%** | 5d ago | [Apply](https://jobs.ashbyhq.com/1password/d8e8cf3f-c994-43a7-854c-86849b95db41) |
-|  | Seeq | AI Customer Insights Engineer | United States | — unknown | **44%** | 5d ago | [Apply](https://jobs.workable.com/view/k8hCsKfpsQaej8E4NfHFmk/remote-ai-customer-insights-engineer-in-united-states-at-seeq) |
 |  | Freeform | Additive Engineer (New Grad Summer 2027) | Los Angeles, CA (On-site | — unknown | **40%** | 5d ago | [Apply](https://job-boards.greenhouse.io/freeformfuturecorp/jobs/7894104003) |
 |  | Antora Energy | Process Safety Engineer | San Jose, CA | — unknown | **40%** | 5d ago | [Apply](https://job-boards.greenhouse.io/antora/jobs/6143362004) |
 |  | Handshake | Associate Software Engineer, Operator Experience | San Francisco, CA | — unknown | **36%** | 5d ago | [Apply](https://jobs.ashbyhq.com/handshake/fe319ff8-87e1-46d9-b23e-4b78cf6086f8) |
@@ -370,30 +330,19 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 |  | Sigma Defense | 1650 - Software Developer | Belcamp, Maryland, Unite | — unknown | **12%** | 5d ago | [Apply](https://jobs.workable.com/view/mgE9td1jK5nR7d5yuNGYYj/1650---software-developer-in-belcamp-at-sigma-defense) |
 |  | Datamark, Inc. | Web Developer & Digital Analytics Specialist | El Paso, Texas, United S | — unknown | **8%** | 5d ago | [Apply](https://jobs.workable.com/view/aPiTahJfHgkzuTYfXVkLDe/remote-web-developer-%26-digital-analytics-specialist-in-el-paso-at-datamark%2C-inc.) |
 
-## 🗓️ Posted 6 days ago — 62 jobs
+## 🗓️ Posted 6 days ago — 56 jobs
 
 | | Company | Role | Location | Visa | Match | Posted | Apply |
 |--|--|--|--|--|--|--|--|
-|  | Snap Finance | Software Engineer I | Arizona | ✅ Sponsors (High) · 65 H1B filings | **100%** | 6d ago | [Apply](https://snapfinance.wd1.myworkdayjobs.com/en-US/snap_external_careers/job/Arizona/Software-Engineer-I_R-2796) |
 |  | Expedia Group | Backend Software Development Engineer II | Washington - Seattle Cam | ✅ Sponsors (High) · 96 H1B filings | **92%** | 6d ago | [Apply](https://expedia.wd108.myworkdayjobs.com/en-US/private/job/Washington---Seattle-Campus/Backend-Software-Development-Engineer-II_R-105086) |
-| 🔥 | Ohio State University | Intermediate Learning Systems Developer | Columbus Campus | ✅ Sponsors (High) · 77 H1B filings | **88%** | 6d ago | [Apply](https://osu.wd1.myworkdayjobs.com/en-US/OSUCareers/job/Columbus-Campus/Intermediate-Learning-Systems-Developer_R157098-1) |
-|  | Bank of America | Software Engineer II - Equities Cash Technology (ECT) Team | Jersey City | ✅ Sponsors (High) · 136 H1B filings | **60%** | 6d ago | [Apply](https://ghr.wd1.myworkdayjobs.com/en-US/us-emplsv/job/Jersey-City/Software-Engineer-II---Equities-Cash-Technology--ECT--Team_26029291-1) |
-| 🔥 | Ohio State University | Student AI Developer | Columbus Campus | ✅ Sponsors (High) · 77 H1B filings | **60%** | 6d ago | [Apply](https://osu.wd1.myworkdayjobs.com/en-US/OSUCareers/job/Columbus-Campus/Student-AI-Developer_R155722-1) |
 |  | Stripe | Machine Learning Engineer | South San Francisco, CA | ✅ Sponsors (High) · 53 H1B filings | **40%** | 6d ago | [Apply](https://stripe.com/jobs/search?gh_jid=8137997) |
 |  | Micron Technology | New College Grad - Design Engineer | San Jose, CA | ✅ Sponsors (High) · 80 H1B filings | **40%** | 6d ago | [Apply](https://micron.wd1.myworkdayjobs.com/en-US/External/job/San-Jose-CA/Senior-Design-Engineer_JR106564) |
-|  | Bank of America | Software Engineer II -  Python / Quartz | Chicago | ✅ Sponsors (High) · 136 H1B filings | **28%** | 6d ago | [Apply](https://ghr.wd1.myworkdayjobs.com/en-US/us-emplsv/job/Chicago/Software-Engineer-II----Python---Quartz_26025916) |
-| 🔥 | The Home Depot | Logistics Engineer, FDC/BDC | PENNSYLVANIA - VIRTUAL - | ✅ Sponsors (High) · 70 H1B filings | **24%** | 6d ago | [Apply](https://homedepot.wd5.myworkdayjobs.com/en-US/careerdepot/job/PENNSYLVANIA---VIRTUAL---PA01/Logistics-Engineer_Req190325) |
-| 🔥 | Bank of America | Software Engineer lll - Payments Modernization | Jersey City | ✅ Sponsors (High) · 136 H1B filings | **20%** | 6d ago | [Apply](https://ghr.wd1.myworkdayjobs.com/en-US/us-emplsv/job/Jersey-City/Software-Engineer-lll---Payments-Modernization_26018497-1) |
-| 🔥 | Bank of America | Python Developer III | Jersey City | ✅ Sponsors (High) · 136 H1B filings | **16%** | 6d ago | [Apply](https://ghr.wd1.myworkdayjobs.com/en-US/Lateral-US/job/Jersey-City/Python-Developer-III_26029402) |
-| 🔥 | Fiserv | SDET | Sunnyvale, California | ✅ Sponsors (High) · 95 H1B filings | **8%** | 6d ago | [Apply](https://fiserv.wd5.myworkdayjobs.com/en-US/ext/job/Sunnyvale-California/SDET_R-10399523) |
-| 🔥 | Hewlett Packard Enterprise | SAP Developer/Engineer | Spring, Texas, United St | ✅ Sponsors (High) · 85 H1B filings | **8%** | 6d ago | [Apply](https://hpe.wd5.myworkdayjobs.com/en-US/acjobsite/job/Spring-Texas-United-States-of-America/SAP-Developer-Engineer_1208478) |
+| 🔥 | eBay | MTS1 Software Engineer, Android | Portland | ✅ Sponsors (High) · 114 H1B filings | **20%** | 6d ago | [Apply](https://ebay.wd5.myworkdayjobs.com/en-US/apply/job/Portland/MTS1-Software-Engineer--Android_R0076414) |
 |  | Nordstrom | Engineer 2 - Supply Chain | Seattle, WA | ✅ Sponsors (Med) · 42 H1B filings | **100%** | 6d ago | [Apply](https://nordstrom.wd501.myworkdayjobs.com/en-US/nordstrom_careers/job/Seattle-WA/Engineer-2---Supply-Chain_R-867298) |
 |  | CVS Health | Data Engineer | TX - Irving | ✅ Sponsors (Med) · 12 H1B filings | **100%** | 6d ago | [Apply](https://cvshealth.wd1.myworkdayjobs.com/en-US/cvs_health_careers/job/TX---Irving/Data-Engineer_R1011899) |
 |  | NCR Voyix | Software Engineer (Multi Cloud) | ATLANTA, GA, USA | ✅ Sponsors (Med) · 24 H1B filings | **100%** | 6d ago | [Apply](https://ncr.wd1.myworkdayjobs.com/en-US/ext_us/job/ATLANTA-GA-USA/Software-Engineer--Multi-Cloud-_R0158102) |
-| 🔥 | Crowdstrike | Software Engineer, Front End - Policy (Hybrid) | USA - Remote, WA | ✅ Sponsors (Med) · 40 H1B filings | **100%** | 6d ago | [Apply](https://crowdstrike.wd5.myworkdayjobs.com/en-US/crowdstrikecareers/job/USA---Remote-WA/Software-Engineer--Front-End---Policy--Hybrid-_R29041) |
 |  | Layer Health | Forward Deploy Data Scientist | Boston or NYC | ✅ Sponsors (Med) · 12 H1B filings | **92%** | 6d ago | [Apply](https://job-boards.greenhouse.io/layerhealth/jobs/5392521008) |
 |  | Nordstrom | Engineer 2 | Seattle, WA | ✅ Sponsors (Med) · 42 H1B filings | **88%** | 6d ago | [Apply](https://nordstrom.wd501.myworkdayjobs.com/en-US/nordstrom_careers/job/Seattle-WA/Engineer-2---Integrated-Merchandising_R-861144) |
-| 🔥 | Medical University of South Carolina | Systems Programmer/Developer II - AHEC | Remote - South Carolina | ✅ Sponsors (Med) · 21 H1B filings | **88%** | 6d ago | [Apply](https://musc.wd1.myworkdayjobs.com/en-US/MUSC/job/Remote---South-Carolina/Systems-Programmer-Developer-II---AHEC_R-0000066619) |
 |  | Roblox | Software Engineer, Foundation AI | San Mateo, CA, United St | ✅ Sponsors (Med) · 49 H1B filings | **76%** | 6d ago | [Apply](https://careers.roblox.com/jobs/8123004?gh_jid=8123004) |
 |  | Sony Interactive Entertainment | Software Development Engineer in Test II - Contractor | United States, San Mateo | ✅ Sponsors (Med) · 40 H1B filings | **76%** | 6d ago | [Apply](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6145023004) |
 |  | SpaceX | Security Software Engineer (Starlink) | Bastrop, TX  +2 more | ✅ Sponsors (Med) | **68%** | 6d ago | [Apply](https://boards.greenhouse.io/spacex/jobs/8719860002?gh_jid=8719860002) |
@@ -403,15 +352,20 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 |  | Symbotic | System Engineer | USA Hope Mills, NC | ✅ Sponsors (Med) · 21 H1B filings | **56%** | 6d ago | [Apply](https://symbotic.wd504.myworkdayjobs.com/en-US/Symbotic/job/USA-Hope-Mills-NC/System-Engineer_R7812) |
 |  | SpaceX | Design Criteria Engineer (Falcon & Dragon) | Hawthorne, CA | ✅ Sponsors (Med) | **48%** | 6d ago | [Apply](https://boards.greenhouse.io/spacex/jobs/8721103002?gh_jid=8721103002) |
 |  | Arrow Electronics | Market Development Engineer | US-CA-San Jose, Californ | ✅ Sponsors (Med) · 19 H1B filings | **40%** | 6d ago | [Apply](https://arrow.wd1.myworkdayjobs.com/en-US/AC/job/US-CA-San-Jose-California-Metro-Dr/Market-Development-Engineer_R246133) |
-| 🔥 | Crowdstrike | Engineer 3, Sensor - SSP (Hybrid) | USA - Sunnyvale, CA | ✅ Sponsors (Med) · 40 H1B filings | **40%** | 6d ago | [Apply](https://crowdstrike.wd5.myworkdayjobs.com/en-US/crowdstrikecareers/job/USA---Sunnyvale-CA/Principal-Software-Engineer--Endpoint-AI-Framework--Remote-_R24794) |
 |  | SpaceX | Launch Engineer, Dragon | Cape Canaveral, FL | ✅ Sponsors (Med) | **32%** | 6d ago | [Apply](https://boards.greenhouse.io/spacex/jobs/8723922002?gh_jid=8723922002) |
 |  | SpaceX | Test Engineer (Dragon) | Cape Canaveral, FL | ✅ Sponsors (Med) | **32%** | 6d ago | [Apply](https://boards.greenhouse.io/spacex/jobs/8723913002?gh_jid=8723913002) |
 |  | Sanofi | Automation Engineer | Swiftwater, PA | ✅ Sponsors (Med) · 19 H1B filings | **32%** | 6d ago | [Apply](https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Swiftwater-PA/Automation-Engineer_R2867496) |
+| 🔥 | American Electric Power | End User Engineer | Columbus, OH | ✅ Sponsors (Med) · 18 H1B filings | **32%** | 6d ago | [Apply](https://aep.wd1.myworkdayjobs.com/en-US/AEPCareerSite/job/Columbus-OH/End-User-Engineer_R18105) |
 |  | SpaceX | MEP/Construction Engineer | Bastrop, TX | ✅ Sponsors (Med) | **24%** | 6d ago | [Apply](https://boards.greenhouse.io/spacex/jobs/8720155002?gh_jid=8720155002) |
 |  | VCU Health | Radiation Oncology Clinic Engineer | Richmond, VA | ✅ Sponsors (Med) · 18 H1B filings | **24%** | 6d ago | [Apply](https://vcuhealth.wd1.myworkdayjobs.com/en-US/vcuhealth_careers/job/Richmond-VA/Maintenance-Engineer_R40650-1) |
+|  | Caterpillar Inc. | Software Engineer (Autonomy Services) | Irving, Texas | ✅ Sponsors (Med) · 14 H1B filings | **20%** | 6d ago | [Apply](https://cat.wd5.myworkdayjobs.com/en-US/CaterpillarCareers/job/Irving-Texas/Software-Engineer--Autonomy-Services-_R0000380992) |
+|  | F5 | Software Development Engineer III — Salesforce | Seattle | ✅ Sponsors (Med) · 34 H1B filings | **20%** | 6d ago | [Apply](https://ffive.wd5.myworkdayjobs.com/en-US/f5jobs/job/Seattle/Software-Development-Engineer-III---Salesforce_RP1038167) |
 |  | MiTek | Design Engineer I | Chesterfield, MO, USA | ✅ Sponsors (Med) · 19 H1B filings | **8%** | 6d ago | [Apply](https://mii.wd5.myworkdayjobs.com/en-US/MiTek/job/Chesterfield-MO-USA/Design-Engineer-I_R06601) |
-| 🔥 | Caterpillar Inc. | Autonomy Development Engineer | Irving Texas | ✅ Sponsors (Med) · 14 H1B filings | **8%** | 6d ago | [Apply](https://cat.wd5.myworkdayjobs.com/en-US/CaterpillarCareers/job/Irving-Texas/Autonomy-Development-Engineer_R0000383148) |
-| 🔥 | Becton Dickinson | Product Security Engineer -  Embedded | USA CA - Irvine Laguna C | ✅ Sponsors (Med) · 25 H1B filings | **8%** | 6d ago | [Apply](https://bdx.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREER_SITE_USA/job/USA-CA---Irvine-Laguna-Canyon/Product-Security-Engineer_R-546847-1) |
+|  | Broadcom Limited | Field Applications Engineer | USA-CA San Jose Innovati | ✅ Sponsors (Med) · 22 H1B filings | **8%** | 6d ago | [Apply](https://broadcom.wd1.myworkdayjobs.com/en-US/External_Career/job/USA-CA-San-Jose-Innovation-Drive/Field-Applications-Engineer_R026109) |
+|  | Broadcom Limited | NPI Test Development Engineer | USA-California- San Jose | ✅ Sponsors (Med) · 22 H1B filings | **8%** | 6d ago | [Apply](https://broadcom.wd1.myworkdayjobs.com/en-US/External_Career/job/USA-California--San-Jose---1730-Fox-Drive/NPI-Test-Development-Engineer_R026437-1) |
+| 🔥 | KLA | Regional Applications Development Engineer | Milpitas, CA | ✅ Sponsors (Med) · 42 H1B filings | **8%** | 6d ago | [Apply](https://kla.wd1.myworkdayjobs.com/en-US/UR/job/Milpitas-CA/Regional-Applications-Development-Engineer_2638921) |
+| 🔥 | CoorsTek | Reliability Engineer I | Golden, CO | ✅ Sponsors (Med) · 19 H1B filings | **8%** | 6d ago | [Apply](https://coorstek.wd1.myworkdayjobs.com/en-US/CoorsTekCareers/job/Golden-CO/Facilities-Engineer-II_R-113654) |
+| 🔥 | Equinix | DevSecOps Platform Engineer | Dallas Infomart Office D | ✅ Sponsors (Med) · 16 H1B filings | **8%** | 6d ago | [Apply](https://equinix.wd1.myworkdayjobs.com/en-US/External/job/Dallas-Infomart-Office-DAI/DevSecOps-Platform-Engineer_JR-162957) |
 |  | Mercor | Research Engineer – Benchmarking | San Francisco | ✅ Sponsors (Low) | **80%** | 6d ago | [Apply](https://jobs.ashbyhq.com/mercor/40cc6334-3a6c-42f8-a4ec-d490486d00e8) |
 |  | Modal | Detection and Response Engineer | New York | ✅ Sponsors (Low) | **64%** | 6d ago | [Apply](https://jobs.ashbyhq.com/modal/e1915603-d9de-4760-b445-c266a1080499) |
 |  | Eulerity | Associate Web Development Software Engineer (SDK) | New York, New York | — unknown | **92%** | 6d ago | [Apply](https://job-boards.greenhouse.io/eulerity/jobs/4705868006) |
@@ -437,26 +391,23 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 |  | Ambral | Member of Technical Staff (New Grad) | New York | — unknown | **16%** | 6d ago | [Apply](https://jobs.ashbyhq.com/ambral/bfcfbd07-03b9-4e7c-82b1-b17d7c3a5e90) |
 |  | Wade Trim | Construction Professional Engineer - #3002 | Tampa, FL | — unknown | **16%** | 6d ago | [Apply](https://jobs.lever.co/wadetrim/92f36a04-ae49-42fa-865d-fffa9dcb1cde) |
 
-## 🗓️ Posted 7 days ago — 22 jobs
+## 🗓️ Posted 7 days ago — 19 jobs
 
 | | Company | Role | Location | Visa | Match | Posted | Apply |
 |--|--|--|--|--|--|--|--|
-| 🔥 | Fiserv | AI Engineering Specialist | Coral Springs, Florida | ✅ Sponsors (High) · 95 H1B filings | **92%** | 7d ago | [Apply](https://fiserv.wd5.myworkdayjobs.com/en-US/ext/job/Coral-Springs-Florida/AI-Engineering-Specialist_R-10400654) |
 |  | Expedia Group | Machine Learning Engineer II | USA - California - San J | ✅ Sponsors (High) · 96 H1B filings | **88%** | 7d ago | [Apply](https://expedia.wd108.myworkdayjobs.com/en-US/private/job/USA---California---San-Jose/Machine-Learning-Engineer-II_R-108871) |
 |  | DiDi Global | Software Engineer, Motion Planning  | San Jose, CA | ✅ Sponsors (High) | **52%** | 7d ago | [Apply](https://job-boards.greenhouse.io/didi/jobs/8131865) |
+| 🔥 | State Street | Software Engineering & Development | Boston, Massachusetts  +1 mo | ✅ Sponsors (High) · 98 H1B filings | **20%** | 7d ago | [Apply](https://statestreet.wd1.myworkdayjobs.com/en-US/Global/job/Princeton-New-Jersey/Software-Engineering---Development_R-796126) |
 |  | 7-Eleven | Software Engineer | SSC Irving TX | ✅ Sponsors (Med) · 43 H1B filings | **100%** | 7d ago | [Apply](https://my7elevenhr.wd12.myworkdayjobs.com/en-US/Careers/job/SSC-Irving-TX/Software-Engineer_R26_5082) |
 |  | Ovative Group | Full Stack Engineer | Minneapolis | ✅ Sponsors (Med) · 16 H1B filings | **100%** | 7d ago | [Apply](https://ovative.wd12.myworkdayjobs.com/en-US/ovative/job/Minneapolis/Full-Stack-Engineer_JR100258) |
 |  | CVS Health | Software Development Engineer | CT - Hartford | ✅ Sponsors (Med) · 12 H1B filings | **100%** | 7d ago | [Apply](https://cvshealth.wd1.myworkdayjobs.com/en-US/cvs_health_careers/job/CT---Hartford/Software-Development-Engineer_R1011965) |
 |  | CVS Health | Data Scientist | NY - New York | ✅ Sponsors (Med) · 12 H1B filings | **100%** | 7d ago | [Apply](https://cvshealth.wd1.myworkdayjobs.com/en-US/cvs_health_careers/job/NY---New-York/Data-Scientist_R1011940) |
 |  | Insperity | Artificial Intelligence Engineer I | Kingwood, TX | ✅ Sponsors (Med) · 11 H1B filings | **88%** | 7d ago | [Apply](https://insperity.wd12.myworkdayjobs.com/en-US/NSP/job/Kingwood-TX/Artificial-Intelligence-Engineer-I_JR103100) |
-|  | Johnson & Johnson | DevOps Engineer | Santa Clara, California, | ✅ Sponsors (Med) · 14 H1B filings | **88%** | 7d ago | [Apply](https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Santa-Clara-California-United-States-of-America/DevOps-Engineer_R-067918-2) |
-| 🔥 | Merck | Specialist, Automation Engineering | USA - New Jersey - Rahwa | ✅ Sponsors (Med) · 29 H1B filings | **64%** | 7d ago | [Apply](https://msd.wd5.myworkdayjobs.com/en-US/searchjobs/job/USA---New-Jersey---Rahway/Specialist--Automation-Engineering_R406883) |
 |  | Genuine Parts Company | BI Data Analyst | Birmingham, AL, USA | ✅ Sponsors (Med) · 27 H1B filings | **60%** | 7d ago | [Apply](https://genpt.wd1.myworkdayjobs.com/en-US/careers/job/Birmingham-AL-USA/BI-Data-Analyst_R26_0000027053) |
 |  | Symbotic | Robotics Test Engineer | USA Austin, TX | ✅ Sponsors (Med) · 21 H1B filings | **40%** | 7d ago | [Apply](https://symbotic.wd504.myworkdayjobs.com/en-US/Symbotic/job/USA-Austin-TX/Robotics-Test-Engineer_R7385) |
-| 🔥 | Dexcom | Systems Design & Test Engineer 2 | San Diego, California | ✅ Sponsors (Med) · 10 H1B filings | **32%** | 7d ago | [Apply](https://dexcom.wd1.myworkdayjobs.com/en-US/Dexcom/job/San-Diego-California/Systems-Design---Test-Engineer-2_JR120016) |
-| 🔥 | GlobalFoundries | Fab Automation Engineer (2027 New College Graduate) | USA - Vermont - Essex Ju | ✅ Sponsors (Med) · 26 H1B filings | **32%** | 7d ago | [Apply](https://globalfoundries.wd1.myworkdayjobs.com/en-US/External/job/USA---Vermont---Essex-Junction/Fab-Automation-Engineer--2027-New-College-Graduate-_JR-2604700) |
+| 🔥 | Southwest Airlines | Associate Engineer - Powerplant | TX-Dallas | ✅ Sponsors (Med) · 21 H1B filings | **8%** | 7d ago | [Apply](https://swa.wd1.myworkdayjobs.com/en-US/external/job/TX-Dallas/Associate-Engineer---Powerplant_R-2026-70547) |
 |  | OpenDataJobs | Full Stack Developer (Laravel / Python) | Washington, District of  | — unknown | **92%** | 7d ago | [Apply](https://jobs.workable.com/view/2yXKAYxr9taCDgQAFGw4pL/remote-full-stack-developer-(laravel-%2F-python)-in-washington-at-opendatajobs) |
-|  | Mindrift | Freelance Data Scraping Engineer (Python) | Arizona, United States  +19  | — unknown | **84%** | 7d ago | [Apply](https://jobs.workable.com/view/uRsqtgXgwfY586X6qi7Vnd/remote-freelance-data-scraping-engineer-(python)-in-houston-at-mindrift) |
+|  | Mindrift | Freelance Data Scraping Engineer (Python) | Alabama, United States  +21  | — unknown | **84%** | 7d ago | [Apply](https://jobs.workable.com/view/uwgVtTy4H9ioyD6RsAnQDV/remote-freelance-data-scraping-engineer-(python)-in-new-york-at-mindrift) |
 |  | Becoming | Applied AI Engineer | San Francisco, Californi | — unknown | **60%** | 7d ago | [Apply](https://jobs.workable.com/view/552gk9ZtEAqSNJVzUKiPM4/applied-ai-engineer-in-san-francisco-at-becoming) |
 |  | Mirage | Research Engineer, Agentic Systems | Union Square, New York C | — unknown | **56%** | 7d ago | [Apply](https://jobs.ashbyhq.com/mirage/05c94660-f8a4-4415-b497-694dd18828ab) |
 |  | Protolabs | DevOps Engineer | Maple Plain, MN | ⚠️ May not sponsor | **56%** | 7d ago | [Apply](https://jobs.lever.co/protolabs/4157d49e-960c-4745-be10-6908bf814e6b) |
@@ -464,24 +415,15 @@ If this saves you even one wasted application, **drop a ⭐ on the repo** — it
 |  | Trexquant | DevOps Engineer (USA) | Stamford, Connecticut, U | — unknown | **24%** | 7d ago | [Apply](https://apply.workable.com/j/81B09561CD) |
 |  | Monarch Quantum | Firmware Engineer 2 | San Diego, California, U | — unknown | **0%** | 7d ago | [Apply](https://jobs.workable.com/view/1Y6CZXy5gNUFte8z79dnDT/firmware-engineer-2-in-san-diego-at-monarch-quantum) |
 
-## 🗓️ Posted: date unknown — 17 jobs
+## 🗓️ Posted: date unknown — 8 jobs
 
 | | Company | Role | Location | Visa | Match | Posted | Apply |
 |--|--|--|--|--|--|--|--|
 | 🔥 | Argo Group | Full-Stack Web Developer | US NE, Omaha | ✅ Sponsors (High) · 54 H1B filings | **8%** | date unknown | [Apply](https://brookfield.wd5.myworkdayjobs.com/en-US/bpandc/job/US-NE---Omaha/Sr-Web-Developer-II_R2046520) |
 |  | Worldpay | Software Engineer II – Java/Spring boot Engineer (Microservice Systems) | BOSTON MASSACHUSETTS | ✅ Sponsors (Med) · 36 H1B filings | **36%** | date unknown | [Apply](https://worldpay.wd5.myworkdayjobs.com/en-US/Worldpay_External_Careers_Site/job/BOSTON-MASSACHUSETTS/Software-Engineer-II---Java-Spring-boot-Engineer--Microservices---Monolith-Systems-_JR0610123) |
-| 🔥 | Zoom | Software Engineer - Java | Seattle (WA) | ✅ Sponsors (Med) · 20 H1B filings | **28%** | date unknown | [Apply](https://zoom.wd5.myworkdayjobs.com/en-US/Zoom/job/Seattle-WA/Software-Engineer---Java_R19196) |
-|  | Zoom | Software Engineer | San Jose (CA) | ✅ Sponsors (Med) · 20 H1B filings | **20%** | date unknown | [Apply](https://zoom.wd5.myworkdayjobs.com/en-US/Zoom/job/San-Jose-CA/Software-Engineer_R18600) |
-|  | Zoom | Software Development Engineer | San Jose (CA) | ✅ Sponsors (Med) · 20 H1B filings | **20%** | date unknown | [Apply](https://zoom.wd5.myworkdayjobs.com/en-US/Zoom/job/San-Jose-CA/Software-Development-Engineer_R19218) |
-|  | Zoom | Video AI Engineer | San Jose (CA) | ✅ Sponsors (Med) · 20 H1B filings | **20%** | date unknown | [Apply](https://zoom.wd5.myworkdayjobs.com/en-US/Zoom/job/San-Jose-CA/Video-AI-Engineer_R18922-2) |
-|  | Zoom | AI Infrastructure Engineer | Seattle (WA) | ✅ Sponsors (Med) · 20 H1B filings | **20%** | date unknown | [Apply](https://zoom.wd5.myworkdayjobs.com/en-US/Zoom/job/Seattle-WA/AI-Infrastructure-Engineer_R18263-1) |
 |  | Blackstone | 2027 Blackstone Software Engineer Summer Analyst | Miami | ✅ Sponsors (Med) · 19 H1B filings | **20%** | date unknown | [Apply](https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/Miami/XMLNAME-2027-Blackstone-Software-Engineer-Summer-Analyst_45021) |
-| 🔥 | Zoom | AI Software Engineer | San Jose (CA) | ✅ Sponsors (Med) · 20 H1B filings | **20%** | date unknown | [Apply](https://zoom.wd5.myworkdayjobs.com/en-US/Zoom/job/San-Jose-CA/AI-Software-Engineer_R19341) |
-| 🔥 | Zoom | Software QA Engineer | San Jose (CA) | ✅ Sponsors (Med) · 20 H1B filings | **20%** | date unknown | [Apply](https://zoom.wd5.myworkdayjobs.com/en-US/Zoom/job/San-Jose-CA/Software-QA-Engineer_R19214) |
-| 🔥 | Zoom | AI Inference Engineer - Speech | Seattle WA | ✅ Sponsors (Med) · 20 H1B filings | **20%** | date unknown | [Apply](https://zoom.wd5.myworkdayjobs.com/en-US/Zoom/job/Seattle-WA/AI-Inference-Engineer---Speech_R19366-1) |
-|  | Zoom | Security DevOps Engineer | San Jose (CA) | ✅ Sponsors (Med) · 20 H1B filings | **8%** | date unknown | [Apply](https://zoom.wd5.myworkdayjobs.com/en-US/Zoom/job/San-Jose-CA/Security-DevOps-Engineer_R19467-1) |
-| 🔥 | Medical University of South Carolina | UNIV - Systems Programmer/ Developer II - Department of PHS | Charleston | ✅ Sponsors (Med) · 21 H1B filings | **8%** | date unknown | [Apply](https://musc.wd1.myworkdayjobs.com/en-US/MUSC/job/Charleston/UNIV---Systems-Programmer--Developer-II---Department-of-PHS_R-0000048413) |
-| 🔥 | Medical University of South Carolina | UNIV - Systems Programmer/Developer II - Department of PHS | Charleston | ✅ Sponsors (Med) · 21 H1B filings | **8%** | date unknown | [Apply](https://musc.wd1.myworkdayjobs.com/en-US/MUSC/job/Charleston/UNIV---Systems-Programmer-Developer-II---Department-of-PHS_R-0000066632) |
+| 🔥 | Blackstone | 2024 Blackstone Technology and Innovations - Software Developer Analyst | New York | ✅ Sponsors (Med) · 19 H1B filings | **20%** | date unknown | [Apply](https://blackstone.wd1.myworkdayjobs.com/en-US/bx_external_site/job/New-York/XMLNAME-2024-Blackstone-Technology-and-Innovations---Software-Developer-Analyst_29127) |
+| 🔥 | agilon health | Healthcare Analytics Engineer II | Remote - USA | ✅ Sponsors (Med) · 12 H1B filings | **8%** | date unknown | [Apply](https://agilonhealth.wd1.myworkdayjobs.com/en-US/External/job/Remote---USA/Healthcare-Analytics-Engineer-II_R003612) |
 |  | Confluence Technologies | Software Engineer (.NET & AI) | Pittsburgh, PA | — unknown | **52%** | date unknown | [Apply](https://confluence.pinpointhq.com/en/postings/49d5aa65-dc1b-4254-ae94-f645e7488aa1) |
 |  | Impulse Space | Guidance, Navigation, & Controls (GNC) Engineer | Boulder | — unknown | **8%** | date unknown | [Apply](https://impulsespace.pinpointhq.com/en/postings/bbf90f63-fc83-40d3-8e1c-441b45533574) |
 |  | Impulse Space | CNC Programmer (Mill/5-axis) | Boulder | — unknown | **8%** | date unknown | [Apply](https://impulsespace.pinpointhq.com/en/postings/0c7166b0-904b-46d2-a712-0ffdb4a1f15c) |
