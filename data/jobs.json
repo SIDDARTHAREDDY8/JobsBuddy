@@ -19,7 +19,7 @@
     "age_days": null,
     "fresh": false,
     "first_seen": "2026-07-15",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "6e9978cd1eaa": {
@@ -46,7 +46,7 @@
     "age_days": null,
     "fresh": false,
     "first_seen": "2026-07-24",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "b443b74c275e": {
@@ -69,35 +69,7 @@
     "age_days": null,
     "fresh": false,
     "first_seen": "2026-08-19",
-    "last_seen": "2026-09-06",
-    "open": true
-  },
-  "40f478126fda": {
-    "company": "SpaceX",
-    "title": "Software Engineer",
-    "location": "Cape Canaveral, FL",
-    "url": "https://boards.greenhouse.io/spacex/jobs/8763487002?gh_jid=8763487002",
-    "description": "<div class=\"content-intro\"><p>SpaceX was founded under the belief that a future where humanity is out exploring the stars is fundamentally more exciting than one where we are not. Today SpaceX is actively developing the technologies to make this possible, with the ultimate goal of&nbsp;enabling human life on Mars.</p></div><p><strong>SOFTWARE ENGINEER</strong></p> <p>The application software team is the central nervous system of SpaceX \u2013 we create mission critical applications that are used throughout SpaceX to accelerate launch vehicle production and flight as well as systems that allow Starlink to grow into a worldwide fast, reliable Internet service. We are looking for engineers who treat fellow teammates with fairness, respect, and support.</p> <p>Our team is currently creating and evolving systems to enable rapid build and reuse of Starship as well as designing the next generation manufacturing software that will be used in high throughput factories for Starlink. Other applications range from platforms that support concurrent streams of data from many always-on assets to manage the world\u2019s largest satellite constellation to public facing systems where customers can join our Starlink network globally. We work closely with engineers throughout the company to create and update our systems with respect to crewed launches, Starship flights, changes to the Starlink network and much more.</p> <p>Aerospace experience is not required to be successful here - rather we look for smart, motivated, respectful, collaborative engineers who love solving problems and want to make an impact on a super inspiring mission. You will have full ownership of challenging problems, working with a team of enthusiastic engineers with diverse perspectives to design and produce solutions that enable SpaceX to move towards our goals at a rapid pace. The success of the missions at SpaceX depends on the software that you and your team produce.</p> <p><strong>RESPONSIBILITIES:</strong></p> <ul> <li>Develop highly reliable software solutions that are used across SpaceX</li> <li>Create new applications that improve how SpaceX operates</li> <li>Build prototypes to prove out key design concepts and quantify technical constraints</li> <li>Own all aspects of software engineering and product development</li> <li>Deep dive into your users\u2019 problems to find and create efficient solutions</li> <li>Bring your voice to the table in team collaborations on architecture, design, and code reviews</li> </ul> <p><strong>BASIC QUALIFICATIONS:</strong></p> <ul> <li>Bachelor's degree in computer science, engineering, math, or scientific discipline; OR 2+ years of professional experience building software in lieu of a degree</li> <li>Experience in full stack development</li> </ul> <p><strong>PREFERRED SKILLS AND EXPERIENCE:</strong></p> <ul> <li>Programming experience in Python, C#.NET, Go, Scala, Java, or similar object-oriented language</li> <li>1+ years of rigorous experience building single pag",
-    "posted_at": "2026-08-30T01:53:50-04:00",
-    "source": "greenhouse",
-    "opt_friendly": false,
-    "sponsor_tier": "medium",
-    "sponsors_visa": true,
-    "sponsor_cases": null,
-    "sponsor_cert": null,
-    "match_score": 100,
-    "matched_skills": [
-      "python",
-      "javascript",
-      "react",
-      "java",
-      "sql",
-      "go"
-    ],
-    "age_days": 7,
-    "fresh": false,
-    "first_seen": "2026-08-27",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "0f09c1638387": {
@@ -124,7 +96,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-08-27",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "95ad7c871ee8": {
@@ -152,7 +124,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-08-28",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "6c34acf09d7b": {
@@ -178,63 +150,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-08-28",
-    "last_seen": "2026-09-06",
-    "open": true
-  },
-  "301b71769c94": {
-    "company": "SpaceX",
-    "title": "Full Stack Engineer, Employee Experience ",
-    "location": "Palo Alto, CA",
-    "url": "https://boards.greenhouse.io/spacex/jobs/8763492002?gh_jid=8763492002",
-    "description": "<div class=\"content-intro\"><p>SpaceX was founded under the belief that a future where humanity is out exploring the stars is fundamentally more exciting than one where we are not. Today SpaceX is actively developing the technologies to make this possible, with the ultimate goal of&nbsp;enabling human life on Mars.</p></div><p><strong>FULL STACK ENGINEER, EMPLOYEE EXPERIENCE</strong></p> <p>The application software team is the central nervous system of SpaceX \u2013 we create mission critical applications that are used throughout SpaceX to accelerate launch vehicle production and flight as well as systems that allow Starlink to grow into a worldwide fast, reliable Internet service. We are looking for engineers who treat fellow teammates with fairness, respect, and support.</p> <p>Our team is currently creating and evolving systems to enable rapid build and reuse of Starship as well as designing the next generation manufacturing software that will be used in high throughput factories for Starlink. Other applications range from platforms that support concurrent streams of data from many always-on assets to manage the world\u2019s largest satellite constellation to public facing systems where customers can join our Starlink network globally. We work closely with engineers throughout the company to create and update our systems with respect to crewed launches, Starship flights, changes to the Starlink network and much more.</p> <p>Aerospace experience is not required to be successful here - rather we look for smart, motivated, respectful, collaborative engineers who love solving problems and want to make an impact on a super inspiring mission. You will have full ownership of challenging problems, working with a team of enthusiastic engineers with diverse perspectives to design and produce solutions that enable SpaceX to move towards our goals at a rapid pace. The success of the missions at SpaceX depends on the software that you and your team produce.</p> <p><strong>RESPONSIBILITIES:</strong></p> <ul> <li>Develop highly reliable software solutions that are used across SpaceX</li> <li>Create new applications that improve how SpaceX operates</li> <li>Build prototypes to prove out key design concepts and quantify technical constraints</li> <li>Own all aspects of software engineering and product development</li> <li>Deep dive into your users\u2019 problems to find and create efficient solutions</li> <li>Bring your voice to the table in team collaborations on architecture, design, and code reviews</li> </ul> <p><strong>BASIC QUALIFICATIONS:</strong></p> <ul> <li>Bachelor's degree in computer science, engineering, math, or scientific discipline; OR 2+ years of professional experience building software in lieu of a degree</li> <li>1+ years of experience in full stack development</li> </ul> <p><strong>PREFERRED SKILLS AND EXPERIENCE:</strong></p> <ul> <li>Programming experience in Python, C#.NET, Go, Scala, Java, or similar object-oriented language</li> <li>1+ years of rigo",
-    "posted_at": "2026-08-30T02:17:26-04:00",
-    "source": "greenhouse",
-    "opt_friendly": false,
-    "sponsor_tier": "medium",
-    "sponsors_visa": true,
-    "sponsor_cases": null,
-    "sponsor_cert": null,
-    "match_score": 100,
-    "matched_skills": [
-      "python",
-      "javascript",
-      "react",
-      "java",
-      "sql",
-      "go"
-    ],
-    "age_days": 7,
-    "fresh": false,
-    "first_seen": "2026-08-30",
-    "last_seen": "2026-09-06",
-    "open": true
-  },
-  "ba53fe403923": {
-    "company": "SpaceX",
-    "title": "Full Stack Software Engineer, Developer Systems ",
-    "location": "Hawthorne, CA",
-    "url": "https://boards.greenhouse.io/spacex/jobs/8763489002?gh_jid=8763489002",
-    "description": "<div class=\"content-intro\"><p>SpaceX was founded under the belief that a future where humanity is out exploring the stars is fundamentally more exciting than one where we are not. Today SpaceX is actively developing the technologies to make this possible, with the ultimate goal of&nbsp;enabling human life on Mars.</p></div><p><strong>FULL STACK SOFTWARE ENGINEER, DEVELOPER SYSTEMS</strong></p> <p>The application software team is the central nervous system of SpaceX \u2013 we create mission critical applications that are used throughout SpaceX to accelerate launch vehicle production and flight as well as systems that allow Starlink to grow into a worldwide fast, reliable Internet service. We are looking for engineers who treat fellow teammates with fairness, respect, and support.</p> <p>Our team is currently creating and evolving systems to enable rapid build and reuse of Starship as well as designing the next generation manufacturing software that will be used in high throughput factories for Starlink. Other applications range from platforms that support concurrent streams of data from many always-on assets to manage the world\u2019s largest satellite constellation to public facing systems where customers can join our Starlink network globally. We work closely with engineers throughout the company to create and update our systems with respect to crewed launches, Starship flights, changes to the Starlink network and much more.</p> <p>Aerospace experience is not required to be successful here - rather we look for smart, motivated, respectful, collaborative engineers who love solving problems and want to make an impact on a super inspiring mission. You will have full ownership of challenging problems, working with a team of enthusiastic engineers with diverse perspectives to design and produce solutions that enable SpaceX to move towards our goals at a rapid pace. The success of the missions at SpaceX depends on the software that you and your team produce.</p> <p><strong>RESPONSIBILITIES:</strong></p> <ul> <li>Develop highly reliable software solutions that are used across SpaceX</li> <li>Create new applications that improve how SpaceX operates</li> <li>Build prototypes to prove out key design concepts and quantify technical constraints</li> <li>Own all aspects of software engineering and product development</li> <li>Deep dive into your users\u2019 problems to find and create efficient solutions</li> <li>Bring your voice to the table in team collaborations on architecture, design, and code reviews</li> </ul> <p><strong>BASIC QUALIFICATIONS:</strong></p> <ul> <li>Bachelor's degree in computer science, engineering, math, or scientific discipline; OR 2+ years of professional experience building software in lieu of a degree</li> <li>1+ years of experience in full stack development</li> </ul> <p><strong>PREFERRED SKILLS AND EXPERIENCE:</strong></p> <ul> <li>Programming experience in Python, C#.NET, Go, Scala, Java, or similar object-oriented language</li> <li>1+ years ",
-    "posted_at": "2026-08-30T02:02:55-04:00",
-    "source": "greenhouse",
-    "opt_friendly": false,
-    "sponsor_tier": "medium",
-    "sponsors_visa": true,
-    "sponsor_cases": null,
-    "sponsor_cert": null,
-    "match_score": 100,
-    "matched_skills": [
-      "python",
-      "javascript",
-      "react",
-      "java",
-      "sql",
-      "go"
-    ],
-    "age_days": 7,
-    "fresh": false,
-    "first_seen": "2026-08-30",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "3d2fe6134c58": {
@@ -262,7 +178,7 @@
     "age_days": 7,
     "fresh": false,
     "first_seen": "2026-08-30",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "e5e8fa0a04ae": {
@@ -289,7 +205,7 @@
     "age_days": 7,
     "fresh": false,
     "first_seen": "2026-08-30",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "05a105eb806f": {
@@ -317,7 +233,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-08-31",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "1175a17802b5": {
@@ -345,7 +261,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-08-31",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "649ce43e286f": {
@@ -373,7 +289,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-08-31",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "422b3996d261": {
@@ -400,7 +316,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-08-31",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "b6372adf9f12": {
@@ -428,7 +344,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-08-31",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "03837b880846": {
@@ -456,7 +372,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-08-31",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "631b8946d956": {
@@ -484,7 +400,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-08-31",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "b5e3ac6781e6": {
@@ -510,7 +426,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-08-31",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "89eade0a30dc": {
@@ -537,7 +453,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-08-31",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "434d16754892": {
@@ -561,7 +477,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-08-31",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "e12f3caea0f7": {
@@ -589,7 +505,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-08-31",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "fa1faa480cb5": {
@@ -613,7 +529,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-08-31",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "6a1efb8f025c": {
@@ -641,7 +557,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-08-31",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "fe49cd9db074": {
@@ -669,7 +585,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-08-31",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "edb4d6392ad5": {
@@ -697,7 +613,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-08-31",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "b2fd578e631d": {
@@ -725,7 +641,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-08-31",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "dbb85cc096a2": {
@@ -753,7 +669,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-08-31",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "218b902d4e58": {
@@ -778,7 +694,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-08-31",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "f3765c0bc6ef": {
@@ -802,7 +718,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-08-31",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "3870e92d75c4": {
@@ -830,7 +746,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-08-31",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "54509f1d0abb": {
@@ -853,7 +769,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-08-31",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "f98703c88647": {
@@ -880,7 +796,7 @@
     "age_days": null,
     "fresh": false,
     "first_seen": "2026-08-31",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "ecdf553dfcbe": {
@@ -908,7 +824,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-08-31",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "a4bc121238ff": {
@@ -935,7 +851,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-08-31",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "1b6ab0ce39cf": {
@@ -958,7 +874,7 @@
     "age_days": 7,
     "fresh": false,
     "first_seen": "2026-08-31",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "a695e80e9076": {
@@ -982,7 +898,7 @@
     "age_days": 7,
     "fresh": false,
     "first_seen": "2026-08-31",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "5a07eb14fd49": {
@@ -1005,7 +921,7 @@
     "age_days": 7,
     "fresh": false,
     "first_seen": "2026-08-31",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "3abcd2bc22e5": {
@@ -1028,7 +944,7 @@
     "age_days": 7,
     "fresh": false,
     "first_seen": "2026-08-31",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "7e29a4805298": {
@@ -1053,7 +969,7 @@
     "age_days": 7,
     "fresh": false,
     "first_seen": "2026-08-31",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "402d03648d29": {
@@ -1078,7 +994,7 @@
     "age_days": 7,
     "fresh": false,
     "first_seen": "2026-08-31",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "4037be1430fd": {
@@ -1102,7 +1018,7 @@
     "age_days": 7,
     "fresh": false,
     "first_seen": "2026-08-31",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "385c467eb2ed": {
@@ -1125,7 +1041,7 @@
     "age_days": 7,
     "fresh": false,
     "first_seen": "2026-08-31",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "ad9b2951d673": {
@@ -1149,7 +1065,7 @@
     "age_days": 7,
     "fresh": false,
     "first_seen": "2026-08-31",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "900840b3cd39": {
@@ -1172,7 +1088,7 @@
     "age_days": 7,
     "fresh": false,
     "first_seen": "2026-08-31",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "ff5384d963bb": {
@@ -1195,7 +1111,7 @@
     "age_days": 7,
     "fresh": false,
     "first_seen": "2026-08-31",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "0ee07b0104a0": {
@@ -1222,7 +1138,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-08-31",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "2fa3b9559c9a": {
@@ -1250,7 +1166,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-08-31",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "7c3416a8dab4": {
@@ -1278,7 +1194,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-08-31",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "7aa53d368feb": {
@@ -1303,7 +1219,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-08-31",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "eae4bbb1a987": {
@@ -1331,7 +1247,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-08-31",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "006a55ee26db": {
@@ -1359,7 +1275,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-08-31",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "81732456c294": {
@@ -1382,7 +1298,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-08-31",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "4b55c82523c5": {
@@ -1410,7 +1326,7 @@
     "age_days": 7,
     "fresh": false,
     "first_seen": "2026-08-31",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "8221f5738332": {
@@ -1438,7 +1354,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-08-31",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "784006afbfb7": {
@@ -1466,7 +1382,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-08-31",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "54937f79e05b": {
@@ -1494,7 +1410,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-08-31",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "3bba9dcc12f1": {
@@ -1517,7 +1433,7 @@
     "age_days": 7,
     "fresh": false,
     "first_seen": "2026-08-31",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "da385d5cd4e6": {
@@ -1542,7 +1458,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-09-01",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "a1808a2e810d": {
@@ -1568,7 +1484,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-09-01",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "cd5eee6792a3": {
@@ -1595,7 +1511,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-09-01",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "b1305b7d865e": {
@@ -1623,7 +1539,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-09-01",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "b2c827cdb966": {
@@ -1651,7 +1567,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-09-01",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "f92dc10fbeb1": {
@@ -1679,7 +1595,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-09-01",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "2d63ef4826f0": {
@@ -1705,7 +1621,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-09-01",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "3740165a51d8": {
@@ -1733,7 +1649,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-09-01",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "5d849089e311": {
@@ -1759,7 +1675,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-09-01",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "f16828e52ae2": {
@@ -1784,7 +1700,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-09-01",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "e58b8aa15ab9": {
@@ -1812,7 +1728,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-09-01",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "8a25030b50fa": {
@@ -1840,7 +1756,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-09-01",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "bdd4ebcb8a1a": {
@@ -1867,7 +1783,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-09-01",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "f9af8e6fabad": {
@@ -1893,7 +1809,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-09-01",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "7def7f894093": {
@@ -1919,7 +1835,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-09-01",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "c5ef3f36f0df": {
@@ -1943,7 +1859,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-09-01",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "ca1020b4eade": {
@@ -1969,7 +1885,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-09-01",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "fc0a7b21f301": {
@@ -1997,7 +1913,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-09-01",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "dc9b5d1ef19d": {
@@ -2025,7 +1941,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-09-01",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "8eaac2656299": {
@@ -2051,7 +1967,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-09-01",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "87e53149dacb": {
@@ -2079,7 +1995,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-09-01",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "5ac6aa0535cb": {
@@ -2107,7 +2023,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-09-01",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "46f1098ab389": {
@@ -2135,7 +2051,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-09-01",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "66a360500746": {
@@ -2163,7 +2079,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-09-01",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "b13b0a9a5cf5": {
@@ -2191,7 +2107,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-09-01",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "df4e8999debd": {
@@ -2219,7 +2135,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-09-01",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "a448a1fa74b9": {
@@ -2244,7 +2160,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-09-01",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "01a1f858547e": {
@@ -2270,7 +2186,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-09-01",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "46708db24393": {
@@ -2298,7 +2214,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-09-01",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "f4f3281cfcc1": {
@@ -2326,7 +2242,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-09-01",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "14ba7f4a32cb": {
@@ -2354,7 +2270,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-09-01",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "c0a96cabcf16": {
@@ -2382,7 +2298,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-09-01",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "c7f080bb0e03": {
@@ -2410,7 +2326,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-09-01",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "5f78c4d8fb7b": {
@@ -2438,7 +2354,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-09-01",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "2cd66f0b78b9": {
@@ -2466,7 +2382,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-09-01",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "8793ac26f455": {
@@ -2489,7 +2405,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-09-01",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "02a8cf496afe": {
@@ -2514,7 +2430,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-09-01",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "ddb8c71dfe88": {
@@ -2540,7 +2456,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-09-01",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "8d5868050b05": {
@@ -2568,7 +2484,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-09-01",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "b20ce03a0baa": {
@@ -2594,7 +2510,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-09-01",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "6ad6e9fbfe7f": {
@@ -2619,7 +2535,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-09-01",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "e829eebc0b13": {
@@ -2645,7 +2561,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-09-01",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "680542c01996": {
@@ -2666,7 +2582,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-09-01",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "18461b3f4404": {
@@ -2687,10 +2603,10 @@
       "python",
       "rds"
     ],
-    "age_days": 4,
+    "age_days": 5,
     "fresh": false,
     "first_seen": "2026-09-02",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "0b3339487a9a": {
@@ -2712,10 +2628,10 @@
       "go",
       "rds"
     ],
-    "age_days": 4,
+    "age_days": 5,
     "fresh": false,
     "first_seen": "2026-09-02",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "ec440f9c6da3": {
@@ -2735,10 +2651,10 @@
     "matched_skills": [
       "rds"
     ],
-    "age_days": 4,
+    "age_days": 5,
     "fresh": false,
     "first_seen": "2026-09-02",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "2c8dd7026b66": {
@@ -2761,10 +2677,10 @@
       "api",
       "rds"
     ],
-    "age_days": 4,
+    "age_days": 5,
     "fresh": false,
     "first_seen": "2026-09-02",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "987b66f3d99e": {
@@ -2789,10 +2705,10 @@
       "node",
       "node.js"
     ],
-    "age_days": 4,
+    "age_days": 5,
     "fresh": false,
     "first_seen": "2026-09-02",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "940fb6eda386": {
@@ -2820,7 +2736,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-09-02",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "1c8cbb15d08f": {
@@ -2848,7 +2764,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-09-02",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "3d5cd4aa1ef5": {
@@ -2872,7 +2788,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-09-02",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "27b81f42a28a": {
@@ -2900,7 +2816,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-09-02",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "c12eef5b5d2c": {
@@ -2928,7 +2844,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-09-02",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "956fce93ac9c": {
@@ -2955,7 +2871,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-09-02",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "860237ada463": {
@@ -2979,7 +2895,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-09-02",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "73268155a8fd": {
@@ -3007,7 +2923,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-09-02",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "d483dda74b76": {
@@ -3028,7 +2944,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-09-02",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "ed221a6be8ba": {
@@ -3051,7 +2967,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-09-02",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "0d6490071d9e": {
@@ -3077,7 +2993,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-09-02",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "1705ac211af1": {
@@ -3101,7 +3017,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-09-02",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "a618b5b790a4": {
@@ -3129,7 +3045,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-09-02",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "dce4bf30a7d5": {
@@ -3150,7 +3066,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-09-02",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "a20eb32b2096": {
@@ -3171,7 +3087,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-09-02",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "6145b4cd752e": {
@@ -3192,7 +3108,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-09-02",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "fa87013e3a9a": {
@@ -3217,7 +3133,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-09-02",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "c801e4ff4ff5": {
@@ -3245,7 +3161,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-09-02",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "971a60e2f9fb": {
@@ -3273,7 +3189,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-09-02",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "f04946e8672a": {
@@ -3299,7 +3215,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-09-02",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "095c3be067a6": {
@@ -3326,7 +3242,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-09-02",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "56d980652c24": {
@@ -3354,7 +3270,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-09-02",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "e39c70867d33": {
@@ -3380,7 +3296,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-09-02",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "d699b94ddfad": {
@@ -3408,7 +3324,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-09-02",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "4264e50346f1": {
@@ -3435,7 +3351,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-09-02",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "56200df77e3d": {
@@ -3463,7 +3379,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-09-02",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "e71179758527": {
@@ -3490,7 +3406,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-09-02",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "cf1f180dba3e": {
@@ -3511,7 +3427,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-09-02",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "722f2649defb": {
@@ -3536,7 +3452,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-09-02",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "99b8d43527e6": {
@@ -3561,7 +3477,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-09-02",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "815228fc88a3": {
@@ -3583,10 +3499,10 @@
       "go",
       "rds"
     ],
-    "age_days": 3,
+    "age_days": 4,
     "fresh": false,
     "first_seen": "2026-09-03",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "c64e431a7cb2": {
@@ -3611,10 +3527,10 @@
       "agent",
       "agentic"
     ],
-    "age_days": 3,
+    "age_days": 4,
     "fresh": false,
     "first_seen": "2026-09-03",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "bbf042cd4263": {
@@ -3639,7 +3555,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-03",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "446c1d7d9859": {
@@ -3664,7 +3580,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-09-03",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "4ba3e52b8a06": {
@@ -3689,7 +3605,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-09-03",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "c1a26f5e8e34": {
@@ -3717,7 +3633,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-03",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "bc49db5b2179": {
@@ -3745,7 +3661,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-03",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "5e3187fd0cdb": {
@@ -3770,7 +3686,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-03",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "0e0a6955f70f": {
@@ -3798,7 +3714,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-03",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "41411e0c6f7d": {
@@ -3825,7 +3741,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-09-03",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "1ec61772e8b6": {
@@ -3846,7 +3762,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-03",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "c29964914f01": {
@@ -3873,7 +3789,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-03",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "ee0ac836bbe1": {
@@ -3900,7 +3816,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-03",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "adb9cce0c518": {
@@ -3928,7 +3844,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-03",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "b1e3fe92667f": {
@@ -3956,7 +3872,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-03",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "43783b45d4fb": {
@@ -3982,7 +3898,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-03",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "e0512689bf15": {
@@ -4010,16 +3926,16 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-03",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "ac7dcbf9080b": {
     "company": "Braze",
     "title": "People Data Analyst",
     "location": "Chicago  +1 more",
-    "url": "https://job-boards.greenhouse.io/braze/jobs/8177766",
+    "url": "https://job-boards.greenhouse.io/braze/jobs/8128296",
     "description": "<div class=\"content-intro\"><p>At Braze, we have found our people. We\u2019re a genuinely approachable, exceptionally kind, and intensely passionate crew.</p> <p>We seek to ignite that passion by setting high standards, championing teamwork, and creating work-life harmony as we collectively navigate rapid growth on a global scale while striving for greater equity and opportunity \u2013 inside and outside our organization.</p> <p>To flourish here, you must be prepared to set a high bar for yourself and those around you. There is always a way to contribute: Acting with autonomy, having accountability and being open to new perspectives are essential to our continued success.</p> <p>Our deep curiosity to learn and our eagerness to share diverse passions with others gives us balance and injects a one-of-a-kind vibrancy into our culture.</p> <p>If you are driven to solve exhilarating challenges and have a bias toward action in the face of change, you will be empowered to make a real impact here, with a sharp and passionate team at your back. If Braze sounds like a place where you can thrive, we can\u2019t wait to meet you.</p></div><p><strong>WHO WE ARE</strong><br><br><em>At Braze, we have found our people. We\u2019re a genuinely approachable, exceptionally kind, and intensely passionate crew.</em></p> <p><em>We seek to ignite that passion by setting high standards, championing teamwork, and creating work-life harmony as we collectively navigate rapid growth on a global scale while striving for greater equity and opportunity \u2013 inside and outside our organization.</em></p> <p><em>To flourish here, you must be prepared to set a high bar for yourself and those around you. There is always a way to contribute: Acting with autonomy, having accountability and being open to new perspectives are essential to our continued success. Our deep curiosity to learn and our eagerness to share diverse passions with others gives us balance and injects a one-of-a-kind vibrancy into our culture.</em></p> <p><em>If you are driven to solve exhilarating challenges and have a bias toward action in the face of change, you will be empowered to make a real impact here, with a sharp and passionate team at your back. If Braze sounds like a place where you can thrive, we can\u2019t wait to meet you.</em><br><br></p> <p><strong>WHAT YOU\u2019LL DO</strong><strong><br></strong><strong><br></strong>As a part of the Braze People team, the People Analytics team plays a pivotal role in supporting Braze in making data driven people decisions. The People Data Analyst&nbsp; will work collaboratively to help teams garner insights on programs, policies, and procedures by building reports, dashboards, and doing ad-hoc analysis . &nbsp;<br><br>This role will report to the Manager, People Analytics &amp; Solutions, and sits within the People Operations function, but will also have the opportunity to work closely with all People team functions and our Growth (BI &amp; Data Engineering) and IT departments.</p> <p><br><strong>RE",
-    "posted_at": "2026-09-03T14:00:32-04:00",
+    "posted_at": "2026-09-03T14:00:35-04:00",
     "source": "greenhouse",
     "opt_friendly": true,
     "sponsor_tier": null,
@@ -4038,7 +3954,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-03",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "25936eba490f": {
@@ -4066,7 +3982,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-03",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "350e3053a19c": {
@@ -4087,7 +4003,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-09-03",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "0a17216d8894": {
@@ -4108,7 +4024,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-09-03",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "02a34ec78024": {
@@ -4136,7 +4052,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-03",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "6812c1aa4894": {
@@ -4157,7 +4073,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-03",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "573e57a468ed": {
@@ -4183,7 +4099,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-09-03",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "b6419565ef39": {
@@ -4211,7 +4127,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-03",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "ed4b3e458d1c": {
@@ -4239,7 +4155,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-03",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "aa5bb2e8166b": {
@@ -4267,7 +4183,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-03",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "1916854628f5": {
@@ -4295,7 +4211,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-03",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "06782424d64f": {
@@ -4320,7 +4236,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-03",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "d213d3ee1f28": {
@@ -4347,7 +4263,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-03",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "b522d88ef771": {
@@ -4373,7 +4289,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-03",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "79750b0b7128": {
@@ -4401,7 +4317,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-03",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "298c171eac25": {
@@ -4427,7 +4343,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-03",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "f2a344d31f10": {
@@ -4455,7 +4371,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-03",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "67bbf771fcfa": {
@@ -4480,7 +4396,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-03",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "befc505ac320": {
@@ -4508,7 +4424,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-03",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "269885949492": {
@@ -4536,7 +4452,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-03",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "bae8f18d878f": {
@@ -4564,7 +4480,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-03",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "976f14625a7a": {
@@ -4592,7 +4508,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-03",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "c8d303142ded": {
@@ -4620,7 +4536,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-03",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "b5402a8a61f9": {
@@ -4647,7 +4563,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-03",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "a21f7461f628": {
@@ -4673,7 +4589,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-03",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "3e1b883dfe05": {
@@ -4701,7 +4617,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-03",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "90159ea54bf4": {
@@ -4729,7 +4645,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-03",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "c778e1b100ca": {
@@ -4750,7 +4666,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-03",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "c56827fd2a4a": {
@@ -4773,49 +4689,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-03",
-    "last_seen": "2026-09-06",
-    "open": true
-  },
-  "ddbc69fc9431": {
-    "company": "AECOM",
-    "title": "Entry Level Roadway Engineer",
-    "location": "Ridgeland, MS, United St",
-    "url": "https://jobs.smartrecruiters.com/AECOM2/744000147337468",
-    "description": "Entry Level Roadway Engineer",
-    "posted_at": "2026-09-03T18:50:14.490Z",
-    "source": "smartrecruiters",
-    "opt_friendly": true,
-    "sponsor_tier": "medium",
-    "sponsors_visa": true,
-    "sponsor_cases": 39,
-    "sponsor_cert": 100.0,
-    "match_score": 8,
-    "matched_skills": [],
-    "age_days": 3,
-    "fresh": false,
-    "first_seen": "2026-09-03",
-    "last_seen": "2026-09-06",
-    "open": true
-  },
-  "7ed7aa5e3713": {
-    "company": "AECOM",
-    "title": "Entry-Level Traffic Engineer - Hiring Event with AECOM - New York City",
-    "location": "New York, NY, United Sta",
-    "url": "https://jobs.smartrecruiters.com/AECOM2/744000147334939",
-    "description": "Entry-Level Traffic Engineer - Hiring Event with AECOM - New York City",
-    "posted_at": "2026-09-03T18:40:36.826Z",
-    "source": "smartrecruiters",
-    "opt_friendly": true,
-    "sponsor_tier": "medium",
-    "sponsors_visa": true,
-    "sponsor_cases": 39,
-    "sponsor_cert": 100.0,
-    "match_score": 8,
-    "matched_skills": [],
-    "age_days": 3,
-    "fresh": false,
-    "first_seen": "2026-09-03",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "da3b2ba273c3": {
@@ -4842,7 +4716,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-03",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "1434c79538b9": {
@@ -4869,7 +4743,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-03",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "291b72d5e669": {
@@ -4893,16 +4767,16 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-09-03",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "ac2116fffb3e": {
     "company": "SpaceX",
     "title": "Software Engineer (Flight Reliability)",
     "location": "Hawthorne, CA  +2 more",
-    "url": "https://boards.greenhouse.io/spacex/jobs/8783281002?gh_jid=8783281002",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8783243002?gh_jid=8783243002",
     "description": "<div class=\"content-intro\"><p>SpaceX was founded under the belief that a future where humanity is out exploring the stars is fundamentally more exciting than one where we are not. Today SpaceX is actively developing the technologies to make this possible, with the ultimate goal of&nbsp;enabling human life on Mars.</p></div><p><strong>SOFTWARE ENGINEER (FLIGHT RELIABILITY)</strong></p> <p>The Flight Reliability software team creates mission critical applications that are used throughout SpaceX to accelerate launch vehicle production and flight as well as systems that allow Starlink to grow into a worldwide fast, reliable Internet service. We are looking for engineers to help SpaceX maintain its incredible launch record. You will have full ownership of challenging problems, working with a team of enthusiastic engineers with diverse perspectives to design and produce solutions that enable SpaceX to move towards our goals at a rapid pace. The success of the missions at SpaceX depends on the software that you and your team produce.</p> <p><strong>RESPONSIBILITIES: </strong></p> <ul> <li>Develop highly reliable software solutions that are used across SpaceX.</li> <li>Create new applications that improve how SpaceX operates.</li> <li>Build prototypes to prove out key design concepts and quantify technical constraints.</li> <li>Own all aspects of software engineering and product development.</li> <li>Deep dive into your users\u2019 problems to find and create efficient solutions.</li> <li>Bring your voice to the table in team collaborations on architecture, design, and code reviews.</li> </ul> <p><strong>BASIC QUALIFICATIONS:</strong></p> <ul> <li>Bachelor's degree in computer science, engineering, math, or scientific discipline; OR 2+ years of professional experience building software in lieu of a degree.</li> <li>1+ years of experience in full stack development.</li> </ul> <p><strong>PREFERRED SKILLS AND EXPERIENCE:</strong></p> <ul> <li>Programming experience in Python, C#.NET, Go, Scala, Java, or similar object-oriented language.</li> <li>1+ years of rigorous experience building single page web applications.</li> <li>Experience with version control, continuous integration, and continuous delivery concepts.</li> <li>Expertise in designing software systems.</li> <li>Expertise in profiling and improving application performance.</li> <li>Experience designing and deploying agentic AI systems, including LLM prompting, context retrieval, evaluation, and monitoring.</li> <li>Production experience with Docker.</li> <li>Front-end experience in Angular, React, or similar JavaScript framework.</li> <li>Database experience with PostgreSQL, SQL Server, or similar database technologies.</li> </ul> <p><strong>ADDITIONAL REQUIREMENTS:</strong></p> <ul> <li>You may be asked to work extended hours/weekends dependent on launch cadence.</li> <li>This role requires you to be onsite. Remote and/or hybrid work will not be considered.</li> </ul> <strong>COMPENSATION AND BENEFITS:",
-    "posted_at": "2026-09-03T19:30:09-04:00",
+    "posted_at": "2026-09-03T19:30:07-04:00",
     "source": "greenhouse",
     "opt_friendly": false,
     "sponsor_tier": "medium",
@@ -4921,7 +4795,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-03",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "9f98a462643b": {
@@ -4948,7 +4822,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-03",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "f89f2dabcebb": {
@@ -4976,7 +4850,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-03",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "c83b88bf7536": {
@@ -5000,7 +4874,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-03",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "4f8baa82a66d": {
@@ -5028,7 +4902,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-03",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "6f494064a4ed": {
@@ -5056,7 +4930,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-03",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "c6f02a949e41": {
@@ -5080,7 +4954,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-09-03",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "302733c4b62c": {
@@ -5108,7 +4982,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-03",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "68f6106c8442": {
@@ -5131,7 +5005,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-04",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "7b78d4eb2979": {
@@ -5154,7 +5028,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-04",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "053a101b0b09": {
@@ -5179,7 +5053,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-04",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "4ab673ca18c4": {
@@ -5203,7 +5077,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-04",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "5e40d42734ee": {
@@ -5231,7 +5105,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-09-04",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "af2b5c51396f": {
@@ -5259,7 +5133,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-09-04",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "c527c40a79a8": {
@@ -5280,7 +5154,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-04",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "0b6139e3fd6b": {
@@ -5303,7 +5177,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-09-04",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "3e3f02ca2299": {
@@ -5326,7 +5200,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-09-04",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "c3cfb7b62ced": {
@@ -5354,7 +5228,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-09-04",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "0fe5f128c0f6": {
@@ -5381,7 +5255,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-09-04",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "1698a9a3e58f": {
@@ -5407,35 +5281,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-09-04",
-    "last_seen": "2026-09-06",
-    "open": true
-  },
-  "2b54a5c1350b": {
-    "company": "SpaceX",
-    "title": "Software Engineer, Application Software - Memphis",
-    "location": "Memphis, TN",
-    "url": "https://boards.greenhouse.io/spacex/jobs/8763491002?gh_jid=8763491002",
-    "description": "<div class=\"content-intro\"><p>SpaceX was founded under the belief that a future where humanity is out exploring the stars is fundamentally more exciting than one where we are not. Today SpaceX is actively developing the technologies to make this possible, with the ultimate goal of&nbsp;enabling human life on Mars.</p></div><p><strong>SOFTWARE ENGINEER, APPLICATION SOFTWARE&nbsp;- MEMPHIS</strong></p> <p>The application software team is the central nervous system of SpaceX \u2013 we create mission critical applications that are used throughout SpaceX to accelerate launch vehicle production and flight as well as systems that allow Starlink to grow into a worldwide fast, reliable Internet service. We are looking for engineers who treat fellow teammates with fairness, respect, and support.</p> <p>Our team is currently creating and evolving systems to enable rapid build and reuse of Starship as well as designing the next generation manufacturing software that will be used in high throughput factories for Starlink. Other applications range from platforms that support concurrent streams of data from many always-on assets to manage the world\u2019s largest satellite constellation to public facing systems where customers can join our Starlink network globally. We work closely with engineers throughout the company to create and update our systems with respect to crewed launches, Starship flights, changes to the Starlink network and much more.</p> <p>Aerospace experience is not required to be successful here - rather we look for smart, motivated, respectful, collaborative engineers who love solving problems and want to make an impact on a super inspiring mission. You will have full ownership of challenging problems, working with a team of enthusiastic engineers with diverse perspectives to design and produce solutions that enable SpaceX to move towards our goals at a rapid pace. The success of the missions at SpaceX depends on the software that you and your team produce.</p> <p><strong>RESPONSIBILITIES:</strong></p> <ul> <li>Develop highly reliable software solutions that are used across SpaceX</li> <li>Create new applications that improve how SpaceX operates</li> <li>Build prototypes to prove out key design concepts and quantify technical constraints</li> <li>Own all aspects of software engineering and product development</li> <li>Deep dive into your users\u2019 problems to find and create efficient solutions</li> <li>Bring your voice to the table in team collaborations on architecture, design, and code reviews</li> </ul> <p><strong>BASIC QUALIFICATIONS:</strong></p> <ul> <li>Bachelor's degree in computer science, engineering, math, or scientific discipline; OR 2+ years of professional experience building software in lieu of a degree</li> <li>1+ years of experience in full stack development</li> </ul> <p><strong>PREFERRED SKILLS AND EXPERIENCE:</strong></p> <ul> <li>Programming experience in Python, C#.NET, Go, Scala, Java, or similar object-oriented language</li> <li>1+",
-    "posted_at": "2026-08-30T02:16:11-04:00",
-    "source": "greenhouse",
-    "opt_friendly": false,
-    "sponsor_tier": "medium",
-    "sponsors_visa": true,
-    "sponsor_cases": null,
-    "sponsor_cert": null,
-    "match_score": 100,
-    "matched_skills": [
-      "python",
-      "javascript",
-      "react",
-      "java",
-      "sql",
-      "go"
-    ],
-    "age_days": 7,
-    "fresh": false,
-    "first_seen": "2026-09-04",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "068a8d189f9b": {
@@ -5463,7 +5309,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-09-04",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "55092330cd12": {
@@ -5488,7 +5334,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-09-04",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "d309cef7449c": {
@@ -5515,7 +5361,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-09-04",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "f12f403ac3f0": {
@@ -5540,7 +5386,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-09-04",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "0836353c5632": {
@@ -5568,7 +5414,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-09-04",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "b3664bba59e6": {
@@ -5596,7 +5442,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-09-04",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "b59f134b0a96": {
@@ -5624,7 +5470,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-09-04",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "9a02eb837b5e": {
@@ -5651,7 +5497,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-09-04",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "69aec9f04bc6": {
@@ -5676,7 +5522,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-09-04",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "08f604d6a836": {
@@ -5704,7 +5550,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-09-04",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "2dfb5e363810": {
@@ -5732,7 +5578,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-04",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "1f016cff59f3": {
@@ -5760,7 +5606,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-09-04",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "cdd605ac1607": {
@@ -5785,7 +5631,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-04",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "3336b7c77083": {
@@ -5813,7 +5659,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-09-04",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "0b6d0c3026bc": {
@@ -5841,7 +5687,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-04",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "7468af97f700": {
@@ -5869,7 +5715,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-04",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "752118eb3a1f": {
@@ -5897,7 +5743,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-04",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "bf668fbdd6af": {
@@ -5925,7 +5771,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-09-04",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "6a479e1351fc": {
@@ -5950,7 +5796,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-09-04",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "db2206020195": {
@@ -5978,7 +5824,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-09-04",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "4eaef8c2b86c": {
@@ -6006,7 +5852,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-09-04",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "0af977f68649": {
@@ -6034,7 +5880,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-09-04",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "f412bc580fca": {
@@ -6062,7 +5908,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-09-04",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "795de24db165": {
@@ -6090,7 +5936,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-09-04",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "151a74c77521": {
@@ -6118,7 +5964,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-09-04",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "a757c7625055": {
@@ -6146,7 +5992,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-09-04",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "b6564a947172": {
@@ -6172,7 +6018,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-09-04",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "0fd151f681b1": {
@@ -6197,7 +6043,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-09-04",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "1e9237b7b6c5": {
@@ -6218,7 +6064,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-09-04",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "00ffc66ab4ba": {
@@ -6239,7 +6085,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-09-04",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "80cb78019160": {
@@ -6267,7 +6113,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-09-04",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "6655d09510e1": {
@@ -6293,7 +6139,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-09-04",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "821c53f858d0": {
@@ -6319,7 +6165,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-04",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "3d4929538f72": {
@@ -6344,7 +6190,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-04",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "adc0866e70d7": {
@@ -6372,7 +6218,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-09-04",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "efe94a75c081": {
@@ -6397,7 +6243,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-09-04",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "2a2c704c749d": {
@@ -6425,7 +6271,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-09-04",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "eb7190986214": {
@@ -6446,7 +6292,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-09-04",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "d6faa83a3dcf": {
@@ -6474,7 +6320,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-09-04",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "b9e92b631878": {
@@ -6500,7 +6346,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-09-04",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "59d6d1ccddb0": {
@@ -6528,7 +6374,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-09-04",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "7f0a17ece6b5": {
@@ -6556,7 +6402,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-09-04",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "da7ab66a2236": {
@@ -6582,7 +6428,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-09-04",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "4548c7a016b0": {
@@ -6610,7 +6456,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-09-04",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "dac2974f6191": {
@@ -6638,7 +6484,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-09-04",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "9ebad7facc84": {
@@ -6666,7 +6512,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-09-04",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "5121fe49949d": {
@@ -6687,7 +6533,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-04",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "fe37a6b5fd5f": {
@@ -6715,7 +6561,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-09-04",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "6569fe1fbb5f": {
@@ -6740,10 +6586,10 @@
       "sql",
       "go"
     ],
-    "age_days": 1,
+    "age_days": 2,
     "fresh": true,
     "first_seen": "2026-09-05",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "6664382c125d": {
@@ -6768,10 +6614,10 @@
       "sql",
       "go"
     ],
-    "age_days": 1,
+    "age_days": 2,
     "fresh": true,
     "first_seen": "2026-09-05",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "bc6ec8b5f45d": {
@@ -6794,7 +6640,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-09-05",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "ef2aa79c7ebc": {
@@ -6819,7 +6665,7 @@
     "age_days": 7,
     "fresh": false,
     "first_seen": "2026-09-05",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "96c18457b0c2": {
@@ -6847,7 +6693,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-05",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "a81f67d42e6d": {
@@ -6875,7 +6721,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-09-05",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "8b83b418857d": {
@@ -6903,7 +6749,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-09-05",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "7e2cb216810a": {
@@ -6931,7 +6777,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-05",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "7d3753a03c5a": {
@@ -6959,7 +6805,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-09-05",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "28a0a3247227": {
@@ -6987,7 +6833,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-09-05",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "27e429107b52": {
@@ -6995,8 +6841,8 @@
     "title": "SW Engineer II",
     "location": "ATLANTA, GA, USA",
     "url": "https://ncr.wd1.myworkdayjobs.com/en-US/ext_us/job/ATLANTA-GA-USA/SW-Engineer-II_R0157597-1",
-    "description": "SW Engineer II",
-    "posted_at": "2026-09-01",
+    "description": "About NCR VOYIX NCR Voyix Corporation (NYSE: VYX) is a global platform-powered leader in unified commerce for shopping and dining. Combining a flexible, intelligent platform with end-to-end payments capabilities and services developed through its deep industry experience, NCR Voyix empowers retailers and restaurants to accelerate new possibilities for their operations, experiences and business outcomes. NCR Voyix is headquartered in Atlanta, Georgia, and serves customers in more than 35 countries worldwide. NCR Voyix is seeking a mid-level Software Engineer to join our team in Atlanta. In this role, you will contribute to the development of scalable, modern platforms that power critical business services and support our continued evolution in cloud-based technologies. Our team focuses on building reliable and efficient systems that enable seamless data exchange across distributed environments. You\u2019ll work on solutions designed for high performance, resilience, and scalability, helping ensure consistent and dependable system operations. As part of this team, you\u2019ll contribute throughout the software development lifecycle while collaborating with cross-functional partners to deliver high-quality solutions. This role is ideal for engineers who enjoy solving complex technical challenges, working across different layers of the stack, and building systems that are robust, scalable, and impactful. Position Summary & Key Areas of Responsibility Design, build, and operate systems enabling reliable data synchronization (cloud \u2194 edge) Develop services and components in Golang to support highly available, fault-tolerant data pipelines Work with technologies such as CouchDB, Redpanda, and GCP Pub/Sub topics to enable scalable data movement Build and enhance CI/CD pipelines, build systems, and developer tooling via GitHub Actions, Argo Worklows, or similar technologies. Contribute to internal tooling and development for replication and encryption services. Own problems end-to-end, including design, implementation, testing, deployment, and production support Troubleshoot and resolve complex issues such as network failures, data inconsistencies, and distributed system edge cases Improve system reliability, observability, scalability, and performance Collaborate with cross-functional teams to integrate data services across the platform Automate API validation, testing, and debugging Uphold engineering best practices and continuously improve team processes Basic Qualifications Bachelor\u2019s degree in Computer Science, Engineering, or related field (or equivalent experience) 3+ years of professional software engineering experience Strong desire to learn and work across a broad technical landscape Experience working in Linux or macOS environments Proficiency in at least one programming language (preferably Go) Strong understanding of data structures, system design, and distributed system fundamentals Familiarity with Git-based workflows (GitHub, GitLab, etc.) Exposure ",
+    "posted_at": "2026-08-31",
     "source": "workday",
     "opt_friendly": true,
     "sponsor_tier": "medium",
@@ -7012,10 +6858,10 @@
       "api",
       "nosql"
     ],
-    "age_days": 6,
+    "age_days": 7,
     "fresh": false,
     "first_seen": "2026-09-05",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "8e909006969b": {
@@ -7040,7 +6886,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-09-05",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "fa734e0bed08": {
@@ -7064,7 +6910,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-05",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "b087612cce01": {
@@ -7089,7 +6935,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-09-05",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "1be36165de7a": {
@@ -7114,7 +6960,7 @@
     "age_days": 7,
     "fresh": false,
     "first_seen": "2026-09-05",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "fdc60f10ee72": {
@@ -7142,7 +6988,7 @@
     "age_days": 7,
     "fresh": false,
     "first_seen": "2026-09-05",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "b6c121f287a1": {
@@ -7170,7 +7016,7 @@
     "age_days": 7,
     "fresh": false,
     "first_seen": "2026-09-05",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "017c511e8d2d": {
@@ -7198,7 +7044,7 @@
     "age_days": 7,
     "fresh": false,
     "first_seen": "2026-09-05",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "04a6673840a7": {
@@ -7225,7 +7071,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-09-05",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "a2cedc7ef2b5": {
@@ -7250,7 +7096,7 @@
     "age_days": 7,
     "fresh": false,
     "first_seen": "2026-09-05",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "2297a00c1aa9": {
@@ -7278,7 +7124,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-09-05",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "1379185814cc": {
@@ -7303,7 +7149,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-05",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "d7b1481c9df8": {
@@ -7331,7 +7177,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-09-05",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "986dd1eb3c06": {
@@ -7359,35 +7205,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-09-05",
-    "last_seen": "2026-09-06",
-    "open": true
-  },
-  "94bb245d2d38": {
-    "company": "Micron Technology",
-    "title": "TSE KEG Equipment Engineer",
-    "location": "Boise, ID - Main Site",
-    "url": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Boise-ID---Main-Site/TSE-KEG-Equipment-Engineer_JR110450",
-    "description": "TSE KEG Equipment Engineer",
-    "posted_at": "2026-09-02",
-    "source": "workday",
-    "opt_friendly": true,
-    "sponsor_tier": "high",
-    "sponsors_visa": true,
-    "sponsor_cases": 80,
-    "sponsor_cert": 96.2,
-    "match_score": 56,
-    "matched_skills": [
-      "rest",
-      "aws",
-      "rds",
-      "rag",
-      "agent",
-      "agentic"
-    ],
-    "age_days": 5,
-    "fresh": false,
-    "first_seen": "2026-09-05",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "c1d77a85577c": {
@@ -7411,7 +7229,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-09-05",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "b058e360fa12": {
@@ -7439,7 +7257,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-05",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "0ab7fa6ad4a3": {
@@ -7467,7 +7285,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-09-05",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "944c578af218": {
@@ -7495,7 +7313,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-05",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "8f0440f1693d": {
@@ -7518,7 +7336,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-09-05",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "46893d6c167a": {
@@ -7546,7 +7364,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-09-05",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "bc22abac440c": {
@@ -7554,7 +7372,7 @@
     "title": "Treasury Technology Developer",
     "location": "New York, New York",
     "url": "https://jainglobal.wd5.myworkdayjobs.com/en-US/ExternalSite/job/New-York-New-York/Treasury-Technology-Developer_JR100479-1",
-    "description": "Job Description: Treasury Technology Developer About Jain Global Jain Global is an innovative multi-strategy / multi-manager investment firm founded on the basis of achieving scale on Day 1 across regions, markets, and investors. With over 400 employees operating from offices in New York, Houston, London, Singapore, and Hong Kong, we are looking to add to our growing teams. Key Responsibilities Build and maintain full stack applications supporting Treasury functions using React and Python Develop APIs and backend services to support cash management, liquidity, funding, and treasury workflows Work with databases and data platforms including Snowflake and AWS RDS Collaborate with Treasury, Product, Data, and Engineering teams to deliver scalable technology solutions Design, develop, and enhance applications that improve operational efficiency and automation across Treasury processes Debug and optimize systems across frontend, backend, and data layers Write clean, scalable, well-tested, and maintainable code following engineering best practices Take ownership of projects and deliver features end-to-end in a fast-paced environment Required Experience Strong foundation in: Python React REST APIs SQL Snowflake AWS RDS / PostgreSQL / MySQL Git and modern development workflows Strong analytical and problem-solving skills High work ethic with exceptional attention to detail Comfortable working in a fast-paced, collaborative environment Exposure to AWS or other cloud infrastructure Experience with Docker, CI/CD pipelines, or modern software delivery practices Interest in AI/LLMs, data engineering, or automation technologies Experience building applications within Treasury, Finance, or Capital Markets environments is advantageous Ideal Candidate Smart, driven, and intellectually curious Comfortable wearing multiple hats and working across technical and business teams Enjoys solving complex technical and business problems Takes ownership and delivers high-quality solutions with minimal supervision Thrives in a collaborative, high-performance engineering environment Compensation Jain Global offers a total compensation package which includes a base salary, discretionary bonus, and comprehensive benefits. The estimated base salary range for this position is $120,000 to $160,000, which is specific to New York and may change in the future. When finalizing an offer, we take into consideration an individual\u2019s experience level and the qualifications they bring to the role to formulate a competitive total compensation package. We are an Equal Opportunity Employer As an employer, we believe every individual brings unique diversity of thought and perspective that enriches Jain Global's teams and drives competitive performance. We are committed to fostering an inclusive environment where everyone can make meaningful contributions.",
+    "description": "Treasury Technology Developer",
     "posted_at": "2026-09-02",
     "source": "workday",
     "opt_friendly": true,
@@ -7567,7 +7385,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-09-05",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "06303479543b": {
@@ -7575,8 +7393,8 @@
     "title": "Developer",
     "location": "New York, New York",
     "url": "https://jainglobal.wd5.myworkdayjobs.com/en-US/ExternalSite/job/New-York-New-York/Developer_JR100255",
-    "description": "Developer",
-    "posted_at": "2026-09-03",
+    "description": "Job Description: Overview Jain Global is seeking a highly motivated Developer to join our Equity Arbitrage team in our New York City office. This individual will sit on the trading desk, working closely with traders, quantitative researchers, and senior engineers to support the development of trading infrastructure and analytical tools. The developer will be directly involved in the quant research and execution process. A high standard of technical ability, professionalism, flexibility, teamwork, and strong communication skills\u2014combined with a passion for problem-solving and technology\u2014are essential for success in this role. The ideal candidate thrives in a fast-paced environment and is eager to contribute to a high-performing team focused on delivering results. Location: New York Responsibilities: Collaborate with traders, quants, and senior engineers to build and maintain tools and systems used in equity arbitrage strategies. Develop data pipelines, trading analytics, and automation tools in Python. Participate in the full software development lifecycle\u2014from design and implementation to testing and deployment. Troubleshoot and enhance existing systems to support evolving strategy requirements. Contribute to a culture of engineering excellence, innovation, and continuous improvement. Qualifications: 0-3 years of software development experience. Bachelor\u2019s degree in Computer Science, Engineering, or a related field. Proficiency in Python; ability to write clean, efficient, and maintainable code. Strong problem-solving skills and attention to detail. Experience in Big Tech or financial services is a plus, but not required. Familiarity with Linux, version control (e.g., Git), and working with data (e.g., Pandas, NumPy) is a plus. Compensation Jain Global offers a total compensation package which includes a base salary, discretionary bonus, and comprehensive benefits. The estimated base salary range for this position is $185,000 to $200,000, which is specific to New York and may change in the future. When finalizing an offer, we take into consideration an individual\u2019s experience level and the qualifications they bring to the role to formulate a competitive total compensation package.",
+    "posted_at": "2026-09-02",
     "source": "workday",
     "opt_friendly": true,
     "sponsor_tier": "high",
@@ -7585,10 +7403,10 @@
     "sponsor_cert": null,
     "match_score": 8,
     "matched_skills": [],
-    "age_days": 4,
+    "age_days": 5,
     "fresh": false,
     "first_seen": "2026-09-05",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "ee92db961ed1": {
@@ -7616,7 +7434,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-09-05",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "37b2bb063812": {
@@ -7642,7 +7460,7 @@
     "age_days": 7,
     "fresh": false,
     "first_seen": "2026-09-05",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "c0301576de52": {
@@ -7666,7 +7484,7 @@
     "age_days": 7,
     "fresh": false,
     "first_seen": "2026-09-05",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "344948d99813": {
@@ -7689,7 +7507,7 @@
     "age_days": 1,
     "fresh": true,
     "first_seen": "2026-09-05",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "08dd6ef0587e": {
@@ -7717,7 +7535,7 @@
     "age_days": 1,
     "fresh": true,
     "first_seen": "2026-09-05",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "6290f63aa078": {
@@ -7743,7 +7561,7 @@
     "age_days": 1,
     "fresh": true,
     "first_seen": "2026-09-05",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "06b934248da3": {
@@ -7769,7 +7587,7 @@
     "age_days": 1,
     "fresh": true,
     "first_seen": "2026-09-05",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "99dae5601a2c": {
@@ -7797,7 +7615,7 @@
     "age_days": 1,
     "fresh": true,
     "first_seen": "2026-09-05",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "7871467a302a": {
@@ -7825,7 +7643,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-09-05",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "99bed7503bcb": {
@@ -7850,7 +7668,7 @@
     "age_days": 1,
     "fresh": true,
     "first_seen": "2026-09-05",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "78806cdd98e9": {
@@ -7877,7 +7695,7 @@
     "age_days": 1,
     "fresh": true,
     "first_seen": "2026-09-05",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "47992a26b1bb": {
@@ -7903,7 +7721,7 @@
     "age_days": 1,
     "fresh": true,
     "first_seen": "2026-09-05",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "8c9dd9cd34a4": {
@@ -7929,35 +7747,7 @@
     "age_days": 7,
     "fresh": false,
     "first_seen": "2026-09-05",
-    "last_seen": "2026-09-06",
-    "open": true
-  },
-  "171bbf60f849": {
-    "company": "Northwestern Mutual",
-    "title": "Data Software Engineer III - ML Ops",
-    "location": "Milwaukee, WI Corporate",
-    "url": "https://northwesternmutual.wd5.myworkdayjobs.com/en-US/corporate-careers/job/Milwaukee-WI-Corporate/Data-Software-Engineer-III---ML-Ops_JR-45869",
-    "description": "Data Software Engineer III - ML Ops",
-    "posted_at": "2026-09-02",
-    "source": "workday",
-    "opt_friendly": true,
-    "sponsor_tier": "medium",
-    "sponsors_visa": true,
-    "sponsor_cases": 34,
-    "sponsor_cert": 91.2,
-    "match_score": 100,
-    "matched_skills": [
-      "python",
-      "java",
-      "sql",
-      "go",
-      "rest",
-      "api"
-    ],
-    "age_days": 5,
-    "fresh": false,
-    "first_seen": "2026-09-05",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "bdae095e4dcc": {
@@ -7985,31 +7775,7 @@
     "age_days": 7,
     "fresh": false,
     "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
-    "open": true
-  },
-  "04e829caa348": {
-    "company": "Sierra Space",
-    "title": "Dream Chaser Flight Controller - Systems Engineer II",
-    "location": "Louisville, CO",
-    "url": "https://sierraspace.wd1.myworkdayjobs.com/en-US/Sierra_Space_External_Career_Site/job/Louisville-CO/Dream-Chaser-Flight-Controller---Systems-Engineer_R26162-1",
-    "description": "Dream Chaser Flight Controller - Systems Engineer II",
-    "posted_at": "2026-09-03",
-    "source": "workday",
-    "opt_friendly": true,
-    "sponsor_tier": "low",
-    "sponsors_visa": true,
-    "sponsor_cases": null,
-    "sponsor_cert": null,
-    "match_score": 24,
-    "matched_skills": [
-      "go",
-      "rag"
-    ],
-    "age_days": 4,
-    "fresh": false,
-    "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "bb5b3b7aa11d": {
@@ -8030,33 +7796,7 @@
     "age_days": 7,
     "fresh": false,
     "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
-    "open": true
-  },
-  "15118032ade6": {
-    "company": "Equifax",
-    "title": "Site Reliability Engineer - Rotational Development Program",
-    "location": "USA - Missouri - St. Lou",
-    "url": "https://equifax.wd5.myworkdayjobs.com/en-US/UR_External/job/USA---Missouri---St-Louis---Lackland/Site-Reliability-Engineer---Rotational-Development-Program_J00178675",
-    "description": "Equifax is where you can power your possible. If you want to achieve your true potential, chart new paths, develop new skills, collaborate with bright minds, and make a meaningful impact, we want to hear from you. Equifax is where you can power your possible. If you want to achieve your true potential, chart new paths, develop new skills, collaborate with bright minds, and make a meaningful impact, we want to hear from you. Synopsis of the role: The Technology Rotational Development Program (RDP) is a 2 year formalized training with rotations in a Site Reliability Engineer role. What you\u2019ll do Work in a DevOps environment contributing to build and run of small scale and fault-tolerant systems. Assist with the creation of new tools and scripts for auto-remediation of incidents. Participate in measuring and monitoring system impairments and outages. Assist the cloud operations team in resolving system issues. Gain experience by cross-training in the various areas within the Technology organization and other key related functions. Assist with the creation of new tools and scripts for auto-remediation of incidents. Work closely with development and operations teams assisting in building highly available and cost effective systems. Participate in measuring and monitoring system impairments and outages. Assist the cloud operations team in resolving system issues. What experience you need Bachelor\u2019s Degree in Computer Science, Information Technology, Project Management, or equivalent field Availability for full-time employment by June 2027 (Spring 2027 graduation dates) Detail-oriented and timeline driven with an emphasis on accuracy and results. Ability to understand the big picture as well as pay attention to detail. Proven creativity, problem solving and decision-making ability. Excellent leadership, teamwork and service skills. Excellent oral and written communication skills. \u200b What could set you apart Experienced working with and developing with Java Exposure/knowledge of cloud technologies (Google Cloud Platform (GCP), Amazon Web Services (AWS), or Azure) You have foundational knowledge/exposure to Agile/SDLC methodologies #LI-Hybrid #LI-ES1 We offer comprehensive compensation and healthcare packages, 401k matching, paid time off, and organizational growth potential through our online learning platform with guided career tracks. Are you ready to power your possible? Apply today, and get started on a path toward an exciting new career at Equifax, where you can make a difference! Primary Location: USA-St. Louis-Lackland Function: Function - Tech Dev and Client Services Schedule: Full time",
-    "posted_at": "2026-09-01",
-    "source": "workday",
-    "opt_friendly": true,
-    "sponsor_tier": "medium",
-    "sponsors_visa": true,
-    "sponsor_cases": 40,
-    "sponsor_cert": 100.0,
-    "match_score": 40,
-    "matched_skills": [
-      "java",
-      "go",
-      "aws",
-      "gcp"
-    ],
-    "age_days": 6,
-    "fresh": false,
-    "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "5d2e549fe414": {
@@ -8077,7 +7817,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "04f7921b633e": {
@@ -8098,7 +7838,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "f23858413623": {
@@ -8119,28 +7859,7 @@
     "age_days": 2,
     "fresh": true,
     "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
-    "open": true
-  },
-  "8083faa62e0f": {
-    "company": "Sierra Space",
-    "title": "Tooling Design Engineer III",
-    "location": "Louisville, CO",
-    "url": "https://sierraspace.wd1.myworkdayjobs.com/en-US/Sierra_Space_External_Career_Site/job/Louisville-CO/Tooling-Design-Engineer-III_R26182-1",
-    "description": "Tooling Design Engineer III",
-    "posted_at": "2026-09-01",
-    "source": "workday",
-    "opt_friendly": true,
-    "sponsor_tier": "low",
-    "sponsors_visa": true,
-    "sponsor_cases": null,
-    "sponsor_cert": null,
-    "match_score": 8,
-    "matched_skills": [],
-    "age_days": 6,
-    "fresh": false,
-    "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "581afbe5bd1b": {
@@ -8161,7 +7880,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "459d1e42ca13": {
@@ -8170,7 +7889,7 @@
     "location": "San Diego, CA, USA",
     "url": "https://asml.wd3.myworkdayjobs.com/en-US/asmlext1/job/San-Diego-CA-USA/Research-Engineer---2nd-Shift_J-00351503",
     "description": "Research Engineer - 2nd Shift",
-    "posted_at": "2026-09-02",
+    "posted_at": "2026-09-01",
     "source": "workday",
     "opt_friendly": true,
     "sponsor_tier": "medium",
@@ -8179,59 +7898,17 @@
     "sponsor_cert": 100.0,
     "match_score": 8,
     "matched_skills": [],
-    "age_days": 5,
-    "fresh": false,
-    "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
-    "open": true
-  },
-  "f118d352c13f": {
-    "company": "University of Chicago",
-    "title": "Cloud Computing Developer",
-    "location": "Illinois: Chicago",
-    "url": "https://uchicago.wd5.myworkdayjobs.com/en-US/External/job/Illinois-Chicago/Cloud-Computing-Developer_JR35029",
-    "description": "Department PSD Computer Science: Keahey Group About the Department The Nimbus team (nimbusproject.org) is an academic leader in cloud computing research, development, and operations. We work closely with scientific communities to provide innovative solutions adapting cloud computing to the needs of science. Among others, we operate Chameleon (www.chameleoncloud.org), an experimental platform for Computer Science systems research where new solutions in cloud computing, machine learning, software defined networking (SDN), and Internet of Things (IoT) are proposed every day by an international research community. The Nimbus team provides a friendly, challenge-oriented environment. Job Summary The successful candidate will work on the intersection of development, research, and operations, discovering new requirements through working with scientific users, designing and building solutions that change the way science is done, deploying and operating them, and then supporting and interacting with their users to build communities around them. Responsibilities Work with emergent technologies and user requirements in AI and cloud computing to build and evaluate innovative solutions changing the way we do science. Help develop an AI-based conversational assistant that helps computer science testbed users configure scientific computing environments in everyday language: build planning and provisioning agents with built-in checks on resource limits, timing, and hardware compatibility; integrate large language models (LLM) running on open academic hardware through standard tool interfaces; create validation benchmark suites and retrieval pipelines that organize documentation, logs, and help desk tickets into a searchable knowledge base. Build and operate research infrastructure for projects such as Chameleon ( www.chameleoncloud.org ): design and build new solutions based on state-of-the-art technologies such as AI agent frameworks, LLM-integrated tooling, or hardware accelerators; extend open source systems and tools such as OpenStack; develop new features; manage system upgrades and maintenance; and implement security controls. Work directly with users to identify new requirements, solve problems, and troubleshoot issues, including participating in user studies and iterative evaluation of AI-assisted tools. Collaborate with science researchers nationwide as part of a large supercomputing center and an outstanding academic institution. Share experiences with the wider community by contributing to papers as part of a research team that regularly publishes in academic venues. Investigates, analyzes and resolves day-to-day technical problems using standard procedures. Work with stakeholders to gather and analyze requirements for developmental programs. Receives a moderate level of guidance to design applications to meet University and business requirements. Performs code testing on components and works to ensure that appropriate implementation standards are met.",
-    "posted_at": "2026-09-01",
-    "source": "workday",
-    "opt_friendly": true,
-    "sponsor_tier": "medium",
-    "sponsors_visa": true,
-    "sponsor_cases": 15,
-    "sponsor_cert": 93.3,
-    "match_score": 8,
-    "matched_skills": [],
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
-    "open": true
-  },
-  "4bddb2c087d4": {
-    "company": "Morgan Stanley",
-    "title": "Associate, Software Engineer",
-    "location": "Alpharetta, Georgia, Uni  +1 more",
-    "url": "https://ms.wd5.myworkdayjobs.com/en-US/External/job/New-York-New-York-United-States-of-America/Associate--Software-Engineer_JR031776",
-    "description": "Associate, Software Engineer",
-    "posted_at": "2026-09-04",
-    "source": "workday",
-    "opt_friendly": true,
-    "sponsor_tier": "medium",
-    "sponsors_visa": true,
-    "sponsor_cases": 18,
-    "sponsor_cert": 100.0,
-    "match_score": 20,
-    "matched_skills": [],
-    "age_days": 3,
-    "fresh": false,
-    "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "c2a514d3bbd0": {
     "company": "Cadence Design Systems",
     "title": "Software Engineer  (new college grad Dec 2026)",
     "location": "SAN JOSE",
-    "url": "https://cadence.wd1.myworkdayjobs.com/en-US/University_Talent/job/SAN-JOSE/Software-Engineer---new-college-grad-Dec-2026-_R55738-1",
+    "url": "https://cadence.wd1.myworkdayjobs.com/en-US/University_Talent_NCG/job/SAN-JOSE/Software-Engineer---new-college-grad-Dec-2026-_R55738",
     "description": "At Cadence, we hire and develop leaders and innovators who want to make an impact on the world of technology. Job Description: This job is for developing a new technology for automatically closing simulation-based verification of semiconductor hardware designs written in RTL. A successfully hired employee will be responsible for developing statistical models of big data of state-of-the-art regressions, optimization algorithms, machine-learning and AI systems, and integrating them as a production technology for world-wide customers. Skills: The candidate must have good knowledge of combinatorial problems, optimization algorithms, data sciences, and computational complexity. Experiences of software engineering for developing high computation algorithms are a plus. The candidate must be proficient in Python and C++. New College grad with December 2026 grad date would be ideal. MS (or BS) in CE or equivalent. The annual salary range for California is $101,500 to $188,500. You may also be eligible to receive incentive compensation: bonus, equity, and benefits. Sales positions generally offer a competitive On Target Earnings (OTE) incentive compensation structure. Please note that the salary range is a guideline and compensation may vary based on factors such as qualifications, skill level, competencies and work location. Our benefits programs include: paid vacation and paid holidays, 401(k) plan with employer match, employee stock purchase plan, a variety of medical, dental and vision plan options, and more. We\u2019re doing work that matters. Help us solve what others can\u2019t.",
     "posted_at": "2026-09-03",
     "source": "workday",
@@ -8245,7 +7922,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "dcacb84b95a7": {
@@ -8253,7 +7930,7 @@
     "title": "Software Development Engineer II",
     "location": "Spokane Valley",
     "url": "https://ffive.wd5.myworkdayjobs.com/en-US/f5jobs/job/Spokane-Valley/Software-Development-Engineer-II_RP1038530",
-    "description": "At F5, we strive to bring a better digital world to life. Our teams empower organizations across the globe to create, secure, and run applications that enhance how we experience our evolving digital world. We are passionate about cybersecurity, from protecting consumers from fraud to enabling companies to focus on innovation. Everything we do centers around people. That means we obsess over how to make the lives of our customers, and their customers, better. And it means we prioritize a diverse F5 community where each individual can thrive. Position Summary This position is responsible for contributing to the design, coding, testing, and debugging of platform and system software tasks of small to medium complexity. Working on a variety of technical problems of varying scope, the Software Development Engineer II implements high-quality code and deploys features or APIs under general supervision. Collaborates closely with team peers to development of features, participating in design and code reviews to ensure system stability and quality. Primary Responsibilities Contributes to the development of small to medium complexity tasks, working on a variety of technical problems of varying scope & complexity. Develops feature code along with writing unit and functional tests, supporting larger components. Participate in design and code review to ensure quality and stability of features. Effectively work with peers on team-oriented projects. Proactively collaborates with other software engineers on design, best practices, and code reviews. Consistently applies good software design, implementation, and test principles. Able to design, implement, and test new functionality with minimal supervision. Upholds F5\u2019s Business Code of Ethics. Knowledge, Skills and Abilities Coding experience in a high-level language such as: GoLang, C/C++, Java, etc. GoLang highly preferred. Linux user experience desired, with the ability to navigate Linux OS and common scripting languages: Python, Bash, etc). Understanding of networking concepts and the OSI model. Knowledge of using Docker, Docker Compose, and containerized development workflows desired. Working knowledge of modern version control such as: Git/GitLab, CI/CD pipelines. Use of modern IDEs, such as: VS Code, GoLand. Experience interfacing with system hardware and firmware interfaces. Experience using generative AI to optimize coding and software development workflows. Understanding of the end-to-end product development lifecycle. Duties are performed in a normal office or remote home-office environment while sitting at a desk or computer table. Duties require the ability to utilize a computer, communicate over phone/video channels, and read technical and printed material. Minimum Qualifications 2+ years of professional software engineering experience with a bachelor\u2019s degree in computer science, computer engineering or similar field or 3+ years equivalent professional experience. Experience in a high-level coding la",
+    "description": "Software Development Engineer II",
     "posted_at": "2026-08-31",
     "source": "workday",
     "opt_friendly": true,
@@ -8266,81 +7943,7 @@
     "age_days": 7,
     "fresh": false,
     "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
-    "open": true
-  },
-  "0c0745cb564e": {
-    "company": "Bank of America",
-    "title": "Software Engineer III - AMRS Linear Rates Technology team",
-    "location": "New York",
-    "url": "https://ghr.wd1.myworkdayjobs.com/en-US/us-emplsv/job/New-York/Software-Engineer-III---AMRS-Linear-Rates-Technology-team_26032401-1",
-    "description": "Job Description: At Bank of America, we are guided by a common purpose to help make financial lives better through the power of every connection. We do this by driving Responsible Growth and delivering for our clients, teammates, communities and shareholders every day. Being a Great Place to Work and providing a culture of caring is core to how we drive Responsible Growth. We are intentional about fostering an inclusive workplace where every teammate has the opportunity to succeed, build a career and contribute to our shared success. This includes attracting and developing exceptional talent, recognizing and rewarding performance, and supporting our teammates\u2019 physical, emotional, and financial wellness through affordable, competitive and flexible benefits. We value the unique perspectives individuals bring from all backgrounds and career paths - whether shaped by military service, community college education, or a wide range of work and life experiences. These journeys foster resilience, leadership and innovation, strengthening our workforce and positively impact the communities we serve. Bank of America is committed to an in-office culture that supports collaboration, engagement, and career development. Our approach includes clear in-office expectations, while providing an appropriate level of flexibility based on role-specific responsibilities and business needs. At Bank of America, you can build a successful career with opportunities to learn, grow, and make an impact. Join us! Job Description: This job is responsible for developing and delivering complex requirements to accomplish business goals. Key responsibilities of the job include ensuring that software is developed to meet functional, non-functional and compliance requirements, and solutions are well designed with maintainability/ease of integration and testing built-in from the outset. Job expectations include a strong knowledge of development and testing practices common to the industry and design and architectural patterns. Job Profile Summary: Python-focused Front Office Rates Developer required with hands-on experience delivering Risk and P&L solutions for a trading desk environment. Senior Developer primarily required to handle requirements coming from the AMRS Linear Trading Desk. Working closely with the Traders, Risk Managers and existing technology team, they will collect requirements, design solutions and deliver front to back. Key areas of focus will be Intraday and End of Day Risk and P&L explains. Responsibilities: Codes solutions and unit test to deliver a requirement/story per the defined acceptance criteria and compliance requirements Designs, develops, and modifies architecture components, application interfaces, and solution enablers while ensuring principal architecture integrity is maintained Mentors other software engineers and coach team on Continuous Integration and Continuous Development (CI-CD) practices and automating tool stack Executes story refinement, def",
-    "posted_at": "2026-09-02",
-    "source": "workday",
-    "opt_friendly": true,
-    "sponsor_tier": "high",
-    "sponsors_visa": true,
-    "sponsor_cases": 136,
-    "sponsor_cert": 99.3,
-    "match_score": 44,
-    "matched_skills": [
-      "python",
-      "java",
-      "go"
-    ],
-    "age_days": 5,
-    "fresh": false,
-    "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
-    "open": true
-  },
-  "6f973a5e392a": {
-    "company": "Bank of America",
-    "title": "Data Engineer II",
-    "location": "Charlotte",
-    "url": "https://ghr.wd1.myworkdayjobs.com/en-US/us-emplsv/job/Charlotte/Data-Engineer-II_26032374-1",
-    "description": "Data Engineer II",
-    "posted_at": "2026-09-03",
-    "source": "workday",
-    "opt_friendly": true,
-    "sponsor_tier": "high",
-    "sponsors_visa": true,
-    "sponsor_cases": 136,
-    "sponsor_cert": 99.3,
-    "match_score": 100,
-    "matched_skills": [
-      "go",
-      "api",
-      "rds",
-      "llm",
-      "rag",
-      "gen ai"
-    ],
-    "age_days": 4,
-    "fresh": false,
-    "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
-    "open": true
-  },
-  "2990e64f0b1a": {
-    "company": "University of Kansas Medical Center",
-    "title": "Statistician I - Biostatistics & Data Science",
-    "location": "Kansas City Metro Area",
-    "url": "https://kumc.wd5.myworkdayjobs.com/en-US/kumc-jobs/job/Kansas-City-Metro-Area/Statistician-I---Biostatistics---Data-Science_JR010422",
-    "description": "Statistician I - Biostatistics & Data Science",
-    "posted_at": "2026-09-01",
-    "source": "workday",
-    "opt_friendly": true,
-    "sponsor_tier": "medium",
-    "sponsors_visa": true,
-    "sponsor_cases": 18,
-    "sponsor_cert": 55.6,
-    "match_score": 20,
-    "matched_skills": [],
-    "age_days": 6,
-    "fresh": false,
-    "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "9cb471d1507a": {
@@ -8368,7 +7971,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "05cd8210f744": {
@@ -8394,145 +7997,7 @@
     "age_days": 0,
     "fresh": true,
     "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
-    "open": true
-  },
-  "d3f0dfeab64e": {
-    "company": "Global Payments",
-    "title": "Netsuite Developer",
-    "location": "DENVER COLORADO",
-    "url": "https://tsys.wd1.myworkdayjobs.com/en-US/TSYS/job/DENVER-COLORADO/Netsuite-Developer_R0073119-1",
-    "description": "Netsuite Developer",
-    "posted_at": "2026-09-02",
-    "source": "workday",
-    "opt_friendly": true,
-    "sponsor_tier": "high",
-    "sponsors_visa": true,
-    "sponsor_cases": null,
-    "sponsor_cert": null,
-    "match_score": 72,
-    "matched_skills": [
-      "javascript",
-      "java",
-      "go",
-      "api",
-      "rds",
-      "llm"
-    ],
-    "age_days": 5,
-    "fresh": false,
-    "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
-    "open": true
-  },
-  "a9d657ac35bb": {
-    "company": "Thomson Reuters",
-    "title": "Transformation Project Engineer",
-    "location": "United States of America",
-    "url": "https://thomsonreuters.wd5.myworkdayjobs.com/en-US/External_Career_Site/job/United-States-of-America-Eagan-Minnesota/Transformation-Project-Engineer_JREQ202995",
-    "description": "Transformation Project Engineer",
-    "posted_at": "2026-09-02",
-    "source": "workday",
-    "opt_friendly": true,
-    "sponsor_tier": "medium",
-    "sponsors_visa": true,
-    "sponsor_cases": 10,
-    "sponsor_cert": 100.0,
-    "match_score": 40,
-    "matched_skills": [
-      "go",
-      "rest",
-      "aws",
-      "generative ai"
-    ],
-    "age_days": 5,
-    "fresh": false,
-    "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
-    "open": true
-  },
-  "3c049b0745cd": {
-    "company": "Uhaul",
-    "title": "Android Developer",
-    "location": "Phoenix, Arizona",
-    "url": "https://uhaul.wd1.myworkdayjobs.com/en-US/UhaulJobs/job/Phoenix-Arizona/Android-Developer-Intern_R254718",
-    "description": "Android Developer",
-    "posted_at": "2026-09-04",
-    "source": "workday",
-    "opt_friendly": true,
-    "sponsor_tier": "medium",
-    "sponsors_visa": true,
-    "sponsor_cases": 14,
-    "sponsor_cert": 100.0,
-    "match_score": 8,
-    "matched_skills": [],
-    "age_days": 3,
-    "fresh": false,
-    "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
-    "open": true
-  },
-  "4964f1104026": {
-    "company": "Stanley Black & Decker",
-    "title": "Full Stack Developer",
-    "location": "Towson, MD, United State",
-    "url": "https://sbdinc.wd1.myworkdayjobs.com/en-US/Stanley_Black_Decker_Career_Site/job/Towson-MD-United-States/Full-Stack-Developer_REQ-1000051479-1",
-    "description": "Full Stack Developer",
-    "posted_at": "2026-09-01",
-    "source": "workday",
-    "opt_friendly": true,
-    "sponsor_tier": "medium",
-    "sponsors_visa": true,
-    "sponsor_cases": 11,
-    "sponsor_cert": 100.0,
-    "match_score": 20,
-    "matched_skills": [],
-    "age_days": 6,
-    "fresh": false,
-    "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
-    "open": true
-  },
-  "33d313d63d5b": {
-    "company": "Primerica",
-    "title": "Full Stack Developer",
-    "location": "Duluth, GA",
-    "url": "https://primerica.wd1.myworkdayjobs.com/en-US/pri/job/Duluth-GA/Full-Stack-Developer_R-126032026-2",
-    "description": "Full Stack Developer",
-    "posted_at": "",
-    "source": "workday",
-    "opt_friendly": true,
-    "sponsor_tier": "medium",
-    "sponsors_visa": true,
-    "sponsor_cases": 10,
-    "sponsor_cert": 100.0,
-    "match_score": 20,
-    "matched_skills": [],
-    "age_days": null,
-    "fresh": false,
-    "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
-    "open": true
-  },
-  "1318a878a92a": {
-    "company": "Primerica",
-    "title": "AVP,  Platform Engineering & Operations",
-    "location": "Duluth, GA",
-    "url": "https://primerica.wd1.myworkdayjobs.com/en-US/pri/job/Duluth-GA/AVP---Platform-Engineering---Operations_R-306072026",
-    "description": "AVP,  Platform Engineering & Operations",
-    "posted_at": "",
-    "source": "workday",
-    "opt_friendly": true,
-    "sponsor_tier": "medium",
-    "sponsors_visa": true,
-    "sponsor_cases": 10,
-    "sponsor_cert": 100.0,
-    "match_score": 8,
-    "matched_skills": [],
-    "age_days": null,
-    "fresh": false,
-    "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "acf3bbdd034f": {
@@ -8553,7 +8018,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "b85bb4771fed": {
@@ -8579,7 +8044,7 @@
     "age_days": 7,
     "fresh": false,
     "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "3315d097dc92": {
@@ -8605,7 +8070,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "150136184387": {
@@ -8631,7 +8096,7 @@
     "age_days": 7,
     "fresh": false,
     "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "7cc092cdf938": {
@@ -8654,7 +8119,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "05abf92d2f3a": {
@@ -8679,7 +8144,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "51ee654ea807": {
@@ -8707,7 +8172,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "4c68f2085b7b": {
@@ -8728,7 +8193,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "2fecb408dbe3": {
@@ -8749,70 +8214,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
-    "open": true
-  },
-  "38f2d4d582ff": {
-    "company": "Agilent Technologies",
-    "title": "R&D Embedded Systems Software Engineer",
-    "location": "US-DE-Wilmington",
-    "url": "https://agilent.wd5.myworkdayjobs.com/en-US/Agilent_Careers/job/US-DE-Wilmington/R-D-Embedded-Systems-Software-Engineer_4039102",
-    "description": "R&D Embedded Systems Software Engineer",
-    "posted_at": "2026-09-02",
-    "source": "workday",
-    "opt_friendly": true,
-    "sponsor_tier": "medium",
-    "sponsors_visa": true,
-    "sponsor_cases": 11,
-    "sponsor_cert": 90.9,
-    "match_score": 20,
-    "matched_skills": [],
-    "age_days": 5,
-    "fresh": false,
-    "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
-    "open": true
-  },
-  "fe1dba890b83": {
-    "company": "TransUnion",
-    "title": "Security Automation Engineer",
-    "location": "Chicago Illinois",
-    "url": "https://transunion.wd5.myworkdayjobs.com/en-US/TransUnion/job/Chicago-Illinois/Security-Automation-Engineer_19041837",
-    "description": "Security Automation Engineer",
-    "posted_at": "2026-09-01",
-    "source": "workday",
-    "opt_friendly": true,
-    "sponsor_tier": "medium",
-    "sponsors_visa": true,
-    "sponsor_cases": 28,
-    "sponsor_cert": 100.0,
-    "match_score": 8,
-    "matched_skills": [],
-    "age_days": 6,
-    "fresh": false,
-    "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
-    "open": true
-  },
-  "5f5a25d08af9": {
-    "company": "State Street",
-    "title": "Software Developer, Officer",
-    "location": "Irvine, California",
-    "url": "https://statestreet.wd1.myworkdayjobs.com/en-US/equest/job/Irvine-California/Software-Developer--Officer_R-795395",
-    "description": "Software Developer, Officer",
-    "posted_at": "2026-09-01",
-    "source": "workday",
-    "opt_friendly": true,
-    "sponsor_tier": "high",
-    "sponsors_visa": true,
-    "sponsor_cases": 98,
-    "sponsor_cert": 100.0,
-    "match_score": 20,
-    "matched_skills": [],
-    "age_days": 6,
-    "fresh": false,
-    "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "d9c82163733d": {
@@ -8821,7 +8223,7 @@
     "location": "USA-CA Irvine Alton Park",
     "url": "https://broadcom.wd1.myworkdayjobs.com/en-US/External_Career/job/USA-CA-Irvine-Alton-Parkway-Bldg-1/Software-Program-Manager--Emulex-Connectivity-Division--ECD-_R026001",
     "description": "R&D Applications Engineer, Emulex Connectivity Division (ECD)",
-    "posted_at": "2026-09-04",
+    "posted_at": "2026-09-03",
     "source": "workday",
     "opt_friendly": true,
     "sponsor_tier": "medium",
@@ -8830,10 +8232,10 @@
     "sponsor_cert": 100.0,
     "match_score": 8,
     "matched_skills": [],
-    "age_days": 3,
+    "age_days": 4,
     "fresh": false,
     "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "fdbd86c82589": {
@@ -8842,7 +8244,7 @@
     "location": "USA-CA Irvine Alton Park",
     "url": "https://broadcom.wd1.myworkdayjobs.com/en-US/External_Career/job/USA-CA-Irvine-Alton-Parkway-Bldg-1/Firmware-Engineer---Fibre-Channel-NVME-Networked-Storage_R027013",
     "description": "Firmware Engineer - Fibre Channel/NVME Networked-Storage",
-    "posted_at": "2026-09-04",
+    "posted_at": "2026-09-03",
     "source": "workday",
     "opt_friendly": true,
     "sponsor_tier": "medium",
@@ -8853,10 +8255,10 @@
     "matched_skills": [
       "rag"
     ],
-    "age_days": 3,
+    "age_days": 4,
     "fresh": false,
     "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "1b562ab56d0b": {
@@ -8865,7 +8267,7 @@
     "location": "USA-CA San Jose Innovati",
     "url": "https://broadcom.wd1.myworkdayjobs.com/en-US/External_Career/job/USA-CA-San-Jose-Innovation-Drive/DFT-Engineer_R026964",
     "description": "DFT Engineer",
-    "posted_at": "2026-09-01",
+    "posted_at": "2026-08-31",
     "source": "workday",
     "opt_friendly": true,
     "sponsor_tier": "medium",
@@ -8874,10 +8276,10 @@
     "sponsor_cert": 100.0,
     "match_score": 8,
     "matched_skills": [],
-    "age_days": 6,
+    "age_days": 7,
     "fresh": false,
     "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "e0bb80f4de66": {
@@ -8905,7 +8307,7 @@
     "age_days": 0,
     "fresh": true,
     "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "ddbefbb570f3": {
@@ -8933,7 +8335,7 @@
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "086428143971": {
@@ -8957,7 +8359,7 @@
     "age_days": null,
     "fresh": false,
     "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "38be69cfa51a": {
@@ -8966,7 +8368,7 @@
     "location": "PA, Pittsburgh 15219",
     "url": "https://pnc.wd5.myworkdayjobs.com/en-US/External/job/PA---Pittsburgh-15219/Software-Engineer-I--MLOps--Python-Big-Data-_R230456-1",
     "description": "Software Engineer I, MLOps (Python/Big Data)",
-    "posted_at": "2026-09-05",
+    "posted_at": "2026-09-04",
     "source": "workday",
     "opt_friendly": true,
     "sponsor_tier": "medium",
@@ -8977,394 +8379,10 @@
     "matched_skills": [
       "python"
     ],
-    "age_days": 2,
-    "fresh": true,
-    "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
-    "open": true
-  },
-  "b884b8097524": {
-    "company": "NCR Voyix",
-    "title": "Agentic Migration Engineer - Atanta",
-    "location": "ATLANTA GA USA",
-    "url": "https://ncr.wd1.myworkdayjobs.com/en-US/ext_us/job/ATLANTA-GA-USA/Agentic-Migration-Engineer---Atanta_R0158461",
-    "description": "Agentic Migration Engineer - Atanta",
-    "posted_at": "2026-09-04",
-    "source": "workday",
-    "opt_friendly": true,
-    "sponsor_tier": "medium",
-    "sponsors_visa": true,
-    "sponsor_cases": 24,
-    "sponsor_cert": 87.5,
-    "match_score": 24,
-    "matched_skills": [
-      "agent",
-      "agentic"
-    ],
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
-    "open": true
-  },
-  "29ee4114fc2a": {
-    "company": "Medtronic",
-    "title": "Systems Engineer II, Product Development",
-    "location": "Fort Worth, Texas, Unite",
-    "url": "https://medtronic.wd1.myworkdayjobs.com/en-US/redeploymentmedtroniccareers/job/Fort-Worth-Texas-United-States-of-America/Systems-Engineer-II_R73712",
-    "description": "Systems Engineer II, Product Development",
-    "posted_at": "2026-09-05",
-    "source": "workday",
-    "opt_friendly": true,
-    "sponsor_tier": "medium",
-    "sponsors_visa": true,
-    "sponsor_cases": 15,
-    "sponsor_cert": 100.0,
-    "match_score": 8,
-    "matched_skills": [],
-    "age_days": 2,
-    "fresh": true,
-    "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
-    "open": true
-  },
-  "dde63f4afdd1": {
-    "company": "Fiserv",
-    "title": "Software Development Engineering - Advisor II",
-    "location": "Remote, Florida",
-    "url": "https://fiserv.wd5.myworkdayjobs.com/en-US/ext/job/Remote-Florida/Software-Development-Engineering---Advisor-II_R-10398184",
-    "description": "Software Development Engineering - Advisor II",
-    "posted_at": "2026-09-04",
-    "source": "workday",
-    "opt_friendly": true,
-    "sponsor_tier": "high",
-    "sponsors_visa": true,
-    "sponsor_cases": 95,
-    "sponsor_cert": 98.9,
-    "match_score": 20,
-    "matched_skills": [],
-    "age_days": 3,
-    "fresh": false,
-    "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
-    "open": true
-  },
-  "151f574a6afe": {
-    "company": "Fiserv",
-    "title": "Software Development Engineering - Advisor I",
-    "location": "Jacksonville Florida",
-    "url": "https://fiserv.wd5.myworkdayjobs.com/en-US/ext/job/Jacksonville-Florida/Software-Development-Engineering---Advisor-I_R-10399395",
-    "description": "Software Development Engineering - Advisor I",
-    "posted_at": "2026-09-04",
-    "source": "workday",
-    "opt_friendly": true,
-    "sponsor_tier": "high",
-    "sponsors_visa": true,
-    "sponsor_cases": 95,
-    "sponsor_cert": 98.9,
-    "match_score": 20,
-    "matched_skills": [],
-    "age_days": 3,
-    "fresh": false,
-    "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
-    "open": true
-  },
-  "cdc365cf3f08": {
-    "company": "Fiserv",
-    "title": "Software Development Engineering, Advisor",
-    "location": "Coral Springs, Florida",
-    "url": "https://fiserv.wd5.myworkdayjobs.com/en-US/ext/job/Coral-Springs-Florida/Software-Development-Engineering--Advisor_R-10401579",
-    "description": "Software Development Engineering, Advisor",
-    "posted_at": "2026-09-03",
-    "source": "workday",
-    "opt_friendly": true,
-    "sponsor_tier": "high",
-    "sponsors_visa": true,
-    "sponsor_cases": 95,
-    "sponsor_cert": 98.9,
-    "match_score": 20,
-    "matched_skills": [],
-    "age_days": 4,
-    "fresh": false,
-    "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
-    "open": true
-  },
-  "63f6b2cee35d": {
-    "company": "Schweitzer Engineering Laboratories",
-    "title": "Associate Software Engineer - Vulnerability Assessment",
-    "location": "Washington - Pullman",
-    "url": "https://selinc.wd1.myworkdayjobs.com/en-US/SEL/job/Washington---Pullman/Associate-Software-Engineer---Vulnerability-Assessment_2026-22231",
-    "description": "Associate Software Engineer - Vulnerability Assessment",
-    "posted_at": "",
-    "source": "workday",
-    "opt_friendly": true,
-    "sponsor_tier": "medium",
-    "sponsors_visa": true,
-    "sponsor_cases": 13,
-    "sponsor_cert": 100.0,
-    "match_score": 20,
-    "matched_skills": [],
-    "age_days": null,
-    "fresh": false,
-    "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
-    "open": true
-  },
-  "8b4cd16aa89c": {
-    "company": "Schweitzer Engineering Laboratories",
-    "title": "Software Engineer (AI/ML Tools focus)",
-    "location": "Washington - Pullman",
-    "url": "https://selinc.wd1.myworkdayjobs.com/en-US/SEL/job/Washington---Pullman/Software-Engineer--AI-ML-Tools-focus-_2026-21798",
-    "description": "Software Engineer (AI/ML Tools focus)",
-    "posted_at": "",
-    "source": "workday",
-    "opt_friendly": true,
-    "sponsor_tier": "medium",
-    "sponsors_visa": true,
-    "sponsor_cases": 13,
-    "sponsor_cert": 100.0,
-    "match_score": 20,
-    "matched_skills": [],
-    "age_days": null,
-    "fresh": false,
-    "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
-    "open": true
-  },
-  "6d2616088b72": {
-    "company": "Schweitzer Engineering Laboratories",
-    "title": "Software Engineer - Full Stack (React, TypeScript, C#, ASP.NET)",
-    "location": "North Carolina - Charlot",
-    "url": "https://selinc.wd1.myworkdayjobs.com/en-US/SEL/job/North-Carolina---Charlotte/Software-Engineer---Full-Stack--React--TypeScript--C---ASPNET-_2026-20869",
-    "description": "Software Engineer - Full Stack (React, TypeScript, C#, ASP.NET)",
-    "posted_at": "",
-    "source": "workday",
-    "opt_friendly": true,
-    "sponsor_tier": "medium",
-    "sponsors_visa": true,
-    "sponsor_cases": 13,
-    "sponsor_cert": 100.0,
-    "match_score": 36,
-    "matched_skills": [
-      "typescript",
-      "react"
-    ],
-    "age_days": null,
-    "fresh": false,
-    "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
-    "open": true
-  },
-  "69dcd12636d9": {
-    "company": "Schweitzer Engineering Laboratories",
-    "title": "Data Engineer",
-    "location": "Washington - Pullman",
-    "url": "https://selinc.wd1.myworkdayjobs.com/en-US/SEL/job/Washington---Pullman/Data-Engineer_2026-20940-1",
-    "description": "Data Engineer",
-    "posted_at": "",
-    "source": "workday",
-    "opt_friendly": true,
-    "sponsor_tier": "medium",
-    "sponsors_visa": true,
-    "sponsor_cases": 13,
-    "sponsor_cert": 100.0,
-    "match_score": 20,
-    "matched_skills": [],
-    "age_days": null,
-    "fresh": false,
-    "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
-    "open": true
-  },
-  "a0d3322d35fe": {
-    "company": "Schweitzer Engineering Laboratories",
-    "title": "Firmware Engineer - Protection Systems Platforms",
-    "location": "Washington - Pullman",
-    "url": "https://selinc.wd1.myworkdayjobs.com/en-US/SEL/job/Washington---Pullman/Firmware-Engineer---Protection-Systems-Platforms_2026-20221-1",
-    "description": "Firmware Engineer - Protection Systems Platforms",
-    "posted_at": "",
-    "source": "workday",
-    "opt_friendly": true,
-    "sponsor_tier": "medium",
-    "sponsors_visa": true,
-    "sponsor_cases": 13,
-    "sponsor_cert": 100.0,
-    "match_score": 8,
-    "matched_skills": [],
-    "age_days": null,
-    "fresh": false,
-    "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
-    "open": true
-  },
-  "0ea487694fa3": {
-    "company": "Schweitzer Engineering Laboratories",
-    "title": "Front-End Web Developer",
-    "location": "Washington - Pullman",
-    "url": "https://selinc.wd1.myworkdayjobs.com/en-US/SEL/job/Washington---Pullman/Front-End-Web-Developer_2026-22260",
-    "description": "Front-End Web Developer",
-    "posted_at": "",
-    "source": "workday",
-    "opt_friendly": true,
-    "sponsor_tier": "medium",
-    "sponsors_visa": true,
-    "sponsor_cases": 13,
-    "sponsor_cert": 100.0,
-    "match_score": 8,
-    "matched_skills": [],
-    "age_days": null,
-    "fresh": false,
-    "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
-    "open": true
-  },
-  "664228f5e595": {
-    "company": "BorgWarner",
-    "title": "UL Certification Engineer",
-    "location": "Auburn Hills - Michigan ",
-    "url": "https://borgwarner.wd5.myworkdayjobs.com/en-US/BorgWarner_Careers/job/Auburn-Hills---Michigan---USA/UL-Certification-Engineer_R2026-3342-1",
-    "description": "UL Certification Engineer",
-    "posted_at": "2026-09-01",
-    "source": "workday",
-    "opt_friendly": true,
-    "sponsor_tier": "medium",
-    "sponsors_visa": true,
-    "sponsor_cases": 15,
-    "sponsor_cert": 60.0,
-    "match_score": 8,
-    "matched_skills": [],
-    "age_days": 6,
-    "fresh": false,
-    "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
-    "open": true
-  },
-  "25aaad8beb9e": {
-    "company": "KLA Corporation",
-    "title": "System Software Engineer (HPC)",
-    "location": "Milpitas, CA",
-    "url": "https://kla.wd1.myworkdayjobs.com/en-US/search/job/Milpitas-CA/System-Software-Engineer--HPC-_2637682-1",
-    "description": "System Software Engineer (HPC)",
-    "posted_at": "2026-09-03",
-    "source": "workday",
-    "opt_friendly": true,
-    "sponsor_tier": "medium",
-    "sponsors_visa": true,
-    "sponsor_cases": 42,
-    "sponsor_cert": 100.0,
-    "match_score": 20,
-    "matched_skills": [],
-    "age_days": 4,
-    "fresh": false,
-    "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
-    "open": true
-  },
-  "2fb5802b7509": {
-    "company": "Zoom",
-    "title": "Data Scientist",
-    "location": "Remote (IND)",
-    "url": "https://zoom.wd5.myworkdayjobs.com/en-US/Zoom/job/Remote-IND/Data-Scientist_R19399-1",
-    "description": "Data Scientist",
-    "posted_at": "",
-    "source": "workday",
-    "opt_friendly": true,
-    "sponsor_tier": "medium",
-    "sponsors_visa": true,
-    "sponsor_cases": 20,
-    "sponsor_cert": 100.0,
-    "match_score": 20,
-    "matched_skills": [],
-    "age_days": null,
-    "fresh": false,
-    "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
-    "open": true
-  },
-  "83013aacc9f1": {
-    "company": "Equifax",
-    "title": "Software Engineer",
-    "location": "USA - Georgia - Alpharet",
-    "url": "https://equifax.wd5.myworkdayjobs.com/en-US/external/job/USA---Georgia---Alpharetta---30005/Software-Engineer_J00178855",
-    "description": "Software Engineer",
-    "posted_at": "2026-09-01",
-    "source": "workday",
-    "opt_friendly": true,
-    "sponsor_tier": "medium",
-    "sponsors_visa": true,
-    "sponsor_cases": 40,
-    "sponsor_cert": 100.0,
-    "match_score": 20,
-    "matched_skills": [],
-    "age_days": 6,
-    "fresh": false,
-    "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
-    "open": true
-  },
-  "bdc66a41c1a2": {
-    "company": "Equifax",
-    "title": "AI Engineer",
-    "location": "USA, Missouri, St Louis,",
-    "url": "https://equifax.wd5.myworkdayjobs.com/en-US/external/job/USA---Missouri---St-Louis---Lackland/AI-Engineer_J00178639",
-    "description": "AI Engineer",
-    "posted_at": "2026-09-01",
-    "source": "workday",
-    "opt_friendly": true,
-    "sponsor_tier": "medium",
-    "sponsors_visa": true,
-    "sponsor_cases": 40,
-    "sponsor_cert": 100.0,
-    "match_score": 20,
-    "matched_skills": [],
-    "age_days": 6,
-    "fresh": false,
-    "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
-    "open": true
-  },
-  "6fd5e4fa816d": {
-    "company": "Sierra Space",
-    "title": "Assembly Integration & Test (AI&T) Engineer III",
-    "location": "Louisville CO",
-    "url": "https://sierraspace.wd1.myworkdayjobs.com/en-US/Sierra_Space_External_Career_Site/job/Louisville-CO/Test-Engineer-III_R25983-1",
-    "description": "Assembly Integration & Test (AI&T) Engineer III",
-    "posted_at": "2026-09-04",
-    "source": "workday",
-    "opt_friendly": true,
-    "sponsor_tier": "low",
-    "sponsors_visa": true,
-    "sponsor_cases": null,
-    "sponsor_cert": null,
-    "match_score": 20,
-    "matched_skills": [],
-    "age_days": 3,
-    "fresh": false,
-    "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
-    "open": true
-  },
-  "1c9d1e864535": {
-    "company": "American Electric Power",
-    "title": "Infrastructure Engineer Prin",
-    "location": "Bridgman, MI",
-    "url": "https://aep.wd1.myworkdayjobs.com/en-US/AEPCareerSite/job/Bridgman-MI/Infrastructure-Engineer-Prin_R16208",
-    "description": "Infrastructure Engineer Prin",
-    "posted_at": "2026-09-04",
-    "source": "workday",
-    "opt_friendly": true,
-    "sponsor_tier": "medium",
-    "sponsors_visa": true,
-    "sponsor_cases": 18,
-    "sponsor_cert": 100.0,
-    "match_score": 8,
-    "matched_skills": [],
-    "age_days": 3,
-    "fresh": false,
-    "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "b10553d242fa": {
@@ -9392,58 +8410,7 @@
     "age_days": 4,
     "fresh": false,
     "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
-    "open": true
-  },
-  "f56dcec93fa7": {
-    "company": "Bank of America",
-    "title": "Software Engineer III",
-    "location": "Charlotte",
-    "url": "https://ghr.wd1.myworkdayjobs.com/en-US/us-emplsv/job/Charlotte/Software-Engineer-III_26031912",
-    "description": "Job Description: At Bank of America, we are guided by a common purpose to help make financial lives better through the power of every connection. We do this by driving Responsible Growth and delivering for our clients, teammates, communities and shareholders every day. Being a Great Place to Work and providing a culture of caring is core to how we drive Responsible Growth. We are intentional about fostering an inclusive workplace where every teammate has the opportunity to succeed, build a career and contribute to our shared success. This includes attracting and developing exceptional talent, recognizing and rewarding performance, and supporting our teammates\u2019 physical, emotional, and financial wellness through affordable, competitive and flexible benefits. We value the unique perspectives individuals bring from all backgrounds and career paths - whether shaped by military service, community college education, or a wide range of work and life experiences. These journeys foster resilience, leadership and innovation, strengthening our workforce and positively impact the communities we serve. Bank of America is committed to an in-office culture that supports collaboration, engagement, and career development. Our approach includes clear in-office expectations, while providing an appropriate level of flexibility based on role-specific responsibilities and business needs. At Bank of America, you can build a successful career with opportunities to learn, grow, and make an impact. Join us! Job Description: This job is responsible for developing and delivering complex requirements to accomplish business goals. Key responsibilities of the job include ensuring that software is developed to meet functional, non-functional and compliance requirements, and solutions are well designed with maintainability/ease of integration and testing built-in from the outset. Job expectations include a strong knowledge of development and testing practices common to the industry and design and architectural patterns. The Software Engineer III role is a hands-on individual contributor position responsible for designing, developing, testing, and supporting enterprise-grade applications and services for the Legal & Public Policy department. The engineer will be a member of the Legal AI development team, which builds AI-enabled solutions that improve how legal professionals access information, analyze documents, summarize complex content, and interact with legal knowledge and technology platforms. The role will contribute to applications that process and summarize legal documents, provide conversational access to legal knowledge, integrate with internal and external Legal AI platforms, and enable reusable AI agents and workflows. The role spans Python services, document ingestion and parsing, APIs, AI orchestration, retrieval pipelines, search technologies, application integrations, and potentially front-end user experiences. The engineer will work in close partnership with Legal",
-    "posted_at": "2026-09-02",
-    "source": "workday",
-    "opt_friendly": true,
-    "sponsor_tier": "high",
-    "sponsors_visa": true,
-    "sponsor_cases": 136,
-    "sponsor_cert": 99.3,
-    "match_score": 100,
-    "matched_skills": [
-      "python",
-      "typescript",
-      "go",
-      "fastapi",
-      "rest",
-      "api"
-    ],
-    "age_days": 5,
-    "fresh": false,
-    "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
-    "open": true
-  },
-  "4af3441d41c1": {
-    "company": "Elevance Health",
-    "title": "Gen AI Engineer III",
-    "location": "GA-ATLANTA, 740 W PEACHT",
-    "url": "https://elevancehealth.wd1.myworkdayjobs.com/en-US/ANT/job/GA-ATLANTA-740-W-PEACHTREE-ST-NW/Gen-AI-Engineer-III_JR201233",
-    "description": "Gen AI Engineer III",
-    "posted_at": "2026-09-02",
-    "source": "workday",
-    "opt_friendly": true,
-    "sponsor_tier": "high",
-    "sponsors_visa": true,
-    "sponsor_cases": 114,
-    "sponsor_cert": 93.0,
-    "match_score": 28,
-    "matched_skills": [
-      "gen ai"
-    ],
-    "age_days": 5,
-    "fresh": false,
-    "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "e13d7a848f99": {
@@ -9451,7 +8418,7 @@
     "title": "Algorithm Engineer (C++, Image Processing, HPC)",
     "location": "Milpitas, CA",
     "url": "https://kla.wd1.myworkdayjobs.com/en-US/UR/job/Milpitas-CA/Algorithm-Engineer--C----Image-Processing--HPC-_2638218",
-    "description": "Company Overview KLA is a global leader in diversified electronics for the semiconductor manufacturing ecosystem. Virtually every electronic device in the world is produced using our technologies. No laptop, smartphone, wearable device, voice-controlled gadget, flexible screen, VR device or smart car would have made it into your hands without us. KLA invents systems and solutions for the manufacturing of wafers and reticles, integrated circuits, packaging, printed circuit boards and flat panel displays. The innovative ideas and devices that are advancing humanity all begin with inspiration, research and development. KLA focuses more than average on innovation and we invest 15% of sales back into R&D. Our expert teams of physicists, engineers, data scientists and problem-solvers work together with the world\u2019s leading technology providers to accelerate the delivery of tomorrow\u2019s electronic devices. Life here is exciting and our teams thrive on tackling really hard problems. There is never a dull moment with us. Group/Division With over 40 years of semiconductor process control experience, chipmakers around the globe rely on KLA to ensure that their fabs ramp next-generation devices to volume production quickly and cost-effectively. Enabling the movement towards advanced chip design, KLA's Global Products Group (GPG), which is responsible for creating all of KLA\u2019s metrology and inspection products, is looking for the best and the brightest research scientist, software engineers, application development engineers, and senior product technology process engineers. The RAPID division is the world leading provider of reticle inspection solutions for the semiconductor industry. The company provides inspection solutions to both the mask shops and the semiconductor fabs to ensure that lithography yields are consistently high thus enabling cost-effective manufacturing. Job Description/Preferred Qualifications Position Description KLA is seeking a talented Algorithm Engineer to join the Algorithm Group within the Reticle Product Division. This role focuses on the design, development, and deployment of advanced algorithms and software solutions for KLA's innovative inspection platforms. The successful candidate will leverage expertise in algorithm development, applied mathematics, high-performance computing, and software engineering to solve challenging technical problems and deliver robust production solutions. The role requires strong software development skills with an emphasis on modern C++, GPU computing, and scalable algorithm implementation. The candidate will collaborate with multidisciplinary teams to develop technologies that improve system performance, productivity, and customer value. Key Responsibilities Algorithm Development Design, develop, and optimize algorithms for pattern analysis, defect detection, classification, data processing, and other computational challenges in semiconductor inspection systems. Translate complex technical requirement",
+    "description": "Algorithm Engineer (C++, Image Processing, HPC)",
     "posted_at": "2026-09-02",
     "source": "workday",
     "opt_friendly": true,
@@ -9471,7 +8438,7 @@
     "age_days": 5,
     "fresh": false,
     "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "de557c28dcba": {
@@ -9479,7 +8446,7 @@
     "title": "Product Development Engineer",
     "location": "Ann Arbor, MI",
     "url": "https://kla.wd1.myworkdayjobs.com/en-US/UR/job/Ann-Arbor-MI/Product-Development-Engineer_2640391",
-    "description": "Company Overview KLA is a global leader in diversified electronics for the semiconductor manufacturing ecosystem. Virtually every electronic device in the world is produced using our technologies. No laptop, smartphone, wearable device, voice-controlled gadget, flexible screen, VR device or smart car would have made it into your hands without us. KLA invents systems and solutions for the manufacturing of wafers and reticles, integrated circuits, packaging, printed circuit boards and flat panel displays. The innovative ideas and devices that are advancing humanity all begin with inspiration, research and development. KLA focuses more than average on innovation and we invest 15% of sales back into R&D. Our expert teams of physicists, engineers, data scientists and problem-solvers work together with the world\u2019s leading technology providers to accelerate the delivery of tomorrow\u2019s electronic devices. Life here is exciting and our teams thrive on tackling really hard problems. There is never a dull moment with us. Group/Division With over 40 years of semiconductor process control experience, chipmakers around the globe rely on KLA to ensure that their fabs ramp next-generation devices to volume production quickly and cost-effectively. Enabling the movement towards advanced chip design, KLA's Global Products Group (GPG), which is responsible for creating all of KLA\u2019s metrology and inspection products, is looking for the best and the brightest research scientist, software engineers, application development engineers, and senior product technology process engineers. Central Engineering is KLA's largest engineering organization comprised of 9 Centers-of-Excellence (CoE) in various disciplines applied across all product groups in the company. These CoE include Handling & Automation, Precision Motion Control, Sensors & Image Acquisition, Platform Design, and Packaging Engineering, among others. Talent includes over 500 engineers across global centers in Israel, China, India, and the US. Each CoE contributes not just talent and deliverables per discipline toward product programs, but also subject matter expertise, best practices, roadmaps, specialized facilities, apparatus, models, and analytics. These differentiate KLA not only in WHAT we do, but also in HOW we do it. Job Description/Preferred Qualifications Job Description/Responsibilities KLA is looking for a Product Development Engineer to support electron beam based metrology instruments developed in our engineering group in Ann Arbor. The engineer will work within a cross-functional team developing the next generation of KLA metrology tools! In this role the candidate will be responsible for: Develop detailed requirement specifications from performance requirements using systems engineering methodology. Work with a team to develop and implement innovative design improvements to currently released products as well as development of novel next generation products. Apply systems engineering principles to ",
+    "description": "Product Development Engineer",
     "posted_at": "2026-09-01",
     "source": "workday",
     "opt_friendly": true,
@@ -9495,7 +8462,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "8ed9e8c25f43": {
@@ -9521,56 +8488,7 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
-    "open": true
-  },
-  "e6a564026123": {
-    "company": "Texas A&M University System",
-    "title": "Research Engineer II - Data Visualization",
-    "location": "Bryan, TX",
-    "url": "https://tamus.wd1.myworkdayjobs.com/en-US/System-wide_External/job/Bryan-TX/Research-Engineer-II---Data-Visualization_R-096808",
-    "description": "Research Engineer II - Data Visualization",
-    "posted_at": "2026-09-04",
-    "source": "workday",
-    "opt_friendly": true,
-    "sponsor_tier": "high",
-    "sponsors_visa": true,
-    "sponsor_cases": 76,
-    "sponsor_cert": 81.6,
-    "match_score": 20,
-    "matched_skills": [],
-    "age_days": 3,
-    "fresh": false,
-    "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
-    "open": true
-  },
-  "11f65fa32f11": {
-    "company": "Lowe's",
-    "title": "Data Scientist",
-    "location": "Lowe's Charlotte Technol",
-    "url": "https://lowes.wd5.myworkdayjobs.com/en-US/LWS_External_CS/job/Lowes-Charlotte-Technology-Hub-3505/Data-Scientist_JR-02622175",
-    "description": "Innovate in Charlotte Thank you for dedicating your time and talent to Lowe\u2019s. We want to give you more opportunities to learn and grow, so if you find a position you\u2019re interested in below, we encourage you to apply! Your Impact Join Lowe\u2019s Data, Analytics & Customer Insights organization and apply data science to business problems that directly influence how Lowe\u2019s forecasts demand, plans inventory, and makes pricing and promotion decisions. In this role, you\u2019ll support data science initiatives across Merchandising and Supply Chain Intelligence, including Pricing & Promotion Analytics and the Lowe\u2019s Forecasting Platform. You\u2019ll partner with Product, Engineering, Analytics, and Business teams to build, validate, and translate models and insights that support demand forecasting, pricing decisions, measurement, inventory planning, and merchant-facing technology products. This is an opportunity to work at the intersection of data science, retail decision-making, and technology, turning complex data into scalable solutions and actionable recommendations. What You\u2019ll Do Build models that influence forecasting, pricing, promotions, and supply chain decisions. Develop and improve predictive models, forecasting engines, and machine learning capabilities supporting the Lowe\u2019s Forecasting Platform and key merchandising retail strategies. Turn complex pricing questions into measurable insights. Apply statistical modeling, causal inference, and experimentation to demand modeling, price recommendations, measurement, halo/cannibalization, and test-and-learn initiatives. Work with large-scale retail data. Use SQL, Python, Spark/PySpark, and cloud platforms to prepare reusable datasets, validation checks, and model-ready features. Translate business challenges into data science solutions. Partner with Product, Engineering, Analytics, and Business teams to define model requirements, success metrics, and production-ready approaches. Help ensure models deliver measurable business value. Evaluate model performance, forecast variance, assumptions, limitations, explainability, and adoption risks. Make complex findings actionable. Communicate recommendations to technical and non-technical audiences through dashboards, validation summaries, documentation, and decision-support materials. What You Bring: Bachelor\u2019s degree in mathematics, statistics, physics, economics, engineering, computer science, data, information science, or related quantitative analytic field, or equivalent years of experience in lieu of education requirement, if applicable. 2 years of experience executing and deploying data science, machine learning, deep learning, and generative AI solutions, preferably in a large-scale enterprise setting. Fewer years may be accepted with a master\u2019s or doctorate degree. 1 year of SQL and programming experience. Fewer years may be accepted with a master\u2019s or doctorate degree. It's a plus if you have: We encourage you to apply even if you do not have all the preferr",
-    "posted_at": "2026-09-02",
-    "source": "workday",
-    "opt_friendly": true,
-    "sponsor_tier": "high",
-    "sponsors_visa": true,
-    "sponsor_cases": 85,
-    "sponsor_cert": 89.4,
-    "match_score": 100,
-    "matched_skills": [
-      "python",
-      "sql",
-      "go",
-      "rest",
-      "aws",
-      "rds"
-    ],
-    "age_days": 5,
-    "fresh": false,
-    "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "f51741d4341d": {
@@ -9597,7 +8515,7 @@
     "age_days": 7,
     "fresh": false,
     "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "4ffb6f866c75": {
@@ -9624,7 +8542,7 @@
     "age_days": 7,
     "fresh": false,
     "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
     "open": true
   },
   "68ed9960a7ee": {
@@ -9633,7 +8551,7 @@
     "location": "Colorado Springs CO",
     "url": "https://troweprice.wd5.myworkdayjobs.com/en-US/TRowePrice/job/Colorado-Springs-CO/Data-Analyst--Rapid-Insights_80704",
     "description": "Data Analyst, Rapid Insights",
-    "posted_at": "2026-09-01",
+    "posted_at": "2026-08-31",
     "source": "workday",
     "opt_friendly": true,
     "sponsor_tier": "medium",
@@ -9644,89 +8562,245 @@
     "matched_skills": [
       "api"
     ],
+    "age_days": 7,
+    "fresh": false,
+    "first_seen": "2026-09-06",
+    "last_seen": "2026-09-07",
+    "open": true
+  },
+  "7e831af94793": {
+    "company": "Worldpay",
+    "title": "Full Stack Software Engineer II (Angular, Java)",
+    "location": "CINCINNATI OHIO",
+    "url": "https://worldpay.wd5.myworkdayjobs.com/en-US/Worldpay_External_Careers_Site/job/CINCINNATI-OHIO/Full-Stack-Software-Engineer-II--Angular--Java-_JR0610999",
+    "description": "Full Stack Software Engineer II (Angular, Java)",
+    "posted_at": "",
+    "source": "workday",
+    "opt_friendly": true,
+    "sponsor_tier": "medium",
+    "sponsors_visa": true,
+    "sponsor_cases": 36,
+    "sponsor_cert": 91.7,
+    "match_score": 28,
+    "matched_skills": [
+      "java"
+    ],
+    "age_days": null,
+    "fresh": false,
+    "first_seen": "2026-09-07",
+    "last_seen": "2026-09-07",
+    "open": true
+  },
+  "c7eda66a359e": {
+    "company": "Johnson Controls",
+    "title": "Linux Firmware Engineer",
+    "location": "Westford-Massachusetts-U",
+    "url": "https://jci.wd5.myworkdayjobs.com/en-US/JCI/job/Westford-Massachusetts-United-States-of-America/Linux-Firmware-Engineer_WD30278360",
+    "description": "Linux Firmware Engineer",
+    "posted_at": "2026-09-02",
+    "source": "workday",
+    "opt_friendly": true,
+    "sponsor_tier": "medium",
+    "sponsors_visa": true,
+    "sponsor_cases": 16,
+    "sponsor_cert": 100.0,
+    "match_score": 8,
+    "matched_skills": [],
+    "age_days": 5,
+    "fresh": false,
+    "first_seen": "2026-09-07",
+    "last_seen": "2026-09-07",
+    "open": true
+  },
+  "2fa7ba807080": {
+    "company": "Applied Materials",
+    "title": "Java Developer III (E3)",
+    "location": "Santa Clara,CA",
+    "url": "https://amat.wd1.myworkdayjobs.com/en-US/External/job/Santa-ClaraCA/Java-Developer-III--E3-_R2615103",
+    "description": "Java Developer III (E3)",
+    "posted_at": "2026-09-02",
+    "source": "workday",
+    "opt_friendly": true,
+    "sponsor_tier": "medium",
+    "sponsors_visa": true,
+    "sponsor_cases": 17,
+    "sponsor_cert": 100.0,
+    "match_score": 16,
+    "matched_skills": [
+      "java"
+    ],
+    "age_days": 5,
+    "fresh": false,
+    "first_seen": "2026-09-07",
+    "last_seen": "2026-09-07",
+    "open": true
+  },
+  "9dd68d0dc0e5": {
+    "company": "Micron Technology",
+    "title": "AI Engineer, People Technology",
+    "location": "Boise ID, Main Site",
+    "url": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Boise-ID---Main-Site/AI-Engineer--People-Technology_JR109593",
+    "description": "AI Engineer, People Technology",
+    "posted_at": "2026-09-02",
+    "source": "workday",
+    "opt_friendly": true,
+    "sponsor_tier": "high",
+    "sponsors_visa": true,
+    "sponsor_cases": 80,
+    "sponsor_cert": 96.2,
+    "match_score": 20,
+    "matched_skills": [],
+    "age_days": 5,
+    "fresh": false,
+    "first_seen": "2026-09-07",
+    "last_seen": "2026-09-07",
+    "open": true
+  },
+  "714cb6a23dbc": {
+    "company": "Thermo Fisher Scientific",
+    "title": "Forward Deployed Engineer",
+    "location": "Raleigh, North Carolina,",
+    "url": "https://thermofisher.wd5.myworkdayjobs.com/en-US/ThermoFisherCareers/job/Raleigh-North-Carolina-USA/Forward-Deployed-Engineer_R-01364707",
+    "description": "Forward Deployed Engineer",
+    "posted_at": "2026-09-01",
+    "source": "workday",
+    "opt_friendly": true,
+    "sponsor_tier": "high",
+    "sponsors_visa": true,
+    "sponsor_cases": 79,
+    "sponsor_cert": 96.2,
+    "match_score": 8,
+    "matched_skills": [],
     "age_days": 6,
     "fresh": false,
-    "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
+    "first_seen": "2026-09-07",
+    "last_seen": "2026-09-07",
     "open": true
   },
-  "f97c8df45bc5": {
-    "company": "Jefferson Health",
-    "title": "Expert Software Engineer - AI -Development Team",
-    "location": "Montgomery County, PA",
-    "url": "https://jeffersonhealth.wd5.myworkdayjobs.com/en-US/ThomasJeffersonExternal/job/Montgomery-County-PA/Expert-Software-Engineer---AI--Development-Team_REQ-0034049-2",
-    "description": "Number of Positions in Requisition 4&#xa;&#xa; Job Details The Expert Software Engineer is a highly skilled technical contributor responsible for designing, developing, and delivering advanced, scalable, and secure software solutions. This role leverages deep expertise in software engineering to solve complex problems, optimize system performance, and ensure the highest standards of code quality. The Expert Software Engineer collaborates with engineering teams and stakeholders, mentors peers, and drives innovation through continuous learning and application of best practices. Job Description Summary The Expert Software Engineer is a highly skilled technical contributor responsible for designing, developing, and delivering advanced, scalable, and secure software solutions. This role leverages deep expertise in software engineering to solve complex problems, optimize system performance, and ensure the highest standards of code quality. The Expert Software Engineer collaborates with engineering teams and stakeholders, mentors peers, and drives innovation through continuous learning and application of best practices. Job Duties Design complex, scalable systems; review code; maintain technical documentation and diagrams ensuring best practices. Resolve challenging issues; optimize performance and reliability; lead root cause analysis and continuous improvement. Build cloud-native solutions; support CI/CD, automation, containerization; collaborate on infrastructure provisioning and monitoring. Apply security best practices; mitigate risks; ensure compliance with standards and regulations. Partner with stakeholders to deliver solutions; manage vendor integrations and technical evaluations. Mentor engineers; share expertise; foster collaboration, innovation, and continuous learning culture. Minimum Qualifications Bachelor\u2019s Degree in Computer Science, Engineering, or related field or High School Diploma/GED and 10 years preferred work experience. 7 years in software development, including experience with distributed systems and cloud platforms. Expert proficiency in programming languages and API development (Java, C#, Python, JavaScript/TypeScript; REST/gRPC) with strong understanding of architectural patterns and system design. Experience with cloud platforms (AWS, Azure, GCP), Infrastructure as Code (Terraform, CloudFormation), and container orchestration (Docker, Kubernetes). Expertise in databases (SQL and NoSQL) and advanced data management practices. Deep knowledge of security principles, authentication, authorization, and compliance best practices. Hands-on experience with DevOps tools and practices, including CI/CD pipelines, automated testing, monitoring, and logging (ELK Stack, Prometheus, Splunk). Strong collaboration, communication, advanced analytical problem-solving skills, and ability to mentor and support engineering teams. Preferred Qualifications Master\u2019s Degree in Computer Science, Engineering, or related field 10 years with a track re",
+  "0bb481d9845a": {
+    "company": "Southwest Airlines",
+    "title": "Network Planning Developer",
+    "location": "TX-Dallas",
+    "url": "https://swa.wd1.myworkdayjobs.com/en-US/external/job/TX-Dallas/Network-Planning-Developer_R-2026-71340-1",
+    "description": "Network Planning Developer",
     "posted_at": "2026-09-03",
     "source": "workday",
     "opt_friendly": true,
     "sponsor_tier": "medium",
     "sponsors_visa": true,
-    "sponsor_cases": 12,
+    "sponsor_cases": 21,
     "sponsor_cert": 100.0,
-    "match_score": 100,
-    "matched_skills": [
-      "python",
-      "javascript",
-      "typescript",
-      "java",
-      "sql",
-      "rest"
-    ],
+    "match_score": 8,
+    "matched_skills": [],
     "age_days": 4,
     "fresh": false,
-    "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
+    "first_seen": "2026-09-07",
+    "last_seen": "2026-09-07",
     "open": true
   },
-  "522a587f91bf": {
-    "company": "Jefferson Health",
-    "title": "Developer Business Intelligence - Jefferson EA Team",
-    "location": "Montgomery County, PA",
-    "url": "https://jeffersonhealth.wd5.myworkdayjobs.com/en-US/ThomasJeffersonExternal/job/Montgomery-County-PA/Developer-Business-Intelligence---Jefferson-EA-Team_REQ-0033477-2",
-    "description": "Number of Positions in Requisition 1&#xa;&#xa; Job Details The Business Intelligence Developer (BID) will design and develop business intelligence (BI) solutions to support quality, compliance and operational processes. The BID professional is responsible for independently developing and aggregating analytical content sourced from an enterprise electronic medical record reporting database. The candidate will have strong technical skills and possess excellent interpersonal skills. Job Description Summary The Business Intelligence Developer (BID) will design and develop business intelligence (BI) solutions to support quality, compliance and operational processes. The BID professional is responsible for independently developing and aggregating analytical content sourced from an enterprise electronic medical record reporting database. The candidate will have strong technical skills and possess excellent interpersonal skills. Job Duties Independently Designs and Delivers BI Solutions. Translates Operational and Clinical Requirements Into Technical Specifications. Performs root-cause analysis, validates data, and resolves issues for defined reporting areas. Uses advanced SQL, visualization best practices, and knowledge of EHR data (e.g. Caboodle/Clarity) to build reliable datasets. Supports junior team members by sharing knowledge, patterns, or best practices. Minimum Qualifications Bachelor\u2019s Degree in related field 2 years related work experience Physical Demands Lift and carry 25 lbs. frequent sitting/standing, frequent keyboard use, *patient care providers may be required to perform activities specific to their role including kneeling, bending, squatting and performing CPR. Job Description Disclaimer: This position description provides the major duties/responsibilities, requirements and working conditions for the position. It is intended to be an accurate reflection of the current position, however management reserves the right to revise or change as necessary to meet organizational needs. Other responsibilities may be assigned when circumstances require. Work Shift Workday Day (United States of America) Worker Sub Type Regular Employee Entity Thomas Jefferson University Primary Location Address 1100 Virginia Drive, Fort Washington, Pennsylvania, United States of America Nationally ranked, Jefferson, which is principally located in the greater Philadelphia region, Lehigh Valley and Northeastern Pennsylvania and southern New Jersey, is reimagining health care and higher education to create unparalleled value. Jefferson is more than 65,000 people strong, dedicated to providing the highest-quality, compassionate clinical care for patients; making our communities healthier and stronger; preparing tomorrow's professional leaders for 21st-century careers; and creating new knowledge through basic/programmatic, clinical and applied research. Thomas Jefferson University , home of Sidney Kimmel Medical College, Jefferson College of Nursing, and the Kanbar Co",
+  "3d775907baf0": {
+    "company": "eBay",
+    "title": "AI Engineer - AI & Automation",
+    "location": "Austin",
+    "url": "https://ebay.wd5.myworkdayjobs.com/en-US/apply/job/Austin/Data-Scientist---AI---Automation_R0075757",
+    "description": "AI Engineer - AI & Automation",
     "posted_at": "2026-09-03",
+    "source": "workday",
+    "opt_friendly": true,
+    "sponsor_tier": "high",
+    "sponsors_visa": true,
+    "sponsor_cases": 114,
+    "sponsor_cert": 86.8,
+    "match_score": 20,
+    "matched_skills": [],
+    "age_days": 4,
+    "fresh": false,
+    "first_seen": "2026-09-07",
+    "last_seen": "2026-09-07",
+    "open": true
+  },
+  "7aebac20056c": {
+    "company": "Embry-Riddle Aeronautical University",
+    "title": "Assistant/Associate Professor of Computer Engineering (NTT), Prescott Campus",
+    "location": "Prescott, AZ",
+    "url": "https://embryriddle.wd1.myworkdayjobs.com/en-US/External/job/Prescott-AZ/Assistant-Associate-Professor-of-Computer-Engineering--NTT---Prescott-Campus_R311791",
+    "description": "Assistant/Associate Professor of Computer Engineering (NTT), Prescott Campus",
+    "posted_at": "",
     "source": "workday",
     "opt_friendly": true,
     "sponsor_tier": "medium",
     "sponsors_visa": true,
-    "sponsor_cases": 12,
-    "sponsor_cert": 100.0,
-    "match_score": 24,
-    "matched_skills": [
-      "sql",
-      "rag"
-    ],
-    "age_days": 4,
+    "sponsor_cases": 29,
+    "sponsor_cert": 65.5,
+    "match_score": 8,
+    "matched_skills": [],
+    "age_days": null,
     "fresh": false,
-    "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
+    "first_seen": "2026-09-07",
+    "last_seen": "2026-09-07",
     "open": true
   },
-  "280690fe6268": {
-    "company": "Jefferson Health",
-    "title": "Data Scientist",
-    "location": "Montgomery County, PA",
-    "url": "https://jeffersonhealth.wd5.myworkdayjobs.com/en-US/ThomasJeffersonExternal/job/Montgomery-County-PA/Data-Scientist_REQ-0036145-1",
-    "description": "Number of Positions in Requisition 1&#xa;&#xa; Job Details Responsible for conducting statistical analysis and designing experiments to support data-driven decision-making. Works closely with the Data Science team to apply knowledge of existing data science principles, theories, and techniques to inform business decisions. Involves data exploration, model development and evaluation, and communicating findings to stakeholders. Interrupts the model outcome to drive actions and recommendations. Collaborates with cross-functional teams to identify business problems that can be solved using data science techniques and developing innovative solutions. Job Description Summary Responsible for conducting statistical analysis and designing experiments to support data-driven decision-making. Works closely with the Data Science team to apply knowledge of existing data science principles, theories, and techniques to inform business decisions. Involves data exploration, model development and evaluation, and communicating findings to stakeholders. Interrupts the model outcome to drive actions and recommendations. Collaborates with cross-functional teams to identify business problems that can be solved using data science techniques and developing innovative solutions. Job Duties Perform data extraction, cleaning and harmonization. Complete data analysis and statistical modeling. Develop predictive models, conduct statistical analysis and design experiments to support data-driven decision making. Collaborate with cross-functional teams to identify business problems that can be solved using data science. Provide model interpretation and visualization of results. Performs basic modeling and analysis of customer, transaction, and campaign data to identify trends and patterns to shape consumer segmentation and identify consumer behavior. Supports the collection, analysis, and interpretation of information from multiple data sources helping to identify insights that create efficiencies, identify consumer perspectives on health care, or generate revenue. Assists in the application of analytical models and data mining techniques to large and varied data sets. Assists in the design of rich data visualizations to communicate complex ideas to clinical staff, administrators, and hospital leadership. Helps to build predictive models and machine-learning algorithms from development through testing for both clinical and non-clinical environments. Facilitates other efforts in data collection, distribution, and analysis including the support of ETL processes to CRM cloud platforms like Salesforce. Minimum Qualifications Master\u2019s Degree in a quantitative field such as Data Science, Computer Science, Statistics, Mathematics, or related field. 3 years in data science or related work experience. Knowledge of data management languages and technologies such as Python, R, SQL or similar languages. Proven experience in data analysis, machine learning, and statistical modeling. Problem-s",
+  "72d006b6232d": {
+    "company": "Novanta",
+    "title": "Systems Engineer III",
+    "location": "Irvine, CA",
+    "url": "https://novanta.wd5.myworkdayjobs.com/en-US/Novanta-Careers/job/Irvine-CA/Systems-Engineer-III_R009627",
+    "description": "Systems Engineer III",
     "posted_at": "2026-09-03",
+    "source": "workday",
+    "opt_friendly": true,
+    "sponsor_tier": "low",
+    "sponsors_visa": true,
+    "sponsor_cases": null,
+    "sponsor_cert": null,
+    "match_score": 8,
+    "matched_skills": [],
+    "age_days": 4,
+    "fresh": false,
+    "first_seen": "2026-09-07",
+    "last_seen": "2026-09-07",
+    "open": true
+  },
+  "d8be25767bce": {
+    "company": "Blackstone",
+    "title": "2027 Blackstone Software Engineer Summer Analyst",
+    "location": "Miami",
+    "url": "https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/Miami/XMLNAME-2027-Blackstone-Software-Engineer-Summer-Analyst_45021",
+    "description": "2027 Blackstone Software Engineer Summer Analyst",
+    "posted_at": "",
     "source": "workday",
     "opt_friendly": true,
     "sponsor_tier": "medium",
     "sponsors_visa": true,
-    "sponsor_cases": 12,
-    "sponsor_cert": 100.0,
-    "match_score": 60,
-    "matched_skills": [
-      "python",
-      "sql",
-      "go",
-      "rag",
-      "etl"
-    ],
-    "age_days": 4,
+    "sponsor_cases": 19,
+    "sponsor_cert": 42.1,
+    "match_score": 20,
+    "matched_skills": [],
+    "age_days": null,
     "fresh": false,
-    "first_seen": "2026-09-06",
-    "last_seen": "2026-09-06",
+    "first_seen": "2026-09-07",
+    "last_seen": "2026-09-07",
+    "open": true
+  },
+  "aceece481b63": {
+    "company": "Broadcom Limited",
+    "title": "ATE Test Development Engineer",
+    "location": "USA-Colorado-Fort Collin",
+    "url": "https://broadcom.wd1.myworkdayjobs.com/en-US/External_Career/job/USA-Colorado-Fort-Collins-4380-Ziegler-Road/ATE-Test-Development-Engineer_R026769-1",
+    "description": "ATE Test Development Engineer",
+    "posted_at": "2026-09-01",
+    "source": "workday",
+    "opt_friendly": true,
+    "sponsor_tier": "medium",
+    "sponsors_visa": true,
+    "sponsor_cases": 22,
+    "sponsor_cert": 100.0,
+    "match_score": 8,
+    "matched_skills": [],
+    "age_days": 6,
+    "fresh": false,
+    "first_seen": "2026-09-07",
+    "last_seen": "2026-09-07",
     "open": true
   }
 }
