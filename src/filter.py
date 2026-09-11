@@ -84,29 +84,27 @@ _ROLE_CORE = re.compile(r"\b(engineer|engineering|developer|programmer|"
 _ROLE_CORE_PHRASES = ["data scientist", "applied scientist", "machine learning",
                       "data science", "site reliability", "data analyst",
                       "database administrator", "analytics engineer"]
-# seniority — drop these
-_SENIOR = re.compile(r"\b(senior|sr|staff|principal|lead|leads|manager|director|"
-                     r"head|vp|vice president|president|distinguished|architect|"
-                     r"intern|internship|apprentice|trainee|co op|fellow|phd)\b")
+# seniority — the board is YOE-agnostic, so senior-level titles (senior, staff,
+# principal, lead, ...) are KEPT and users filter by experience in the UI.
+# Only intern/trainee-type roles are dropped: those aren't full-time positions,
+# which is a different question from years of experience.
+_TRAINEE = re.compile(r"\b(intern|internship|apprentice|trainee|co op|fellow|phd)\b")
 
 
 def role_ok(title, profile):
     t = re.sub(r"[^a-z0-9 ]", " ", title.lower())
     t = re.sub(r"\s+", " ", t).strip()
 
-    # IC exception: "(member of) technical staff" is an entry/IC title, not senior —
-    # strip it before the seniority check so bare 'staff' doesn't wrongly drop it
-    is_ic_staff = "technical staff" in t
-    senior_check = t.replace("technical staff", "").replace("member of", "") if is_ic_staff else t
-
-    # 1) drop senior / intern titles
-    if _SENIOR.search(senior_check):
+    # 1) drop intern / trainee roles (not full-time positions)
+    if _TRAINEE.search(t):
         return False
     # 2) drop clearly non-software engineering domains (mechanical, sales, etc.)
     if _has_any(t, profile.get("roles_domain_exclude", [])):
         return False
     # 3) keep if it's any software / AI / data role in the family
-    return bool(is_ic_staff or _ROLE_CORE.search(t) or _has_any(t, _ROLE_CORE_PHRASES))
+    # ("member of technical staff" is an entry/IC title — keep it explicitly)
+    return bool("technical staff" in t or _ROLE_CORE.search(t)
+                or _has_any(t, _ROLE_CORE_PHRASES))
 
 
 def experience_ok(text, profile):
