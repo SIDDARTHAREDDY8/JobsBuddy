@@ -61,7 +61,9 @@ def _posted_label(j):
 
 
 def _sponsor_badge(j):
-    """(kind, label) for the sponsor badge."""
+    """(kind, label) for the sponsor badge, or (None, None) when there is no
+    positive sponsorship signal — the UI then renders no badge at all,
+    keeping cards calm instead of stamping "unknown" everywhere."""
     tier = j.get("sponsor_tier")
     if j.get("sponsors_visa"):
         cases = j.get("sponsor_cases")
@@ -69,9 +71,9 @@ def _sponsor_badge(j):
         t = TIER_LABEL.get(tier, "")
         label = f"Sponsors \u00b7 {t}{extra}".strip() if t else f"Sponsors{extra}"
         return ("spon", label)
-    if not j.get("opt_friendly", True):
-        return ("warn", "May not sponsor")
-    return ("muted", "Sponsorship unknown")
+    if tier:
+        return ("tier", f"Sponsor history \u00b7 {TIER_LABEL.get(tier, tier)}")
+    return (None, None)
 
 
 def _default_exp_preset(profile):
@@ -215,7 +217,7 @@ header.nav{position:sticky;top:0;z-index:60;background:rgba(255,255,255,.94);bac
 
 /* hero */
 .wrap{max-width:1180px;margin:0 auto;padding:0 22px}
-.hero{padding:46px 0 28px;border-bottom:1px solid var(--line)}
+.hero{padding:56px 0 34px;border-bottom:1px solid var(--line)}
 .eyebrow{font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--mut)}
 .hero h1{font-size:44px;line-height:1.05;letter-spacing:-.03em;margin:14px 0;max-width:20ch}
 .hero p{font-size:17px;color:var(--ink2);max-width:62ch}
@@ -230,7 +232,7 @@ header.nav{position:sticky;top:0;z-index:60;background:rgba(255,255,255,.94);bac
 .why b{color:var(--ink)}
 
 /* layout */
-.layout{display:flex;gap:28px;align-items:flex-start;padding:26px 0 10px}
+.layout{display:flex;gap:32px;align-items:flex-start;padding:30px 0 12px}
 aside.filters{width:272px;flex-shrink:0;position:sticky;top:76px;max-height:calc(100vh - 96px);overflow-y:auto;border:1.5px solid var(--line2);border-radius:14px;padding:18px;background:#fff}
 main.results{flex:1;min-width:0}
 .f-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:6px}
@@ -259,35 +261,40 @@ main.results{flex:1;min-width:0}
 .switch input:checked+.sl:before{transform:translateX(17px);background:#fff}
 
 /* toolbar */
-.toolbar{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.toolbar{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:18px;flex-wrap:wrap}
 .toolbar .rcount{font-size:14px;color:var(--ink2)}
 .toolbar .rcount b{color:var(--ink);font-family:ui-monospace,Menlo,Consolas,monospace}
 .sortsel{padding:9px 12px;border:1.5px solid var(--ink);border-radius:8px;font-size:13.5px;font-weight:600;background:#fff}
 
 /* cards */
-.card{border:1.5px solid var(--line2);border-radius:12px;padding:18px 20px;margin-bottom:14px;cursor:pointer;background:#fff;transition:.12s}
-.card:hover{background:var(--soft)}
+.card{border:1px solid var(--line);border-radius:14px;padding:22px 24px;margin-bottom:16px;cursor:pointer;background:#fff;transition:border-color .15s, background .15s}
+.card:hover{background:var(--soft);border-color:var(--ink)}
 .card-top{display:flex;align-items:flex-start;justify-content:space-between;gap:14px}
-.job-title{font-size:16.5px;font-weight:700;letter-spacing:-.01em}
-.job-sub{font-size:13.5px;color:var(--ink2);margin-top:4px}
+.job-title{font-size:17px;font-weight:700;letter-spacing:-.01em}
+.job-sub{font-size:13.5px;color:var(--ink2);margin-top:5px}
 .job-sub .co{font-weight:700;color:var(--ink)}
-.badges{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:12px}
-.tag{display:inline-block;font-size:10.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:3px 9px;border-radius:999px;border:1.5px solid var(--ink);white-space:nowrap}
-.tag-new{background:var(--ink);color:#fff}
-.tag-yoe{background:#fff}
+.badges{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:14px}
+.tag{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:4px 10px;border-radius:999px;border:1px solid var(--ink);white-space:nowrap}
+.tag-new{background:var(--ink);color:#fff;border-color:var(--ink)}
+.tag-yoe{background:#fff;color:var(--ink2);border-color:#c9c9c9}
 .tag-closed{border-color:var(--mut);color:var(--mut)}
-.tag-muted{border-color:var(--mut);color:var(--mut);border-style:dashed}
 .posted{font-size:12.5px;color:var(--mut)}
-.match{display:inline-flex;align-items:center;gap:8px;margin-left:auto}
-.bar{display:inline-block;width:64px;height:6px;background:#ececec;border-radius:999px;overflow:hidden}
-.bar i{display:block;height:100%;background:var(--ink)}
-.pct{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12px;font-weight:600}
 .apply{display:inline-block;font-size:13px;font-weight:700;padding:9px 20px;border-radius:8px;background:var(--ink);color:#fff;text-decoration:none;border:1.5px solid var(--ink);transition:.12s;white-space:nowrap;flex-shrink:0}
 .apply:hover{background:#fff;color:var(--ink)}
 .apply::after{content:" \\2197";font-weight:500}
 .more-wrap{text-align:center;padding:18px 0 8px}
 #more{font-size:14px;font-weight:700;padding:12px 34px;border-radius:10px;border:1.5px solid var(--ink);background:#fff;cursor:pointer;transition:.12s}
 #more:hover{background:var(--ink);color:#fff}
+
+/* star banner + sidebar star card */
+.star-banner{display:flex;align-items:center;justify-content:center;gap:12px;background:#0a0a0a;color:#fff;font-size:13.5px;padding:11px 46px 11px 18px;border-radius:12px;margin:20px 0 0;position:relative;text-align:center;line-height:1.45}
+.star-banner a{color:#fff;font-weight:800;text-decoration:underline;text-underline-offset:3px;white-space:nowrap}
+.star-banner button{position:absolute;right:8px;top:50%;transform:translateY(-50%);background:none;border:0;color:#fff;opacity:.55;font-size:14px;cursor:pointer;padding:8px;line-height:1}
+.star-banner button:hover{opacity:1}
+.star-card{margin:20px 0 4px;padding:16px;border:1px solid var(--line);border-radius:12px;background:var(--soft)}
+.star-card-t{font-weight:800;font-size:14px;margin-bottom:6px}
+.star-card p{font-size:12.5px;color:var(--ink2);margin-bottom:12px;line-height:1.5}
+.star-card .btn{display:inline-block}
 
 /* empty state */
 .empty{display:none;text-align:center;padding:70px 20px;border:1.5px dashed var(--mut);border-radius:14px}
@@ -342,6 +349,12 @@ footer a{font-weight:600}
 </header>
 
 <div class="wrap">
+  <div class="star-banner" id="starBanner">
+    <span>JobsBuddy is <b>free &amp; open-source</b> — starring the repo helps other international students find it.</span>
+    <a href="https://github.com/SIDDARTHAREDDY8/JobsBuddy" target="_blank" rel="noopener">★ Star on GitHub</a>
+    <button id="starDismiss" aria-label="Dismiss">✕</button>
+  </div>
+
   <section class="hero">
     <div class="eyebrow">For international students · OPT / H-1B</div>
     <h1>Tech jobs from companies that actually sponsor visas.</h1>
@@ -420,6 +433,12 @@ footer a{font-weight:600}
           <span class="switch"><input type="checkbox" id="remote"><span class="sl"></span></span>
         </label>
       </div>
+
+      <div class="star-card">
+        <div class="star-card-t">★ Enjoying JobsBuddy?</div>
+        <p>It&apos;s free and open-source. A star helps other students discover it.</p>
+        <a class="btn btn-solid" href="https://github.com/SIDDARTHAREDDY8/JobsBuddy" target="_blank" rel="noopener">Star the repo</a>
+      </div>
     </aside>
 
     <main class="results">
@@ -431,8 +450,8 @@ footer a{font-weight:600}
           <option value="az">Sort: Company A–Z</option>
         </select>
       </div>
-      <div class="hint mono" id="legend" style="font-size:12px;color:var(--mut);margin-bottom:14px">
-        NEW = added in the latest update · Sponsors = real H-1B filing history · Apply opens in a new tab
+      <div class="hint mono" id="legend" style="font-size:12px;color:var(--mut);margin-bottom:16px">
+        NEW = added in the latest update
       </div>
       <div id="cards"></div>
       <div class="empty" id="empty">
@@ -574,18 +593,16 @@ function sortJobs(list){
 }
 
 function sponsorTag(j){
-  if(j.sponsor_kind === "spon") return '<span class="tag">' + esc(j.sponsor_label) + '</span>';
-  if(j.sponsor_kind === "warn") return '<span class="tag tag-muted">' + esc(j.sponsor_label) + '</span>';
-  return '<span class="posted">' + esc(j.sponsor_label) + '</span>';
+  // Only positive sponsorship signals get a badge — no "unknown" noise.
+  if(j.sponsor_kind === "spon" || j.sponsor_kind === "tier")
+    return '<span class="tag">' + esc(j.sponsor_label) + '</span>';
+  return '';
 }
 
 function cardHtml(j, idx){
   var badges = '<span class="tag tag-yoe">' + esc(j.yoe_label) + '</span>' + sponsorTag(j);
   if(j.is_new) badges += '<span class="tag tag-new">NEW</span>';
   if(j.is_closed) badges += '<span class="tag tag-closed">Closed</span>';
-  var match = '<span class="match"><span class="bar"><i style="width:' +
-    Math.max(0, Math.min(100, j.match_score)) + '%"></i></span>' +
-    '<span class="pct">' + j.match_score + '%</span></span>';
   var apply = j.url ? '<a class="apply" href="' + esc(j.url) +
     '" target="_blank" rel="noopener noreferrer">Apply</a>' : '';
   return '<article class="card" data-i="' + idx + '">' +
@@ -595,8 +612,7 @@ function cardHtml(j, idx){
         esc(j.location) + '</div>' +
     '</div>' + apply + '</div>' +
     '<div class="badges">' + badges +
-      '<span class="posted">' + esc(j.posted_label) + '</span>' + match +
-    '</div></article>';
+      '<span class="posted">' + esc(j.posted_label) + '</span></div></article>';
 }
 
 var filtered = [];
@@ -774,6 +790,19 @@ document.getElementById('filterToggle').addEventListener('click', function(){
 document.getElementById('drawerBg').addEventListener('click', function(){
   document.body.classList.remove('drawer-open');
 });
+
+/* star banner: dismiss persists in localStorage */
+(function(){
+  var KEY = "jb_star_hide";
+  var banner = document.getElementById('starBanner');
+  try {
+    if (localStorage.getItem(KEY) === "1") banner.style.display = "none";
+  } catch (e) {}
+  document.getElementById('starDismiss').addEventListener('click', function(){
+    banner.style.display = "none";
+    try { localStorage.setItem(KEY, "1"); } catch (e) {}
+  });
+})();
 
 /* init */
 readHash();
