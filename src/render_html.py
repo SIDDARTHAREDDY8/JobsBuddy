@@ -1,17 +1,26 @@
 """
 Station 5b: WRITE WEBSITE (GitHub Pages)
-Generates index.html — a polished, strictly black-&-white SaaS-style job board.
-Every "Apply" opens in a NEW TAB (target=_blank), which a README cannot do.
+Generates index.html — a real client-side job board for visa-sponsoring tech roles.
+
+All filtering/sorting/pagination runs in vanilla JS over the jobs embedded as
+JSON. No external JS/CSS dependencies. Strictly black-and-white SaaS aesthetic.
+Every "Apply" opens in a NEW TAB (target=_blank).
+
+Backend contract: jobs are NOT pre-filtered by experience. Each job dict carries
+yoe_min (int|None) and yoe_max (int|None); profile carries
+experience_years_min/max which seed the default experience filter.
 """
-from datetime import datetime
-from zoneinfo import ZoneInfo
-from freshness import age_in_days
 import os
 import html
 import json
+from datetime import datetime
+from zoneinfo import ZoneInfo
 
 ET = ZoneInfo("America/New_York")
 SITE_URL = "https://siddarthareddy8.github.io/JobsBuddy/"
+PAGE_SIZE = 50
+
+TIER_LABEL = {"high": "High", "medium": "Med", "low": "Low"}
 
 
 def _coverage():
@@ -24,32 +33,26 @@ def _coverage():
         return 0, 0
 
 
-def _age_bucket(j):
-    a = age_in_days(j.get("posted_at"))
-    if a is None:
-        return (99, "Posted: date unknown")
-    if a <= 0:
-        return (0, "🔥 Posted Today")
-    if a == 1:
-        return (1, "🔥 Posted Yesterday")
-    return (a, f"Posted {a} days ago")
-TIER_LABEL = {"high": "High", "medium": "Med", "low": "Low"}
-
-
 def _esc(s):
     return html.escape(str(s or ""))
 
 
-def _within_day_sort(j):
-    tier_rank = {"high": 3, "medium": 2, "low": 1}.get(j.get("sponsor_tier"), 0)
-    # confirmed visa sponsors first, then tier, then match score
-    return (j.get("sponsors_visa", False), tier_rank, j.get("match_score", 0))
+def _yoe_label(j):
+    """Human YOE badge. Missing values handled gracefully."""
+    lo, hi = j.get("yoe_min"), j.get("yoe_max")
+    if lo is None and hi is None:
+        return "Not specified"
+    if lo is not None and hi is not None:
+        return f"{lo}\u2013{hi} yrs" if lo != hi else f"{lo} yrs"
+    if lo is not None:
+        return f"{lo}+ yrs"
+    return f"\u2264{hi} yrs"
 
 
-def _posted(j):
+def _posted_label(j):
     age = j.get("age_days")
     if age is None:
-        return '<span class="muted">date unknown</span>'
+        return "date unknown"
     if age <= 0:
         return "today"
     if age <= 30:
@@ -57,57 +60,50 @@ def _posted(j):
     return f"{age // 30}mo ago"
 
 
-def render_html(jobs, profile, today):
-    now = datetime.now(ET).strftime("%b %d, %Y · %I:%M %p ET")
-    total = len(jobs)
-    open_now = sum(1 for j in jobs if j.get("open", True))
-    new_today = sum(1 for j in jobs if j.get("first_seen") == today)
-    sponsor_n = sum(1 for j in jobs if j.get("sponsors_visa"))
+def _sponsor_badge(j):
+    """(kind, label) for the sponsor badge."""
+    tier = j.get("sponsor_tier")
+    if j.get("sponsors_visa"):
+        cases = j.get("sponsor_cases")
+        extra = f" \u00b7 {cases} filings" if cases else ""
+        t = TIER_LABEL.get(tier, "")
+        label = f"Sponsors \u00b7 {t}{extra}".strip() if t else f"Sponsors{extra}"
+        return ("spon", label)
+    if not j.get("opt_friendly", True):
+        return ("warn", "May not sponsor")
+    return ("muted", "Sponsorship unknown")
 
-    # group by POSTING freshness (freshest first), not discovery date
-    by_age = {}
-    for j in jobs:
-        by_age.setdefault(_age_bucket(j), []).append(j)
-    buckets = sorted(by_age.keys())
 
-    rows = []
-    for rank, label in buckets:
-        group = sorted(by_age[(rank, label)], key=_within_day_sort, reverse=True)
-        rows.append(
-            f'<tr class="daysep"><td colspan="6">{label}'
-            f'<span class="daycount">{len(group)} roles</span></td></tr>')
-        for j in group:
-            # NEW = we just DISCOVERED this job in today's scrape (matches the
-            # legend). NOT "posted recently" — the section header already says that.
-            is_new = j.get("first_seen") == today
-            new_badge = '<span class="tag tag-new">NEW</span>' if is_new else ""
-            tier = j.get("sponsor_tier")
-            if j.get("sponsors_visa"):
-                cases = j.get("sponsor_cases")
-                extra = f' · {cases} filings' if cases else ''
-                visa = f'<span class="tag tag-spon">Sponsors · {TIER_LABEL.get(tier,"")}{extra}</span>'
-            elif not j.get("opt_friendly", True):
-                visa = '<span class="tag tag-warn">May not sponsor</span>'
-            else:
-                visa = '<span class="muted">Unknown</span>'
-            closed = "" if j.get("open", True) else '<span class="tag tag-closed">Closed</span>'
-            score = j.get("match_score", 0)
-            url = _esc(j.get("url", "#"))
-            rows.append(f"""<tr>
-<td class="c-co"><span class="co">{_esc(j.get("company"))}</span>{new_badge}</td>
-<td class="c-role"><div class="role">{_esc(j.get("title"))}</div>
-<div class="loc">{_esc(j.get("location"))}</div></td>
-<td class="c-visa">{visa}{closed}</td>
-<td class="c-match"><div class="bar"><i style="width:{score}%"></i></div><span class="pct">{score}%</span></td>
-<td class="c-posted">{_posted(j)}</td>
-<td class="c-apply"><a class="apply" href="{url}" target="_blank" rel="noopener noreferrer">Apply</a></td>
-</tr>""")
+def _default_exp_preset(profile):
+    """The board is YOE-agnostic: it always opens unfiltered ("any") so every
+    experience level is visible; the user narrows via the filter pills."""
+    return "any"
 
-    n_companies, n_ats = _coverage()
-    return _PAGE.format(now=now, total=total, open_now=open_now,
-                        n_companies=n_companies, n_ats=n_ats,
-                        new_today=new_today, sponsor_n=sponsor_n, site=SITE_URL,
-                        rows="\n".join(rows), jsonld=_build_jsonld(jobs))
+
+def _job_payload(j, today):
+    kind, slabel = _sponsor_badge(j)
+    skills = j.get("matched_skills") or []
+    return {
+        "title": j.get("title", ""),
+        "company": j.get("company", ""),
+        "location": j.get("location", ""),
+        "url": j.get("url", ""),
+        "description": j.get("description", "") or "",
+        "age_days": j.get("age_days"),
+        "posted_label": _posted_label(j),
+        "yoe_min": j.get("yoe_min"),
+        "yoe_max": j.get("yoe_max"),
+        "yoe_label": _yoe_label(j),
+        "sponsor_tier": j.get("sponsor_tier"),
+        "sponsors_visa": bool(j.get("sponsors_visa")),
+        "sponsor_kind": kind,
+        "sponsor_label": slabel,
+        "is_new": j.get("first_seen") == today,
+        "is_closed": not j.get("open", True),
+        "match_score": j.get("match_score", 0) or 0,
+        "matched_skills": [str(s) for s in skills],
+        "opt_friendly": bool(j.get("opt_friendly", True)),
+    }
 
 
 def _build_jsonld(jobs):
@@ -121,7 +117,7 @@ def _build_jsonld(jobs):
             "@type": "JobPosting",
             "title": j.get("title", ""),
             "description": (f"{j.get('title','')} at {j.get('company','')}. "
-                            f"US-based, visa-sponsor-friendly, early-career role. "
+                            f"US-based, visa-sponsor-friendly role, all experience levels. "
                             f"{(j.get('description','') or '')[:300]}"),
             "datePosted": j.get("first_seen", ""),
             "employmentType": "FULL_TIME",
@@ -140,11 +136,36 @@ def _build_jsonld(jobs):
             + json.dumps(graph, ensure_ascii=False) + '</script>')
 
 
-def _pretty(d):
-    try:
-        return datetime.strptime(d, "%Y-%m-%d").strftime("%B %d, %Y")
-    except Exception:
-        return d
+def render_html(jobs, profile, today):
+    now = datetime.now(ET).strftime("%b %d, %Y \u00b7 %I:%M %p ET")
+    total = len(jobs)
+    open_now = sum(1 for j in jobs if j.get("open", True))
+    new_today = sum(1 for j in jobs if j.get("first_seen") == today)
+    sponsor_n = sum(1 for j in jobs if j.get("sponsors_visa"))
+    n_companies, n_ats = _coverage()
+
+    payload = [_job_payload(j, today) for j in jobs]
+    companies = sorted({p["company"] for p in payload if p["company"]})
+    default_exp = _default_exp_preset(profile)
+
+    jobs_json = json.dumps(payload, ensure_ascii=False).replace("</", "<\\/")
+    companies_json = json.dumps(companies, ensure_ascii=False).replace("</", "<\\/")
+
+    page = _PAGE
+    page = page.replace("%%NOW%%", _esc(now))
+    page = page.replace("%%TOTAL%%", str(total))
+    page = page.replace("%%OPEN_NOW%%", str(open_now))
+    page = page.replace("%%NEW_TODAY%%", str(new_today))
+    page = page.replace("%%SPONSOR_N%%", str(sponsor_n))
+    page = page.replace("%%N_COMPANIES%%", str(n_companies))
+    page = page.replace("%%N_ATS%%", str(n_ats))
+    page = page.replace("%%SITE%%", SITE_URL)
+    page = page.replace("%%JSONLD%%", _build_jsonld(jobs))
+    page = page.replace("%%JOBS_JSON%%", jobs_json)
+    page = page.replace("%%COMPANIES_JSON%%", companies_json)
+    page = page.replace("%%DEFAULT_EXP%%", default_exp)
+    page = page.replace("%%PAGE_SIZE%%", str(PAGE_SIZE))
+    return page
 
 
 _PAGE = """<!DOCTYPE html>
@@ -153,103 +174,157 @@ _PAGE = """<!DOCTYPE html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>JobsBuddy — Visa Sponsorship Jobs for International Students (OPT / H-1B) | SWE, AI, Data</title>
-<meta name="description" content="Free, auto-updated job board of US visa-sponsoring tech jobs for international students on OPT. Software Engineer, AI/ML, Full-Stack & Data Engineer roles from companies with H-1B sponsorship history. Updated daily.">
-<meta name="keywords" content="visa sponsorship jobs, H1B jobs, OPT jobs, international student jobs, companies that sponsor H1B, software engineer visa sponsorship, new grad jobs sponsorship, entry level tech jobs sponsor, AI engineer jobs, data engineer jobs, CPT OPT jobs, STEM OPT jobs USA">
+<meta name="description" content="Free, auto-updated job board of US visa-sponsoring tech jobs for international students on OPT — all experience levels. Software Engineer, AI/ML, Full-Stack & Data Engineer roles from companies with H-1B sponsorship history. Updated daily.">
+<meta name="keywords" content="visa sponsorship jobs, H1B jobs, OPT jobs, international student jobs, companies that sponsor H1B, software engineer visa sponsorship, new grad jobs sponsorship, entry level tech jobs sponsor, senior engineer visa sponsorship, AI engineer jobs, data engineer jobs, CPT OPT jobs, STEM OPT jobs USA">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <meta name="author" content="Siddartha Reddy Chinthala">
-<link rel="canonical" href="{site}">
+<link rel="canonical" href="%%SITE%%">
 <meta property="og:type" content="website">
-<meta property="og:url" content="{site}">
+<meta property="og:url" content="%%SITE%%">
 <meta property="og:title" content="JobsBuddy — Visa-Sponsoring Tech Jobs for International Students">
-<meta property="og:description" content="Free, auto-updated board of US visa-sponsoring SWE / AI / Data jobs for international students on OPT. Updated daily.">
+<meta property="og:description" content="Free, auto-updated board of US visa-sponsoring SWE / AI / Data jobs for international students on OPT, all experience levels. Updated daily.">
 <meta property="og:site_name" content="JobsBuddy">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="JobsBuddy — Visa-Sponsoring Tech Jobs for International Students">
 <meta name="twitter:description" content="Free, auto-updated board of US visa-sponsoring SWE / AI / Data jobs for international students on OPT.">
 <meta name="theme-color" content="#000000">
-{jsonld}
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+%%JSONLD%%
 <style>
-*{{box-sizing:border-box;margin:0;padding:0}}
-:root{{--ink:#0a0a0a;--ink2:#3d3d3d;--mut:#777;--line:#e6e6e6;--line2:#111;--bg:#fff;--soft:#fafafa}}
-html{{-webkit-font-smoothing:antialiased}}
-body{{background:var(--bg);color:var(--ink);font-family:Inter,-apple-system,Segoe UI,Roboto,sans-serif;font-size:15px;line-height:1.55}}
-.mono{{font-family:'JetBrains Mono',ui-monospace,monospace}}
-a{{color:inherit}}
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--ink:#0a0a0a;--ink2:#3d3d3d;--mut:#777;--line:#e6e6e6;--line2:#111;--bg:#fff;--soft:#fafafa}
+html{-webkit-font-smoothing:antialiased}
+body{background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif;font-size:15px;line-height:1.55}
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+a{color:inherit}
+button{font-family:inherit}
 
-/* top nav */
-header.nav{{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.9);backdrop-filter:blur(8px);border-bottom:1px solid var(--line2)}}
-.nav-in{{max-width:1080px;margin:0 auto;padding:14px 22px;display:flex;align-items:center;justify-content:space-between}}
-.brand{{display:flex;align-items:center;gap:10px;font-weight:800;font-size:17px;letter-spacing:-.01em}}
-.mark{{width:26px;height:26px;border:1.5px solid var(--ink);border-radius:7px;display:grid;place-items:center;font-size:12px;font-weight:800}}
-.nav-links{{display:flex;gap:8px;align-items:center}}
-.btn{{font-size:13px;font-weight:600;padding:8px 14px;border-radius:8px;border:1.5px solid var(--ink);text-decoration:none;white-space:nowrap;transition:.12s}}
-.btn-solid{{background:var(--ink);color:#fff}}.btn-solid:hover{{background:#fff;color:var(--ink)}}
-.btn-ghost:hover{{background:var(--ink);color:#fff}}
+/* sticky header */
+header.nav{position:sticky;top:0;z-index:60;background:rgba(255,255,255,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--line2)}
+.nav-in{max-width:1180px;margin:0 auto;padding:12px 22px;display:flex;align-items:center;gap:14px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:17px;letter-spacing:-.01em;white-space:nowrap}
+.mark{width:26px;height:26px;border:1.5px solid var(--ink);border-radius:7px;display:grid;place-items:center;font-size:12px;font-weight:800}
+.hsearch{flex:1;max-width:460px;padding:10px 14px;border:1.5px solid var(--ink);border-radius:10px;font-size:14px}
+.hsearch::placeholder{color:var(--mut)}
+.hcount{font-size:13px;font-weight:700;white-space:nowrap}
+.hcount b{font-family:ui-monospace,Menlo,Consolas,monospace}
+.nav-links{display:flex;gap:8px;align-items:center;margin-left:auto}
+.btn{font-size:13px;font-weight:600;padding:8px 14px;border-radius:8px;border:1.5px solid var(--ink);text-decoration:none;white-space:nowrap;transition:.12s;background:#fff;cursor:pointer}
+.btn-solid{background:var(--ink);color:#fff}.btn-solid:hover{background:#fff;color:var(--ink)}
+.btn-ghost:hover{background:var(--ink);color:#fff}
+#filterToggle{display:none}
 
 /* hero */
-.wrap{{max-width:1080px;margin:0 auto;padding:0 22px}}
-.hero{{padding:54px 0 30px;border-bottom:1px solid var(--line)}}
-.eyebrow{{font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--mut)}}
-.hero h1{{font-size:46px;line-height:1.05;letter-spacing:-.03em;margin:14px 0 14px;max-width:18ch}}
-.hero p{{font-size:18px;color:var(--ink2);max-width:60ch}}
-.metrics{{display:flex;gap:0;margin-top:30px;border:1px solid var(--line2);border-radius:12px;overflow:hidden;width:fit-content;max-width:100%;flex-wrap:wrap}}
-.metric{{padding:16px 26px;border-right:1px solid var(--line)}}
-.metric:last-child{{border-right:0}}
-.metric b{{font-size:26px;font-weight:800;letter-spacing:-.02em;display:block}}
-.metric span{{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--mut)}}
+.wrap{max-width:1180px;margin:0 auto;padding:0 22px}
+.hero{padding:46px 0 28px;border-bottom:1px solid var(--line)}
+.eyebrow{font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--mut)}
+.hero h1{font-size:44px;line-height:1.05;letter-spacing:-.03em;margin:14px 0;max-width:20ch}
+.hero p{font-size:17px;color:var(--ink2);max-width:62ch}
+.metrics{display:flex;margin-top:28px;border:1px solid var(--line2);border-radius:12px;overflow:hidden;width:fit-content;max-width:100%;flex-wrap:wrap}
+.metric{padding:14px 24px;border-right:1px solid var(--line)}
+.metric:last-child{border-right:0}
+.metric b{font-size:24px;font-weight:800;letter-spacing:-.02em;display:block}
+.metric span{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--mut)}
 
 /* why strip */
-.why{{padding:26px 0;border-bottom:1px solid var(--line);color:var(--ink2);max-width:78ch}}
-.why b{{color:var(--ink)}}
+.why{padding:24px 0;border-bottom:1px solid var(--line);color:var(--ink2);max-width:78ch}
+.why b{color:var(--ink)}
 
-/* controls */
-.controls{{position:sticky;top:57px;background:var(--bg);padding:18px 0 10px;z-index:40}}
-.search{{width:100%;padding:13px 16px;border:1.5px solid var(--ink);border-radius:10px;font-size:15px;font-family:inherit}}
-.search::placeholder{{color:var(--mut)}}
-.hint{{font-size:12.5px;color:var(--mut);margin-top:9px;display:flex;gap:18px;flex-wrap:wrap}}
-.hint .k{{color:var(--ink);font-weight:600}}
+/* layout */
+.layout{display:flex;gap:28px;align-items:flex-start;padding:26px 0 10px}
+aside.filters{width:272px;flex-shrink:0;position:sticky;top:76px;max-height:calc(100vh - 96px);overflow-y:auto;border:1.5px solid var(--line2);border-radius:14px;padding:18px;background:#fff}
+main.results{flex:1;min-width:0}
+.f-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:6px}
+.f-head h2{font-size:15px;font-weight:800}
+.clear{background:none;border:0;font-size:12.5px;font-weight:600;color:var(--ink2);text-decoration:underline;cursor:pointer}
+.f-group{margin:16px 0;padding-top:14px;border-top:1px solid var(--line)}
+.f-group:first-of-type{margin-top:8px}
+.f-group h3{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--mut);margin-bottom:10px;font-weight:700}
+.pills{display:flex;flex-wrap:wrap;gap:8px}
+.pill input{position:absolute;opacity:0;pointer-events:none}
+.pill span{display:inline-block;font-size:12.5px;font-weight:600;padding:7px 13px;border-radius:999px;border:1.5px solid var(--ink);cursor:pointer;transition:.12s;background:#fff;white-space:nowrap}
+.pill input:checked+span{background:var(--ink);color:#fff}
+.pill input:focus-visible+span{outline:2px solid var(--ink);outline-offset:2px}
+.f-input{width:100%;padding:9px 12px;border:1.5px solid var(--ink);border-radius:8px;font-size:13.5px}
+.f-input::placeholder{color:var(--mut)}
+.co-list{max-height:230px;overflow-y:auto;border:1px solid var(--line);border-radius:8px;padding:6px 10px;margin-top:8px}
+.co-item{display:flex;align-items:center;gap:9px;padding:5px 2px;font-size:13.5px;cursor:pointer}
+.co-item input{accent-color:#0a0a0a;width:15px;height:15px;flex-shrink:0}
+.co-item .n{color:var(--mut);font-size:12px;margin-left:auto;font-family:ui-monospace,Menlo,Consolas,monospace}
+.toggle-row{display:flex;align-items:center;justify-content:space-between;font-size:13.5px;font-weight:600;cursor:pointer}
+.switch{position:relative;width:42px;height:24px;flex-shrink:0}
+.switch input{opacity:0;width:0;height:0}
+.sl{position:absolute;inset:0;border:1.5px solid var(--ink);border-radius:999px;transition:.15s;background:#fff}
+.sl:before{content:"";position:absolute;width:16px;height:16px;left:3px;top:2.5px;background:var(--ink);border-radius:50%;transition:.15s}
+.switch input:checked+.sl{background:var(--ink)}
+.switch input:checked+.sl:before{transform:translateX(17px);background:#fff}
 
-/* table */
-table{{width:100%;border-collapse:collapse}}
-thead th{{text-align:left;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--mut);font-weight:600;padding:10px 10px;border-bottom:1.5px solid var(--ink);position:sticky;top:116px;background:var(--bg)}}
-tbody td{{padding:15px 10px;border-bottom:1px solid var(--line);vertical-align:middle}}
-tbody tr:hover{{background:var(--soft)}}
-tr.daysep td{{background:var(--ink);color:#fff;font-weight:700;font-size:13px;letter-spacing:.02em;padding:8px 14px;border:0}}
-tr.daysep .daycount{{float:right;font-weight:500;color:#cfcfcf;font-size:12px}}
-.c-co{{white-space:nowrap}}
-.co{{font-weight:700}}
-.role{{font-weight:500}}
-.loc{{font-size:12.5px;color:var(--mut);margin-top:2px}}
+/* toolbar */
+.toolbar{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.toolbar .rcount{font-size:14px;color:var(--ink2)}
+.toolbar .rcount b{color:var(--ink);font-family:ui-monospace,Menlo,Consolas,monospace}
+.sortsel{padding:9px 12px;border:1.5px solid var(--ink);border-radius:8px;font-size:13.5px;font-weight:600;background:#fff}
 
-/* tags / pills */
-.tag{{display:inline-block;font-size:10.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:3px 8px;border-radius:999px;border:1.5px solid var(--ink);white-space:nowrap}}
-.tag-new{{background:var(--ink);color:#fff;margin-left:8px}}
-.tag-spon{{background:#fff;color:var(--ink)}}
-.tag-warn{{border-style:dashed;color:var(--ink2)}}
-.tag-closed{{border-color:var(--mut);color:var(--mut);margin-left:6px}}
-.muted{{color:var(--mut);font-size:12.5px}}
+/* cards */
+.card{border:1.5px solid var(--line2);border-radius:12px;padding:18px 20px;margin-bottom:14px;cursor:pointer;background:#fff;transition:.12s}
+.card:hover{background:var(--soft)}
+.card-top{display:flex;align-items:flex-start;justify-content:space-between;gap:14px}
+.job-title{font-size:16.5px;font-weight:700;letter-spacing:-.01em}
+.job-sub{font-size:13.5px;color:var(--ink2);margin-top:4px}
+.job-sub .co{font-weight:700;color:var(--ink)}
+.badges{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:12px}
+.tag{display:inline-block;font-size:10.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:3px 9px;border-radius:999px;border:1.5px solid var(--ink);white-space:nowrap}
+.tag-new{background:var(--ink);color:#fff}
+.tag-yoe{background:#fff}
+.tag-closed{border-color:var(--mut);color:var(--mut)}
+.tag-muted{border-color:var(--mut);color:var(--mut);border-style:dashed}
+.posted{font-size:12.5px;color:var(--mut)}
+.match{display:inline-flex;align-items:center;gap:8px;margin-left:auto}
+.bar{display:inline-block;width:64px;height:6px;background:#ececec;border-radius:999px;overflow:hidden}
+.bar i{display:block;height:100%;background:var(--ink)}
+.pct{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12px;font-weight:600}
+.apply{display:inline-block;font-size:13px;font-weight:700;padding:9px 20px;border-radius:8px;background:var(--ink);color:#fff;text-decoration:none;border:1.5px solid var(--ink);transition:.12s;white-space:nowrap;flex-shrink:0}
+.apply:hover{background:#fff;color:var(--ink)}
+.apply::after{content:" \\2197";font-weight:500}
+.more-wrap{text-align:center;padding:18px 0 8px}
+#more{font-size:14px;font-weight:700;padding:12px 34px;border-radius:10px;border:1.5px solid var(--ink);background:#fff;cursor:pointer;transition:.12s}
+#more:hover{background:var(--ink);color:#fff}
 
-/* match bar */
-.c-match{{white-space:nowrap}}
-.bar{{display:inline-block;width:64px;height:6px;background:#ececec;border-radius:999px;overflow:hidden;vertical-align:middle}}
-.bar i{{display:block;height:100%;background:var(--ink)}}
-.pct{{font-family:'JetBrains Mono',monospace;font-size:12.5px;font-weight:600;margin-left:9px;vertical-align:middle}}
-.c-posted{{font-size:13px;color:var(--mut);white-space:nowrap}}
+/* empty state */
+.empty{display:none;text-align:center;padding:70px 20px;border:1.5px dashed var(--mut);border-radius:14px}
+.empty h3{font-size:20px;margin-bottom:8px}
+.empty p{color:var(--ink2);margin-bottom:18px}
 
-/* apply */
-.apply{{display:inline-block;font-size:13px;font-weight:700;padding:8px 18px;border-radius:8px;background:var(--ink);color:#fff;text-decoration:none;border:1.5px solid var(--ink);transition:.12s}}
-.apply:hover{{background:#fff;color:var(--ink)}}
-.apply::after{{content:" ↗";font-weight:500}}
+/* modal */
+.overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:100;align-items:flex-start;justify-content:center;padding:40px 18px;overflow-y:auto}
+.overlay.open{display:flex}
+.modal{background:#fff;border-radius:16px;max-width:720px;width:100%;padding:30px 32px;position:relative;border:1.5px solid var(--ink)}
+.modal h2{font-size:22px;letter-spacing:-.02em;padding-right:36px}
+.modal .m-sub{color:var(--ink2);font-size:14px;margin:6px 0 4px}
+.modal .badges{margin:12px 0 4px}
+.m-close{position:absolute;top:16px;right:16px;width:34px;height:34px;border-radius:50%;border:1.5px solid var(--ink);background:#fff;font-size:16px;cursor:pointer;line-height:1}
+.m-close:hover{background:var(--ink);color:#fff}
+.m-desc{white-space:pre-wrap;font-size:14.5px;color:var(--ink2);margin:16px 0;max-height:46vh;overflow-y:auto;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:16px 0}
+.m-skills{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 20px}
+.m-skills span{font-size:12px;font-weight:600;border:1px solid var(--line2);border-radius:999px;padding:4px 12px}
+.m-foot{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.m-foot .note{font-size:12px;color:var(--mut)}
 
-footer{{border-top:1px solid var(--line2);margin-top:40px;padding:26px 0 50px;color:var(--mut);font-size:12.5px}}
-footer a{{font-weight:600}}
-@media(max-width:720px){{
-  .hero h1{{font-size:34px}}
-  .c-match,.c-posted{{display:none}}
-  thead th.h-match,thead th.h-posted{{display:none}}
-}}
+footer{border-top:1px solid var(--line2);margin-top:44px;padding:26px 0 56px;color:var(--mut);font-size:12.5px}
+footer a{font-weight:600}
+.drawer-bg{display:none}
+
+@media(max-width:960px){
+  #filterToggle{display:inline-block}
+  .nav-links .btn-ghost{display:none}
+  aside.filters{position:fixed;top:0;left:0;bottom:0;width:min(320px,86vw);z-index:90;border-radius:0;border:0;border-right:1.5px solid var(--line2);max-height:none;transform:translateX(-102%);transition:transform .2s ease}
+  body.drawer-open aside.filters{transform:none}
+  .drawer-bg{display:none;position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:80}
+  body.drawer-open .drawer-bg{display:block}
+  .layout{flex-direction:column}
+  main.results{width:100%}
+  .hero h1{font-size:32px}
+  .hsearch{max-width:none}
+}
 </style>
 </head>
 <body>
@@ -257,9 +332,11 @@ footer a{{font-weight:600}}
 <header class="nav">
   <div class="nav-in">
     <div class="brand"><span class="mark">JB</span> JobsBuddy</div>
+    <input class="hsearch" id="q" type="search" placeholder="Search title, company, or description…" autocomplete="off" aria-label="Search jobs">
+    <span class="hcount" id="hcount"><b>%%TOTAL%%</b> roles</span>
+    <button class="btn btn-ghost" id="filterToggle" aria-label="Open filters">Filters</button>
     <div class="nav-links">
-      <a class="btn btn-ghost" href="https://github.com/SIDDARTHAREDDY8/JobsBuddy/subscription" target="_blank" rel="noopener">Watch</a>
-      <a class="btn btn-solid" href="https://github.com/SIDDARTHAREDDY8/JobsBuddy" target="_blank" rel="noopener">★ Star on GitHub</a>
+      <a class="btn btn-ghost" href="https://github.com/SIDDARTHAREDDY8/JobsBuddy" target="_blank" rel="noopener">★ Star</a>
     </div>
   </div>
 </header>
@@ -268,58 +345,442 @@ footer a{{font-weight:600}}
   <section class="hero">
     <div class="eyebrow">For international students · OPT / H-1B</div>
     <h1>Tech jobs from companies that actually sponsor visas.</h1>
-    <p>An auto-updated board of US-based Software, AI &amp; Data roles — filtered to early-career,
+    <p>An auto-updated board of US-based Software, AI &amp; Data roles — all experience levels,
        no security clearance, and only employers with a real H-1B sponsorship history. Free, forever.</p>
     <div class="metrics">
-      <div class="metric"><b class="mono">{open_now}</b><span>Open roles</span></div>
-      <div class="metric"><b class="mono">{new_today}</b><span>Added today</span></div>
-      <div class="metric"><b class="mono">{sponsor_n}</b><span>Visa sponsors</span></div>
-      <div class="metric"><b class="mono">{n_companies}</b><span>Companies scanned</span></div>
-      <div class="metric"><b class="mono">{n_ats}</b><span>ATS systems</span></div>
+      <div class="metric"><b class="mono">%%OPEN_NOW%%</b><span>Open roles</span></div>
+      <div class="metric"><b class="mono">%%NEW_TODAY%%</b><span>Added today</span></div>
+      <div class="metric"><b class="mono">%%SPONSOR_N%%</b><span>Visa sponsors</span></div>
+      <div class="metric"><b class="mono">%%N_COMPANIES%%</b><span>Companies scanned</span></div>
+      <div class="metric"><b class="mono">%%N_ATS%%</b><span>ATS systems</span></div>
     </div>
   </section>
 
   <section class="why">
     <b>Why this exists.</b> You tailor an application, hit submit, and <i>then</i> find out the company
     won&apos;t sponsor a visa — with the OPT clock ticking. JobsBuddy scans top tech employers every few
-    hours and keeps <b>only</b> the roles international students can realistically get. If it saves you one
-    wasted application, <b>star the repo</b> so another student finds it too.
+    hours and keeps <b>only</b> the roles international students can realistically get, at
+    <b>all experience levels</b>. If it saves you one wasted application, <b>star the repo</b> so another
+    student finds it too.
   </section>
 
-  <div class="controls">
-    <input class="search" id="q" placeholder="Search company, role, or location — e.g. “AI”, “remote”, “New York”" onkeyup="filt()">
-    <div class="hint">
-      <span><span class="k">NEW</span> = added in the latest update</span>
-      <span><span class="k">Sponsors</span> = real H-1B filing history</span>
-      <span><span class="k">Apply</span> opens in a new tab</span>
-    </div>
+  <div class="layout">
+    <div class="drawer-bg" id="drawerBg"></div>
+    <aside class="filters" id="sidebar" aria-label="Job filters">
+      <div class="f-head">
+        <h2>Filters</h2>
+        <button class="clear" id="clearAll" type="button">Clear all</button>
+      </div>
+
+      <div class="f-group">
+        <h3>Experience</h3>
+        <div class="pills" id="expPills" role="radiogroup" aria-label="Experience level">
+          <label class="pill"><input type="radio" name="exp" value="any"><span>Any</span></label>
+          <label class="pill"><input type="radio" name="exp" value="entry"><span>Entry 0–2</span></label>
+          <label class="pill"><input type="radio" name="exp" value="mid"><span>Mid 2–5</span></label>
+          <label class="pill"><input type="radio" name="exp" value="senior"><span>Senior 5+</span></label>
+          <label class="pill"><input type="radio" name="exp" value="lead"><span>Lead 8+</span></label>
+        </div>
+      </div>
+
+      <div class="f-group">
+        <h3>Company</h3>
+        <input class="f-input" id="coSearch" type="search" placeholder="Search companies…" autocomplete="off" aria-label="Search companies">
+        <div class="co-list" id="coList"></div>
+      </div>
+
+      <div class="f-group">
+        <h3>Location</h3>
+        <input class="f-input" id="loc" type="search" placeholder="e.g. New York, remote…" autocomplete="off" aria-label="Filter by location">
+      </div>
+
+      <div class="f-group">
+        <h3>Sponsorship</h3>
+        <div class="pills" id="sponPills" role="radiogroup" aria-label="Sponsorship">
+          <label class="pill"><input type="radio" name="spon" value="all"><span>All</span></label>
+          <label class="pill"><input type="radio" name="spon" value="confirmed"><span>Confirmed sponsors</span></label>
+          <label class="pill"><input type="radio" name="spon" value="high"><span>High tier</span></label>
+          <label class="pill"><input type="radio" name="spon" value="medium"><span>Med tier</span></label>
+          <label class="pill"><input type="radio" name="spon" value="low"><span>Low tier</span></label>
+        </div>
+      </div>
+
+      <div class="f-group">
+        <h3>Posted within</h3>
+        <div class="pills" id="postedPills" role="radiogroup" aria-label="Posted within">
+          <label class="pill"><input type="radio" name="posted" value="any"><span>Any time</span></label>
+          <label class="pill"><input type="radio" name="posted" value="today"><span>Today</span></label>
+          <label class="pill"><input type="radio" name="posted" value="d3"><span>3 days</span></label>
+          <label class="pill"><input type="radio" name="posted" value="d7"><span>7 days</span></label>
+        </div>
+      </div>
+
+      <div class="f-group">
+        <label class="toggle-row">Remote only
+          <span class="switch"><input type="checkbox" id="remote"><span class="sl"></span></span>
+        </label>
+      </div>
+    </aside>
+
+    <main class="results">
+      <div class="toolbar">
+        <span class="rcount" id="rcount"></span>
+        <select class="sortsel" id="sort" aria-label="Sort jobs">
+          <option value="new">Sort: Newest</option>
+          <option value="match">Sort: Best match</option>
+          <option value="az">Sort: Company A–Z</option>
+        </select>
+      </div>
+      <div class="hint mono" id="legend" style="font-size:12px;color:var(--mut);margin-bottom:14px">
+        NEW = added in the latest update · Sponsors = real H-1B filing history · Apply opens in a new tab
+      </div>
+      <div id="cards"></div>
+      <div class="empty" id="empty">
+        <h3>No roles match your filters</h3>
+        <p>Try widening the experience range or clearing the search.</p>
+        <button class="btn btn-solid" id="emptyClear" type="button">Clear all filters</button>
+      </div>
+      <div class="more-wrap"><button id="more" type="button" style="display:none">Load more</button></div>
+    </main>
   </div>
 
-  <table id="tbl">
-    <thead><tr>
-      <th>Company</th><th>Role</th><th>Visa</th>
-      <th class="h-match">Match</th><th class="h-posted">Posted</th><th>Apply</th>
-    </tr></thead>
-    <tbody>
-{rows}
-    </tbody>
-  </table>
-
   <footer>
-    Last updated {now}. Built with a free Python scraper + GitHub Actions — no paid APIs.<br>
+    Last updated %%NOW%%. Built with a free Python scraper + GitHub Actions — no paid APIs.<br>
     Sourced from public ATS feeds (Greenhouse, Lever, Ashby, Workday). Sponsorship tiers are indicative — always verify on the posting.
     &nbsp;·&nbsp; <a href="https://github.com/SIDDARTHAREDDY8/JobsBuddy" target="_blank" rel="noopener">View source on GitHub</a>
   </footer>
 </div>
 
+<div class="overlay" id="overlay">
+  <div class="modal" role="dialog" aria-modal="true" id="modal"></div>
+</div>
+
+<script type="application/json" id="jobs-data">%%JOBS_JSON%%</script>
 <script>
-function filt(){{
-  var q=document.getElementById('q').value.toLowerCase();
-  document.querySelectorAll('#tbl tbody tr').forEach(function(r){{
-    if(r.classList.contains('daysep')){{r.style.display='';return;}}
-    r.style.display = r.innerText.toLowerCase().indexOf(q)>-1 ? '' : 'none';
-  }});
-}}
+(function(){
+"use strict";
+var JOBS = JSON.parse(document.getElementById('jobs-data').textContent);
+var COMPANIES = %%COMPANIES_JSON%%;
+var DEFAULT_EXP = "%%DEFAULT_EXP%%";
+var PAGE_SIZE = %%PAGE_SIZE%%;
+
+var PRESETS = {
+  any:    {min: null, max: null},
+  entry:  {min: 0, max: 2},
+  mid:    {min: 2, max: 5},
+  senior: {min: 5, max: 8},
+  lead:   {min: 8, max: null}
+};
+var POSTED_LIM = {any: null, today: 0, d3: 3, d7: 7};
+var VALID = {
+  exp: ["any","entry","mid","senior","lead"],
+  spon: ["all","confirmed","high","medium","low"],
+  posted: ["any","today","d3","d7"],
+  sort: ["new","match","az"]
+};
+
+function esc(s){
+  return String(s == null ? "" : s)
+    .replace(/&/g,"&amp;").replace(/</g,"&lt;")
+    .replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+}
+
+var state = {
+  q: "", exp: DEFAULT_EXP, companies: null, // null = all selected
+  loc: "", spon: "all", posted: "any", remote: false,
+  sort: "new", shown: PAGE_SIZE
+};
+
+function readHash(){
+  var h = location.hash.replace(/^#/, "");
+  if(!h) return;
+  var p = new URLSearchParams(h);
+  if(p.get("q")) state.q = p.get("q");
+  if(VALID.exp.indexOf(p.get("exp")) > -1) state.exp = p.get("exp");
+  if(p.get("cox") && p.get("cox").length){
+    var ex = p.getAll("cox");
+    var set = new Set(COMPANIES);
+    ex.forEach(function(c){ set.delete(c); });
+    if(set.size && set.size < COMPANIES.length) state.companies = set;
+  }
+  if(p.get("loc")) state.loc = p.get("loc");
+  if(VALID.spon.indexOf(p.get("spon")) > -1) state.spon = p.get("spon");
+  if(VALID.posted.indexOf(p.get("posted")) > -1) state.posted = p.get("posted");
+  state.remote = p.get("remote") === "1";
+  if(VALID.sort.indexOf(p.get("sort")) > -1) state.sort = p.get("sort");
+}
+
+function writeHash(){
+  var p = new URLSearchParams();
+  if(state.q) p.set("q", state.q);
+  if(state.exp !== "any") p.set("exp", state.exp);
+  if(state.companies){
+    var ex = COMPANIES.filter(function(c){ return !state.companies.has(c); });
+    ex.forEach(function(c){ p.append("cox", c); });
+  }
+  if(state.loc) p.set("loc", state.loc);
+  if(state.spon !== "all") p.set("spon", state.spon);
+  if(state.posted !== "any") p.set("posted", state.posted);
+  if(state.remote) p.set("remote", "1");
+  if(state.sort !== "new") p.set("sort", state.sort);
+  var s = p.toString();
+  history.replaceState(null, "", s ? "#" + s : location.pathname + location.search);
+}
+
+function yoeOk(j){
+  var pr = PRESETS[state.exp];
+  if(pr.min == null && pr.max == null) return true;
+  if(j.yoe_min != null && pr.max != null && j.yoe_min > pr.max) return false;
+  if(j.yoe_max != null && pr.min != null && j.yoe_max < pr.min) return false;
+  return true; // unknown YOE never filters a job out
+}
+
+function matches(j){
+  if(state.q){
+    var hay = (j.title + " " + j.company + " " + (j.description || "")).toLowerCase();
+    if(hay.indexOf(state.q) < 0) return false;
+  }
+  if(!yoeOk(j)) return false;
+  if(state.companies && !state.companies.has(j.company)) return false;
+  if(state.loc && (j.location || "").toLowerCase().indexOf(state.loc) < 0) return false;
+  if(state.spon === "confirmed" && !j.sponsors_visa) return false;
+  if((state.spon === "high" || state.spon === "medium" || state.spon === "low") &&
+     j.sponsor_tier !== state.spon) return false;
+  var lim = POSTED_LIM[state.posted];
+  if(lim != null){
+    if(j.age_days == null || j.age_days > lim) return false;
+  }
+  if(state.remote && (j.location || "").toLowerCase().indexOf("remote") < 0) return false;
+  return true;
+}
+
+function sortJobs(list){
+  var arr = list.slice();
+  if(state.sort === "match"){
+    arr.sort(function(a,b){ return (b.match_score||0) - (a.match_score||0); });
+  } else if(state.sort === "az"){
+    arr.sort(function(a,b){
+      return (a.company||"").localeCompare(b.company||"") ||
+             (a.title||"").localeCompare(b.title||"");
+    });
+  } else {
+    arr.sort(function(a,b){
+      var x = a.age_days == null ? 99999 : a.age_days;
+      var y = b.age_days == null ? 99999 : b.age_days;
+      return x - y;
+    });
+  }
+  return arr;
+}
+
+function sponsorTag(j){
+  if(j.sponsor_kind === "spon") return '<span class="tag">' + esc(j.sponsor_label) + '</span>';
+  if(j.sponsor_kind === "warn") return '<span class="tag tag-muted">' + esc(j.sponsor_label) + '</span>';
+  return '<span class="posted">' + esc(j.sponsor_label) + '</span>';
+}
+
+function cardHtml(j, idx){
+  var badges = '<span class="tag tag-yoe">' + esc(j.yoe_label) + '</span>' + sponsorTag(j);
+  if(j.is_new) badges += '<span class="tag tag-new">NEW</span>';
+  if(j.is_closed) badges += '<span class="tag tag-closed">Closed</span>';
+  var match = '<span class="match"><span class="bar"><i style="width:' +
+    Math.max(0, Math.min(100, j.match_score)) + '%"></i></span>' +
+    '<span class="pct">' + j.match_score + '%</span></span>';
+  var apply = j.url ? '<a class="apply" href="' + esc(j.url) +
+    '" target="_blank" rel="noopener noreferrer">Apply</a>' : '';
+  return '<article class="card" data-i="' + idx + '">' +
+    '<div class="card-top"><div>' +
+      '<h3 class="job-title">' + esc(j.title) + '</h3>' +
+      '<div class="job-sub"><span class="co">' + esc(j.company) + '</span> · ' +
+        esc(j.location) + '</div>' +
+    '</div>' + apply + '</div>' +
+    '<div class="badges">' + badges +
+      '<span class="posted">' + esc(j.posted_label) + '</span>' + match +
+    '</div></article>';
+}
+
+var filtered = [];
+
+function applyFilters(syncHash){
+  filtered = sortJobs(JOBS.filter(matches));
+  state.shown = PAGE_SIZE;
+  render();
+  if(syncHash !== false) writeHash();
+}
+
+function render(){
+  var box = document.getElementById('cards');
+  var slice = filtered.slice(0, state.shown);
+  var html = "";
+  for(var i = 0; i < slice.length; i++) html += cardHtml(slice[i], i);
+  box.innerHTML = html;
+  var n = filtered.length;
+  document.getElementById('hcount').innerHTML = '<b>' + n + '</b> role' + (n === 1 ? '' : 's');
+  document.getElementById('rcount').innerHTML = 'Showing <b>' + slice.length + '</b> of <b>' + n + '</b> roles';
+  document.getElementById('empty').style.display = n ? 'none' : 'block';
+  document.getElementById('more').style.display = (state.shown < n) ? '' : 'none';
+}
+
+function openModal(j){
+  var skills = (j.matched_skills || []).map(function(s){
+    return '<span>' + esc(s) + '</span>';
+  }).join('');
+  var apply = j.url ? '<a class="apply" href="' + esc(j.url) +
+    '" target="_blank" rel="noopener noreferrer">Apply</a>' : '';
+  document.getElementById('modal').innerHTML =
+    '<button class="m-close" id="mclose" aria-label="Close">\u2715</button>' +
+    '<h2>' + esc(j.title) + '</h2>' +
+    '<div class="m-sub"><b>' + esc(j.company) + '</b> · ' + esc(j.location) + '</div>' +
+    '<div class="badges"><span class="tag tag-yoe">' + esc(j.yoe_label) + '</span>' +
+      sponsorTag(j) +
+      '<span class="posted">' + esc(j.posted_label) + '</span></div>' +
+    (skills ? '<div class="m-skills">' + skills + '</div>' : '') +
+    '<div class="m-desc">' + esc(j.description || "No description provided.") + '</div>' +
+    '<div class="m-foot">' + apply +
+      '<span class="note">Sponsorship data is indicative — always verify on the posting.</span></div>';
+  document.getElementById('overlay').classList.add('open');
+  document.body.style.overflow = 'hidden';
+  document.getElementById('mclose').onclick = closeModal;
+}
+function closeModal(){
+  document.getElementById('overlay').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+/* ---- sidebar: company checkboxes ---- */
+var coCounts = {};
+JOBS.forEach(function(j){ if(j.company) coCounts[j.company] = (coCounts[j.company]||0) + 1; });
+
+function renderCompanies(filter){
+  var list = document.getElementById('coList');
+  var q = (filter || "").toLowerCase();
+  var html = "";
+  COMPANIES.forEach(function(c){
+    if(q && c.toLowerCase().indexOf(q) < 0) return;
+    var checked = !state.companies || state.companies.has(c);
+    html += '<label class="co-item"><input type="checkbox" data-co="' + esc(c) + '"' +
+      (checked ? ' checked' : '') + '><span>' + esc(c) + '</span>' +
+      '<span class="n">' + (coCounts[c]||0) + '</span></label>';
+  });
+  list.innerHTML = html || '<div class="posted" style="padding:8px">No companies match.</div>';
+}
+
+/* ---- wire up ---- */
+function setPill(groupId, name, val){
+  document.querySelectorAll('#' + groupId + ' input[name="' + name + '"]').forEach(function(r){
+    r.checked = (r.value === val);
+  });
+}
+function pillVal(groupId, name){
+  var r = document.querySelector('#' + groupId + ' input[name="' + name + '"]:checked');
+  return r ? r.value : null;
+}
+
+function syncUIFromState(){
+  document.getElementById('q').value = state.q;
+  document.getElementById('loc').value = state.loc;
+  document.getElementById('remote').checked = state.remote;
+  document.getElementById('sort').value = state.sort;
+  setPill('expPills', 'exp', state.exp);
+  setPill('sponPills', 'spon', state.spon);
+  setPill('postedPills', 'posted', state.posted);
+  renderCompanies(document.getElementById('coSearch').value);
+}
+
+function clearAll(){
+  state.q = ""; state.exp = DEFAULT_EXP; state.companies = null;
+  state.loc = ""; state.spon = "all"; state.posted = "any";
+  state.remote = false; state.sort = "new";
+  document.getElementById('coSearch').value = "";
+  syncUIFromState();
+  applyFilters();
+}
+
+var qTimer = null;
+document.getElementById('q').addEventListener('input', function(e){
+  clearTimeout(qTimer);
+  qTimer = setTimeout(function(){
+    state.q = e.target.value.trim().toLowerCase();
+    applyFilters();
+  }, 160);
+});
+document.getElementById('loc').addEventListener('input', function(e){
+  clearTimeout(qTimer);
+  qTimer = setTimeout(function(){
+    state.loc = e.target.value.trim().toLowerCase();
+    applyFilters();
+  }, 160);
+});
+document.getElementById('expPills').addEventListener('change', function(){
+  state.exp = pillVal('expPills', 'exp') || 'any';
+  applyFilters();
+});
+document.getElementById('sponPills').addEventListener('change', function(){
+  state.spon = pillVal('sponPills', 'spon') || 'all';
+  applyFilters();
+});
+document.getElementById('postedPills').addEventListener('change', function(){
+  state.posted = pillVal('postedPills', 'posted') || 'any';
+  applyFilters();
+});
+document.getElementById('remote').addEventListener('change', function(e){
+  state.remote = e.target.checked;
+  applyFilters();
+});
+document.getElementById('sort').addEventListener('change', function(e){
+  state.sort = e.target.value;
+  applyFilters();
+});
+document.getElementById('coSearch').addEventListener('input', function(e){
+  renderCompanies(e.target.value);
+});
+document.getElementById('coList').addEventListener('change', function(e){
+  var cb = e.target.closest('input[data-co]');
+  if(!cb) return;
+  var set = state.companies;
+  if(!set){ set = new Set(COMPANIES); state.companies = set; }
+  if(cb.checked) set.add(cb.getAttribute('data-co'));
+  else set.delete(cb.getAttribute('data-co'));
+  if(set.size === COMPANIES.length) state.companies = null; // all = default
+  applyFilters();
+});
+document.getElementById('clearAll').addEventListener('click', clearAll);
+document.getElementById('emptyClear').addEventListener('click', clearAll);
+document.getElementById('more').addEventListener('click', function(){
+  state.shown += PAGE_SIZE;
+  render();
+  writeHash();
+});
+
+/* card -> modal (delegate; Apply links unaffected) */
+document.getElementById('cards').addEventListener('click', function(e){
+  if(e.target.closest('a')) return;
+  var card = e.target.closest('.card');
+  if(!card) return;
+  var j = filtered[parseInt(card.getAttribute('data-i'), 10)];
+  if(j) openModal(j);
+});
+document.getElementById('overlay').addEventListener('click', function(e){
+  if(e.target === this) closeModal();
+});
+document.addEventListener('keydown', function(e){
+  if(e.key === 'Escape') closeModal();
+});
+
+/* mobile drawer */
+document.getElementById('filterToggle').addEventListener('click', function(){
+  document.body.classList.add('drawer-open');
+});
+document.getElementById('drawerBg').addEventListener('click', function(){
+  document.body.classList.remove('drawer-open');
+});
+
+/* init */
+readHash();
+syncUIFromState();
+applyFilters(false);
+writeHash();
+})();
 </script>
 </body>
 </html>

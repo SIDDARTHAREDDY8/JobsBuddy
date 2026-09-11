@@ -111,7 +111,7 @@ def render_readme(jobs, profile, today):
     L.append("So I built a robot to fix the information part. It scans top tech companies "
              "every few hours, keeps **only** the roles that international students can "
              "actually get — **companies that sponsor visas, US-based, no security clearance, "
-             "early-career** — and posts them here, fresh, every single day. **Free, for all of us.**")
+             "every experience level** — and posts them here, fresh, every single day. **Free, for all of us.**")
     L.append("")
     L.append("If this saves you even one wasted application, **drop a ⭐ on the repo** — it "
              "helps another international student find it too. That's the whole mission. 🙌")
@@ -121,7 +121,8 @@ def render_readme(jobs, profile, today):
     L.append("- 🛂 **Visa-sponsor verified** — tagged from real H1B filing history, not guesses")
     L.append("- 🇺🇸 **US-only & OPT-friendly** — no overseas roles wasting your time")
     L.append("- 🔒 **Zero security-clearance jobs** — auto-removed (most of us can't get them)")
-    L.append("- 🎓 **Early-career focused** — 0–3 years, no senior/staff noise")
+    L.append("- 📊 **Every experience level** — YOE tagged on every role; filter by "
+             "experience on the [live board](https://siddarthareddy8.github.io/JobsBuddy/)")
     L.append("- 🆕 **Updated every 3 hours** — newest jobs always on top, with the date added")
     L.append("- 💸 **100% free & open-source** — no signups, no paywalls, no catch")
     L.append("")
@@ -146,15 +147,15 @@ def render_readme(jobs, profile, today):
         group = sorted(by_age[(rank, label)], key=_within_day_sort, reverse=True)
         L.append(f"## {label} — {len(group)} jobs")
         L.append("")
-        L.append("| | Company | Role | Location | Visa | Match | Posted | Apply |")
-        L.append("|--|--|--|--|--|--|--|--|")
+        L.append("| | Company | Role | Location | YOE | Visa | Match | Posted | Apply |")
+        L.append("|--|--|--|--|--|--|--|--|--|")
         for j in group:
             # 🔥 = we just DISCOVERED this job in today's scrape (matches the
             # legend). NOT "posted recently" — the section header shows posting age.
             flags = "🔥" if j.get("first_seen") == today else ""
             title = (j.get("title", "")).replace("|", "/")
             loc = (j.get("location") or "—").replace("|", "/")[:28]
-            L.append(f"| {flags} | {j.get('company','')} | {title} | {loc} | "
+            L.append(f"| {flags} | {j.get('company','')} | {title} | {loc} | {_yoe_cell(j)} | "
                      f"{_visa_cell(j)} | **{j.get('match_score', 0)}%** | {_posted_cell(j)} | "
                      f"[Apply]({j.get('url','')}) |")
         L.append("")
@@ -165,6 +166,17 @@ def render_readme(jobs, profile, today):
              "(Greenhouse, Lever, Ashby, Workday).</sub>")
     L.append("")
     return "\n".join(L)
+
+
+def _yoe_cell(j):
+    lo, hi = j.get("yoe_min"), j.get("yoe_max")
+    if lo is None:
+        return "—"
+    if hi is None:
+        return f"{lo}+ yrs"
+    if lo == hi:
+        return f"{lo} yrs"
+    return f"{lo}–{hi} yrs"
 
 
 def _posted_cell(j):

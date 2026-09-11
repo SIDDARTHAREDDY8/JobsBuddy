@@ -20,7 +20,9 @@
     "fresh": false,
     "first_seen": "2026-07-15",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "6e9978cd1eaa": {
     "company": "Confluence Technologies",
@@ -47,7 +49,9 @@
     "fresh": false,
     "first_seen": "2026-07-24",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "b443b74c275e": {
     "company": "Impulse Space",
@@ -70,7 +74,9 @@
     "fresh": false,
     "first_seen": "2026-08-19",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "6c34acf09d7b": {
     "company": "City and County of San Francisco",
@@ -96,7 +102,9 @@
     "fresh": false,
     "first_seen": "2026-08-28",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "f98703c88647": {
     "company": "Confluence Technologies",
@@ -123,7 +131,9 @@
     "fresh": false,
     "first_seen": "2026-08-31",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "a20eb32b2096": {
     "company": "Sigma Defense",
@@ -144,7 +154,9 @@
     "fresh": false,
     "first_seen": "2026-09-02",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "c1a26f5e8e34": {
     "company": "Coinbase",
@@ -172,7 +184,9 @@
     "fresh": false,
     "first_seen": "2026-09-03",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 2,
+    "yoe_max": null
   },
   "5e3187fd0cdb": {
     "company": "Point72",
@@ -197,7 +211,9 @@
     "fresh": false,
     "first_seen": "2026-09-03",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "0e0a6955f70f": {
     "company": "Zoox",
@@ -225,7 +241,9 @@
     "fresh": false,
     "first_seen": "2026-09-03",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 3,
+    "yoe_max": null
   },
   "1ec61772e8b6": {
     "company": "ALTEN Technology",
@@ -246,7 +264,9 @@
     "fresh": false,
     "first_seen": "2026-09-03",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "c29964914f01": {
     "company": "Rain",
@@ -273,7 +293,9 @@
     "fresh": false,
     "first_seen": "2026-09-03",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "43783b45d4fb": {
     "company": "9th Way Insignia",
@@ -299,7 +321,9 @@
     "fresh": false,
     "first_seen": "2026-09-03",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "e0512689bf15": {
     "company": "Octaura",
@@ -327,7 +351,9 @@
     "fresh": false,
     "first_seen": "2026-09-03",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "ac7dcbf9080b": {
     "company": "Braze",
@@ -355,7 +381,9 @@
     "fresh": false,
     "first_seen": "2026-09-03",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "25936eba490f": {
     "company": "Eventual",
@@ -383,7 +411,9 @@
     "fresh": false,
     "first_seen": "2026-09-03",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "02a34ec78024": {
     "company": "LinkedIn",
@@ -411,7 +441,9 @@
     "fresh": true,
     "first_seen": "2026-09-03",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 2,
+    "yoe_max": null
   },
   "6812c1aa4894": {
     "company": "North Wind Group",
@@ -432,7 +464,9 @@
     "fresh": false,
     "first_seen": "2026-09-03",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "b6419565ef39": {
     "company": "Datadog",
@@ -460,7 +494,9 @@
     "fresh": false,
     "first_seen": "2026-09-03",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "ed4b3e458d1c": {
     "company": "OpenAI",
@@ -488,7 +524,9 @@
     "fresh": false,
     "first_seen": "2026-09-03",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "aa5bb2e8166b": {
     "company": "Chime",
@@ -516,7 +554,9 @@
     "fresh": false,
     "first_seen": "2026-09-03",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 2,
+    "yoe_max": null
   },
   "1916854628f5": {
     "company": "Torc Robotics",
@@ -544,7 +584,9 @@
     "fresh": false,
     "first_seen": "2026-09-03",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "06782424d64f": {
     "company": "SharkNinja",
@@ -569,7 +611,9 @@
     "fresh": false,
     "first_seen": "2026-09-03",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "d213d3ee1f28": {
     "company": "SharkNinja",
@@ -596,7 +640,9 @@
     "fresh": false,
     "first_seen": "2026-09-03",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "b522d88ef771": {
     "company": "SharkNinja",
@@ -622,7 +668,9 @@
     "fresh": true,
     "first_seen": "2026-09-03",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "79750b0b7128": {
     "company": "Baselayer",
@@ -650,7 +698,9 @@
     "fresh": false,
     "first_seen": "2026-09-03",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "f2a344d31f10": {
     "company": "Zoox",
@@ -678,7 +728,9 @@
     "fresh": false,
     "first_seen": "2026-09-03",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "67bbf771fcfa": {
     "company": "Zoox",
@@ -703,7 +755,9 @@
     "fresh": false,
     "first_seen": "2026-09-03",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "befc505ac320": {
     "company": "Stackline",
@@ -731,7 +785,9 @@
     "fresh": false,
     "first_seen": "2026-09-03",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "269885949492": {
     "company": "The Pok\u00e9mon Company",
@@ -759,7 +815,9 @@
     "fresh": false,
     "first_seen": "2026-09-03",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "bae8f18d878f": {
     "company": "Tinder",
@@ -787,7 +845,9 @@
     "fresh": false,
     "first_seen": "2026-09-03",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "976f14625a7a": {
     "company": "Tinder",
@@ -815,7 +875,9 @@
     "fresh": false,
     "first_seen": "2026-09-03",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 2,
+    "yoe_max": null
   },
   "c8d303142ded": {
     "company": "Rhombus Power",
@@ -843,7 +905,9 @@
     "fresh": false,
     "first_seen": "2026-09-03",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "a21f7461f628": {
     "company": "Wayve",
@@ -869,7 +933,9 @@
     "fresh": false,
     "first_seen": "2026-09-03",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "3e1b883dfe05": {
     "company": "Ontic",
@@ -897,7 +963,9 @@
     "fresh": false,
     "first_seen": "2026-09-03",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "90159ea54bf4": {
     "company": "Eventual",
@@ -925,7 +993,9 @@
     "fresh": false,
     "first_seen": "2026-09-03",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "9f98a462643b": {
     "company": "Moloco",
@@ -952,7 +1022,9 @@
     "fresh": false,
     "first_seen": "2026-09-03",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "f89f2dabcebb": {
     "company": "Iambic Therapeutics",
@@ -980,7 +1052,9 @@
     "fresh": false,
     "first_seen": "2026-09-03",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 2,
+    "yoe_max": null
   },
   "4f8baa82a66d": {
     "company": "Headway",
@@ -1008,7 +1082,9 @@
     "fresh": false,
     "first_seen": "2026-09-03",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "6f494064a4ed": {
     "company": "CATHEXIS",
@@ -1036,7 +1112,9 @@
     "fresh": false,
     "first_seen": "2026-09-03",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "302733c4b62c": {
     "company": "Arkham Technologies",
@@ -1064,7 +1142,9 @@
     "fresh": false,
     "first_seen": "2026-09-03",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 2,
+    "yoe_max": 3
   },
   "68f6106c8442": {
     "company": "Parisi Labs",
@@ -1087,7 +1167,9 @@
     "fresh": false,
     "first_seen": "2026-09-04",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "7b78d4eb2979": {
     "company": "Parisi Labs",
@@ -1110,7 +1192,9 @@
     "fresh": false,
     "first_seen": "2026-09-04",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "5e40d42734ee": {
     "company": "Appian",
@@ -1138,7 +1222,9 @@
     "fresh": false,
     "first_seen": "2026-09-04",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "af2b5c51396f": {
     "company": "Capco",
@@ -1166,7 +1252,9 @@
     "fresh": false,
     "first_seen": "2026-09-04",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 2,
+    "yoe_max": 3
   },
   "c3cfb7b62ced": {
     "company": "Scale AI",
@@ -1194,7 +1282,9 @@
     "fresh": false,
     "first_seen": "2026-09-04",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "068a8d189f9b": {
     "company": "Point72",
@@ -1222,7 +1312,9 @@
     "fresh": false,
     "first_seen": "2026-09-04",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 3,
+    "yoe_max": null
   },
   "55092330cd12": {
     "company": "Aechelon Technology",
@@ -1247,7 +1339,9 @@
     "fresh": false,
     "first_seen": "2026-09-04",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "d309cef7449c": {
     "company": "Zoox",
@@ -1274,7 +1368,9 @@
     "fresh": false,
     "first_seen": "2026-09-04",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 3,
+    "yoe_max": null
   },
   "f12f403ac3f0": {
     "company": "Olsson",
@@ -1299,7 +1395,9 @@
     "fresh": false,
     "first_seen": "2026-09-04",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "0836353c5632": {
     "company": "Blissway",
@@ -1327,7 +1425,9 @@
     "fresh": false,
     "first_seen": "2026-09-04",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "b3664bba59e6": {
     "company": "Blissway",
@@ -1355,7 +1455,9 @@
     "fresh": false,
     "first_seen": "2026-09-04",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "b59f134b0a96": {
     "company": "Blissway",
@@ -1383,7 +1485,9 @@
     "fresh": false,
     "first_seen": "2026-09-04",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "69aec9f04bc6": {
     "company": "TEGNA",
@@ -1408,7 +1512,9 @@
     "fresh": false,
     "first_seen": "2026-09-04",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 1,
+    "yoe_max": 3
   },
   "08f604d6a836": {
     "company": "Polymarket",
@@ -1436,7 +1542,9 @@
     "fresh": false,
     "first_seen": "2026-09-04",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "2dfb5e363810": {
     "company": "Juniper Square",
@@ -1464,7 +1572,9 @@
     "fresh": false,
     "first_seen": "2026-09-04",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "1f016cff59f3": {
     "company": "Vestwell",
@@ -1492,7 +1602,9 @@
     "fresh": false,
     "first_seen": "2026-09-04",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 0,
+    "yoe_max": 2
   },
   "cdd605ac1607": {
     "company": "TMEIC",
@@ -1517,7 +1629,9 @@
     "fresh": false,
     "first_seen": "2026-09-04",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "3336b7c77083": {
     "company": "FanDuel",
@@ -1545,7 +1659,9 @@
     "fresh": false,
     "first_seen": "2026-09-04",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 3,
+    "yoe_max": null
   },
   "0b6d0c3026bc": {
     "company": "CATHEXIS",
@@ -1573,7 +1689,9 @@
     "fresh": false,
     "first_seen": "2026-09-04",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "7468af97f700": {
     "company": "Stevens",
@@ -1601,7 +1719,9 @@
     "fresh": false,
     "first_seen": "2026-09-04",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "bf668fbdd6af": {
     "company": "Block",
@@ -1629,7 +1749,9 @@
     "fresh": false,
     "first_seen": "2026-09-04",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "6a479e1351fc": {
     "company": "Mercor",
@@ -1654,7 +1776,9 @@
     "fresh": false,
     "first_seen": "2026-09-04",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "db2206020195": {
     "company": "ID.me",
@@ -1682,7 +1806,9 @@
     "fresh": false,
     "first_seen": "2026-09-04",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "4eaef8c2b86c": {
     "company": "National Information Solutions Cooperative (NISC)",
@@ -1710,7 +1836,9 @@
     "fresh": false,
     "first_seen": "2026-09-04",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "795de24db165": {
     "company": "Yext",
@@ -1738,7 +1866,9 @@
     "fresh": false,
     "first_seen": "2026-09-04",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "151a74c77521": {
     "company": "DebtBook",
@@ -1766,7 +1896,9 @@
     "fresh": false,
     "first_seen": "2026-09-04",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 2,
+    "yoe_max": null
   },
   "a757c7625055": {
     "company": "Pure Storage",
@@ -1794,7 +1926,9 @@
     "fresh": false,
     "first_seen": "2026-09-04",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "b6564a947172": {
     "company": "AI Fund",
@@ -1820,7 +1954,9 @@
     "fresh": false,
     "first_seen": "2026-09-04",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "0fd151f681b1": {
     "company": "ether.fi",
@@ -1845,7 +1981,9 @@
     "fresh": false,
     "first_seen": "2026-09-04",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "80cb78019160": {
     "company": "SoFi",
@@ -1873,7 +2011,9 @@
     "fresh": false,
     "first_seen": "2026-09-04",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "821c53f858d0": {
     "company": "Credence",
@@ -1899,7 +2039,9 @@
     "fresh": false,
     "first_seen": "2026-09-04",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "adc0866e70d7": {
     "company": "Mercor",
@@ -1927,7 +2069,9 @@
     "fresh": false,
     "first_seen": "2026-09-04",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "efe94a75c081": {
     "company": "ALTEN Technology",
@@ -1952,7 +2096,9 @@
     "fresh": false,
     "first_seen": "2026-09-04",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "2a2c704c749d": {
     "company": "Centerfield",
@@ -1980,7 +2126,9 @@
     "fresh": false,
     "first_seen": "2026-09-04",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "d6faa83a3dcf": {
     "company": "Decagon",
@@ -2008,7 +2156,9 @@
     "fresh": false,
     "first_seen": "2026-09-04",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 2,
+    "yoe_max": null
   },
   "b9e92b631878": {
     "company": "Decagon",
@@ -2034,7 +2184,9 @@
     "fresh": false,
     "first_seen": "2026-09-04",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "59d6d1ccddb0": {
     "company": "Mercor",
@@ -2062,7 +2214,9 @@
     "fresh": false,
     "first_seen": "2026-09-04",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "7f0a17ece6b5": {
     "company": "Mercor",
@@ -2090,7 +2244,9 @@
     "fresh": false,
     "first_seen": "2026-09-04",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "4548c7a016b0": {
     "company": "Mach9",
@@ -2118,7 +2274,9 @@
     "fresh": false,
     "first_seen": "2026-09-04",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 3,
+    "yoe_max": null
   },
   "dac2974f6191": {
     "company": "Cartesian",
@@ -2146,7 +2304,9 @@
     "fresh": false,
     "first_seen": "2026-09-04",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "9ebad7facc84": {
     "company": "Cartesian",
@@ -2174,7 +2334,9 @@
     "fresh": false,
     "first_seen": "2026-09-04",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "5121fe49949d": {
     "company": "ServiceNow",
@@ -2195,7 +2357,9 @@
     "fresh": false,
     "first_seen": "2026-09-04",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "fe37a6b5fd5f": {
     "company": "FanDuel",
@@ -2223,7 +2387,9 @@
     "fresh": false,
     "first_seen": "2026-09-04",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "6664382c125d": {
     "company": "AiPrise",
@@ -2251,7 +2417,9 @@
     "fresh": false,
     "first_seen": "2026-09-05",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 0,
+    "yoe_max": 2
   },
   "bc6ec8b5f45d": {
     "company": "Nvidia",
@@ -2274,7 +2442,9 @@
     "fresh": false,
     "first_seen": "2026-09-05",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 3,
+    "yoe_max": null
   },
   "96c18457b0c2": {
     "company": "Adobe",
@@ -2302,7 +2472,9 @@
     "fresh": false,
     "first_seen": "2026-09-05",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "fa734e0bed08": {
     "company": "Johnson & Johnson",
@@ -2326,7 +2498,9 @@
     "fresh": false,
     "first_seen": "2026-09-05",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "b058e360fa12": {
     "company": "Wolters Kluwer",
@@ -2354,7 +2528,9 @@
     "fresh": false,
     "first_seen": "2026-09-05",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "08dd6ef0587e": {
     "company": "OpenAI",
@@ -2382,7 +2558,9 @@
     "fresh": false,
     "first_seen": "2026-09-05",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "99dae5601a2c": {
     "company": "Rogo",
@@ -2410,7 +2588,9 @@
     "fresh": false,
     "first_seen": "2026-09-05",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "7871467a302a": {
     "company": "Cartesian",
@@ -2438,7 +2618,9 @@
     "fresh": false,
     "first_seen": "2026-09-05",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "99bed7503bcb": {
     "company": "Field AI",
@@ -2463,7 +2645,9 @@
     "fresh": false,
     "first_seen": "2026-09-05",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 2,
+    "yoe_max": null
   },
   "78806cdd98e9": {
     "company": "Field AI",
@@ -2490,7 +2674,9 @@
     "fresh": false,
     "first_seen": "2026-09-05",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 2,
+    "yoe_max": null
   },
   "47992a26b1bb": {
     "company": "Field AI",
@@ -2516,7 +2702,9 @@
     "fresh": false,
     "first_seen": "2026-09-05",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 2,
+    "yoe_max": null
   },
   "05cd8210f744": {
     "company": "Field AI",
@@ -2542,7 +2730,9 @@
     "fresh": false,
     "first_seen": "2026-09-06",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "e0bb80f4de66": {
     "company": "LangChain",
@@ -2570,7 +2760,9 @@
     "fresh": false,
     "first_seen": "2026-09-06",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "c95c47faded2": {
     "company": "Persado",
@@ -2598,7 +2790,9 @@
     "fresh": false,
     "first_seen": "2026-09-07",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "825eadd181ef": {
     "company": "Varda Space",
@@ -2624,7 +2818,9 @@
     "fresh": false,
     "first_seen": "2026-09-07",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "e8d3dd22247d": {
     "company": "Varda Space",
@@ -2652,7 +2848,9 @@
     "fresh": false,
     "first_seen": "2026-09-07",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 2,
+    "yoe_max": null
   },
   "2eeaa4b63e97": {
     "company": "Varda Space",
@@ -2680,7 +2878,9 @@
     "fresh": false,
     "first_seen": "2026-09-07",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "229002363691": {
     "company": "Infisical",
@@ -2708,7 +2908,9 @@
     "fresh": false,
     "first_seen": "2026-09-07",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "da7ab66a2236": {
     "company": "Neuralink",
@@ -2734,7 +2936,9 @@
     "fresh": false,
     "first_seen": "2026-09-07",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "ef90cee51c63": {
     "company": "Field AI",
@@ -2760,7 +2964,9 @@
     "fresh": false,
     "first_seen": "2026-09-07",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 2,
+    "yoe_max": null
   },
   "1b8aaf5a2cb2": {
     "company": "AeroVect",
@@ -2786,7 +2992,9 @@
     "fresh": false,
     "first_seen": "2026-09-08",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 3,
+    "yoe_max": null
   },
   "385c05840c5a": {
     "company": "Anthropic",
@@ -2814,7 +3022,9 @@
     "fresh": true,
     "first_seen": "2026-09-08",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "022500dc6874": {
     "company": "ID.me",
@@ -2842,7 +3052,9 @@
     "fresh": true,
     "first_seen": "2026-09-08",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "6a4c644337ff": {
     "company": "New Era Technology",
@@ -2867,7 +3079,9 @@
     "fresh": true,
     "first_seen": "2026-09-08",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "9e9e114d4cb4": {
     "company": "Adyen",
@@ -2890,7 +3104,9 @@
     "fresh": true,
     "first_seen": "2026-09-08",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "24c1b45f7c28": {
     "company": "LOTTE BIOLOGICS",
@@ -2917,7 +3133,9 @@
     "fresh": true,
     "first_seen": "2026-09-08",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "4d311b71c471": {
     "company": "Lila Sciences",
@@ -2941,7 +3159,9 @@
     "fresh": true,
     "first_seen": "2026-09-08",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 3,
+    "yoe_max": null
   },
   "183ca123620a": {
     "company": "Hankook Tire America",
@@ -2967,7 +3187,9 @@
     "fresh": true,
     "first_seen": "2026-09-08",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "1d65009fa40f": {
     "company": "Fizz",
@@ -2995,7 +3217,9 @@
     "fresh": true,
     "first_seen": "2026-09-08",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "2053440830a2": {
     "company": "Drivemode",
@@ -3023,7 +3247,9 @@
     "fresh": false,
     "first_seen": "2026-09-08",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 3,
+    "yoe_max": null
   },
   "c07072b82f06": {
     "company": "Expedia Group",
@@ -3050,7 +3276,9 @@
     "fresh": false,
     "first_seen": "2026-09-08",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "4f5bcf61d7f9": {
     "company": "HP",
@@ -3074,7 +3302,9 @@
     "fresh": false,
     "first_seen": "2026-09-08",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "28411299b155": {
     "company": "Hewlett Packard (HP)",
@@ -3098,7 +3328,9 @@
     "fresh": false,
     "first_seen": "2026-09-08",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "fb3fe9ea9379": {
     "company": "Delaware Nation Industries",
@@ -3122,7 +3354,9 @@
     "fresh": false,
     "first_seen": "2026-09-08",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "1b2abfb93fe8": {
     "company": "Ramp",
@@ -3150,7 +3384,9 @@
     "fresh": true,
     "first_seen": "2026-09-08",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 3,
+    "yoe_max": null
   },
   "1cfc39e4e718": {
     "company": "ElevenLabs",
@@ -3177,7 +3413,9 @@
     "fresh": true,
     "first_seen": "2026-09-08",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "9e1a085bba9c": {
     "company": "OpenAI",
@@ -3205,7 +3443,9 @@
     "fresh": true,
     "first_seen": "2026-09-08",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "9c5c4744e7ab": {
     "company": "Divergent Technologies",
@@ -3232,7 +3472,9 @@
     "fresh": true,
     "first_seen": "2026-09-08",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "95fef8b23d50": {
     "company": "ALTEN Technology",
@@ -3255,7 +3497,9 @@
     "fresh": true,
     "first_seen": "2026-09-08",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "568b35168551": {
     "company": "Gallup",
@@ -3283,7 +3527,9 @@
     "fresh": true,
     "first_seen": "2026-09-08",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "12f3939bce02": {
     "company": "Mirage",
@@ -3311,7 +3557,9 @@
     "fresh": true,
     "first_seen": "2026-09-08",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 2,
+    "yoe_max": null
   },
   "252f0c8f16a4": {
     "company": "1Password",
@@ -3339,7 +3587,9 @@
     "fresh": true,
     "first_seen": "2026-09-08",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "8a36b6bc0e6c": {
     "company": "Kairos Power",
@@ -3366,7 +3616,9 @@
     "fresh": true,
     "first_seen": "2026-09-08",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "cc6e65c7c8d9": {
     "company": "EarnIn",
@@ -3394,7 +3646,9 @@
     "fresh": true,
     "first_seen": "2026-09-08",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "8c729383b73b": {
     "company": "Wealth.com",
@@ -3419,7 +3673,9 @@
     "fresh": true,
     "first_seen": "2026-09-08",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "42e5ab4ee1c9": {
     "company": "Microchip Technology",
@@ -3440,7 +3696,9 @@
     "fresh": false,
     "first_seen": "2026-09-08",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "ddbefbb570f3": {
     "company": "Yahoo",
@@ -3468,7 +3726,9 @@
     "fresh": false,
     "first_seen": "2026-09-08",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 2,
+    "yoe_max": null
   },
   "2e3886dceda3": {
     "company": "Micron Technology",
@@ -3494,7 +3754,9 @@
     "fresh": false,
     "first_seen": "2026-09-08",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "75487508bdfd": {
     "company": "Astemo",
@@ -3517,7 +3779,9 @@
     "fresh": false,
     "first_seen": "2026-09-08",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 3,
+    "yoe_max": null
   },
   "78bfed05822d": {
     "company": "Turner & Townsend",
@@ -3542,7 +3806,9 @@
     "fresh": true,
     "first_seen": "2026-09-08",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "05a1b238cad9": {
     "company": "Rollstack",
@@ -3570,7 +3836,9 @@
     "fresh": true,
     "first_seen": "2026-09-08",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 3,
+    "yoe_max": null
   },
   "7e60ea1b0f81": {
     "company": "OpenAI",
@@ -3598,7 +3866,9 @@
     "fresh": true,
     "first_seen": "2026-09-08",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "f844a0cb1524": {
     "company": "Anthropic",
@@ -3626,7 +3896,9 @@
     "fresh": true,
     "first_seen": "2026-09-08",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "e9318e8b9322": {
     "company": "pony.ai",
@@ -3654,7 +3926,9 @@
     "fresh": false,
     "first_seen": "2026-09-08",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "9c188e58b166": {
     "company": "pony.ai",
@@ -3682,7 +3956,9 @@
     "fresh": false,
     "first_seen": "2026-09-08",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "32739d0eaf8d": {
     "company": "pony.ai",
@@ -3710,7 +3986,9 @@
     "fresh": false,
     "first_seen": "2026-09-08",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "3d44c033e74b": {
     "company": "pony.ai",
@@ -3737,7 +4015,9 @@
     "fresh": false,
     "first_seen": "2026-09-08",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "6ec7e04474f3": {
     "company": "DataVisor",
@@ -3765,7 +4045,9 @@
     "fresh": true,
     "first_seen": "2026-09-08",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "49ac8f42e9bb": {
     "company": "Verkada",
@@ -3793,7 +4075,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 3,
+    "yoe_max": null
   },
   "bc35eb0a2b16": {
     "company": "Verkada",
@@ -3821,7 +4105,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 3,
+    "yoe_max": null
   },
   "44e857d692ba": {
     "company": "Harbinger Motors",
@@ -3849,7 +4135,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "eca2dc8f42a3": {
     "company": "Creatify",
@@ -3877,7 +4165,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 2,
+    "yoe_max": null
   },
   "bcecc95b8143": {
     "company": "Creatify",
@@ -3905,7 +4195,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "6113f0598931": {
     "company": "Arrow Electronics",
@@ -3931,7 +4223,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "df411087f609": {
     "company": "TP-Link Systems Inc.",
@@ -3955,7 +4249,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "56b40adcb20f": {
     "company": "ASML",
@@ -3978,7 +4274,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 2,
+    "yoe_max": null
   },
   "86d61eeb1b2d": {
     "company": "AECOM",
@@ -4001,7 +4299,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "278004cfd44d": {
     "company": "ZipLiens",
@@ -4026,7 +4326,9 @@
     "fresh": false,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "073d3612817d": {
     "company": "Symmetrio",
@@ -4054,7 +4356,9 @@
     "fresh": false,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "568ab6e3d150": {
     "company": "OpenAI",
@@ -4082,7 +4386,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "7e0dd1f69c68": {
     "company": "Netic",
@@ -4110,7 +4416,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 2,
+    "yoe_max": null
   },
   "9d2c76fc076b": {
     "company": "SharkNinja",
@@ -4135,7 +4443,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "69e807ffaa85": {
     "company": "Lexington Medical",
@@ -4156,7 +4466,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "f8bd0bc9b004": {
     "company": "Handshake",
@@ -4184,7 +4496,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "98c4dc1368b6": {
     "company": "TEGNA",
@@ -4212,7 +4526,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "2864b7613256": {
     "company": "Varda Space",
@@ -4239,7 +4555,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "05d2216c5179": {
     "company": "Varda Space",
@@ -4266,7 +4584,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "5aff8f139490": {
     "company": "Varda Space",
@@ -4293,7 +4613,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "c44e18c3a4a8": {
     "company": "Cultivarium",
@@ -4317,7 +4639,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "84b63fa36311": {
     "company": "Intrinsic",
@@ -4343,7 +4667,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 2,
+    "yoe_max": null
   },
   "a3910d3f198a": {
     "company": "Apex",
@@ -4369,7 +4695,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "83e55c2bcc08": {
     "company": "Expedia Group",
@@ -4397,7 +4725,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "50e9a62d783b": {
     "company": "Genuine Parts Company",
@@ -4421,7 +4751,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "1379185814cc": {
     "company": "Applied Materials",
@@ -4446,7 +4778,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "7f76ca3761bb": {
     "company": "State Street",
@@ -4474,7 +4808,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 2,
+    "yoe_max": 5
   },
   "dbee49f5292c": {
     "company": "State Street",
@@ -4502,7 +4838,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "dce6478f4505": {
     "company": "Micron Technology",
@@ -4527,7 +4865,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "72343a9fb32c": {
     "company": "Micron Technology",
@@ -4555,7 +4895,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "05c378910430": {
     "company": "Capital Power",
@@ -4581,7 +4923,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "db5ac870af67": {
     "company": "ServiceNow",
@@ -4608,7 +4952,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "344948d99813": {
     "company": "AECOM",
@@ -4631,7 +4977,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "bc4ebc16581d": {
     "company": "Intuitive Surgical",
@@ -4652,7 +5000,9 @@
     "fresh": false,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "fa0f80319e4e": {
     "company": "Aetos Systems",
@@ -4673,7 +5023,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "145afff148af": {
     "company": "Aetos Systems",
@@ -4694,7 +5046,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "2ec46ec847e1": {
     "company": "Coinbase",
@@ -4720,7 +5074,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "50ed6c52ac03": {
     "company": "Twilio",
@@ -4748,7 +5104,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "ea27ce007761": {
     "company": "Roblox",
@@ -4775,7 +5133,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "725d6188e6d8": {
     "company": "The New York Times",
@@ -4803,7 +5163,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "97fdb0b3fd6e": {
     "company": "Zoox",
@@ -4830,7 +5192,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "1018fba5d0df": {
     "company": "Zoox",
@@ -4854,7 +5218,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "7ac7ea8f996e": {
     "company": "DRW",
@@ -4882,7 +5248,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "143d5966870d": {
     "company": "VAST",
@@ -4907,7 +5275,9 @@
     "fresh": false,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "bda82d8ca3f5": {
     "company": "Instabase",
@@ -4935,7 +5305,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "98fecdd8cedf": {
     "company": "Wayve",
@@ -4961,7 +5333,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "7e4dfdeb0c0f": {
     "company": "Cultivarium",
@@ -4985,7 +5359,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "3b68df702e8e": {
     "company": "Leland",
@@ -5013,7 +5389,9 @@
     "fresh": false,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "96515b8f94ad": {
     "company": "Apex",
@@ -5034,7 +5412,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 3,
+    "yoe_max": null
   },
   "d82019ac461a": {
     "company": "SFMOMA",
@@ -5060,7 +5440,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "a68595886a80": {
     "company": "OBE",
@@ -5084,7 +5466,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "46286fb33e1b": {
     "company": "OBE",
@@ -5108,7 +5492,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "d1936a041633": {
     "company": "Nash",
@@ -5132,7 +5518,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "7e2cb216810a": {
     "company": "Travelers",
@@ -5160,7 +5548,9 @@
     "fresh": false,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "083a139496a0": {
     "company": "Applied Materials",
@@ -5184,7 +5574,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "51cfbf9ff005": {
     "company": "RELX",
@@ -5211,7 +5603,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "fb8b6076126e": {
     "company": "7-Eleven",
@@ -5239,7 +5633,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "fe024be859b2": {
     "company": "AbbVie",
@@ -5267,7 +5663,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "21130e3e33b1": {
     "company": "AbbVie",
@@ -5295,7 +5693,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "6782909950ea": {
     "company": "AECOM",
@@ -5318,7 +5718,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "434d2007cff9": {
     "company": "Vantage Point Solutions",
@@ -5339,7 +5741,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "1a169bbbb079": {
     "company": "Greenboard",
@@ -5367,7 +5771,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "97f00a6d451d": {
     "company": "hud",
@@ -5395,7 +5801,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "49fe3a642d39": {
     "company": "RevStar",
@@ -5423,7 +5831,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "788fbc7e5432": {
     "company": "Enterprise Knowledge",
@@ -5451,7 +5861,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "b52b1c047261": {
     "company": "Stripe",
@@ -5479,7 +5891,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "a83171d3af05": {
     "company": "Replit",
@@ -5507,7 +5921,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "e5cad09f50c5": {
     "company": "Anthropic",
@@ -5535,7 +5951,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "efe16ef59bad": {
     "company": "Zoox",
@@ -5563,7 +5981,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "e0d69efd0977": {
     "company": "Lucid Motors",
@@ -5589,7 +6009,9 @@
     "fresh": true,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "fc5c19298865": {
     "company": "LPL Financial Holdings",
@@ -5617,7 +6039,9 @@
     "fresh": false,
     "first_seen": "2026-09-09",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "9c1f68740b88": {
     "company": "Mercor",
@@ -5645,7 +6069,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "925d1317bdc3": {
     "company": "SpaceX",
@@ -5673,7 +6099,9 @@
     "fresh": false,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 2,
+    "yoe_max": null
   },
   "2552e156a82a": {
     "company": "SpaceX",
@@ -5698,7 +6126,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 2,
+    "yoe_max": null
   },
   "0fe5f128c0f6": {
     "company": "SpaceX",
@@ -5725,7 +6155,9 @@
     "fresh": false,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 1,
+    "yoe_max": null
   },
   "6569fe1fbb5f": {
     "company": "SpaceX",
@@ -5753,7 +6185,9 @@
     "fresh": false,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 2,
+    "yoe_max": null
   },
   "c85ef418901a": {
     "company": "SpaceX",
@@ -5781,7 +6215,9 @@
     "fresh": false,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 2,
+    "yoe_max": null
   },
   "1698a9a3e58f": {
     "company": "SpaceX",
@@ -5807,7 +6243,9 @@
     "fresh": false,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "85e688ea4fdf": {
     "company": "SpaceX",
@@ -5833,7 +6271,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 1,
+    "yoe_max": null
   },
   "7f5a9c429290": {
     "company": "SpaceX",
@@ -5861,7 +6301,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "298c171eac25": {
     "company": "SpaceX",
@@ -5886,7 +6328,9 @@
     "fresh": false,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "de170d49ebab": {
     "company": "SpaceX",
@@ -5911,7 +6355,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 2,
+    "yoe_max": null
   },
   "ac2116fffb3e": {
     "company": "SpaceX",
@@ -5939,7 +6385,9 @@
     "fresh": false,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 2,
+    "yoe_max": null
   },
   "b882ce5cdd33": {
     "company": "SpaceX",
@@ -5966,7 +6414,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "c6f663eb168b": {
     "company": "SpaceX",
@@ -5991,7 +6441,9 @@
     "fresh": false,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 1,
+    "yoe_max": null
   },
   "9a3841e4b025": {
     "company": "Salesforce",
@@ -6019,7 +6471,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "bfe987d7db2c": {
     "company": "Varda Space",
@@ -6044,7 +6498,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "9cb471d1507a": {
     "company": "Rocket Mortgage",
@@ -6072,7 +6528,9 @@
     "fresh": false,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 1,
+    "yoe_max": null
   },
   "e871ee5c57c6": {
     "company": "Datafold",
@@ -6098,7 +6556,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 3,
+    "yoe_max": 6
   },
   "7542459c534f": {
     "company": "Robinhood",
@@ -6126,7 +6586,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "afe85c7c6af6": {
     "company": "Sony Interactive Entertainment",
@@ -6154,7 +6616,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "4eb70ac75719": {
     "company": "General Motors",
@@ -6182,7 +6646,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "1064d44af42e": {
     "company": "Alcon",
@@ -6210,7 +6676,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "c83e4f801cc4": {
     "company": "AECOM",
@@ -6231,7 +6699,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "1c2eaa5f91a3": {
     "company": "Spotify",
@@ -6259,7 +6729,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "1edfb732fcca": {
     "company": "Divergent Technologies",
@@ -6285,7 +6757,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "330914bd5727": {
     "company": "Pansophic Learning",
@@ -6313,7 +6787,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "0586d9a6732b": {
     "company": "SpaceX",
@@ -6339,7 +6815,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 1,
+    "yoe_max": null
   },
   "3cc07886d5e9": {
     "company": "Gopuff",
@@ -6367,7 +6845,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "7e3ece545492": {
     "company": "Base Power",
@@ -6392,7 +6872,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 3,
+    "yoe_max": null
   },
   "6bb9adf34927": {
     "company": "ALTEN Technology",
@@ -6416,7 +6898,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 3,
+    "yoe_max": 5
   },
   "6da3ba6be051": {
     "company": "Olsson",
@@ -6440,7 +6924,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "5fcb0ff93543": {
     "company": "CaseGuard",
@@ -6468,7 +6954,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 2,
+    "yoe_max": null
   },
   "b14f35d635c7": {
     "company": "Lucid Motors",
@@ -6495,7 +6983,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "3894e07262e5": {
     "company": "Observable Space",
@@ -6522,7 +7012,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 3,
+    "yoe_max": null
   },
   "17854b18b89c": {
     "company": "Internship",
@@ -6550,7 +7042,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 0,
+    "yoe_max": 2
   },
   "ecb180feb358": {
     "company": "Best Egg",
@@ -6578,7 +7072,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "86b271cdf252": {
     "company": "Red Hat",
@@ -6605,7 +7101,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "cabe37b4004a": {
     "company": "General Motors",
@@ -6633,7 +7131,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "05bcaf7c2f49": {
     "company": "NCR Voyix",
@@ -6658,7 +7158,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "e5fe9f9f6232": {
     "company": "AECOM",
@@ -6682,7 +7184,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "77daac28de1d": {
     "company": "Intuitive Surgical",
@@ -6703,7 +7207,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "f75bcf1aae26": {
     "company": "Intuitive Surgical",
@@ -6724,7 +7230,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "82955bbaadd2": {
     "company": "TMEIC",
@@ -6747,7 +7255,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "ea30d685c193": {
     "company": "Harvard University",
@@ -6772,7 +7282,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "f0e62d1adcb2": {
     "company": "AiPrise",
@@ -6800,7 +7312,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 3,
+    "yoe_max": null
   },
   "534853ca482e": {
     "company": "AssemblyAI",
@@ -6828,7 +7342,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "6a08bd633a40": {
     "company": "Digital Technology Institute for Development (DTID)",
@@ -6849,7 +7365,9 @@
     "fresh": false,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "345ace95215f": {
     "company": "Baseten",
@@ -6877,7 +7395,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "8c90cbe84da5": {
     "company": "LG Electronics",
@@ -6903,7 +7423,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "d8f00c2efa1d": {
     "company": "Zoox",
@@ -6927,7 +7449,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "6b4865b3264f": {
     "company": "SpaceX",
@@ -6953,7 +7477,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 2,
+    "yoe_max": null
   },
   "ef58dbe9a21e": {
     "company": "SpaceX",
@@ -6981,7 +7507,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "4d4006687470": {
     "company": "Wachter",
@@ -7004,7 +7532,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "962bee33192a": {
     "company": "Benchling",
@@ -7032,7 +7562,9 @@
     "fresh": false,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 3,
+    "yoe_max": null
   },
   "3eedb57eae12": {
     "company": "Lila Sciences",
@@ -7059,7 +7591,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "2e4867b8c53e": {
     "company": "Eikon Therapeutics",
@@ -7083,7 +7617,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "086428143971": {
     "company": "Worldpay",
@@ -7107,7 +7643,9 @@
     "fresh": false,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "1c5a2ca971e3": {
     "company": "LexisNexis Risk Solutions",
@@ -7135,7 +7673,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "dbf04c4a6929": {
     "company": "Micron Technology",
@@ -7163,7 +7703,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "574e3f2d7569": {
     "company": "Micron Technology",
@@ -7190,7 +7732,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "29b76e199589": {
     "company": "Micron Technology",
@@ -7218,7 +7762,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 2,
+    "yoe_max": null
   },
   "201226170ee7": {
     "company": "Thermo Fisher Scientific",
@@ -7239,7 +7785,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "2b0127aff878": {
     "company": "Symbotic",
@@ -7267,7 +7815,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 1,
+    "yoe_max": null
   },
   "b17f063c6759": {
     "company": "LinkedIn",
@@ -7292,7 +7842,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 2,
+    "yoe_max": null
   },
   "0e1caff12a7c": {
     "company": "AECOM",
@@ -7316,7 +7868,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "fbd13cf4b558": {
     "company": "LangChain",
@@ -7344,7 +7898,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "725fffcb40ae": {
     "company": "Tailscale",
@@ -7370,7 +7926,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "db6bfc8ad5a3": {
     "company": "Pereview Software",
@@ -7398,7 +7956,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "55ad3c4dedfe": {
     "company": "Pereview Software",
@@ -7421,7 +7981,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "da29ae0a0f9b": {
     "company": "OpenAI",
@@ -7449,7 +8011,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "f5eb90dd8691": {
     "company": "Roku",
@@ -7477,7 +8041,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "622ad77c310d": {
     "company": "Rover",
@@ -7505,7 +8071,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "6a1aa996fa73": {
     "company": "Reddit",
@@ -7533,7 +8101,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 3,
+    "yoe_max": null
   },
   "636ac06875d1": {
     "company": "Coinbase",
@@ -7561,7 +8131,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 2,
+    "yoe_max": null
   },
   "b19e045e7aaf": {
     "company": "Crusoe",
@@ -7585,7 +8157,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "2a52b0f7679f": {
     "company": "Assembled",
@@ -7611,7 +8185,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 2,
+    "yoe_max": null
   },
   "7c625eb74499": {
     "company": "Astro Mechanica",
@@ -7636,7 +8212,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 3,
+    "yoe_max": null
   },
   "c83be463115e": {
     "company": "Astro Mechanica",
@@ -7662,7 +8240,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 2,
+    "yoe_max": null
   },
   "90d8cea8d6ed": {
     "company": "Abby Care",
@@ -7690,7 +8270,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "e328581f7add": {
     "company": "Unisys",
@@ -7717,7 +8299,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "2fecb408dbe3": {
     "company": "Abbott",
@@ -7742,7 +8326,9 @@
     "fresh": false,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "7aea19979e4e": {
     "company": "Lowe's",
@@ -7763,7 +8349,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "087b61a0b4d0": {
     "company": "Turner & Townsend",
@@ -7786,7 +8374,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "78b2a84b7f25": {
     "company": "AECOM",
@@ -7807,7 +8397,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "b0ce31f7633f": {
     "company": "TMEIC",
@@ -7831,7 +8423,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "af6f03ca973e": {
     "company": "Greenboard",
@@ -7859,7 +8453,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 3,
+    "yoe_max": null
   },
   "bf2ef1d0b1e0": {
     "company": "Opal",
@@ -7887,7 +8483,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "14e6275a702e": {
     "company": "TheIncLab",
@@ -7915,7 +8513,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "486e7bb1c916": {
     "company": "TheIncLab",
@@ -7943,7 +8543,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "4cde9d43810a": {
     "company": "LGI Homes",
@@ -7966,7 +8568,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "baef30c669d1": {
     "company": "Cohere",
@@ -7994,7 +8598,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "16634cc5d292": {
     "company": "Sony Interactive Entertainment",
@@ -8022,7 +8628,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "a1ef0aa77633": {
     "company": "SanMar",
@@ -8047,7 +8655,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "14c97b0b8aea": {
     "company": "Johnson Controls",
@@ -8073,7 +8683,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "ba9c1cfd04cb": {
     "company": "Rocket Mortgage",
@@ -8101,7 +8713,9 @@
     "fresh": true,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 3,
+    "yoe_max": null
   },
   "81910e1690fc": {
     "company": "Altera Corporation",
@@ -8122,7 +8736,9 @@
     "fresh": false,
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "7f22824c3cda": {
     "company": "Reddit",
@@ -8150,7 +8766,9 @@
     "fresh": true,
     "first_seen": "2026-09-11",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 3,
+    "yoe_max": null
   },
   "6d4b25a9f1a8": {
     "company": "OpenAI",
@@ -8178,7 +8796,9 @@
     "fresh": true,
     "first_seen": "2026-09-11",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "8023e2ed094b": {
     "company": "Intrinsic",
@@ -8206,7 +8826,9 @@
     "fresh": true,
     "first_seen": "2026-09-11",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 3,
+    "yoe_max": null
   },
   "06a8a65768d5": {
     "company": "Williams",
@@ -8227,7 +8849,9 @@
     "fresh": true,
     "first_seen": "2026-09-11",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "43ff436a7583": {
     "company": "SS&C",
@@ -8255,7 +8879,9 @@
     "fresh": true,
     "first_seen": "2026-09-11",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "0db19e0dfc31": {
     "company": "Mastercard",
@@ -8276,7 +8902,9 @@
     "fresh": true,
     "first_seen": "2026-09-11",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "94ff26b39bee": {
     "company": "AbbVie",
@@ -8297,7 +8925,9 @@
     "fresh": true,
     "first_seen": "2026-09-11",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "b66c193ad008": {
     "company": "CrewAI",
@@ -8325,7 +8955,9 @@
     "fresh": true,
     "first_seen": "2026-09-11",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "fa76db9a3a25": {
     "company": "Bosch",
@@ -8346,7 +8978,9 @@
     "fresh": true,
     "first_seen": "2026-09-11",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "84f8466d41e8": {
     "company": "Truist",
@@ -8367,7 +9001,9 @@
     "fresh": true,
     "first_seen": "2026-09-11",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "d95d352d6572": {
     "company": "Thermo Fisher Scientific",
@@ -8388,7 +9024,9 @@
     "fresh": true,
     "first_seen": "2026-09-11",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "d6f1bfc7d4c8": {
     "company": "Thermo Fisher Scientific",
@@ -8409,7 +9047,9 @@
     "fresh": true,
     "first_seen": "2026-09-11",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "316b7cc9306f": {
     "company": "Zoom",
@@ -8437,7 +9077,9 @@
     "fresh": true,
     "first_seen": "2026-09-11",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 0,
+    "yoe_max": 1
   },
   "f54b66e2ed5d": {
     "company": "Zoom",
@@ -8465,7 +9107,9 @@
     "fresh": true,
     "first_seen": "2026-09-11",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": 1,
+    "yoe_max": 2
   },
   "4814760eebda": {
     "company": "Zoom",
@@ -8486,7 +9130,9 @@
     "fresh": false,
     "first_seen": "2026-09-11",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "5c7385c6e2fe": {
     "company": "Zoom",
@@ -8507,7 +9153,9 @@
     "fresh": false,
     "first_seen": "2026-09-11",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "d538aa339b31": {
     "company": "Zoom",
@@ -8528,7 +9176,9 @@
     "fresh": false,
     "first_seen": "2026-09-11",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "9b8a4e4e4ced": {
     "company": "Zoom",
@@ -8549,7 +9199,9 @@
     "fresh": false,
     "first_seen": "2026-09-11",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "5aa1631ed741": {
     "company": "Zoom",
@@ -8570,7 +9222,9 @@
     "fresh": false,
     "first_seen": "2026-09-11",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "fada1dd16e05": {
     "company": "Zoom",
@@ -8591,7 +9245,9 @@
     "fresh": false,
     "first_seen": "2026-09-11",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "e5309b387e59": {
     "company": "Zoom",
@@ -8612,7 +9268,9 @@
     "fresh": false,
     "first_seen": "2026-09-11",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "fe59bc23a4b2": {
     "company": "eBay",
@@ -8633,7 +9291,9 @@
     "fresh": true,
     "first_seen": "2026-09-11",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "25c8fe58cf74": {
     "company": "eBay",
@@ -8654,7 +9314,9 @@
     "fresh": true,
     "first_seen": "2026-09-11",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "bb3ac0aa4f6f": {
     "company": "Edwards Lifesciences",
@@ -8680,7 +9342,9 @@
     "fresh": false,
     "first_seen": "2026-09-11",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "4d321c3cea65": {
     "company": "University of Arkansas",
@@ -8705,7 +9369,9 @@
     "fresh": false,
     "first_seen": "2026-09-11",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "f6fcea447d73": {
     "company": "Altera Corporation",
@@ -8726,7 +9392,9 @@
     "fresh": true,
     "first_seen": "2026-09-11",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "0e75fd5ef340": {
     "company": "Silicon Laboratories",
@@ -8754,7 +9422,9 @@
     "fresh": false,
     "first_seen": "2026-09-11",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "576986276a78": {
     "company": "Wells Fargo",
@@ -8775,7 +9445,9 @@
     "fresh": false,
     "first_seen": "2026-09-11",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "c3981beb0116": {
     "company": "ASML",
@@ -8800,7 +9472,9 @@
     "fresh": true,
     "first_seen": "2026-09-11",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "643750cb4b79": {
     "company": "St. Luke's University Health Network",
@@ -8821,7 +9495,9 @@
     "fresh": true,
     "first_seen": "2026-09-11",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "25cbe925f8f7": {
     "company": "AECOM",
@@ -8842,7 +9518,9 @@
     "fresh": true,
     "first_seen": "2026-09-11",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "ee7673d85740": {
     "company": "AECOM",
@@ -8863,7 +9541,9 @@
     "fresh": true,
     "first_seen": "2026-09-11",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "635e415963e2": {
     "company": "ProArch",
@@ -8884,7 +9564,9 @@
     "fresh": true,
     "first_seen": "2026-09-11",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   },
   "ac628d4e16a4": {
     "company": "ProArch",
@@ -8907,6 +9589,8 @@
     "fresh": true,
     "first_seen": "2026-09-11",
     "last_seen": "2026-09-11",
-    "open": true
+    "open": true,
+    "yoe_min": null,
+    "yoe_max": null
   }
 }

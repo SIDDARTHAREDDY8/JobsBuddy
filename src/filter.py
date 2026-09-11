@@ -21,6 +21,55 @@ _YEARS_PATTERNS = [
     re.compile(r"(\d{1,2})\s*\+?\s*yrs?\b"),                                 # 4 yrs / 4+ yrs
 ]
 
+# Range-aware patterns for EXTRACTION (returns both ends of "4-6 years").
+_YOE_RANGE_RE = re.compile(
+    r"(\d{1,2})\s*(?:-|–|to)\s*(\d{1,2})\s*" + _EXP_WORDS)
+_YOE_PLUS_RES = [
+    r"(?:minimum|min\.?|at least|at min)[^\d]{0,14}(\d{1,2})\s*\+?\s*" + _EXP_WORDS,
+    r"(\d{1,2})\s*\+\s*" + _EXP_WORDS,
+    r"(\d{1,2})\s*\+?\s*years?\s+of\s+(?:industry\s+|professional\s+|relevant\s+|software\s+|hands[- ]on\s+)?experience",
+    r"(\d{1,2})\s*\+?\s*yrs?\b",
+]
+_YOE_PLUS_RE = re.compile("|".join(_YOE_PLUS_RES))
+
+
+def extract_yoe(text):
+    """Return (min_years, max_years) required by a posting, or (None, None)
+    when the posting states no explicit requirement. Used for TAGGING —
+    the board no longer drops jobs by years of experience; users filter
+    in the UI instead."""
+    t = (text or "").lower()
+    mins, maxs = [], []
+    for m in _YOE_RANGE_RE.finditer(t):
+        try:
+            a, b = int(m.group(1)), int(m.group(2))
+        except (ValueError, IndexError):
+            continue
+        if a > b:
+            a, b = b, a
+        mins.append(a)
+        maxs.append(b)
+    for m in _YOE_PLUS_RE.finditer(t):
+        try:
+            n = next(int(g) for g in m.groups() if g is not None)
+        except (StopIteration, ValueError):
+            continue
+        mins.append(n)   # "4+ years" -> min 4, max open
+    if not mins:
+        return (None, None)
+    if maxs:
+        # an explicit range ("3-5 years") is the whole statement — ignore any
+        # plus-style match that merely re-reads one of its endpoints
+        lo = max(mins[:len(maxs)])
+        hi = min(maxs)
+    else:
+        # most restrictive stated minimum wins ("4+ years" beats "2+ years")
+        lo = max(mins)
+        hi = None
+    if hi is not None and hi < lo:
+        hi = None
+    return (lo, hi)
+
 
 def _has_any(text, needles):
     return any(n in text for n in needles)
@@ -61,20 +110,9 @@ def role_ok(title, profile):
 
 
 def experience_ok(text, profile):
-    t = text.lower()
-    # 1) keep the old explicit-phrase safety net
-    if _has_any(t, profile.get("exp_exclude_patterns", [])):
-        return False
-    # 2) robust: read the actual required-years number from any phrasing
-    max_allowed = profile.get("experience_years_max", MAX_YEARS)
-    for pat in _YEARS_PATTERNS:
-        for m in pat.finditer(t):
-            try:
-                yrs = int(m.group(1))
-            except (ValueError, IndexError):
-                continue
-            if yrs > max_allowed:      # e.g. requires 4+ when max is 3 -> drop
-                return False
+    # LEGACY: the board no longer drops jobs by years of experience.
+    # YOE is extracted and tagged (see extract_yoe) so users can filter
+    # in the UI. Kept for backward compatibility; always True.
     return True
 
 
@@ -224,8 +262,9 @@ def filter_jobs(jobs, profile):
             continue   # drop IT-services / consulting / staffing companies
         if not role_ok(j["title"], profile):
             continue
-        if not experience_ok(blob, profile):
-            continue
+        # YOE is TAGGED, not filtered: scrape every experience level and let
+        # users filter by years in the UI.
+        j["yoe_min"], j["yoe_max"] = extract_yoe(blob)
         if needs_clearance(blob, profile):
             continue   # drop security-clearance roles entirely
         if blocks_visa(blob, profile):

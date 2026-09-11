@@ -14,7 +14,7 @@ from zoneinfo import ZoneInfo
 ET = ZoneInfo("America/New_York")
 
 from scrape import scrape_all
-from filter import (filter_jobs, role_ok, experience_ok, needs_clearance,
+from filter import (filter_jobs, role_ok, extract_yoe, needs_clearance,
                     location_ok, blocks_visa, company_blocked)
 from sponsors import load_sponsors, tag_sponsors
 from match import score_all
@@ -84,7 +84,7 @@ def main():
     jobs += gj
     print(f"   total raw jobs: {len(jobs)}")
 
-    print("② Filtering to my profile (role + 0-3 yrs + sponsor-friendly)...")
+    print("② Filtering to my profile (role + visa + location; YOE tagged, not filtered)...")
     jobs = filter_jobs(jobs, profile)
     print(f"   kept: {len(jobs)}")
 
@@ -112,9 +112,23 @@ def main():
     today = datetime.now(ET).strftime("%Y-%m-%d")
     archive = _load(os.path.join("data", "jobs.json"), {})  # {key: job}
 
+    # one-time backfill: tag YOE on archived jobs saved before YOE tagging existed
+    backfilled = 0
+    for j in archive.values():
+        if j.get("yoe_min") is None and j.get("yoe_max") is None:
+            j["yoe_min"], j["yoe_max"] = extract_yoe(
+                f"{j.get('title','')} {j.get('description','')}")
+            backfilled += 1
+    if backfilled:
+        print(f"   backfilled YOE tags on {backfilled} archived jobs")
+
     new_count = 0
     for j in jobs:
         k = job_key(j)
+        # YOE tagging (filter_jobs tags fresh scrapes; ensure it here too)
+        if j.get("yoe_min") is None and j.get("yoe_max") is None:
+            j["yoe_min"], j["yoe_max"] = extract_yoe(
+                f"{j.get('title','')} {j.get('description','')}")
         if k in archive:
             # already known -> keep its original date, refresh live fields
             archive[k]["last_seen"] = today
@@ -125,6 +139,8 @@ def main():
             archive[k]["open"] = True
             archive[k]["age_days"] = j.get("age_days")
             archive[k]["fresh"] = j.get("fresh", False)
+            archive[k]["yoe_min"] = j.get("yoe_min")
+            archive[k]["yoe_max"] = j.get("yoe_max")
         else:
             j["first_seen"] = today
             j["last_seen"] = today
@@ -145,7 +161,8 @@ def main():
     print(f"   added {new_count} new • {len(archive)} total in archive • {closed} now closed")
 
     # self-heal: purge any archived job that no longer passes current filters
-    # (e.g. mis-included before a filter fix — like a "4+ years" role)
+    # (e.g. mis-included before a filter fix). YOE is NOT a purge criterion —
+    # every experience level stays on the board; users filter in the UI.
     bad = []
     for k, j in archive.items():
         blob = f"{j.get('title','')} {j.get('description','')}"
@@ -157,7 +174,6 @@ def main():
         is_closed = not j.get("open", True)
         if (too_old or is_closed
                 or not role_ok(j.get("title", ""), profile)
-                or not experience_ok(blob, profile)
                 or needs_clearance(blob, profile)
                 or blocks_visa(blob, profile)
                 or company_blocked(j.get("company",""), profile)
@@ -201,13 +217,13 @@ def main():
         json.dump(archive, f, indent=2)
 
     # ⑦ final self-audit: confirm NOTHING on the board violates the filters
+    # (YOE is intentionally not audited — all levels belong on the board)
     leaks = []
     for j in archive.values():
         blob = f"{j.get('title','')} {j.get('description','')}"
         locblob = f"{j.get('location','')} {j.get('url','')}"
         age = age_in_days(j.get("posted_at"))
         if (not role_ok(j.get("title", ""), profile)
-                or not experience_ok(blob, profile)
                 or not location_ok(locblob, profile)
                 or needs_clearance(blob, profile)
                 or blocks_visa(blob, profile)
@@ -219,7 +235,7 @@ def main():
         for l in leaks[:10]:
             print(f"      - {l}")
     else:
-        print("⑦ Audit: ✅ all jobs pass role + experience + location + clearance + freshness checks")
+        print("⑦ Audit: ✅ all jobs pass role + location + clearance + freshness checks")
 
     print(f"\n✅ Done. {new_count} new today, {len(archive)} jobs total on the board.")
 
