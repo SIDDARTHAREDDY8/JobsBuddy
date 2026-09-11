@@ -1,0 +1,81 @@
+name: Daily jobs digest
+
+# Zero-domain email alerts: every morning a GitHub Release is published with
+# the last 24h of new roles. Anyone can "Watch → Custom → Releases" on the repo
+# and get the digest by email — no mailing list, no domain, no backend.
+on:
+  schedule:
+    - cron: "0 14 * * *"   # ~9am ET (EDT; 10am EST in winter)
+  workflow_dispatch:          # lets you run it manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build digest notes
+        run: |
+          python3 - <<'EOF'
+          import json
+          from datetime import datetime, timedelta
+          from zoneinfo import ZoneInfo
+
+          ET = ZoneInfo("America/New_York")
+          now = datetime.now(ET)
+          today, yesterday = now.strftime("%Y-%m-%d"), (now - timedelta(days=1)).strftime("%Y-%m-%d")
+
+          jobs = [j for j in json.load(open("data/jobs.json")).values() if j.get("open", True)]
+          new24 = [j for j in jobs if j.get("first_seen") in (today, yesterday)]
+          spon = [j for j in new24 if j.get("sponsor_tier")]
+
+          def age(j):
+              return 99999 if j.get("age_days") is None else j["age_days"]
+
+          new24.sort(key=age)
+          top = sorted(spon, key=age)[:20]
+
+          def esc_md(s):
+              return str(s or "").replace("[", "\\[").replace("]", "\\]")
+
+          lines = [
+              f"## \U0001f4ec JobsBuddy daily digest — {now.strftime('%b %d, %Y')}",
+              "",
+              f"**{len(new24)}** new roles in the last 24h "
+              f"(**{len(spon)}** at confirmed H-1B sponsors).",
+              "",
+              "Browse everything: https://siddarthareddy8.github.io/JobsBuddy/",
+              "",
+          ]
+          if top:
+              lines.append("### Newest sponsor roles")
+              lines.append("")
+              for j in top:
+                  url = j.get("url") or "https://siddarthareddy8.github.io/JobsBuddy/"
+                  loc = f" ({j.get('location','')})" if j.get("location") else ""
+                  lines.append(f"- [{esc_md(j.get('title'))}]({url}) — "
+                               f"{esc_md(j.get('company'))}{esc_md(loc)}")
+          with open("digest-notes.md", "w") as f:
+              f.write("\n".join(lines) + "\n")
+          with open("/tmp/digest-meta", "w") as f:
+              f.write(f"{now.strftime('%Y-%m-%d')}\n{now.strftime('%b %d')}\n{len(new24)}")
+          print(f"digest: {len(new24)} new, {len(spon)} sponsors")
+          EOF
+
+      - name: Publish digest release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          DATE=$(sed -n 1p /tmp/digest-meta)
+          LABEL=$(sed -n 2p /tmp/digest-meta)
+          COUNT=$(sed -n 3p /tmp/digest-meta)
+          if gh release view "digest-$DATE" >/dev/null 2>&1; then
+            echo "digest-$DATE already published, skipping"
+          else
+            gh release create "digest-$DATE" \
+              --title "📬 Jobs digest — $LABEL: $COUNT new roles" \
+              --notes-file digest-notes.md
+          fi

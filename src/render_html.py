@@ -11,16 +11,65 @@ yoe_min (int|None) and yoe_max (int|None); profile carries
 experience_years_min/max which seed the default experience filter.
 """
 import os
+import re
 import html
 import json
+import atexit
 from datetime import datetime
 from zoneinfo import ZoneInfo
+from xml.sax.saxutils import escape as _xml_esc
 
 ET = ZoneInfo("America/New_York")
 SITE_URL = "https://siddarthareddy8.github.io/JobsBuddy/"
 PAGE_SIZE = 50
 
 TIER_LABEL = {"high": "High", "medium": "Med", "low": "Low"}
+TIER_RANK = {"high": 3, "medium": 2, "low": 1}
+
+_REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+
+def _slug(name):
+    s = re.sub(r"[^a-z0-9]+", "-", (name or "").lower()).strip("-")
+    return s or "company"
+
+
+def _company_slugs(companies):
+    """Stable unique slugs for company pages (c/<slug>.html)."""
+    used, out = {}, {}
+    for c in companies:
+        base = _slug(c)
+        s = base
+        n = 2
+        while s in used:
+            s = f"{base}-{n}"
+            n += 1
+        used[s] = c
+        out[c] = s
+    return out
+
+
+# main.py rewrites sitemap.xml AFTER render_html() returns (index-only version),
+# so the company-page sitemap is deferred to interpreter exit — it lands last.
+_SITEMAP_DEFERRED = None
+_SITEMAP_REGISTERED = False
+
+
+def _defer_sitemap(slugs, today):
+    global _SITEMAP_DEFERRED, _SITEMAP_REGISTERED
+    _SITEMAP_DEFERRED = (slugs, today)
+    if not _SITEMAP_REGISTERED:
+        atexit.register(_write_deferred_sitemap)
+        _SITEMAP_REGISTERED = True
+
+
+def _write_deferred_sitemap():
+    try:
+        if _SITEMAP_DEFERRED:
+            slugs, today = _SITEMAP_DEFERRED
+            _write_sitemap(slugs, today)
+    except Exception:
+        pass
 
 
 def _coverage():
@@ -82,12 +131,13 @@ def _default_exp_preset(profile):
     return "any"
 
 
-def _job_payload(j, today):
+def _job_payload(j, today, slug=""):
     kind, slabel = _sponsor_badge(j)
     skills = j.get("matched_skills") or []
     return {
         "title": j.get("title", ""),
         "company": j.get("company", ""),
+        "slug": slug,
         "location": j.get("location", ""),
         "url": j.get("url", ""),
         "description": j.get("description", "") or "",
@@ -138,6 +188,160 @@ def _build_jsonld(jobs):
             + json.dumps(graph, ensure_ascii=False) + '</script>')
 
 
+def _py_meta_line(j):
+    """Python mirror of the JS metaLine(): YOE (when known) · sponsor (when real) · age."""
+    parts = []
+    if j.get("yoe_min") is not None or j.get("yoe_max") is not None:
+        parts.append(_yoe_label(j))
+    tier = j.get("sponsor_tier")
+    if j.get("sponsors_visa"):
+        t = TIER_LABEL.get(tier)
+        parts.append("Sponsors" + (f" ({t})" if t else ""))
+    elif tier:
+        t = TIER_LABEL.get(tier, tier)
+        parts.append(f"Sponsor history ({t})")
+    parts.append(_posted_label(j))
+    return " · ".join(parts)
+
+
+def _company_sponsor_line(roles):
+    """'Confirmed H-1B sponsor · High tier · 143 filings' style line, or ''."""
+    best, cases = None, None
+    for j in roles:
+        t = j.get("sponsor_tier")
+        if t and TIER_RANK.get(t, 0) > TIER_RANK.get(best, 0):
+            best = t
+        c = j.get("sponsor_cases")
+        if c and (cases is None or c > cases):
+            cases = c
+    if not best:
+        return ""
+    line = f"Confirmed H-1B sponsor · {TIER_LABEL.get(best, best)} tier"
+    if cases:
+        line += f" · {cases} DOL filings"
+    return line
+
+
+def _board_css():
+    """Reuse the board's own stylesheet so company pages look like the product."""
+    return _PAGE.split("<style>", 1)[1].split("</style>", 1)[0]
+
+
+def _render_company_page(company, slug, roles, today):
+    roles = sorted(roles, key=lambda j: (j.get("age_days") is None, j.get("age_days") or 99999))
+    sline = _company_sponsor_line(roles)
+    cards = []
+    for j in roles:
+        apply = (f'<a class="apply" href="{_esc(j.get("url"))}" target="_blank" '
+                 'rel="noopener noreferrer">Apply</a>' if j.get("url") else "")
+        new = '<span class="tag tag-new">NEW</span>' if j.get("first_seen") == today else ""
+        cards.append(
+            '<article class="card"><div class="card-top"><div>'
+            f'<h3 class="job-title">{_esc(j.get("title"))}</h3>'
+            f'<div class="job-sub">{_esc(j.get("location"))}</div>'
+            f'<div class="meta">{_esc(_py_meta_line(j))}</div>'
+            f'</div><div class="card-side">{new}{apply}</div></div></article>')
+    sub = f"{len(roles)} open role{'s' if len(roles) != 1 else ''}"
+    if sline:
+        sub += " · " + sline
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{_esc(company)} jobs — visa-sponsoring roles | JobsBuddy</title>
+<meta name="description" content="Open {_esc(company)} roles for international students at a company with H-1B sponsorship history. Updated every 3 hours.">
+<link rel="canonical" href="{SITE_URL}c/{slug}.html">
+<style>{_board_css()}
+.co-hero h1{{font-size:32px}}
+.back-link{{display:inline-block;margin-bottom:6px;font-size:13.5px;font-weight:600;text-decoration:none}}
+.back-link:hover{{text-decoration:underline}}
+</style>
+</head>
+<body>
+<header class="nav"><div class="nav-in">
+<a href="../" style="display:flex;align-items:center;gap:10px;font-size:16px;font-weight:800;text-decoration:none;margin:0"><span class="mark">JB</span>JobsBuddy</a>
+<div class="nav-links"><a class="btn btn-ghost" href="../">← All jobs</a></div>
+</div></header>
+<div class="wrap">
+<section class="hero co-hero">
+<div class="eyebrow">Company · visa sponsorship</div>
+<h1>{_esc(company)}</h1>
+<p>{_esc(sub)}</p>
+</section>
+<div style="padding:26px 0 12px">
+{''.join(cards) if cards else '<p style="color:var(--mut)">No open roles right now — check back soon.</p>'}
+</div>
+<footer>Part of <a href="../">JobsBuddy</a> — free, auto-updated board for international students. Sponsorship data is indicative — always verify on the posting.</footer>
+</div>
+</body>
+</html>
+"""
+
+
+def _rfc822(d):
+    try:
+        dt = datetime.strptime(d, "%Y-%m-%d").replace(tzinfo=ET)
+    except Exception:
+        dt = datetime.now(ET)
+    return dt.strftime("%a, %d %b %Y %H:%M:%S %z")
+
+
+def _render_feed(jobs, today):
+    open_jobs = [j for j in jobs if j.get("open", True)]
+    newest = sorted(open_jobs,
+                    key=lambda j: (j.get("age_days") is None, j.get("age_days") or 99999))[:50]
+    items = []
+    for j in newest:
+        title = f"{j.get('title','')} — {j.get('company','')} ({j.get('location','')})"
+        items.append(
+            "<item>"
+            f"<title>{_xml_esc(title)}</title>"
+            f"<link>{_xml_esc(j.get('url') or SITE_URL)}</link>"
+            f"<guid isPermaLink=\"false\">{_xml_esc(j.get('url') or title)}</guid>"
+            f"<pubDate>{_rfc822(j.get('first_seen') or today)}</pubDate>"
+            f"<description>{_xml_esc((j.get('description') or '')[:400])}</description>"
+            "</item>")
+    return ('<?xml version="1.0" encoding="UTF-8"?>\n'
+            '<rss version="2.0"><channel>'
+            f"<title>JobsBuddy — visa-sponsoring tech jobs</title>"
+            f"<link>{SITE_URL}</link>"
+            "<description>Newest US tech roles at companies with H-1B sponsorship history. Updated every 3 hours.</description>"
+            f"<lastBuildDate>{_rfc822(today)}</lastBuildDate>"
+            + "".join(items) + "</channel></rss>")
+
+
+def _write_sitemap(slugs, today):
+    urls = [(SITE_URL, today, "daily", "1.0")]
+    for slug in sorted(slugs):
+        urls.append((f"{SITE_URL}c/{slug}.html", today, "weekly", "0.8"))
+    body = "\n".join(
+        f'  <url><loc>{u}</loc><lastmod>{lm}</lastmod>'
+        f'<changefreq>{cf}</changefreq><priority>{pr}</priority></url>'
+        for u, lm, cf, pr in urls)
+    with open(os.path.join(_REPO_ROOT, "sitemap.xml"), "w") as f:
+        f.write('<?xml version="1.0" encoding="UTF-8"?>\n'
+                '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+                + body + '\n</urlset>\n')
+
+
+def _write_site_files(payload, slugs, jobs, today):
+    """Company pages + RSS now; sitemap.xml is deferred to exit (see _defer_sitemap)."""
+    cdir = os.path.join(_REPO_ROOT, "c")
+    os.makedirs(cdir, exist_ok=True)
+    by_company = {}
+    for p, j in zip(payload, jobs):
+        if j.get("open", True) and p["company"]:
+            by_company.setdefault(p["company"], []).append(j)
+    for company, roles in by_company.items():
+        slug = slugs[company]
+        with open(os.path.join(cdir, f"{slug}.html"), "w") as f:
+            f.write(_render_company_page(company, slug, roles, today))
+    with open(os.path.join(_REPO_ROOT, "feed.xml"), "w") as f:
+        f.write(_render_feed(jobs, today))
+    _defer_sitemap([slugs[c] for c in by_company], today)
+
+
 def render_html(jobs, profile, today):
     now = datetime.now(ET).strftime("%b %d, %Y \u00b7 %I:%M %p ET")
     total = len(jobs)
@@ -146,8 +350,11 @@ def render_html(jobs, profile, today):
     sponsor_n = sum(1 for j in jobs if j.get("sponsors_visa"))
     n_companies, n_ats = _coverage()
 
-    payload = [_job_payload(j, today) for j in jobs]
-    companies = sorted({p["company"] for p in payload if p["company"]})
+    companies = sorted({j.get("company") for j in jobs if j.get("company")})
+    slugs = _company_slugs(companies)
+    payload = [_job_payload(j, today, slugs.get(j.get("company") or "", ""))
+               for j in jobs]
+    _write_site_files(payload, slugs, jobs, today)
     default_exp = _default_exp_preset(profile)
 
     jobs_json = json.dumps(payload, ensure_ascii=False).replace("</", "<\\/")
@@ -190,6 +397,7 @@ _PAGE = """<!DOCTYPE html>
 <meta name="twitter:title" content="JobsBuddy — Visa-Sponsoring Tech Jobs for International Students">
 <meta name="twitter:description" content="Free, auto-updated board of US visa-sponsoring SWE / AI / Data jobs for international students on OPT.">
 <meta name="theme-color" content="#000000">
+<link rel="alternate" type="application/rss+xml" title="JobsBuddy — newest visa-sponsoring tech jobs" href="feed.xml">
 %%JSONLD%%
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
@@ -269,6 +477,8 @@ main.results{flex:1;min-width:0}
 .job-title{font-size:17px;font-weight:700;letter-spacing:-.01em}
 .job-sub{font-size:13.5px;color:var(--ink2);margin-top:5px}
 .job-sub .co{font-weight:700;color:var(--ink)}
+.co-link{font-weight:700;color:inherit;text-decoration:none}
+.co-link:hover{text-decoration:underline}
 .meta{font-size:13px;color:var(--mut);margin-top:9px}
 .tag{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:4px 10px;border-radius:999px;border:1px solid var(--ink);white-space:nowrap}
 .tag-new{background:var(--ink);color:#fff;border-color:var(--ink)}
@@ -354,7 +564,7 @@ footer a{font-weight:600}
   <section class="hero">
     <div class="eyebrow">For international students · OPT / H-1B</div>
     <h1>Tech jobs from companies that actually sponsor visas.</h1>
-    <p>%%OPEN_NOW%% open roles at employers with real H-1B sponsorship history — all experience levels, no security clearance. Updated every 3 hours. Free, forever.</p>
+    <p>%%OPEN_NOW%% open roles — %%SPONSOR_N%% at confirmed H-1B sponsors. All experience levels, no security clearance. Updated every 3 hours. Free, forever.</p>
     <div class="stats">
       <div class="stat"><b>%%OPEN_NOW%%</b><span>Open roles</span></div>
       <div class="stat"><b>%%NEW_TODAY%%</b><span>Added today</span></div>
@@ -602,8 +812,8 @@ function cardHtml(j, idx){
   return '<article class="card" data-i="' + idx + '">' +
     '<div class="card-top"><div>' +
       '<h3 class="job-title">' + esc(j.title) + '</h3>' +
-      '<div class="job-sub"><span class="co">' + esc(j.company) + '</span> · ' +
-        esc(j.location) + '</div>' +
+      '<div class="job-sub"><a class="co-link" href="c/' + esc(j.slug) + '.html">' +
+        esc(j.company) + '</a> · ' + esc(j.location) + '</div>' +
       '<div class="meta">' + esc(metaLine(j)) + '</div>' +
     '</div><div class="card-side">' + pill + apply + '</div></div></article>';
 }
@@ -639,7 +849,8 @@ function openModal(j){
   document.getElementById('modal').innerHTML =
     '<button class="m-close" id="mclose" aria-label="Close">\u2715</button>' +
     '<h2>' + esc(j.title) + '</h2>' +
-    '<div class="m-sub"><b>' + esc(j.company) + '</b> · ' + esc(j.location) + '</div>' +
+    '<div class="m-sub"><b><a class="co-link" href="c/' + esc(j.slug) + '.html">' +
+      esc(j.company) + '</a></b> · ' + esc(j.location) + '</div>' +
     '<div class="m-meta">' +
       (j.is_new ? '<span class="tag tag-new">NEW</span>' : '') +
       '<span class="meta" style="margin-top:0">' + esc(metaLine(j)) + '</span></div>' +
