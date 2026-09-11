@@ -215,21 +215,17 @@ header.nav{position:sticky;top:0;z-index:60;background:rgba(255,255,255,.94);bac
 .btn-ghost:hover{background:var(--ink);color:#fff}
 #filterToggle{display:none}
 
-/* hero */
+/* hero — one headline, one subline, quiet stat row, then stop */
 .wrap{max-width:1180px;margin:0 auto;padding:0 22px}
-.hero{padding:56px 0 34px;border-bottom:1px solid var(--line)}
+.hero{padding:40px 0 26px;border-bottom:1px solid var(--line)}
 .eyebrow{font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--mut)}
-.hero h1{font-size:44px;line-height:1.05;letter-spacing:-.03em;margin:14px 0;max-width:20ch}
-.hero p{font-size:17px;color:var(--ink2);max-width:62ch}
-.metrics{display:flex;margin-top:28px;border:1px solid var(--line2);border-radius:12px;overflow:hidden;width:fit-content;max-width:100%;flex-wrap:wrap}
-.metric{padding:14px 24px;border-right:1px solid var(--line)}
-.metric:last-child{border-right:0}
-.metric b{font-size:24px;font-weight:800;letter-spacing:-.02em;display:block}
-.metric span{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--mut)}
-
-/* why strip */
-.why{padding:24px 0;border-bottom:1px solid var(--line);color:var(--ink2);max-width:78ch}
-.why b{color:var(--ink)}
+.hero h1{font-size:38px;line-height:1.08;letter-spacing:-.03em;margin:12px 0;max-width:22ch}
+.hero p{font-size:16px;color:var(--ink2);max-width:64ch}
+.stats{display:flex;flex-wrap:wrap;row-gap:14px;margin-top:22px}
+.stat{padding:2px 22px;border-left:1px solid var(--line)}
+.stat:first-child{border-left:0;padding-left:0}
+.stat b{font-size:22px;font-weight:800;letter-spacing:-.02em;display:block;font-family:ui-monospace,Menlo,Consolas,monospace}
+.stat span{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--mut)}
 
 /* layout */
 .layout{display:flex;gap:32px;align-items:flex-start;padding:30px 0 12px}
@@ -238,9 +234,9 @@ main.results{flex:1;min-width:0}
 .f-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:6px}
 .f-head h2{font-size:15px;font-weight:800}
 .clear{background:none;border:0;font-size:12.5px;font-weight:600;color:var(--ink2);text-decoration:underline;cursor:pointer}
-.f-group{margin:16px 0;padding-top:14px;border-top:1px solid var(--line)}
-.f-group:first-of-type{margin-top:8px}
-.f-group h3{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--mut);margin-bottom:10px;font-weight:700}
+.f-group{margin:12px 0;padding-top:12px;border-top:1px solid var(--line)}
+.f-group:first-of-type{margin-top:6px}
+.f-group h3{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--mut);margin-bottom:8px;font-weight:700}
 .pills{display:flex;flex-wrap:wrap;gap:8px}
 .pill input{position:absolute;opacity:0;pointer-events:none}
 .pill span{display:inline-block;font-size:12.5px;font-weight:600;padding:7px 13px;border-radius:999px;border:1.5px solid var(--ink);cursor:pointer;transition:.12s;background:#fff;white-space:nowrap}
@@ -248,7 +244,7 @@ main.results{flex:1;min-width:0}
 .pill input:focus-visible+span{outline:2px solid var(--ink);outline-offset:2px}
 .f-input{width:100%;padding:9px 12px;border:1.5px solid var(--ink);border-radius:8px;font-size:13.5px}
 .f-input::placeholder{color:var(--mut)}
-.co-list{max-height:230px;overflow-y:auto;border:1px solid var(--line);border-radius:8px;padding:6px 10px;margin-top:8px}
+.co-list{max-height:200px;overflow-y:auto;border:1px solid var(--line);border-radius:8px;padding:6px 10px;margin-top:8px}
 .co-item{display:flex;align-items:center;gap:9px;padding:5px 2px;font-size:13.5px;cursor:pointer}
 .co-item input{accent-color:#0a0a0a;width:15px;height:15px;flex-shrink:0}
 .co-item .n{color:var(--mut);font-size:12px;margin-left:auto;font-family:ui-monospace,Menlo,Consolas,monospace}
@@ -273,12 +269,12 @@ main.results{flex:1;min-width:0}
 .job-title{font-size:17px;font-weight:700;letter-spacing:-.01em}
 .job-sub{font-size:13.5px;color:var(--ink2);margin-top:5px}
 .job-sub .co{font-weight:700;color:var(--ink)}
-.badges{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:14px}
+.meta{font-size:13px;color:var(--mut);margin-top:9px}
 .tag{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:4px 10px;border-radius:999px;border:1px solid var(--ink);white-space:nowrap}
 .tag-new{background:var(--ink);color:#fff;border-color:var(--ink)}
-.tag-yoe{background:#fff;color:var(--ink2);border-color:#c9c9c9}
 .tag-closed{border-color:var(--mut);color:var(--mut)}
 .posted{font-size:12.5px;color:var(--mut)}
+.card-side{display:flex;flex-direction:column;align-items:flex-end;gap:10px;flex-shrink:0}
 .apply{display:inline-block;font-size:13px;font-weight:700;padding:9px 20px;border-radius:8px;background:var(--ink);color:#fff;text-decoration:none;border:1.5px solid var(--ink);transition:.12s;white-space:nowrap;flex-shrink:0}
 .apply:hover{background:#fff;color:var(--ink)}
 .apply::after{content:" \\2197";font-weight:500}
@@ -287,11 +283,11 @@ main.results{flex:1;min-width:0}
 #more:hover{background:var(--ink);color:#fff}
 
 /* star banner + sidebar star card */
-.star-banner{display:flex;align-items:center;justify-content:center;gap:12px;background:#0a0a0a;color:#fff;font-size:13.5px;padding:11px 46px 11px 18px;border-radius:12px;margin:20px 0 0;position:relative;text-align:center;line-height:1.45}
-.star-banner a{color:#fff;font-weight:800;text-decoration:underline;text-underline-offset:3px;white-space:nowrap}
-.star-banner button{position:absolute;right:8px;top:50%;transform:translateY(-50%);background:none;border:0;color:#fff;opacity:.55;font-size:14px;cursor:pointer;padding:8px;line-height:1}
-.star-banner button:hover{opacity:1}
-.star-card{margin:20px 0 4px;padding:16px;border:1px solid var(--line);border-radius:12px;background:var(--soft)}
+.star-banner{display:flex;align-items:center;justify-content:center;gap:8px;background:var(--soft);border:1px solid var(--line);color:var(--ink2);font-size:13px;padding:8px 44px 8px 16px;border-radius:10px;margin:16px 0 0;position:relative;text-align:center;line-height:1.45}
+.star-banner a{color:var(--ink);font-weight:700;text-decoration:underline;text-underline-offset:3px;white-space:nowrap}
+.star-banner button{position:absolute;right:6px;top:50%;transform:translateY(-50%);background:none;border:0;color:var(--mut);font-size:13px;cursor:pointer;padding:8px;line-height:1}
+.star-banner button:hover{color:var(--ink)}
+.star-card{margin:14px 0 2px;padding:14px;border:1px solid var(--line);border-radius:12px;background:var(--soft)}
 .star-card-t{font-weight:800;font-size:14px;margin-bottom:6px}
 .star-card p{font-size:12.5px;color:var(--ink2);margin-bottom:12px;line-height:1.5}
 .star-card .btn{display:inline-block}
@@ -307,7 +303,7 @@ main.results{flex:1;min-width:0}
 .modal{background:#fff;border-radius:16px;max-width:720px;width:100%;padding:30px 32px;position:relative;border:1.5px solid var(--ink)}
 .modal h2{font-size:22px;letter-spacing:-.02em;padding-right:36px}
 .modal .m-sub{color:var(--ink2);font-size:14px;margin:6px 0 4px}
-.modal .badges{margin:12px 0 4px}
+.modal .m-meta{display:flex;align-items:center;gap:10px;margin:12px 0 4px;flex-wrap:wrap}
 .m-close{position:absolute;top:16px;right:16px;width:34px;height:34px;border-radius:50%;border:1.5px solid var(--ink);background:#fff;font-size:16px;cursor:pointer;line-height:1}
 .m-close:hover{background:var(--ink);color:#fff}
 .m-desc{white-space:pre-wrap;font-size:14.5px;color:var(--ink2);margin:16px 0;max-height:46vh;overflow-y:auto;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:16px 0}
@@ -350,7 +346,7 @@ footer a{font-weight:600}
 
 <div class="wrap">
   <div class="star-banner" id="starBanner">
-    <span>JobsBuddy is <b>free &amp; open-source</b> — starring the repo helps other international students find it.</span>
+    <span>JobsBuddy is free &amp; open-source — a star helps other students find it.</span>
     <a href="https://github.com/SIDDARTHAREDDY8/JobsBuddy" target="_blank" rel="noopener">★ Star on GitHub</a>
     <button id="starDismiss" aria-label="Dismiss">✕</button>
   </div>
@@ -358,23 +354,14 @@ footer a{font-weight:600}
   <section class="hero">
     <div class="eyebrow">For international students · OPT / H-1B</div>
     <h1>Tech jobs from companies that actually sponsor visas.</h1>
-    <p>An auto-updated board of US-based Software, AI &amp; Data roles — all experience levels,
-       no security clearance, and only employers with a real H-1B sponsorship history. Free, forever.</p>
-    <div class="metrics">
-      <div class="metric"><b class="mono">%%OPEN_NOW%%</b><span>Open roles</span></div>
-      <div class="metric"><b class="mono">%%NEW_TODAY%%</b><span>Added today</span></div>
-      <div class="metric"><b class="mono">%%SPONSOR_N%%</b><span>Visa sponsors</span></div>
-      <div class="metric"><b class="mono">%%N_COMPANIES%%</b><span>Companies scanned</span></div>
-      <div class="metric"><b class="mono">%%N_ATS%%</b><span>ATS systems</span></div>
+    <p>%%OPEN_NOW%% open roles at employers with real H-1B sponsorship history — all experience levels, no security clearance. Updated every 3 hours. Free, forever.</p>
+    <div class="stats">
+      <div class="stat"><b>%%OPEN_NOW%%</b><span>Open roles</span></div>
+      <div class="stat"><b>%%NEW_TODAY%%</b><span>Added today</span></div>
+      <div class="stat"><b>%%SPONSOR_N%%</b><span>Visa sponsors</span></div>
+      <div class="stat"><b>%%N_COMPANIES%%</b><span>Companies scanned</span></div>
+      <div class="stat"><b>%%N_ATS%%</b><span>ATS systems</span></div>
     </div>
-  </section>
-
-  <section class="why">
-    <b>Why this exists.</b> You tailor an application, hit submit, and <i>then</i> find out the company
-    won&apos;t sponsor a visa — with the OPT clock ticking. JobsBuddy scans top tech employers every few
-    hours and keeps <b>only</b> the roles international students can realistically get, at
-    <b>all experience levels</b>. If it saves you one wasted application, <b>star the repo</b> so another
-    student finds it too.
   </section>
 
   <div class="layout">
@@ -592,17 +579,24 @@ function sortJobs(list){
   return arr;
 }
 
-function sponsorTag(j){
-  // Only positive sponsorship signals get a badge — no "unknown" noise.
-  if(j.sponsor_kind === "spon" || j.sponsor_kind === "tier")
-    return '<span class="tag">' + esc(j.sponsor_label) + '</span>';
-  return '';
+function metaLine(j){
+  // one quiet line: YOE (only when known) · sponsorship (only when real) · age
+  var parts = [];
+  if(j.yoe_min != null || j.yoe_max != null) parts.push(j.yoe_label);
+  if(j.sponsors_visa){
+    var t = {high:"High",medium:"Med",low:"Low"}[j.sponsor_tier];
+    parts.push("Sponsors" + (t ? " (" + t + ")" : ""));
+  } else if(j.sponsor_tier){
+    var t2 = {high:"High",medium:"Med",low:"Low"}[j.sponsor_tier];
+    parts.push("Sponsor history" + (t2 ? " (" + t2 + ")" : ""));
+  }
+  parts.push(j.posted_label);
+  return parts.join(" \u00b7 ");
 }
 
 function cardHtml(j, idx){
-  var badges = '<span class="tag tag-yoe">' + esc(j.yoe_label) + '</span>' + sponsorTag(j);
-  if(j.is_new) badges += '<span class="tag tag-new">NEW</span>';
-  if(j.is_closed) badges += '<span class="tag tag-closed">Closed</span>';
+  var pill = j.is_new ? '<span class="tag tag-new">NEW</span>' : '';
+  if(j.is_closed) pill += '<span class="tag tag-closed">Closed</span>';
   var apply = j.url ? '<a class="apply" href="' + esc(j.url) +
     '" target="_blank" rel="noopener noreferrer">Apply</a>' : '';
   return '<article class="card" data-i="' + idx + '">' +
@@ -610,9 +604,8 @@ function cardHtml(j, idx){
       '<h3 class="job-title">' + esc(j.title) + '</h3>' +
       '<div class="job-sub"><span class="co">' + esc(j.company) + '</span> · ' +
         esc(j.location) + '</div>' +
-    '</div>' + apply + '</div>' +
-    '<div class="badges">' + badges +
-      '<span class="posted">' + esc(j.posted_label) + '</span></div></article>';
+      '<div class="meta">' + esc(metaLine(j)) + '</div>' +
+    '</div><div class="card-side">' + pill + apply + '</div></div></article>';
 }
 
 var filtered = [];
@@ -647,9 +640,9 @@ function openModal(j){
     '<button class="m-close" id="mclose" aria-label="Close">\u2715</button>' +
     '<h2>' + esc(j.title) + '</h2>' +
     '<div class="m-sub"><b>' + esc(j.company) + '</b> · ' + esc(j.location) + '</div>' +
-    '<div class="badges"><span class="tag tag-yoe">' + esc(j.yoe_label) + '</span>' +
-      sponsorTag(j) +
-      '<span class="posted">' + esc(j.posted_label) + '</span></div>' +
+    '<div class="m-meta">' +
+      (j.is_new ? '<span class="tag tag-new">NEW</span>' : '') +
+      '<span class="meta" style="margin-top:0">' + esc(metaLine(j)) + '</span></div>' +
     (skills ? '<div class="m-skills">' + skills + '</div>' : '') +
     '<div class="m-desc">' + esc(j.description || "No description provided.") + '</div>' +
     '<div class="m-foot">' + apply +
